@@ -7,6 +7,7 @@ function App() {
   const [folder, setFolderItem] = useAtom(folderAtom);
   const [folder2, setFolderItem2] = useAtom(folderAtom2);
   const [count, setCount] = useState<any>({});
+  const [myMap, setMap] = useState(new Map());
 
   // const handleFolderAdd = (chip: any) => {
   //   const found = folder2.get(chip.key);
@@ -46,26 +47,43 @@ function App() {
     const megaChip = 5;
     const gigaChip = 1;
 
-    console.log(chip);
+    if (myMap.has(chip.name)) {
+      const foundChips = myMap.get(chip.name);
 
-    if (count[chip.key] >= 4) {
-      console.log("can't add anymore");
-      return;
-    } else {
-      if (count[chip.key]) {
-        setCount((prevCount: any) => ({
-          ...count,
-          [chip.key.toString()]: prevCount[chip.key.toString()] + 1,
-        }));
+      const chipIndex = foundChips.findIndex(
+        (fC: any) => fC.lettercode === chip.lettercode
+      );
+
+      if (chipIndex > -1) {
+        const foundChip = foundChips[chipIndex];
+        const updatedChip = { ...chip, count: foundChip.count + 1 };
+        const clonedChips = [...foundChips];
+        clonedChips[chipIndex] = updatedChip;
+
+        setMap(new Map(myMap.set(chip.name, clonedChips)));
       } else {
-        setCount((prevCount: any) => ({
-          ...prevCount,
-          [chip.key.toString()]: 1,
-        }));
+        setMap(
+          new Map(
+            myMap.set(chip.name, [
+              ...foundChips,
+              {
+                count: 1,
+                name: chip.name,
+                lettercode: chip.lettercode,
+              },
+            ])
+          )
+        );
       }
+    } else {
+      setMap(
+        new Map(
+          myMap.set(chip.name, [
+            { count: 1, name: chip.name, lettercode: chip.lettercode },
+          ])
+        )
+      );
     }
-
-    console.log(count);
   };
 
   return (
@@ -77,11 +95,11 @@ function App() {
           {/* {Object.keys(count).map((a) => {
             return <p>{a}</p>;
           })} */}
-          {Object.entries<any>(count).map(([key, value]) => (
+          {/* {Object.entries<any>(count).map(([key, value]) => (
             <p key={key}>
               Key: {key}, Value: {value}
             </p>
-          ))}
+          ))} */}
           {/* {folder.map((chip) => {
             return (
               <div className="flex" key={chip.key}>
