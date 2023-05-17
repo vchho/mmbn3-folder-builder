@@ -9,37 +9,14 @@ function App() {
   const [count, setCount] = useState<any>({});
   const [myMap, setMap] = useState(new Map());
 
-  // const handleFolderAdd = (chip: any) => {
-  //   const found = folder2.get(chip.key);
-  //   if (found) {
-  //     setFolderItem2(
-  //       (prev: any) =>
-  //         new Map([
-  //           ...prev,
-  //           [
-  //             chip.key,
-  //             { count: found.count + 1, name: chip.name, key: chip.key },
-  //           ],
-  //         ])
-  //     );
-  //   } else {
-  //     // setFolderItem([...folder, { ...chip, count: 1 }]);
-  //     setFolderItem2(
-  //       (prev: any) =>
-  //         new Map([
-  //           ...prev,
-  //           [chip.key, { count: 1, name: chip.name, key: chip.key }],
-  //         ])
-  //     );
-  //   }
-  // };
-
   const getTotalCount = () => {
-    const values = Object.values<any>(count);
-    const totalCount = values.reduce(
-      (accumulator, currentValue) => accumulator + currentValue,
-      0
-    );
+    let totalCount = 0;
+    Array.from(myMap.entries()).map((e) => {
+      const [key, value] = e;
+      value.forEach((v: any) => {
+        totalCount += v.count;
+      });
+    });
     return totalCount;
   };
 
@@ -92,32 +69,31 @@ function App() {
       <div className="grid grid-cols-1 gap-8 py-6 lg:grid-cols-2">
         <div className="pb-10 lg:w-5/6">
           <p>Total Chips: {getTotalCount()} / 30</p>
-          {/* {Object.keys(count).map((a) => {
-            return <p>{a}</p>;
-          })} */}
-          {/* {Object.entries<any>(count).map(([key, value]) => (
-            <p key={key}>
-              Key: {key}, Value: {value}
-            </p>
-          ))} */}
-          {/* {folder.map((chip) => {
-            return (
-              <div className="flex" key={chip.key}>
-                <div className="flex">
-                  <p>{chip.name} </p> <p>{chip.lettercode}</p>
+
+          {[...myMap.values()].map((e) => {
+            return e.map((p: any) => {
+              return (
+                <div className="" key={p.name + p.lettercode}>
+                  <div className="flex">
+                    <p>{p.name} </p> <p>{p.lettercode}</p>
+                  </div>
+                  <div className="flex">
+                    <p>Total: {p.count} / 4</p>
+                  </div>
+                  <button
+                    // onClick={() =>
+                    //   setFolderItem(folder.filter((c) => c.key !== chip.key))
+                    // }
+                    className="relative inline-flex items-center rounded-md border border-pink-700 bg-pink-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:border-pink-800 hover:bg-pink-700"
+                  >
+                    -
+                  </button>
                 </div>
-                <button
-                  onClick={() =>
-                    setFolderItem(folder.filter((c) => c.key !== chip.key))
-                  }
-                  className="relative inline-flex items-center rounded-md border border-pink-700 bg-pink-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:border-pink-800 hover:bg-pink-700"
-                >
-                  -
-                </button>
-              </div>
-            );
-          })} */}
+              );
+            });
+          })}
         </div>
+
         <div className="pb-10 lg:w-5/6">
           <p>Standard</p>
           {updatedStandardChips.map((chip) => {
