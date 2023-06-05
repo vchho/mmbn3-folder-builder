@@ -1,5 +1,5 @@
 import { StandardChip, updatedStandardChips } from "./utils/chips";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const megaChip = 5;
 const gigaChip = 1;
