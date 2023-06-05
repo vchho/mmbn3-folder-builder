@@ -1,8 +1,8 @@
 import { StandardChip, updatedStandardChips } from "./utils/chips";
 import { useState } from "react";
 
-const megaChip = 5;
-const gigaChip = 1;
+// const megaChip = 5;
+// const gigaChip = 1;
 
 function App() {
   const [folder, setFolder] = useState<StandardChip[]>([]);
