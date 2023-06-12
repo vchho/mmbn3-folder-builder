@@ -52,6 +52,13 @@ function App() {
       (c: any) => c.name.toLowerCase() === chip.name.toLowerCase()
     );
 
+    const chipIndexForFolder = folder.findIndex(
+      (c: any) => c.name === chip.name && c.lettercode === chip.lettercode
+    );
+
+    // https://stackoverflow.com/a/69458984
+    // setFolder([...folder.slice(0, index), ...folder.slice(index + 1)]);
+
     if (chipIndex > -1) {
       // const currentChip = folderTrack.find((c) => c.name === chip.name);
       const chipData = folderTrack[chipIndex];
@@ -66,12 +73,37 @@ function App() {
 
         setFolder([...folder.slice(0, index), ...folder.slice(index + 1)]);
       } else {
+        if (chipIndexForFolder > -1) {
+          const chipDataForFolder = folder[chipIndexForFolder];
+
+          if (chipDataForFolder.count === 1) {
+            setFolder([...folder.slice(0, index), ...folder.slice(index + 1)]);
+          } else {
+            const updatedChipForFolder = {
+              ...chipDataForFolder,
+              count: chipDataForFolder.count - 1,
+            };
+
+            const clonedFolder = [...folder];
+            clonedFolder[chipIndexForFolder] = updatedChipForFolder;
+            console.log("cloned folder", clonedFolder);
+            setFolder(clonedFolder);
+          }
+        } else {
+          setFolder([...folder.slice(0, index), ...folder.slice(index + 1)]);
+        }
+        // console.log("hit in else updatedChip.count === 0");
+        // const clonedFolderTrack = [...folderTrack];
+        // clonedFolderTrack[chipIndex] = updatedChip;
+
+        // setFolder2(clonedFolderTrack);
+
         const clonedFolderTrack = [...folderTrack];
         clonedFolderTrack[chipIndex] = updatedChip;
 
         setFolder2(clonedFolderTrack);
         // https://stackoverflow.com/a/69458984
-        setFolder([...folder.slice(0, index), ...folder.slice(index + 1)]);
+        // setFolder([...folder.slice(0, index), ...folder.slice(index + 1)]);
       }
     } else {
       setFolder2([...folderTrack, { count: 1, name: chip.name }]);
