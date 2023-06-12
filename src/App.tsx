@@ -5,28 +5,45 @@ import { useState } from "react";
 // const gigaChip = 1;
 
 function App() {
-  const [folder, setFolder] = useState<StandardChip[]>([]);
+  const [folder, setFolder] = useState<any[]>([]);
   const [folderTrack, setFolder2] = useState<any[]>([]);
 
   const handleFolderAdd2 = (chip: StandardChip) => {
     const chipIndex = folderTrack.findIndex(
       (c: any) => c.name.toLowerCase() === chip.name.toLowerCase()
     );
+
     if (chipIndex > -1) {
       const currentChip = folderTrack.find((c) => c.name === chip.name);
       if (currentChip.count === 4) {
         alert("Can only have 4 of each chip");
       } else {
+        const chipIndexForFolder = folder.findIndex(
+          (c: any) => c.name === chip.name && c.lettercode === chip.lettercode
+        );
+
+        if (chipIndexForFolder > -1) {
+          const chipDataForFolder = folder[chipIndexForFolder];
+          const updatedChipForFolder = {
+            ...chipDataForFolder,
+            count: chipDataForFolder.count + 1,
+          };
+          const clonedFolder = [...folder];
+          clonedFolder[chipIndexForFolder] = updatedChipForFolder;
+          setFolder(clonedFolder);
+        } else {
+          setFolder([...folder, { ...chip, count: 1 }]);
+        }
+
         const chipData = folderTrack[chipIndex];
         const updatedChip = { ...chipData, count: chipData.count + 1 };
         const clonedFolderTrack = [...folderTrack];
         clonedFolderTrack[chipIndex] = updatedChip;
         setFolder2(clonedFolderTrack);
-        setFolder([...folder, chip]);
       }
     } else {
       setFolder2([...folderTrack, { count: 1, name: chip.name }]);
-      setFolder([...folder, chip]);
+      setFolder([...folder, { ...chip, count: 1 }]);
     }
   };
 
@@ -67,14 +84,15 @@ function App() {
       <div className="grid h-screen grid-cols-12 bg-blue-500">
         <div className="col-span-6">
           <p>Total Chips: {folder.length} / 30</p>
-
-          {folderTrack.map((chip, index) => {
+          {folder.map((chip, index) => {
             return (
               <div
                 className="max-w mb-2 block h-24 rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100"
                 key={index}
               >
-                <span className="flex">{chip.name}</span>
+                <span className="flex">
+                  {chip.name} {chip.lettercode}
+                </span>
                 <p>{chip.count}</p>
                 <button
                   onClick={() => removeChip(chip, index)}
@@ -149,8 +167,8 @@ function App() {
             >
               <path d="M4 4a2 2 0 00-2 2v1h16V6a2 2 0 00-2-2H4z"></path>
               <path
-                clip-rule="evenodd"
-                fill-rule="evenodd"
+                clipRule="evenodd"
+                fillRule="evenodd"
                 d="M18 9H2v5a2 2 0 002 2h12a2 2 0 002-2V9zM4 13a1 1 0 011-1h1a1 1 0 110 2H5a1 1 0 01-1-1zm5-1a1 1 0 100 2h1a1 1 0 100-2H9z"
               ></path>
             </svg>
@@ -187,8 +205,8 @@ function App() {
               aria-hidden="true"
             >
               <path
-                clip-rule="evenodd"
-                fill-rule="evenodd"
+                clipRule="evenodd"
+                fillRule="evenodd"
                 d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z"
               ></path>
             </svg>
