@@ -1,5 +1,5 @@
 import { StandardChip, updatedStandardChips } from "./utils/chips";
-import { useState } from "react";
+import { ChangeEvent, useState } from "react";
 
 // const megaChip = 5;
 // const gigaChip = 1;
@@ -7,6 +7,11 @@ import { useState } from "react";
 function App() {
   const [folder, setFolder] = useState<any[]>([]);
   const [folderTrack, setFolder2] = useState<any[]>([]);
+  const [searchValue, setChipSearchValue] = useState("");
+
+  const totalCount = folderTrack.reduce((accumulator, currentValue) => {
+    return accumulator + currentValue.count;
+  }, 0);
 
   const handleFolderAdd2 = (chip: StandardChip) => {
     const chipIndex = folderTrack.findIndex(
@@ -65,7 +70,6 @@ function App() {
       const updatedChip = { ...chipData, count: chipData.count - 1 };
       console.log(updatedChip);
       if (updatedChip.count === 0) {
-        console.log("hit");
         setFolder2([
           ...folderTrack.slice(0, chipIndex),
           ...folderTrack.slice(chipIndex + 1),
@@ -86,7 +90,6 @@ function App() {
 
             const clonedFolder = [...folder];
             clonedFolder[chipIndexForFolder] = updatedChipForFolder;
-            console.log("cloned folder", clonedFolder);
             setFolder(clonedFolder);
           }
         } else {
@@ -111,11 +114,16 @@ function App() {
     }
   };
 
+  const handleChipSearch = (event: ChangeEvent<HTMLInputElement>) => {
+    const text = event.target.value;
+    setChipSearchValue(text);
+  };
+
   return (
     <>
       <div className="grid h-screen grid-cols-12 bg-blue-500">
-        <div className="col-span-6">
-          <p>Total Chips: {folder.length} / 30</p>
+        <div className="col-span-6 flex-1 overflow-y-scroll">
+          <p>Total Chips: {totalCount} / 30</p>
           {folder.map((chip, index) => {
             return (
               <div
@@ -139,34 +147,48 @@ function App() {
 
         <div className="col-span-6 flex flex-1 overflow-hidden">
           <div className="flex-1 overflow-y-scroll">
-            <div className=" bg-lime-400">
+            <div className="bg-lime-400">
               <p>Standard</p>
-              {updatedStandardChips.map((chip) => {
-                return (
-                  <div
-                    className="max-w mb-2 block h-24 rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100"
-                    key={chip.key}
-                  >
-                    <div className="flex">
-                      {chip.name} {chip.lettercode}
-                    </div>
-                    <span className="flex">{chip.memory}</span>
-                    <button
-                      // onClick={() => setFolderItem([...folder, chip])}
-                      onClick={() => handleFolderAdd2(chip)}
-                      className="relative inline-flex items-center rounded-md border border-pink-700 bg-pink-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:border-pink-800 hover:bg-pink-700"
+              <div className="mb-6">
+                <input
+                  type="text"
+                  id="chip-search-input"
+                  className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
+                  placeholder="Search for chips here..."
+                  onChange={handleChipSearch}
+                />
+              </div>
+              {updatedStandardChips
+                .filter((data) => {
+                  const lower = data.name.toLowerCase();
+                  const inputLower = searchValue.toLowerCase();
+
+                  return lower.includes(inputLower);
+                })
+                .map((chip) => {
+                  return (
+                    <div
+                      className="max-w mb-2 block h-24 rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100"
+                      key={chip.key}
                     >
-                      +
-                    </button>
-                  </div>
-                );
-              })}
+                      <div className="flex">
+                        {chip.name} {chip.lettercode}
+                      </div>
+                      <span className="flex">{chip.memory}</span>
+                      <button
+                        onClick={() => handleFolderAdd2(chip)}
+                        className="relative inline-flex items-center rounded-md border border-pink-700 bg-pink-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:border-pink-800 hover:bg-pink-700"
+                      >
+                        +
+                      </button>
+                    </div>
+                  );
+                })}
             </div>
           </div>
         </div>
       </div>
-      {/* </div> */}
-      {/* </div> */}
+
       <div className="fixed bottom-0 left-0 z-50 h-16 w-full border-t border-gray-200 bg-white dark:border-gray-600 dark:bg-gray-700">
         <div className="mx-auto grid h-full max-w-lg grid-cols-4 font-medium">
           <button
@@ -183,7 +205,7 @@ function App() {
               <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path>
             </svg>
             <span className="text-sm text-gray-500 group-hover:text-blue-600 dark:text-gray-400 dark:group-hover:text-blue-500">
-              All: {folder.length} / 30
+              All: {totalCount} / 30
             </span>
           </button>
           <button
