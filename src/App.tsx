@@ -13,7 +13,7 @@ function classNames(...classes: any[]) {
 function App() {
   const [folder, setFolder] = useState<any[]>([]);
   const [folderTrack, setFolder2] = useState<any[]>([]);
-  const [searchValue, setChipSearchValue] = useState("");
+  // const [searchValue, setChipSearchValue] = useState("");
 
   let [categories] = useState({
     Standard: updatedStandardChips,
@@ -162,7 +162,7 @@ function App() {
 
   const handleChipSearch = (event: ChangeEvent<HTMLInputElement>) => {
     const text = event.target.value;
-    setChipSearchValue(text);
+    // setChipSearchValue(text);
   };
 
   return (
@@ -261,7 +261,7 @@ function App() {
                         )}
                       >
                         <ul>
-                          {posts.map((post, index) => (
+                          {posts.map((post) => (
                             <li
                               key={post.key}
                               className="relative rounded-md p-3 hover:bg-gray-100"

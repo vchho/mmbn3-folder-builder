@@ -1,8 +1,3 @@
-enum ChipType {
-  "standard",
-  "mega",
-  "giga",
-}
 export type StandardChip = {
   number: number;
   image: string;
