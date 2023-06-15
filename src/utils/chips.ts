@@ -1,3 +1,8 @@
+enum ChipType {
+  "standard",
+  "mega",
+  "giga",
+}
 export type StandardChip = {
   number: number;
   image: string;
@@ -8,6 +13,7 @@ export type StandardChip = {
   memory: string;
   description: string;
   key: string;
+  chipType: string;
 };
 
 // const standardChips = [
@@ -2024,6 +2030,7 @@ export const updatedStandardChips = [
     memory: "12 MB",
     description: "Cannon to attack 1 enemy",
     key: "CannonA",
+    chipType: "standard",
   },
   {
     number: 1,
@@ -2035,6 +2042,7 @@ export const updatedStandardChips = [
     memory: "12 MB",
     description: "Cannon to attack 1 enemy",
     key: "CannonB",
+    chipType: "standard",
   },
   {
     number: 1,
@@ -2046,6 +2054,7 @@ export const updatedStandardChips = [
     memory: "12 MB",
     description: "Cannon to attack 1 enemy",
     key: "CannonC",
+    chipType: "standard",
   },
   {
     number: 1,
@@ -2057,6 +2066,7 @@ export const updatedStandardChips = [
     memory: "12 MB",
     description: "Cannon to attack 1 enemy",
     key: "CannonD",
+    chipType: "standard",
   },
   {
     number: 1,
@@ -2068,6 +2078,7 @@ export const updatedStandardChips = [
     memory: "12 MB",
     description: "Cannon to attack 1 enemy",
     key: "CannonE",
+    chipType: "standard",
   },
   {
     number: 1,
@@ -2079,6 +2090,7 @@ export const updatedStandardChips = [
     memory: "12 MB",
     description: "Cannon to attack 1 enemy",
     key: "Cannon*",
+    chipType: "standard",
   },
   {
     number: 2,
@@ -2090,6 +2102,7 @@ export const updatedStandardChips = [
     memory: "24 MB",
     description: "Cannon to attack 1 enemy",
     key: "HiCannonH",
+    chipType: "standard",
   },
   {
     number: 2,
@@ -2101,6 +2114,7 @@ export const updatedStandardChips = [
     memory: "24 MB",
     description: "Cannon to attack 1 enemy",
     key: "HiCannonI",
+    chipType: "standard",
   },
   {
     number: 2,
@@ -2112,6 +2126,7 @@ export const updatedStandardChips = [
     memory: "24 MB",
     description: "Cannon to attack 1 enemy",
     key: "HiCannonJ",
+    chipType: "standard",
   },
   {
     number: 2,
@@ -2123,6 +2138,7 @@ export const updatedStandardChips = [
     memory: "24 MB",
     description: "Cannon to attack 1 enemy",
     key: "HiCannonK",
+    chipType: "standard",
   },
   {
     number: 2,
@@ -2134,6 +2150,7 @@ export const updatedStandardChips = [
     memory: "24 MB",
     description: "Cannon to attack 1 enemy",
     key: "HiCannonL",
+    chipType: "standard",
   },
   {
     number: 2,
@@ -2145,6 +2162,7 @@ export const updatedStandardChips = [
     memory: "24 MB",
     description: "Cannon to attack 1 enemy",
     key: "HiCannon*",
+    chipType: "standard",
   },
   {
     number: 3,
@@ -2156,6 +2174,7 @@ export const updatedStandardChips = [
     memory: "36 MB",
     description: "Cannon to attack 1 enemy",
     key: "M-CannonO",
+    chipType: "standard",
   },
   {
     number: 3,
@@ -2167,6 +2186,7 @@ export const updatedStandardChips = [
     memory: "36 MB",
     description: "Cannon to attack 1 enemy",
     key: "M-CannonP",
+    chipType: "standard",
   },
   {
     number: 3,
@@ -2178,6 +2198,7 @@ export const updatedStandardChips = [
     memory: "36 MB",
     description: "Cannon to attack 1 enemy",
     key: "M-CannonQ",
+    chipType: "standard",
   },
   {
     number: 3,
@@ -2189,6 +2210,7 @@ export const updatedStandardChips = [
     memory: "36 MB",
     description: "Cannon to attack 1 enemy",
     key: "M-CannonR",
+    chipType: "standard",
   },
   {
     number: 3,
@@ -2200,6 +2222,7 @@ export const updatedStandardChips = [
     memory: "36 MB",
     description: "Cannon to attack 1 enemy",
     key: "M-CannonS",
+    chipType: "standard",
   },
   {
     number: 4,
@@ -2211,6 +2234,7 @@ export const updatedStandardChips = [
     memory: "6 MB",
     description: "Knocks enemy back 1",
     key: "AirShot1*",
+    chipType: "standard",
   },
   {
     number: 5,
@@ -2222,6 +2246,7 @@ export const updatedStandardChips = [
     memory: "12 MB",
     description: "Knocks enemy back 1",
     key: "AirShot2*",
+    chipType: "standard",
   },
   {
     number: 6,
@@ -2233,6 +2258,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Knocks enemy back 1",
     key: "AirShot3*",
+    chipType: "standard",
   },
   {
     number: 7,
@@ -2244,6 +2270,7 @@ export const updatedStandardChips = [
     memory: "34 MB",
     description: "Fires lava fr. area",
     key: "LavaCan1A",
+    chipType: "standard",
   },
   {
     number: 7,
@@ -2255,6 +2282,7 @@ export const updatedStandardChips = [
     memory: "34 MB",
     description: "Fires lava fr. area",
     key: "LavaCan1G",
+    chipType: "standard",
   },
   {
     number: 7,
@@ -2266,6 +2294,7 @@ export const updatedStandardChips = [
     memory: "34 MB",
     description: "Fires lava fr. area",
     key: "LavaCan1S",
+    chipType: "standard",
   },
   {
     number: 7,
@@ -2277,6 +2306,7 @@ export const updatedStandardChips = [
     memory: "34 MB",
     description: "Fires lava fr. area",
     key: "LavaCan1T",
+    chipType: "standard",
   },
   {
     number: 7,
@@ -2288,6 +2318,7 @@ export const updatedStandardChips = [
     memory: "34 MB",
     description: "Fires lava fr. area",
     key: "LavaCan1V",
+    chipType: "standard",
   },
   {
     number: 8,
@@ -2299,6 +2330,7 @@ export const updatedStandardChips = [
     memory: "42 MB",
     description: "Fires lava fr. area",
     key: "LavaCan2B",
+    chipType: "standard",
   },
   {
     number: 8,
@@ -2310,6 +2342,7 @@ export const updatedStandardChips = [
     memory: "42 MB",
     description: "Fires lava fr. area",
     key: "LavaCan2D",
+    chipType: "standard",
   },
   {
     number: 8,
@@ -2321,6 +2354,7 @@ export const updatedStandardChips = [
     memory: "42 MB",
     description: "Fires lava fr. area",
     key: "LavaCan2F",
+    chipType: "standard",
   },
   {
     number: 8,
@@ -2332,6 +2366,7 @@ export const updatedStandardChips = [
     memory: "42 MB",
     description: "Fires lava fr. area",
     key: "LavaCan2M",
+    chipType: "standard",
   },
   {
     number: 8,
@@ -2343,6 +2378,7 @@ export const updatedStandardChips = [
     memory: "42 MB",
     description: "Fires lava fr. area",
     key: "LavaCan2O",
+    chipType: "standard",
   },
   {
     number: 9,
@@ -2354,6 +2390,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Fires lava fr. area",
     key: "LavaCan3E",
+    chipType: "standard",
   },
   {
     number: 9,
@@ -2365,6 +2402,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Fires lava fr. area",
     key: "LavaCan3H",
+    chipType: "standard",
   },
   {
     number: 9,
@@ -2376,6 +2414,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Fires lava fr. area",
     key: "LavaCan3J",
+    chipType: "standard",
   },
   {
     number: 9,
@@ -2387,6 +2426,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Fires lava fr. area",
     key: "LavaCan3R",
+    chipType: "standard",
   },
   {
     number: 9,
@@ -2398,6 +2438,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Fires lava fr. area",
     key: "LavaCan3W",
+    chipType: "standard",
   },
   {
     number: 10,
@@ -2409,6 +2450,7 @@ export const updatedStandardChips = [
     memory: "75 MB",
     description: "Fire lava from your area",
     key: "VolcanoA",
+    chipType: "standard",
   },
   {
     number: 10,
@@ -2420,6 +2462,7 @@ export const updatedStandardChips = [
     memory: "75 MB",
     description: "Fire lava from your area",
     key: "VolcanoG",
+    chipType: "standard",
   },
   {
     number: 10,
@@ -2431,6 +2474,7 @@ export const updatedStandardChips = [
     memory: "75 MB",
     description: "Fire lava from your area",
     key: "VolcanoJ",
+    chipType: "standard",
   },
   {
     number: 10,
@@ -2442,6 +2486,7 @@ export const updatedStandardChips = [
     memory: "75 MB",
     description: "Fire lava from your area",
     key: "VolcanoY",
+    chipType: "standard",
   },
   {
     number: 10,
@@ -2453,6 +2498,7 @@ export const updatedStandardChips = [
     memory: "75 MB",
     description: "Fire lava from your area",
     key: "VolcanoZ",
+    chipType: "standard",
   },
   {
     number: 11,
@@ -2464,6 +2510,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Explodes 1 square behind",
     key: "ShotGunB",
+    chipType: "standard",
   },
   {
     number: 11,
@@ -2475,6 +2522,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Explodes 1 square behind",
     key: "ShotGunF",
+    chipType: "standard",
   },
   {
     number: 11,
@@ -2486,6 +2534,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Explodes 1 square behind",
     key: "ShotGunJ",
+    chipType: "standard",
   },
   {
     number: 11,
@@ -2497,6 +2546,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Explodes 1 square behind",
     key: "ShotGunN",
+    chipType: "standard",
   },
   {
     number: 11,
@@ -2508,6 +2558,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Explodes 1 square behind",
     key: "ShotGunT",
+    chipType: "standard",
   },
   {
     number: 11,
@@ -2519,6 +2570,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Explodes 1 square behind",
     key: "ShotGun*",
+    chipType: "standard",
   },
   {
     number: 12,
@@ -2530,6 +2582,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Explodes 2 diag. squares",
     key: "V-GunD",
+    chipType: "standard",
   },
   {
     number: 12,
@@ -2541,6 +2594,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Explodes 2 diag. squares",
     key: "V-GunG",
+    chipType: "standard",
   },
   {
     number: 12,
@@ -2552,6 +2606,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Explodes 2 diag. squares",
     key: "V-GunL",
+    chipType: "standard",
   },
   {
     number: 12,
@@ -2563,6 +2618,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Explodes 2 diag. squares",
     key: "V-GunP",
+    chipType: "standard",
   },
   {
     number: 12,
@@ -2574,6 +2630,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Explodes 2 diag. squares",
     key: "V-GunV",
+    chipType: "standard",
   },
   {
     number: 12,
@@ -2585,6 +2642,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Explodes 2 diag. squares",
     key: "V-Gun*",
+    chipType: "standard",
   },
   {
     number: 13,
@@ -2596,6 +2654,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Explodes up, down on hit",
     key: "SideGunC",
+    chipType: "standard",
   },
   {
     number: 13,
@@ -2607,6 +2666,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Explodes up, down on hit",
     key: "SideGunH",
+    chipType: "standard",
   },
   {
     number: 13,
@@ -2618,6 +2678,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Explodes up, down on hit",
     key: "SideGunM",
+    chipType: "standard",
   },
   {
     number: 13,
@@ -2629,6 +2690,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Explodes up, down on hit",
     key: "SideGunS",
+    chipType: "standard",
   },
   {
     number: 13,
@@ -2640,6 +2702,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Explodes up, down on hit",
     key: "SideGunY",
+    chipType: "standard",
   },
   {
     number: 13,
@@ -2651,6 +2714,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Explodes up, down on hit",
     key: "SideGun*",
+    chipType: "standard",
   },
   {
     number: 14,
@@ -2662,6 +2726,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Creates a large explosion",
     key: "SpreaderM",
+    chipType: "standard",
   },
   {
     number: 14,
@@ -2673,6 +2738,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Creates a large explosion",
     key: "SpreaderN",
+    chipType: "standard",
   },
   {
     number: 14,
@@ -2684,6 +2750,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Creates a large explosion",
     key: "SpreaderO",
+    chipType: "standard",
   },
   {
     number: 14,
@@ -2695,6 +2762,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Creates a large explosion",
     key: "SpreaderP",
+    chipType: "standard",
   },
   {
     number: 14,
@@ -2706,6 +2774,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Creates a large explosion",
     key: "SpreaderQ",
+    chipType: "standard",
   },
   {
     number: 14,
@@ -2717,6 +2786,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Creates a large explosion",
     key: "Spreader*",
+    chipType: "standard",
   },
   {
     number: 15,
@@ -2728,6 +2798,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Explodes 1 square behind",
     key: "BubblerA",
+    chipType: "standard",
   },
   {
     number: 15,
@@ -2739,6 +2810,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Explodes 1 square behind",
     key: "BubblerC",
+    chipType: "standard",
   },
   {
     number: 15,
@@ -2750,6 +2822,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Explodes 1 square behind",
     key: "BubblerD",
+    chipType: "standard",
   },
   {
     number: 15,
@@ -2761,6 +2834,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Explodes 1 square behind",
     key: "BubblerE",
+    chipType: "standard",
   },
   {
     number: 15,
@@ -2772,6 +2846,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Explodes 1 square behind",
     key: "BubblerP",
+    chipType: "standard",
   },
   {
     number: 15,
@@ -2783,6 +2858,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Explodes 1 square behind",
     key: "Bubbler*",
+    chipType: "standard",
   },
   {
     number: 16,
@@ -2794,6 +2870,7 @@ export const updatedStandardChips = [
     memory: "22 MB",
     description: "Explodes 2 diag. squares",
     key: "Bub-VD",
+    chipType: "standard",
   },
   {
     number: 16,
@@ -2805,6 +2882,7 @@ export const updatedStandardChips = [
     memory: "22 MB",
     description: "Explodes 2 diag. squares",
     key: "Bub-VE",
+    chipType: "standard",
   },
   {
     number: 16,
@@ -2816,6 +2894,7 @@ export const updatedStandardChips = [
     memory: "22 MB",
     description: "Explodes 2 diag. squares",
     key: "Bub-VF",
+    chipType: "standard",
   },
   {
     number: 16,
@@ -2827,6 +2906,7 @@ export const updatedStandardChips = [
     memory: "22 MB",
     description: "Explodes 2 diag. squares",
     key: "Bub-VS",
+    chipType: "standard",
   },
   {
     number: 16,
@@ -2838,6 +2918,7 @@ export const updatedStandardChips = [
     memory: "22 MB",
     description: "Explodes 2 diag. squares",
     key: "Bub-VV",
+    chipType: "standard",
   },
   {
     number: 17,
@@ -2849,6 +2930,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Explodes up, down on hit",
     key: "BublSideB",
+    chipType: "standard",
   },
   {
     number: 17,
@@ -2860,6 +2942,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Explodes up, down on hit",
     key: "BublSideE",
+    chipType: "standard",
   },
   {
     number: 17,
@@ -2871,6 +2954,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Explodes up, down on hit",
     key: "BublSideF",
+    chipType: "standard",
   },
   {
     number: 17,
@@ -2882,6 +2966,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Explodes up, down on hit",
     key: "BublSideG",
+    chipType: "standard",
   },
   {
     number: 17,
@@ -2893,6 +2978,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Explodes up, down on hit",
     key: "BublSideR",
+    chipType: "standard",
   },
   {
     number: 18,
@@ -2904,6 +2990,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Explodes 1 square behind",
     key: "HeatShotB",
+    chipType: "standard",
   },
   {
     number: 18,
@@ -2915,6 +3002,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Explodes 1 square behind",
     key: "HeatShotH",
+    chipType: "standard",
   },
   {
     number: 18,
@@ -2926,6 +3014,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Explodes 1 square behind",
     key: "HeatShotI",
+    chipType: "standard",
   },
   {
     number: 18,
@@ -2937,6 +3026,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Explodes 1 square behind",
     key: "HeatShotJ",
+    chipType: "standard",
   },
   {
     number: 18,
@@ -2948,6 +3038,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Explodes 1 square behind",
     key: "HeatShotP",
+    chipType: "standard",
   },
   {
     number: 18,
@@ -2959,6 +3050,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Explodes 1 square behind",
     key: "HeatShot*",
+    chipType: "standard",
   },
   {
     number: 19,
@@ -2970,6 +3062,7 @@ export const updatedStandardChips = [
     memory: "24 MB",
     description: "Explodes 2 diag. squares",
     key: "Heat-VF",
+    chipType: "standard",
   },
   {
     number: 19,
@@ -2981,6 +3074,7 @@ export const updatedStandardChips = [
     memory: "24 MB",
     description: "Explodes 2 diag. squares",
     key: "Heat-VI",
+    chipType: "standard",
   },
   {
     number: 19,
@@ -2992,6 +3086,7 @@ export const updatedStandardChips = [
     memory: "24 MB",
     description: "Explodes 2 diag. squares",
     key: "Heat-VJ",
+    chipType: "standard",
   },
   {
     number: 19,
@@ -3003,6 +3098,7 @@ export const updatedStandardChips = [
     memory: "24 MB",
     description: "Explodes 2 diag. squares",
     key: "Heat-VK",
+    chipType: "standard",
   },
   {
     number: 19,
@@ -3014,6 +3110,7 @@ export const updatedStandardChips = [
     memory: "24 MB",
     description: "Explodes 2 diag. squares",
     key: "Heat-VV",
+    chipType: "standard",
   },
   {
     number: 19,
@@ -3025,6 +3122,7 @@ export const updatedStandardChips = [
     memory: "24 MB",
     description: "Explodes 2 diag. squares",
     key: "Heat-V*",
+    chipType: "standard",
   },
   {
     number: 20,
@@ -3036,6 +3134,7 @@ export const updatedStandardChips = [
     memory: "32 MB",
     description: "Explodes up, down on hit",
     key: "HeatSideC",
+    chipType: "standard",
   },
   {
     number: 20,
@@ -3047,6 +3146,7 @@ export const updatedStandardChips = [
     memory: "32 MB",
     description: "Explodes up, down on hit",
     key: "HeatSideJ",
+    chipType: "standard",
   },
   {
     number: 20,
@@ -3058,6 +3158,7 @@ export const updatedStandardChips = [
     memory: "32 MB",
     description: "Explodes up, down on hit",
     key: "HeatSideK",
+    chipType: "standard",
   },
   {
     number: 20,
@@ -3069,6 +3170,7 @@ export const updatedStandardChips = [
     memory: "32 MB",
     description: "Explodes up, down on hit",
     key: "HeatSideL",
+    chipType: "standard",
   },
   {
     number: 20,
@@ -3080,6 +3182,7 @@ export const updatedStandardChips = [
     memory: "32 MB",
     description: "Explodes up, down on hit",
     key: "HeatSideT",
+    chipType: "standard",
   },
   {
     number: 20,
@@ -3091,6 +3194,7 @@ export const updatedStandardChips = [
     memory: "32 MB",
     description: "Explodes up, down on hit",
     key: "HeatSide*",
+    chipType: "standard",
   },
   {
     number: 21,
@@ -3102,6 +3206,7 @@ export const updatedStandardChips = [
     memory: "6 MB",
     description: "Throws a bomb 3 squares",
     key: "MiniBombB",
+    chipType: "standard",
   },
   {
     number: 21,
@@ -3113,6 +3218,7 @@ export const updatedStandardChips = [
     memory: "6 MB",
     description: "Throws a bomb 3 squares",
     key: "MiniBombG",
+    chipType: "standard",
   },
   {
     number: 21,
@@ -3124,6 +3230,7 @@ export const updatedStandardChips = [
     memory: "6 MB",
     description: "Throws a bomb 3 squares",
     key: "MiniBombL",
+    chipType: "standard",
   },
   {
     number: 21,
@@ -3135,6 +3242,7 @@ export const updatedStandardChips = [
     memory: "6 MB",
     description: "Throws a bomb 3 squares",
     key: "MiniBombO",
+    chipType: "standard",
   },
   {
     number: 21,
@@ -3146,6 +3254,7 @@ export const updatedStandardChips = [
     memory: "6 MB",
     description: "Throws a bomb 3 squares",
     key: "MiniBombS",
+    chipType: "standard",
   },
   {
     number: 21,
@@ -3157,6 +3266,7 @@ export const updatedStandardChips = [
     memory: "6 MB",
     description: "Throws a bomb 3 squares",
     key: "MiniBomb*",
+    chipType: "standard",
   },
   {
     number: 22,
@@ -3168,6 +3278,7 @@ export const updatedStandardChips = [
     memory: "12 MB",
     description: "Throws a big bomb 3 squares",
     key: "SnglBombD",
+    chipType: "standard",
   },
   {
     number: 22,
@@ -3179,6 +3290,7 @@ export const updatedStandardChips = [
     memory: "12 MB",
     description: "Throws a big bomb 3 squares",
     key: "SnglBombF",
+    chipType: "standard",
   },
   {
     number: 22,
@@ -3190,6 +3302,7 @@ export const updatedStandardChips = [
     memory: "12 MB",
     description: "Throws a big bomb 3 squares",
     key: "SnglBombH",
+    chipType: "standard",
   },
   {
     number: 22,
@@ -3201,6 +3314,7 @@ export const updatedStandardChips = [
     memory: "12 MB",
     description: "Throws a big bomb 3 squares",
     key: "SnglBombJ",
+    chipType: "standard",
   },
   {
     number: 22,
@@ -3212,6 +3326,7 @@ export const updatedStandardChips = [
     memory: "12 MB",
     description: "Throws a big bomb 3 squares",
     key: "SnglBombT",
+    chipType: "standard",
   },
   {
     number: 22,
@@ -3223,6 +3338,7 @@ export const updatedStandardChips = [
     memory: "12 MB",
     description: "Throws a big bomb 3 squares",
     key: "SnglBomb*",
+    chipType: "standard",
   },
   {
     number: 23,
@@ -3234,6 +3350,7 @@ export const updatedStandardChips = [
     memory: "24 MB",
     description: "Throws 2 big bombs 3 squares",
     key: "DublBombA",
+    chipType: "standard",
   },
   {
     number: 23,
@@ -3245,6 +3362,7 @@ export const updatedStandardChips = [
     memory: "24 MB",
     description: "Throws 2 big bombs 3 squares",
     key: "DublBombC",
+    chipType: "standard",
   },
   {
     number: 23,
@@ -3256,6 +3374,7 @@ export const updatedStandardChips = [
     memory: "24 MB",
     description: "Throws 2 big bombs 3 squares",
     key: "DublBombH",
+    chipType: "standard",
   },
   {
     number: 23,
@@ -3267,6 +3386,7 @@ export const updatedStandardChips = [
     memory: "24 MB",
     description: "Throws 2 big bombs 3 squares",
     key: "DublBombK",
+    chipType: "standard",
   },
   {
     number: 23,
@@ -3278,6 +3398,7 @@ export const updatedStandardChips = [
     memory: "24 MB",
     description: "Throws 2 big bombs 3 squares",
     key: "DublBombQ",
+    chipType: "standard",
   },
   {
     number: 23,
@@ -3289,6 +3410,7 @@ export const updatedStandardChips = [
     memory: "24 MB",
     description: "Throws 2 big bombs 3 squares",
     key: "DublBomb*",
+    chipType: "standard",
   },
   {
     number: 24,
@@ -3300,6 +3422,7 @@ export const updatedStandardChips = [
     memory: "36 MB",
     description: "Throws 3 big bombs 3 squares",
     key: "TrplBombE",
+    chipType: "standard",
   },
   {
     number: 24,
@@ -3311,6 +3434,7 @@ export const updatedStandardChips = [
     memory: "36 MB",
     description: "Throws 3 big bombs 3 squares",
     key: "TrplBombI",
+    chipType: "standard",
   },
   {
     number: 24,
@@ -3322,6 +3446,7 @@ export const updatedStandardChips = [
     memory: "36 MB",
     description: "Throws 3 big bombs 3 squares",
     key: "TrplBombN",
+    chipType: "standard",
   },
   {
     number: 24,
@@ -3333,6 +3458,7 @@ export const updatedStandardChips = [
     memory: "36 MB",
     description: "Throws 3 big bombs 3 squares",
     key: "TrplBombP",
+    chipType: "standard",
   },
   {
     number: 24,
@@ -3344,6 +3470,7 @@ export const updatedStandardChips = [
     memory: "36 MB",
     description: "Throws 3 big bombs 3 squares",
     key: "TrplBombW",
+    chipType: "standard",
   },
   {
     number: 25,
@@ -3355,6 +3482,7 @@ export const updatedStandardChips = [
     memory: "33 MB",
     description: "Breaks 3rd panel ahead",
     key: "CannBallA",
+    chipType: "standard",
   },
   {
     number: 25,
@@ -3366,6 +3494,7 @@ export const updatedStandardChips = [
     memory: "33 MB",
     description: "Breaks 3rd panel ahead",
     key: "CannBallD",
+    chipType: "standard",
   },
   {
     number: 25,
@@ -3377,6 +3506,7 @@ export const updatedStandardChips = [
     memory: "33 MB",
     description: "Breaks 3rd panel ahead",
     key: "CannBallF",
+    chipType: "standard",
   },
   {
     number: 25,
@@ -3388,6 +3518,7 @@ export const updatedStandardChips = [
     memory: "33 MB",
     description: "Breaks 3rd panel ahead",
     key: "CannBallL",
+    chipType: "standard",
   },
   {
     number: 25,
@@ -3399,6 +3530,7 @@ export const updatedStandardChips = [
     memory: "33 MB",
     description: "Breaks 3rd panel ahead",
     key: "CannBallP",
+    chipType: "standard",
   },
   {
     number: 25,
@@ -3410,6 +3542,7 @@ export const updatedStandardChips = [
     memory: "33 MB",
     description: "Breaks 3rd panel ahead",
     key: "CannBall*",
+    chipType: "standard",
   },
   {
     number: 26,
@@ -3421,6 +3554,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Freezes 3rd sqr. ahead",
     key: "IceBallF",
+    chipType: "standard",
   },
   {
     number: 26,
@@ -3432,6 +3566,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Freezes 3rd sqr. ahead",
     key: "IceBallI",
+    chipType: "standard",
   },
   {
     number: 26,
@@ -3443,6 +3578,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Freezes 3rd sqr. ahead",
     key: "IceBallM",
+    chipType: "standard",
   },
   {
     number: 26,
@@ -3454,6 +3590,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Freezes 3rd sqr. ahead",
     key: "IceBallQ",
+    chipType: "standard",
   },
   {
     number: 26,
@@ -3465,6 +3602,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Freezes 3rd sqr. ahead",
     key: "IceBallS",
+    chipType: "standard",
   },
   {
     number: 26,
@@ -3476,6 +3614,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Freezes 3rd sqr. ahead",
     key: "IceBall*",
+    chipType: "standard",
   },
   {
     number: 27,
@@ -3487,6 +3626,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "Shoot lava 3rd sq. ahead",
     key: "LavaBallB",
+    chipType: "standard",
   },
   {
     number: 27,
@@ -3498,6 +3638,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "Shoot lava 3rd sq. ahead",
     key: "LavaBallC",
+    chipType: "standard",
   },
   {
     number: 27,
@@ -3509,6 +3650,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "Shoot lava 3rd sq. ahead",
     key: "LavaBallH",
+    chipType: "standard",
   },
   {
     number: 27,
@@ -3520,6 +3662,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "Shoot lava 3rd sq. ahead",
     key: "LavaBallN",
+    chipType: "standard",
   },
   {
     number: 27,
@@ -3531,6 +3674,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "Shoot lava 3rd sq. ahead",
     key: "LavaBallW",
+    chipType: "standard",
   },
   {
     number: 27,
@@ -3542,6 +3686,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "Shoot lava 3rd sq. ahead",
     key: "LavaBall*",
+    chipType: "standard",
   },
   {
     number: 28,
@@ -3553,6 +3698,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Firebomb hits 3rd sq ahead!",
     key: "BlkBomb1F",
+    chipType: "standard",
   },
   {
     number: 28,
@@ -3564,6 +3710,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Firebomb hits 3rd sq ahead!",
     key: "BlkBomb1L",
+    chipType: "standard",
   },
   {
     number: 28,
@@ -3575,6 +3722,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Firebomb hits 3rd sq ahead!",
     key: "BlkBomb1N",
+    chipType: "standard",
   },
   {
     number: 28,
@@ -3586,6 +3734,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Firebomb hits 3rd sq ahead!",
     key: "BlkBomb1P",
+    chipType: "standard",
   },
   {
     number: 28,
@@ -3597,6 +3746,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Firebomb hits 3rd sq ahead!",
     key: "BlkBomb1Z",
+    chipType: "standard",
   },
   {
     number: 29,
@@ -3608,6 +3758,7 @@ export const updatedStandardChips = [
     memory: "70 MB",
     description: "Fire bomb hits 3rd sq ahead!",
     key: "BlkBomb2D",
+    chipType: "standard",
   },
   {
     number: 29,
@@ -3619,6 +3770,7 @@ export const updatedStandardChips = [
     memory: "70 MB",
     description: "Fire bomb hits 3rd sq ahead!",
     key: "BlkBomb2I",
+    chipType: "standard",
   },
   {
     number: 29,
@@ -3630,6 +3782,7 @@ export const updatedStandardChips = [
     memory: "70 MB",
     description: "Fire bomb hits 3rd sq ahead!",
     key: "BlkBomb2K",
+    chipType: "standard",
   },
   {
     number: 29,
@@ -3641,6 +3794,7 @@ export const updatedStandardChips = [
     memory: "70 MB",
     description: "Fire bomb hits 3rd sq ahead!",
     key: "BlkBomb2Q",
+    chipType: "standard",
   },
   {
     number: 29,
@@ -3652,6 +3806,7 @@ export const updatedStandardChips = [
     memory: "70 MB",
     description: "Fire bomb hits 3rd sq ahead!",
     key: "BlkBomb2S",
+    chipType: "standard",
   },
   {
     number: 30,
@@ -3663,6 +3818,7 @@ export const updatedStandardChips = [
     memory: "80 MB",
     description: "Fire bomb hits 3rd sq ahead!",
     key: "BlkBomb3C",
+    chipType: "standard",
   },
   {
     number: 30,
@@ -3674,6 +3830,7 @@ export const updatedStandardChips = [
     memory: "80 MB",
     description: "Fire bomb hits 3rd sq ahead!",
     key: "BlkBomb3G",
+    chipType: "standard",
   },
   {
     number: 30,
@@ -3685,6 +3842,7 @@ export const updatedStandardChips = [
     memory: "80 MB",
     description: "Fire bomb hits 3rd sq ahead!",
     key: "BlkBomb3L",
+    chipType: "standard",
   },
   {
     number: 30,
@@ -3696,6 +3854,7 @@ export const updatedStandardChips = [
     memory: "80 MB",
     description: "Fire bomb hits 3rd sq ahead!",
     key: "BlkBomb3U",
+    chipType: "standard",
   },
   {
     number: 30,
@@ -3707,6 +3866,7 @@ export const updatedStandardChips = [
     memory: "80 MB",
     description: "Fire bomb hits 3rd sq ahead!",
     key: "BlkBomb3Y",
+    chipType: "standard",
   },
   {
     number: 31,
@@ -3718,6 +3878,7 @@ export const updatedStandardChips = [
     memory: "10 MB",
     description: "Cuts enmy in front! Range: 1",
     key: "SwordE",
+    chipType: "standard",
   },
   {
     number: 31,
@@ -3729,6 +3890,7 @@ export const updatedStandardChips = [
     memory: "10 MB",
     description: "Cuts enmy in front! Range: 1",
     key: "SwordH",
+    chipType: "standard",
   },
   {
     number: 31,
@@ -3740,6 +3902,7 @@ export const updatedStandardChips = [
     memory: "10 MB",
     description: "Cuts enmy in front! Range: 1",
     key: "SwordL",
+    chipType: "standard",
   },
   {
     number: 31,
@@ -3751,6 +3914,7 @@ export const updatedStandardChips = [
     memory: "10 MB",
     description: "Cuts enmy in front! Range: 1",
     key: "SwordS",
+    chipType: "standard",
   },
   {
     number: 31,
@@ -3762,6 +3926,7 @@ export const updatedStandardChips = [
     memory: "10 MB",
     description: "Cuts enmy in front! Range: 1",
     key: "SwordY",
+    chipType: "standard",
   },
   {
     number: 32,
@@ -3773,6 +3938,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Cuts enmy in front! Range: 3",
     key: "WideSwrdC",
+    chipType: "standard",
   },
   {
     number: 32,
@@ -3784,6 +3950,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Cuts enmy in front! Range: 3",
     key: "WideSwrdE",
+    chipType: "standard",
   },
   {
     number: 32,
@@ -3795,6 +3962,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Cuts enmy in front! Range: 3",
     key: "WideSwrdL",
+    chipType: "standard",
   },
   {
     number: 32,
@@ -3806,6 +3974,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Cuts enmy in front! Range: 3",
     key: "WideSwrdQ",
+    chipType: "standard",
   },
   {
     number: 32,
@@ -3817,6 +3986,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Cuts enmy in front! Range: 3",
     key: "WideSwrdY",
+    chipType: "standard",
   },
   {
     number: 33,
@@ -3828,6 +3998,7 @@ export const updatedStandardChips = [
     memory: "24 MB",
     description: "Cuts enmy in front! Range: 2",
     key: "LongSwrdE",
+    chipType: "standard",
   },
   {
     number: 33,
@@ -3839,6 +4010,7 @@ export const updatedStandardChips = [
     memory: "24 MB",
     description: "Cuts enmy in front! Range: 2",
     key: "LongSwrdI",
+    chipType: "standard",
   },
   {
     number: 33,
@@ -3850,6 +4022,7 @@ export const updatedStandardChips = [
     memory: "24 MB",
     description: "Cuts enmy in front! Range: 2",
     key: "LongSwrdL",
+    chipType: "standard",
   },
   {
     number: 33,
@@ -3861,6 +4034,7 @@ export const updatedStandardChips = [
     memory: "24 MB",
     description: "Cuts enmy in front! Range: 2",
     key: "LongSwrdR",
+    chipType: "standard",
   },
   {
     number: 33,
@@ -3872,6 +4046,7 @@ export const updatedStandardChips = [
     memory: "24 MB",
     description: "Cuts enmy in front! Range: 2",
     key: "LongSwrdY",
+    chipType: "standard",
   },
   {
     number: 34,
@@ -3883,6 +4058,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "Cuts fwd 3 squares",
     key: "FireSwrdF",
+    chipType: "standard",
   },
   {
     number: 34,
@@ -3894,6 +4070,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "Cuts fwd 3 squares",
     key: "FireSwrdN",
+    chipType: "standard",
   },
   {
     number: 34,
@@ -3905,6 +4082,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "Cuts fwd 3 squares",
     key: "FireSwrdP",
+    chipType: "standard",
   },
   {
     number: 34,
@@ -3916,6 +4094,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "Cuts fwd 3 squares",
     key: "FireSwrdR",
+    chipType: "standard",
   },
   {
     number: 34,
@@ -3927,6 +4106,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "Cuts fwd 3 squares",
     key: "FireSwrdU",
+    chipType: "standard",
   },
   {
     number: 35,
@@ -3938,6 +4118,7 @@ export const updatedStandardChips = [
     memory: "25 MB",
     description: "Cuts fwd 3 squares",
     key: "AquaSwrdA",
+    chipType: "standard",
   },
   {
     number: 35,
@@ -3949,6 +4130,7 @@ export const updatedStandardChips = [
     memory: "25 MB",
     description: "Cuts fwd 3 squares",
     key: "AquaSwrdH",
+    chipType: "standard",
   },
   {
     number: 35,
@@ -3960,6 +4142,7 @@ export const updatedStandardChips = [
     memory: "25 MB",
     description: "Cuts fwd 3 squares",
     key: "AquaSwrdN",
+    chipType: "standard",
   },
   {
     number: 35,
@@ -3971,6 +4154,7 @@ export const updatedStandardChips = [
     memory: "25 MB",
     description: "Cuts fwd 3 squares",
     key: "AquaSwrdP",
+    chipType: "standard",
   },
   {
     number: 35,
@@ -3982,6 +4166,7 @@ export const updatedStandardChips = [
     memory: "25 MB",
     description: "Cuts fwd 3 squares",
     key: "AquaSwrdT",
+    chipType: "standard",
   },
   {
     number: 36,
@@ -3993,6 +4178,7 @@ export const updatedStandardChips = [
     memory: "23 MB",
     description: "Cuts fwd 3 squares",
     key: "ElecSwrdE",
+    chipType: "standard",
   },
   {
     number: 36,
@@ -4004,6 +4190,7 @@ export const updatedStandardChips = [
     memory: "23 MB",
     description: "Cuts fwd 3 squares",
     key: "ElecSwrdK",
+    chipType: "standard",
   },
   {
     number: 36,
@@ -4015,6 +4202,7 @@ export const updatedStandardChips = [
     memory: "23 MB",
     description: "Cuts fwd 3 squares",
     key: "ElecSwrdN",
+    chipType: "standard",
   },
   {
     number: 36,
@@ -4026,6 +4214,7 @@ export const updatedStandardChips = [
     memory: "23 MB",
     description: "Cuts fwd 3 squares",
     key: "ElecSwrdP",
+    chipType: "standard",
   },
   {
     number: 36,
@@ -4037,6 +4226,7 @@ export const updatedStandardChips = [
     memory: "23 MB",
     description: "Cuts fwd 3 squares",
     key: "ElecSwrdV",
+    chipType: "standard",
   },
   {
     number: 37,
@@ -4048,6 +4238,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Cuts fwd 3 squares",
     key: "BambSwrdB",
+    chipType: "standard",
   },
   {
     number: 37,
@@ -4059,6 +4250,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Cuts fwd 3 squares",
     key: "BambSwrdL",
+    chipType: "standard",
   },
   {
     number: 37,
@@ -4070,6 +4262,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Cuts fwd 3 squares",
     key: "BambSwrdN",
+    chipType: "standard",
   },
   {
     number: 37,
@@ -4081,6 +4274,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Cuts fwd 3 squares",
     key: "BambSwrdP",
+    chipType: "standard",
   },
   {
     number: 37,
@@ -4092,6 +4286,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Cuts fwd 3 squares",
     key: "BambSwrdW",
+    chipType: "standard",
   },
   {
     number: 38,
@@ -4103,6 +4298,7 @@ export const updatedStandardChips = [
     memory: "21 MB",
     description: "Cust Gauge= Atk Str",
     key: "CustSwrdB",
+    chipType: "standard",
   },
   {
     number: 38,
@@ -4114,6 +4310,7 @@ export const updatedStandardChips = [
     memory: "21 MB",
     description: "Cust Gauge= Atk Str",
     key: "CustSwrdF",
+    chipType: "standard",
   },
   {
     number: 38,
@@ -4125,6 +4322,7 @@ export const updatedStandardChips = [
     memory: "21 MB",
     description: "Cust Gauge= Atk Str",
     key: "CustSwrdR",
+    chipType: "standard",
   },
   {
     number: 38,
@@ -4136,6 +4334,7 @@ export const updatedStandardChips = [
     memory: "21 MB",
     description: "Cust Gauge= Atk Str",
     key: "CustSwrdV",
+    chipType: "standard",
   },
   {
     number: 38,
@@ -4147,6 +4346,7 @@ export const updatedStandardChips = [
     memory: "21 MB",
     description: "Cust Gauge= Atk Str",
     key: "CustSwrdZ",
+    chipType: "standard",
   },
   {
     number: 39,
@@ -4158,6 +4358,7 @@ export const updatedStandardChips = [
     memory: "68 MB",
     description: "A magical shifting sword",
     key: "VarSwrdB",
+    chipType: "standard",
   },
   {
     number: 39,
@@ -4169,6 +4370,7 @@ export const updatedStandardChips = [
     memory: "68 MB",
     description: "A magical shifting sword",
     key: "VarSwrdC",
+    chipType: "standard",
   },
   {
     number: 39,
@@ -4180,6 +4382,7 @@ export const updatedStandardChips = [
     memory: "68 MB",
     description: "A magical shifting sword",
     key: "VarSwrdD",
+    chipType: "standard",
   },
   {
     number: 39,
@@ -4191,6 +4394,7 @@ export const updatedStandardChips = [
     memory: "68 MB",
     description: "A magical shifting sword",
     key: "VarSwrdE",
+    chipType: "standard",
   },
   {
     number: 39,
@@ -4202,6 +4406,7 @@ export const updatedStandardChips = [
     memory: "68 MB",
     description: "A magical shifting sword",
     key: "VarSwrdF",
+    chipType: "standard",
   },
   {
     number: 40,
@@ -4213,6 +4418,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Wide swrd with air attack!",
     key: "AirSwrdC",
+    chipType: "standard",
   },
   {
     number: 40,
@@ -4224,6 +4430,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Wide swrd with air attack!",
     key: "AirSwrdE",
+    chipType: "standard",
   },
   {
     number: 40,
@@ -4235,6 +4442,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Wide swrd with air attack!",
     key: "AirSwrdH",
+    chipType: "standard",
   },
   {
     number: 40,
@@ -4246,6 +4454,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Wide swrd with air attack!",
     key: "AirSwrdJ",
+    chipType: "standard",
   },
   {
     number: 40,
@@ -4257,6 +4466,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Wide swrd with air attack!",
     key: "AirSwrdR",
+    chipType: "standard",
   },
   {
     number: 40,
@@ -4268,6 +4478,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Wide swrd with air attack!",
     key: "AirSwrd*",
+    chipType: "standard",
   },
   {
     number: 41,
@@ -4279,6 +4490,7 @@ export const updatedStandardChips = [
     memory: "43 MB",
     description: "2 steps, then uses wide swrd",
     key: "StepSwrdL",
+    chipType: "standard",
   },
   {
     number: 41,
@@ -4290,6 +4502,7 @@ export const updatedStandardChips = [
     memory: "43 MB",
     description: "2 steps, then uses wide swrd",
     key: "StepSwrdM",
+    chipType: "standard",
   },
   {
     number: 41,
@@ -4301,6 +4514,7 @@ export const updatedStandardChips = [
     memory: "43 MB",
     description: "2 steps, then uses wide swrd",
     key: "StepSwrdN",
+    chipType: "standard",
   },
   {
     number: 41,
@@ -4312,6 +4526,7 @@ export const updatedStandardChips = [
     memory: "43 MB",
     description: "2 steps, then uses wide swrd",
     key: "StepSwrdO",
+    chipType: "standard",
   },
   {
     number: 41,
@@ -4323,6 +4538,7 @@ export const updatedStandardChips = [
     memory: "43 MB",
     description: "2 steps, then uses wide swrd",
     key: "StepSwrdP",
+    chipType: "standard",
   },
   {
     number: 42,
@@ -4334,6 +4550,7 @@ export const updatedStandardChips = [
     memory: "74 MB",
     description: "2 steps, then uses cross atk",
     key: "StepCrosP",
+    chipType: "standard",
   },
   {
     number: 42,
@@ -4345,6 +4562,7 @@ export const updatedStandardChips = [
     memory: "74 MB",
     description: "2 steps, then uses cross atk",
     key: "StepCrosQ",
+    chipType: "standard",
   },
   {
     number: 42,
@@ -4356,6 +4574,7 @@ export const updatedStandardChips = [
     memory: "74 MB",
     description: "2 steps, then uses cross atk",
     key: "StepCrosR",
+    chipType: "standard",
   },
   {
     number: 42,
@@ -4367,6 +4586,7 @@ export const updatedStandardChips = [
     memory: "74 MB",
     description: "2 steps, then uses cross atk",
     key: "StepCrosS",
+    chipType: "standard",
   },
   {
     number: 42,
@@ -4378,6 +4598,7 @@ export const updatedStandardChips = [
     memory: "74 MB",
     description: "2 steps, then uses cross atk",
     key: "StepCrosT",
+    chipType: "standard",
   },
   {
     number: 43,
@@ -4389,6 +4610,7 @@ export const updatedStandardChips = [
     memory: "12 MB",
     description: "Cut while A Button is held!",
     key: "SlasherB",
+    chipType: "standard",
   },
   {
     number: 43,
@@ -4400,6 +4622,7 @@ export const updatedStandardChips = [
     memory: "12 MB",
     description: "Cut while A Button is held!",
     key: "SlasherD",
+    chipType: "standard",
   },
   {
     number: 43,
@@ -4411,6 +4634,7 @@ export const updatedStandardChips = [
     memory: "12 MB",
     description: "Cut while A Button is held!",
     key: "SlasherG",
+    chipType: "standard",
   },
   {
     number: 43,
@@ -4422,6 +4646,7 @@ export const updatedStandardChips = [
     memory: "12 MB",
     description: "Cut while A Button is held!",
     key: "SlasherR",
+    chipType: "standard",
   },
   {
     number: 43,
@@ -4433,6 +4658,7 @@ export const updatedStandardChips = [
     memory: "12 MB",
     description: "Cut while A Button is held!",
     key: "SlasherS",
+    chipType: "standard",
   },
   {
     number: 44,
@@ -4444,6 +4670,7 @@ export const updatedStandardChips = [
     memory: "10 MB",
     description: "Shock through enemies",
     key: "ShockWavD",
+    chipType: "standard",
   },
   {
     number: 44,
@@ -4455,6 +4682,7 @@ export const updatedStandardChips = [
     memory: "10 MB",
     description: "Shock through enemies",
     key: "ShockWavH",
+    chipType: "standard",
   },
   {
     number: 44,
@@ -4466,6 +4694,7 @@ export const updatedStandardChips = [
     memory: "10 MB",
     description: "Shock through enemies",
     key: "ShockWavJ",
+    chipType: "standard",
   },
   {
     number: 44,
@@ -4477,6 +4706,7 @@ export const updatedStandardChips = [
     memory: "10 MB",
     description: "Shock through enemies",
     key: "ShockWavL",
+    chipType: "standard",
   },
   {
     number: 44,
@@ -4488,6 +4718,7 @@ export const updatedStandardChips = [
     memory: "10 MB",
     description: "Shock through enemies",
     key: "ShockWavR",
+    chipType: "standard",
   },
   {
     number: 45,
@@ -4499,6 +4730,7 @@ export const updatedStandardChips = [
     memory: "26 MB",
     description: "Shock through enemies",
     key: "SonicWavG",
+    chipType: "standard",
   },
   {
     number: 45,
@@ -4510,6 +4742,7 @@ export const updatedStandardChips = [
     memory: "26 MB",
     description: "Shock through enemies",
     key: "SonicWavI",
+    chipType: "standard",
   },
   {
     number: 45,
@@ -4521,6 +4754,7 @@ export const updatedStandardChips = [
     memory: "26 MB",
     description: "Shock through enemies",
     key: "SonicWavM",
+    chipType: "standard",
   },
   {
     number: 45,
@@ -4532,6 +4766,7 @@ export const updatedStandardChips = [
     memory: "26 MB",
     description: "Shock through enemies",
     key: "SonicWavS",
+    chipType: "standard",
   },
   {
     number: 45,
@@ -4543,6 +4778,7 @@ export const updatedStandardChips = [
     memory: "26 MB",
     description: "Shock through enemies",
     key: "SonicWavW",
+    chipType: "standard",
   },
   {
     number: 46,
@@ -4554,6 +4790,7 @@ export const updatedStandardChips = [
     memory: "42 MB",
     description: "Shock through enemies",
     key: "DynaWaveE",
+    chipType: "standard",
   },
   {
     number: 46,
@@ -4565,6 +4802,7 @@ export const updatedStandardChips = [
     memory: "42 MB",
     description: "Shock through enemies",
     key: "DynaWaveN",
+    chipType: "standard",
   },
   {
     number: 46,
@@ -4576,6 +4814,7 @@ export const updatedStandardChips = [
     memory: "42 MB",
     description: "Shock through enemies",
     key: "DynaWaveQ",
+    chipType: "standard",
   },
   {
     number: 46,
@@ -4587,6 +4826,7 @@ export const updatedStandardChips = [
     memory: "42 MB",
     description: "Shock through enemies",
     key: "DynaWaveT",
+    chipType: "standard",
   },
   {
     number: 46,
@@ -4598,6 +4838,7 @@ export const updatedStandardChips = [
     memory: "42 MB",
     description: "Shock through enemies",
     key: "DynaWaveV",
+    chipType: "standard",
   },
   {
     number: 47,
@@ -4609,6 +4850,7 @@ export const updatedStandardChips = [
     memory: "82 MB",
     description: "Shck wave cracks panels",
     key: "BigWaveE",
+    chipType: "standard",
   },
   {
     number: 47,
@@ -4620,6 +4862,7 @@ export const updatedStandardChips = [
     memory: "82 MB",
     description: "Shck wave cracks panels",
     key: "BigWaveJ",
+    chipType: "standard",
   },
   {
     number: 47,
@@ -4631,6 +4874,7 @@ export const updatedStandardChips = [
     memory: "82 MB",
     description: "Shck wave cracks panels",
     key: "BigWaveM",
+    chipType: "standard",
   },
   {
     number: 47,
@@ -4642,6 +4886,7 @@ export const updatedStandardChips = [
     memory: "82 MB",
     description: "Shck wave cracks panels",
     key: "BigWaveP",
+    chipType: "standard",
   },
   {
     number: 47,
@@ -4653,6 +4898,7 @@ export const updatedStandardChips = [
     memory: "82 MB",
     description: "Shck wave cracks panels",
     key: "BigWaveY",
+    chipType: "standard",
   },
   {
     number: 48,
@@ -4664,6 +4910,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Punch pushes 1 square",
     key: "GutPunchB",
+    chipType: "standard",
   },
   {
     number: 48,
@@ -4675,6 +4922,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Punch pushes 1 square",
     key: "GutPunchC",
+    chipType: "standard",
   },
   {
     number: 48,
@@ -4686,6 +4934,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Punch pushes 1 square",
     key: "GutPunchD",
+    chipType: "standard",
   },
   {
     number: 48,
@@ -4697,6 +4946,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Punch pushes 1 square",
     key: "GutPunchE",
+    chipType: "standard",
   },
   {
     number: 48,
@@ -4708,6 +4958,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Punch pushes 1 square",
     key: "GutPunchF",
+    chipType: "standard",
   },
   {
     number: 49,
@@ -4719,6 +4970,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Punch 2 square range",
     key: "GutStrgtO",
+    chipType: "standard",
   },
   {
     number: 49,
@@ -4730,6 +4982,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Punch 2 square range",
     key: "GutStrgtP",
+    chipType: "standard",
   },
   {
     number: 49,
@@ -4741,6 +4994,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Punch 2 square range",
     key: "GutStrgtQ",
+    chipType: "standard",
   },
   {
     number: 49,
@@ -4752,6 +5006,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Punch 2 square range",
     key: "GutStrgtR",
+    chipType: "standard",
   },
   {
     number: 49,
@@ -4763,6 +5018,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Punch 2 square range",
     key: "GutStrgtS",
+    chipType: "standard",
   },
   {
     number: 50,
@@ -4774,6 +5030,7 @@ export const updatedStandardChips = [
     memory: "50 MB",
     description: "Punch pushes 1 square",
     key: "GutImpctG",
+    chipType: "standard",
   },
   {
     number: 50,
@@ -4785,6 +5042,7 @@ export const updatedStandardChips = [
     memory: "50 MB",
     description: "Punch pushes 1 square",
     key: "GutImpctH",
+    chipType: "standard",
   },
   {
     number: 50,
@@ -4796,6 +5054,7 @@ export const updatedStandardChips = [
     memory: "50 MB",
     description: "Punch pushes 1 square",
     key: "GutImpctI",
+    chipType: "standard",
   },
   {
     number: 50,
@@ -4807,6 +5066,7 @@ export const updatedStandardChips = [
     memory: "50 MB",
     description: "Punch pushes 1 square",
     key: "GutImpctJ",
+    chipType: "standard",
   },
   {
     number: 50,
@@ -4818,6 +5078,7 @@ export const updatedStandardChips = [
     memory: "50 MB",
     description: "Punch pushes 1 square",
     key: "GutImpctK",
+    chipType: "standard",
   },
   {
     number: 51,
@@ -4829,6 +5090,7 @@ export const updatedStandardChips = [
     memory: "11 MB",
     description: "Dash through enemies!",
     key: "DashAtkC",
+    chipType: "standard",
   },
   {
     number: 51,
@@ -4840,6 +5102,7 @@ export const updatedStandardChips = [
     memory: "11 MB",
     description: "Dash through enemies!",
     key: "DashAtkD",
+    chipType: "standard",
   },
   {
     number: 51,
@@ -4851,6 +5114,7 @@ export const updatedStandardChips = [
     memory: "11 MB",
     description: "Dash through enemies!",
     key: "DashAtkG",
+    chipType: "standard",
   },
   {
     number: 51,
@@ -4862,6 +5126,7 @@ export const updatedStandardChips = [
     memory: "11 MB",
     description: "Dash through enemies!",
     key: "DashAtkJ",
+    chipType: "standard",
   },
   {
     number: 51,
@@ -4873,6 +5138,7 @@ export const updatedStandardChips = [
     memory: "11 MB",
     description: "Dash through enemies!",
     key: "DashAtkZ",
+    chipType: "standard",
   },
   {
     number: 51,
@@ -4884,6 +5150,7 @@ export const updatedStandardChips = [
     memory: "11 MB",
     description: "Dash through enemies!",
     key: "DashAtk*",
+    chipType: "standard",
   },
   {
     number: 52,
@@ -4895,6 +5162,7 @@ export const updatedStandardChips = [
     memory: "15 MB",
     description: "Envelops you in flame!",
     key: "BurnerB",
+    chipType: "standard",
   },
   {
     number: 52,
@@ -4906,6 +5174,7 @@ export const updatedStandardChips = [
     memory: "15 MB",
     description: "Envelops you in flame!",
     key: "BurnerF",
+    chipType: "standard",
   },
   {
     number: 52,
@@ -4917,6 +5186,7 @@ export const updatedStandardChips = [
     memory: "15 MB",
     description: "Envelops you in flame!",
     key: "BurnerQ",
+    chipType: "standard",
   },
   {
     number: 52,
@@ -4928,6 +5198,7 @@ export const updatedStandardChips = [
     memory: "15 MB",
     description: "Envelops you in flame!",
     key: "BurnerS",
+    chipType: "standard",
   },
   {
     number: 52,
@@ -4939,6 +5210,7 @@ export const updatedStandardChips = [
     memory: "15 MB",
     description: "Envelops you in flame!",
     key: "BurnerW",
+    chipType: "standard",
   },
   {
     number: 53,
@@ -4950,6 +5222,7 @@ export const updatedStandardChips = [
     memory: "44 MB",
     description: "Chrge atk pierces enemies",
     key: "CondorB",
+    chipType: "standard",
   },
   {
     number: 53,
@@ -4961,6 +5234,7 @@ export const updatedStandardChips = [
     memory: "44 MB",
     description: "Chrge atk pierces enemies",
     key: "CondorI",
+    chipType: "standard",
   },
   {
     number: 53,
@@ -4972,6 +5246,7 @@ export const updatedStandardChips = [
     memory: "44 MB",
     description: "Chrge atk pierces enemies",
     key: "CondorL",
+    chipType: "standard",
   },
   {
     number: 53,
@@ -4983,6 +5258,7 @@ export const updatedStandardChips = [
     memory: "44 MB",
     description: "Chrge atk pierces enemies",
     key: "CondorS",
+    chipType: "standard",
   },
   {
     number: 53,
@@ -4994,6 +5270,7 @@ export const updatedStandardChips = [
     memory: "44 MB",
     description: "Chrge atk pierces enemies",
     key: "CondorZ",
+    chipType: "standard",
   },
   {
     number: 54,
@@ -5005,6 +5282,7 @@ export const updatedStandardChips = [
     memory: "42 MB",
     description: "Fire atk in cross shape!",
     key: "BurningA",
+    chipType: "standard",
   },
   {
     number: 54,
@@ -5016,6 +5294,7 @@ export const updatedStandardChips = [
     memory: "42 MB",
     description: "Fire atk in cross shape!",
     key: "BurningF",
+    chipType: "standard",
   },
   {
     number: 54,
@@ -5027,6 +5306,7 @@ export const updatedStandardChips = [
     memory: "42 MB",
     description: "Fire atk in cross shape!",
     key: "BurningL",
+    chipType: "standard",
   },
   {
     number: 54,
@@ -5038,6 +5318,7 @@ export const updatedStandardChips = [
     memory: "42 MB",
     description: "Fire atk in cross shape!",
     key: "BurningR",
+    chipType: "standard",
   },
   {
     number: 54,
@@ -5049,6 +5330,7 @@ export const updatedStandardChips = [
     memory: "42 MB",
     description: "Fire atk in cross shape!",
     key: "BurningS",
+    chipType: "standard",
   },
   {
     number: 55,
@@ -5060,6 +5342,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Pralyzing electric ring atk!",
     key: "ZapRing1A",
+    chipType: "standard",
   },
   {
     number: 55,
@@ -5071,6 +5354,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Pralyzing electric ring atk!",
     key: "ZapRing1M",
+    chipType: "standard",
   },
   {
     number: 55,
@@ -5082,6 +5366,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Pralyzing electric ring atk!",
     key: "ZapRing1P",
+    chipType: "standard",
   },
   {
     number: 55,
@@ -5093,6 +5378,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Pralyzing electric ring atk!",
     key: "ZapRing1Q",
+    chipType: "standard",
   },
   {
     number: 55,
@@ -5104,6 +5390,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Pralyzing electric ring atk!",
     key: "ZapRing1S",
+    chipType: "standard",
   },
   {
     number: 55,
@@ -5115,6 +5402,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Pralyzing electric ring atk!",
     key: "ZapRing1*",
+    chipType: "standard",
   },
   {
     number: 56,
@@ -5126,6 +5414,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Pralyzing electric ring atk!",
     key: "ZapRing2B",
+    chipType: "standard",
   },
   {
     number: 56,
@@ -5137,6 +5426,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Pralyzing electric ring atk!",
     key: "ZapRing2G",
+    chipType: "standard",
   },
   {
     number: 56,
@@ -5148,6 +5438,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Pralyzing electric ring atk!",
     key: "ZapRing2N",
+    chipType: "standard",
   },
   {
     number: 56,
@@ -5159,6 +5450,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Pralyzing electric ring atk!",
     key: "ZapRing2R",
+    chipType: "standard",
   },
   {
     number: 56,
@@ -5170,6 +5462,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Pralyzing electric ring atk!",
     key: "ZapRing2W",
+    chipType: "standard",
   },
   {
     number: 57,
@@ -5181,6 +5474,7 @@ export const updatedStandardChips = [
     memory: "28 MB",
     description: "Pralyzing electric ring atk!",
     key: "ZapRing3C",
+    chipType: "standard",
   },
   {
     number: 57,
@@ -5192,6 +5486,7 @@ export const updatedStandardChips = [
     memory: "28 MB",
     description: "Pralyzing electric ring atk!",
     key: "ZapRing3E",
+    chipType: "standard",
   },
   {
     number: 57,
@@ -5203,6 +5498,7 @@ export const updatedStandardChips = [
     memory: "28 MB",
     description: "Pralyzing electric ring atk!",
     key: "ZapRing3O",
+    chipType: "standard",
   },
   {
     number: 57,
@@ -5214,6 +5510,7 @@ export const updatedStandardChips = [
     memory: "28 MB",
     description: "Pralyzing electric ring atk!",
     key: "ZapRing3T",
+    chipType: "standard",
   },
   {
     number: 57,
@@ -5225,6 +5522,7 @@ export const updatedStandardChips = [
     memory: "28 MB",
     description: "Pralyzing electric ring atk!",
     key: "ZapRing3Z",
+    chipType: "standard",
   },
   {
     number: 58,
@@ -5236,6 +5534,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Creates a 2 sq wide ice wave!",
     key: "IceWave1A",
+    chipType: "standard",
   },
   {
     number: 58,
@@ -5247,6 +5546,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Creates a 2 sq wide ice wave!",
     key: "IceWave1K",
+    chipType: "standard",
   },
   {
     number: 58,
@@ -5258,6 +5558,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Creates a 2 sq wide ice wave!",
     key: "IceWave1M",
+    chipType: "standard",
   },
   {
     number: 58,
@@ -5269,6 +5570,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Creates a 2 sq wide ice wave!",
     key: "IceWave1Q",
+    chipType: "standard",
   },
   {
     number: 58,
@@ -5280,6 +5582,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Creates a 2 sq wide ice wave!",
     key: "IceWave1W",
+    chipType: "standard",
   },
   {
     number: 58,
@@ -5291,6 +5594,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Creates a 2 sq wide ice wave!",
     key: "IceWave1*",
+    chipType: "standard",
   },
   {
     number: 59,
@@ -5302,6 +5606,7 @@ export const updatedStandardChips = [
     memory: "22 MB",
     description: "Creates a 2 sq wide ice wave!",
     key: "IceWave2D",
+    chipType: "standard",
   },
   {
     number: 59,
@@ -5313,6 +5618,7 @@ export const updatedStandardChips = [
     memory: "22 MB",
     description: "Creates a 2 sq wide ice wave!",
     key: "IceWave2H",
+    chipType: "standard",
   },
   {
     number: 59,
@@ -5324,6 +5630,7 @@ export const updatedStandardChips = [
     memory: "22 MB",
     description: "Creates a 2 sq wide ice wave!",
     key: "IceWave2L",
+    chipType: "standard",
   },
   {
     number: 59,
@@ -5335,6 +5642,7 @@ export const updatedStandardChips = [
     memory: "22 MB",
     description: "Creates a 2 sq wide ice wave!",
     key: "IceWave2P",
+    chipType: "standard",
   },
   {
     number: 59,
@@ -5346,6 +5654,7 @@ export const updatedStandardChips = [
     memory: "22 MB",
     description: "Creates a 2 sq wide ice wave!",
     key: "IceWave2R",
+    chipType: "standard",
   },
   {
     number: 59,
@@ -5357,6 +5666,7 @@ export const updatedStandardChips = [
     memory: "22 MB",
     description: "Creates a 2 sq wide ice wave!",
     key: "IceWave2*",
+    chipType: "standard",
   },
   {
     number: 60,
@@ -5368,6 +5678,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Creates a 2 sq wide ice wave!",
     key: "IceWave3C",
+    chipType: "standard",
   },
   {
     number: 60,
@@ -5379,6 +5690,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Creates a 2 sq wide ice wave!",
     key: "IceWave3D",
+    chipType: "standard",
   },
   {
     number: 60,
@@ -5390,6 +5702,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Creates a 2 sq wide ice wave!",
     key: "IceWave3J",
+    chipType: "standard",
   },
   {
     number: 60,
@@ -5401,6 +5714,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Creates a 2 sq wide ice wave!",
     key: "IceWave3R",
+    chipType: "standard",
   },
   {
     number: 60,
@@ -5412,6 +5726,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Creates a 2 sq wide ice wave!",
     key: "IceWave3V",
+    chipType: "standard",
   },
   {
     number: 61,
@@ -5423,6 +5738,7 @@ export const updatedStandardChips = [
     memory: "72 MB",
     description: "3-square yo-yo attack!",
     key: "Yo-Yo1C",
+    chipType: "standard",
   },
   {
     number: 61,
@@ -5434,6 +5750,7 @@ export const updatedStandardChips = [
     memory: "72 MB",
     description: "3-square yo-yo attack!",
     key: "Yo-Yo1D",
+    chipType: "standard",
   },
   {
     number: 61,
@@ -5445,6 +5762,7 @@ export const updatedStandardChips = [
     memory: "72 MB",
     description: "3-square yo-yo attack!",
     key: "Yo-Yo1E",
+    chipType: "standard",
   },
   {
     number: 61,
@@ -5456,6 +5774,7 @@ export const updatedStandardChips = [
     memory: "72 MB",
     description: "3-square yo-yo attack!",
     key: "Yo-Yo1F",
+    chipType: "standard",
   },
   {
     number: 61,
@@ -5467,6 +5786,7 @@ export const updatedStandardChips = [
     memory: "72 MB",
     description: "3-square yo-yo attack!",
     key: "Yo-Yo1G",
+    chipType: "standard",
   },
   {
     number: 61,
@@ -5478,6 +5798,7 @@ export const updatedStandardChips = [
     memory: "72 MB",
     description: "3-square yo-yo attack!",
     key: "Yo-Yo1*",
+    chipType: "standard",
   },
   {
     number: 62,
@@ -5489,6 +5810,7 @@ export const updatedStandardChips = [
     memory: "80 MB",
     description: "3-square yo-yo attack!",
     key: "Yo-Yo2H",
+    chipType: "standard",
   },
   {
     number: 62,
@@ -5500,6 +5822,7 @@ export const updatedStandardChips = [
     memory: "80 MB",
     description: "3-square yo-yo attack!",
     key: "Yo-Yo2I",
+    chipType: "standard",
   },
   {
     number: 62,
@@ -5511,6 +5834,7 @@ export const updatedStandardChips = [
     memory: "80 MB",
     description: "3-square yo-yo attack!",
     key: "Yo-Yo2J",
+    chipType: "standard",
   },
   {
     number: 62,
@@ -5522,6 +5846,7 @@ export const updatedStandardChips = [
     memory: "80 MB",
     description: "3-square yo-yo attack!",
     key: "Yo-Yo2K",
+    chipType: "standard",
   },
   {
     number: 62,
@@ -5533,6 +5858,7 @@ export const updatedStandardChips = [
     memory: "80 MB",
     description: "3-square yo-yo attack!",
     key: "Yo-Yo2L",
+    chipType: "standard",
   },
   {
     number: 63,
@@ -5544,6 +5870,7 @@ export const updatedStandardChips = [
     memory: "88 MB",
     description: "3-square yo-yo attack!",
     key: "Yo-Yo3M",
+    chipType: "standard",
   },
   {
     number: 63,
@@ -5555,6 +5882,7 @@ export const updatedStandardChips = [
     memory: "88 MB",
     description: "3-square yo-yo attack!",
     key: "Yo-Yo3N",
+    chipType: "standard",
   },
   {
     number: 63,
@@ -5566,6 +5894,7 @@ export const updatedStandardChips = [
     memory: "88 MB",
     description: "3-square yo-yo attack!",
     key: "Yo-Yo3O",
+    chipType: "standard",
   },
   {
     number: 63,
@@ -5577,6 +5906,7 @@ export const updatedStandardChips = [
     memory: "88 MB",
     description: "3-square yo-yo attack!",
     key: "Yo-Yo3P",
+    chipType: "standard",
   },
   {
     number: 63,
@@ -5588,6 +5918,7 @@ export const updatedStandardChips = [
     memory: "88 MB",
     description: "3-square yo-yo attack!",
     key: "Yo-Yo3Q",
+    chipType: "standard",
   },
   {
     number: 64,
@@ -5599,6 +5930,7 @@ export const updatedStandardChips = [
     memory: "26 MB",
     description: "Creates 3 whrlwinds",
     key: "AirStrm1A",
+    chipType: "standard",
   },
   {
     number: 64,
@@ -5610,6 +5942,7 @@ export const updatedStandardChips = [
     memory: "26 MB",
     description: "Creates 3 whrlwinds",
     key: "AirStrm1F",
+    chipType: "standard",
   },
   {
     number: 64,
@@ -5621,6 +5954,7 @@ export const updatedStandardChips = [
     memory: "26 MB",
     description: "Creates 3 whrlwinds",
     key: "AirStrm1H",
+    chipType: "standard",
   },
   {
     number: 64,
@@ -5632,6 +5966,7 @@ export const updatedStandardChips = [
     memory: "26 MB",
     description: "Creates 3 whrlwinds",
     key: "AirStrm1O",
+    chipType: "standard",
   },
   {
     number: 64,
@@ -5643,6 +5978,7 @@ export const updatedStandardChips = [
     memory: "26 MB",
     description: "Creates 3 whrlwinds",
     key: "AirStrm1S",
+    chipType: "standard",
   },
   {
     number: 65,
@@ -5654,6 +5990,7 @@ export const updatedStandardChips = [
     memory: "35 MB",
     description: "Creates 3 whrlwinds",
     key: "AirStrm2C",
+    chipType: "standard",
   },
   {
     number: 65,
@@ -5665,6 +6002,7 @@ export const updatedStandardChips = [
     memory: "35 MB",
     description: "Creates 3 whrlwinds",
     key: "AirStrm2G",
+    chipType: "standard",
   },
   {
     number: 65,
@@ -5676,6 +6014,7 @@ export const updatedStandardChips = [
     memory: "35 MB",
     description: "Creates 3 whrlwinds",
     key: "AirStrm2H",
+    chipType: "standard",
   },
   {
     number: 65,
@@ -5687,6 +6026,7 @@ export const updatedStandardChips = [
     memory: "35 MB",
     description: "Creates 3 whrlwinds",
     key: "AirStrm2M",
+    chipType: "standard",
   },
   {
     number: 65,
@@ -5698,6 +6038,7 @@ export const updatedStandardChips = [
     memory: "35 MB",
     description: "Creates 3 whrlwinds",
     key: "AirStrm2W",
+    chipType: "standard",
   },
   {
     number: 66,
@@ -5709,6 +6050,7 @@ export const updatedStandardChips = [
     memory: "44 MB",
     description: "Creates 3 whrlwinds",
     key: "AirStrm3A",
+    chipType: "standard",
   },
   {
     number: 66,
@@ -5720,6 +6062,7 @@ export const updatedStandardChips = [
     memory: "44 MB",
     description: "Creates 3 whrlwinds",
     key: "AirStrm3G",
+    chipType: "standard",
   },
   {
     number: 66,
@@ -5731,6 +6074,7 @@ export const updatedStandardChips = [
     memory: "44 MB",
     description: "Creates 3 whrlwinds",
     key: "AirStrm3I",
+    chipType: "standard",
   },
   {
     number: 66,
@@ -5742,6 +6086,7 @@ export const updatedStandardChips = [
     memory: "44 MB",
     description: "Creates 3 whrlwinds",
     key: "AirStrm3N",
+    chipType: "standard",
   },
   {
     number: 66,
@@ -5753,6 +6098,7 @@ export const updatedStandardChips = [
     memory: "44 MB",
     description: "Creates 3 whrlwinds",
     key: "AirStrm3V",
+    chipType: "standard",
   },
   {
     number: 67,
@@ -5764,6 +6110,7 @@ export const updatedStandardChips = [
     memory: "40 MB",
     description: "Bee fly diagonal paths",
     key: "Arrow1B",
+    chipType: "standard",
   },
   {
     number: 67,
@@ -5775,6 +6122,7 @@ export const updatedStandardChips = [
     memory: "40 MB",
     description: "Bee fly diagonal paths",
     key: "Arrow1E",
+    chipType: "standard",
   },
   {
     number: 67,
@@ -5786,6 +6134,7 @@ export const updatedStandardChips = [
     memory: "40 MB",
     description: "Bee fly diagonal paths",
     key: "Arrow1M",
+    chipType: "standard",
   },
   {
     number: 67,
@@ -5797,6 +6146,7 @@ export const updatedStandardChips = [
     memory: "40 MB",
     description: "Bee fly diagonal paths",
     key: "Arrow1Q",
+    chipType: "standard",
   },
   {
     number: 67,
@@ -5808,6 +6158,7 @@ export const updatedStandardChips = [
     memory: "40 MB",
     description: "Bee fly diagonal paths",
     key: "Arrow1T",
+    chipType: "standard",
   },
   {
     number: 68,
@@ -5819,6 +6170,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Bee fly diagonal paths",
     key: "Arrow2F",
+    chipType: "standard",
   },
   {
     number: 68,
@@ -5830,6 +6182,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Bee fly diagonal paths",
     key: "Arrow2R",
+    chipType: "standard",
   },
   {
     number: 68,
@@ -5841,6 +6194,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Bee fly diagonal paths",
     key: "Arrow2S",
+    chipType: "standard",
   },
   {
     number: 68,
@@ -5852,6 +6206,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Bee fly diagonal paths",
     key: "Arrow2U",
+    chipType: "standard",
   },
   {
     number: 68,
@@ -5863,6 +6218,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Bee fly diagonal paths",
     key: "Arrow2Z",
+    chipType: "standard",
   },
   {
     number: 69,
@@ -5874,6 +6230,7 @@ export const updatedStandardChips = [
     memory: "80 MB",
     description: "Bee fly diagonal paths",
     key: "Arrow3A",
+    chipType: "standard",
   },
   {
     number: 69,
@@ -5885,6 +6242,7 @@ export const updatedStandardChips = [
     memory: "80 MB",
     description: "Bee fly diagonal paths",
     key: "Arrow3H",
+    chipType: "standard",
   },
   {
     number: 69,
@@ -5896,6 +6254,7 @@ export const updatedStandardChips = [
     memory: "80 MB",
     description: "Bee fly diagonal paths",
     key: "Arrow3J",
+    chipType: "standard",
   },
   {
     number: 69,
@@ -5907,6 +6266,7 @@ export const updatedStandardChips = [
     memory: "80 MB",
     description: "Bee fly diagonal paths",
     key: "Arrow3N",
+    chipType: "standard",
   },
   {
     number: 69,
@@ -5918,6 +6278,7 @@ export const updatedStandardChips = [
     memory: "80 MB",
     description: "Bee fly diagonal paths",
     key: "Arrow3P",
+    chipType: "standard",
   },
   {
     number: 70,
@@ -5929,6 +6290,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Crawling rat, turns once",
     key: "Ratton1A",
+    chipType: "standard",
   },
   {
     number: 70,
@@ -5940,6 +6302,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Crawling rat, turns once",
     key: "Ratton1C",
+    chipType: "standard",
   },
   {
     number: 70,
@@ -5951,6 +6314,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Crawling rat, turns once",
     key: "Ratton1F",
+    chipType: "standard",
   },
   {
     number: 70,
@@ -5962,6 +6326,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Crawling rat, turns once",
     key: "Ratton1H",
+    chipType: "standard",
   },
   {
     number: 70,
@@ -5973,6 +6338,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Crawling rat, turns once",
     key: "Ratton1J",
+    chipType: "standard",
   },
   {
     number: 71,
@@ -5984,6 +6350,7 @@ export const updatedStandardChips = [
     memory: "24 MB",
     description: "Crawling rat, turns once",
     key: "Ratton2A",
+    chipType: "standard",
   },
   {
     number: 71,
@@ -5995,6 +6362,7 @@ export const updatedStandardChips = [
     memory: "24 MB",
     description: "Crawling rat, turns once",
     key: "Ratton2C",
+    chipType: "standard",
   },
   {
     number: 71,
@@ -6006,6 +6374,7 @@ export const updatedStandardChips = [
     memory: "24 MB",
     description: "Crawling rat, turns once",
     key: "Ratton2F",
+    chipType: "standard",
   },
   {
     number: 71,
@@ -6017,6 +6386,7 @@ export const updatedStandardChips = [
     memory: "24 MB",
     description: "Crawling rat, turns once",
     key: "Ratton2N",
+    chipType: "standard",
   },
   {
     number: 71,
@@ -6028,6 +6398,7 @@ export const updatedStandardChips = [
     memory: "24 MB",
     description: "Crawling rat, turns once",
     key: "Ratton2O",
+    chipType: "standard",
   },
   {
     number: 72,
@@ -6039,6 +6410,7 @@ export const updatedStandardChips = [
     memory: "34 MB",
     description: "Crawling rat, turns once",
     key: "Ratton3A",
+    chipType: "standard",
   },
   {
     number: 72,
@@ -6050,6 +6422,7 @@ export const updatedStandardChips = [
     memory: "34 MB",
     description: "Crawling rat, turns once",
     key: "Ratton3C",
+    chipType: "standard",
   },
   {
     number: 72,
@@ -6061,6 +6434,7 @@ export const updatedStandardChips = [
     memory: "34 MB",
     description: "Crawling rat, turns once",
     key: "Ratton3F",
+    chipType: "standard",
   },
   {
     number: 72,
@@ -6072,6 +6446,7 @@ export const updatedStandardChips = [
     memory: "34 MB",
     description: "Crawling rat, turns once",
     key: "Ratton3R",
+    chipType: "standard",
   },
   {
     number: 72,
@@ -6083,6 +6458,7 @@ export const updatedStandardChips = [
     memory: "34 MB",
     description: "Crawling rat, turns once",
     key: "Ratton3S",
+    chipType: "standard",
   },
   {
     number: 73,
@@ -6094,6 +6470,7 @@ export const updatedStandardChips = [
     memory: "35 MB",
     description: "Activates when hit w/ fire!",
     key: "FireRatnB",
+    chipType: "standard",
   },
   {
     number: 73,
@@ -6105,6 +6482,7 @@ export const updatedStandardChips = [
     memory: "35 MB",
     description: "Activates when hit w/ fire!",
     key: "FireRatnF",
+    chipType: "standard",
   },
   {
     number: 73,
@@ -6116,6 +6494,7 @@ export const updatedStandardChips = [
     memory: "35 MB",
     description: "Activates when hit w/ fire!",
     key: "FireRatnH",
+    chipType: "standard",
   },
   {
     number: 73,
@@ -6127,6 +6506,7 @@ export const updatedStandardChips = [
     memory: "35 MB",
     description: "Activates when hit w/ fire!",
     key: "FireRatnM",
+    chipType: "standard",
   },
   {
     number: 73,
@@ -6138,6 +6518,7 @@ export const updatedStandardChips = [
     memory: "35 MB",
     description: "Activates when hit w/ fire!",
     key: "FireRatnY",
+    chipType: "standard",
   },
   {
     number: 74,
@@ -6149,6 +6530,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Creates a wave that moves 3 sq",
     key: "WaveE",
+    chipType: "standard",
   },
   {
     number: 74,
@@ -6160,6 +6542,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Creates a wave that moves 3 sq",
     key: "WaveI",
+    chipType: "standard",
   },
   {
     number: 74,
@@ -6171,6 +6554,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Creates a wave that moves 3 sq",
     key: "WaveL",
+    chipType: "standard",
   },
   {
     number: 74,
@@ -6182,6 +6566,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Creates a wave that moves 3 sq",
     key: "WaveS",
+    chipType: "standard",
   },
   {
     number: 74,
@@ -6193,6 +6578,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Creates a wave that moves 3 sq",
     key: "WaveT",
+    chipType: "standard",
   },
   {
     number: 75,
@@ -6204,6 +6590,7 @@ export const updatedStandardChips = [
     memory: "72 MB",
     description: "Creates a 3 sq wave of lava",
     key: "RedWaveB",
+    chipType: "standard",
   },
   {
     number: 75,
@@ -6215,6 +6602,7 @@ export const updatedStandardChips = [
     memory: "72 MB",
     description: "Creates a 3 sq wave of lava",
     key: "RedWaveF",
+    chipType: "standard",
   },
   {
     number: 75,
@@ -6226,6 +6614,7 @@ export const updatedStandardChips = [
     memory: "72 MB",
     description: "Creates a 3 sq wave of lava",
     key: "RedWaveJ",
+    chipType: "standard",
   },
   {
     number: 75,
@@ -6237,6 +6626,7 @@ export const updatedStandardChips = [
     memory: "72 MB",
     description: "Creates a 3 sq wave of lava",
     key: "RedWaveR",
+    chipType: "standard",
   },
   {
     number: 75,
@@ -6248,6 +6638,7 @@ export const updatedStandardChips = [
     memory: "72 MB",
     description: "Creates a 3 sq wave of lava",
     key: "RedWaveU",
+    chipType: "standard",
   },
   {
     number: 76,
@@ -6259,6 +6650,7 @@ export const updatedStandardChips = [
     memory: "84 MB",
     description: "Mud wave advances 3 squares",
     key: "MudWaveD",
+    chipType: "standard",
   },
   {
     number: 76,
@@ -6270,6 +6662,7 @@ export const updatedStandardChips = [
     memory: "84 MB",
     description: "Mud wave advances 3 squares",
     key: "MudWaveG",
+    chipType: "standard",
   },
   {
     number: 76,
@@ -6281,6 +6674,7 @@ export const updatedStandardChips = [
     memory: "84 MB",
     description: "Mud wave advances 3 squares",
     key: "MudWaveM",
+    chipType: "standard",
   },
   {
     number: 76,
@@ -6292,6 +6686,7 @@ export const updatedStandardChips = [
     memory: "84 MB",
     description: "Mud wave advances 3 squares",
     key: "MudWaveV",
+    chipType: "standard",
   },
   {
     number: 76,
@@ -6303,6 +6698,7 @@ export const updatedStandardChips = [
     memory: "84 MB",
     description: "Mud wave advances 3 squares",
     key: "MudWaveZ",
+    chipType: "standard",
   },
   {
     number: 77,
@@ -6314,6 +6710,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "An 8-hit tornado 2 sq ahead",
     key: "TornadoC",
+    chipType: "standard",
   },
   {
     number: 77,
@@ -6325,6 +6722,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "An 8-hit tornado 2 sq ahead",
     key: "TornadoL",
+    chipType: "standard",
   },
   {
     number: 77,
@@ -6336,6 +6734,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "An 8-hit tornado 2 sq ahead",
     key: "TornadoR",
+    chipType: "standard",
   },
   {
     number: 77,
@@ -6347,6 +6746,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "An 8-hit tornado 2 sq ahead",
     key: "TornadoT",
+    chipType: "standard",
   },
   {
     number: 77,
@@ -6358,6 +6758,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "An 8-hit tornado 2 sq ahead",
     key: "TornadoU",
+    chipType: "standard",
   },
   {
     number: 78,
@@ -6369,6 +6770,7 @@ export const updatedStandardChips = [
     memory: "22 MB",
     description: "Dangerous powder on all grass",
     key: "Spice1B",
+    chipType: "standard",
   },
   {
     number: 78,
@@ -6380,6 +6782,7 @@ export const updatedStandardChips = [
     memory: "22 MB",
     description: "Dangerous powder on all grass",
     key: "Spice1D",
+    chipType: "standard",
   },
   {
     number: 78,
@@ -6391,6 +6794,7 @@ export const updatedStandardChips = [
     memory: "22 MB",
     description: "Dangerous powder on all grass",
     key: "Spice1I",
+    chipType: "standard",
   },
   {
     number: 78,
@@ -6402,6 +6806,7 @@ export const updatedStandardChips = [
     memory: "22 MB",
     description: "Dangerous powder on all grass",
     key: "Spice1S",
+    chipType: "standard",
   },
   {
     number: 78,
@@ -6413,6 +6818,7 @@ export const updatedStandardChips = [
     memory: "22 MB",
     description: "Dangerous powder on all grass",
     key: "Spice1Z",
+    chipType: "standard",
   },
   {
     number: 78,
@@ -6424,6 +6830,7 @@ export const updatedStandardChips = [
     memory: "22 MB",
     description: "Dangerous powder on all grass",
     key: "Spice1*",
+    chipType: "standard",
   },
   {
     number: 79,
@@ -6435,6 +6842,7 @@ export const updatedStandardChips = [
     memory: "34 MB",
     description: "Dangerous powder on all grass",
     key: "Spice2C",
+    chipType: "standard",
   },
   {
     number: 79,
@@ -6446,6 +6854,7 @@ export const updatedStandardChips = [
     memory: "34 MB",
     description: "Dangerous powder on all grass",
     key: "Spice2F",
+    chipType: "standard",
   },
   {
     number: 79,
@@ -6457,6 +6866,7 @@ export const updatedStandardChips = [
     memory: "34 MB",
     description: "Dangerous powder on all grass",
     key: "Spice2I",
+    chipType: "standard",
   },
   {
     number: 79,
@@ -6468,6 +6878,7 @@ export const updatedStandardChips = [
     memory: "34 MB",
     description: "Dangerous powder on all grass",
     key: "Spice2K",
+    chipType: "standard",
   },
   {
     number: 79,
@@ -6479,6 +6890,7 @@ export const updatedStandardChips = [
     memory: "34 MB",
     description: "Dangerous powder on all grass",
     key: "Spice2R",
+    chipType: "standard",
   },
   {
     number: 80,
@@ -6490,6 +6902,7 @@ export const updatedStandardChips = [
     memory: "46 MB",
     description: "Dangerous powder on all grass",
     key: "Spice3D",
+    chipType: "standard",
   },
   {
     number: 80,
@@ -6501,6 +6914,7 @@ export const updatedStandardChips = [
     memory: "46 MB",
     description: "Dangerous powder on all grass",
     key: "Spice3F",
+    chipType: "standard",
   },
   {
     number: 80,
@@ -6512,6 +6926,7 @@ export const updatedStandardChips = [
     memory: "46 MB",
     description: "Dangerous powder on all grass",
     key: "Spice3J",
+    chipType: "standard",
   },
   {
     number: 80,
@@ -6523,6 +6938,7 @@ export const updatedStandardChips = [
     memory: "46 MB",
     description: "Dangerous powder on all grass",
     key: "Spice3O",
+    chipType: "standard",
   },
   {
     number: 80,
@@ -6534,6 +6950,7 @@ export const updatedStandardChips = [
     memory: "46 MB",
     description: "Dangerous powder on all grass",
     key: "Spice3Q",
+    chipType: "standard",
   },
   {
     number: 81,
@@ -6545,6 +6962,7 @@ export const updatedStandardChips = [
     memory: "34 MB",
     description: "Vertical shaking 3 sq ahead",
     key: "Shake1E",
+    chipType: "standard",
   },
   {
     number: 81,
@@ -6556,6 +6974,7 @@ export const updatedStandardChips = [
     memory: "34 MB",
     description: "Vertical shaking 3 sq ahead",
     key: "Shake1G",
+    chipType: "standard",
   },
   {
     number: 81,
@@ -6567,6 +6986,7 @@ export const updatedStandardChips = [
     memory: "34 MB",
     description: "Vertical shaking 3 sq ahead",
     key: "Shake1R",
+    chipType: "standard",
   },
   {
     number: 81,
@@ -6578,6 +6998,7 @@ export const updatedStandardChips = [
     memory: "34 MB",
     description: "Vertical shaking 3 sq ahead",
     key: "Shake1S",
+    chipType: "standard",
   },
   {
     number: 81,
@@ -6589,6 +7010,7 @@ export const updatedStandardChips = [
     memory: "34 MB",
     description: "Vertical shaking 3 sq ahead",
     key: "Shake1U",
+    chipType: "standard",
   },
   {
     number: 82,
@@ -6600,6 +7022,7 @@ export const updatedStandardChips = [
     memory: "40 MB",
     description: "Vertical shaking 3 sq ahead",
     key: "Shake2B",
+    chipType: "standard",
   },
   {
     number: 82,
@@ -6611,6 +7034,7 @@ export const updatedStandardChips = [
     memory: "40 MB",
     description: "Vertical shaking 3 sq ahead",
     key: "Shake2F",
+    chipType: "standard",
   },
   {
     number: 82,
@@ -6622,6 +7046,7 @@ export const updatedStandardChips = [
     memory: "40 MB",
     description: "Vertical shaking 3 sq ahead",
     key: "Shake2I",
+    chipType: "standard",
   },
   {
     number: 82,
@@ -6633,6 +7058,7 @@ export const updatedStandardChips = [
     memory: "40 MB",
     description: "Vertical shaking 3 sq ahead",
     key: "Shake2L",
+    chipType: "standard",
   },
   {
     number: 82,
@@ -6644,6 +7070,7 @@ export const updatedStandardChips = [
     memory: "40 MB",
     description: "Vertical shaking 3 sq ahead",
     key: "Shake2Q",
+    chipType: "standard",
   },
   {
     number: 83,
@@ -6655,6 +7082,7 @@ export const updatedStandardChips = [
     memory: "50 MB",
     description: "Vertical shaking 3 sq ahead",
     key: "Shake3D",
+    chipType: "standard",
   },
   {
     number: 83,
@@ -6666,6 +7094,7 @@ export const updatedStandardChips = [
     memory: "50 MB",
     description: "Vertical shaking 3 sq ahead",
     key: "Shake3M",
+    chipType: "standard",
   },
   {
     number: 83,
@@ -6677,6 +7106,7 @@ export const updatedStandardChips = [
     memory: "50 MB",
     description: "Vertical shaking 3 sq ahead",
     key: "Shake3R",
+    chipType: "standard",
   },
   {
     number: 83,
@@ -6688,6 +7118,7 @@ export const updatedStandardChips = [
     memory: "50 MB",
     description: "Vertical shaking 3 sq ahead",
     key: "Shake3T",
+    chipType: "standard",
   },
   {
     number: 83,
@@ -6699,6 +7130,7 @@ export const updatedStandardChips = [
     memory: "50 MB",
     description: "Vertical shaking 3 sq ahead",
     key: "Shake3Z",
+    chipType: "standard",
   },
   {
     number: 84,
@@ -6710,6 +7142,7 @@ export const updatedStandardChips = [
     memory: "66 MB",
     description: "Fires if something behind",
     key: "NoBeam1C",
+    chipType: "standard",
   },
   {
     number: 84,
@@ -6721,6 +7154,7 @@ export const updatedStandardChips = [
     memory: "66 MB",
     description: "Fires if something behind",
     key: "NoBeam1F",
+    chipType: "standard",
   },
   {
     number: 84,
@@ -6732,6 +7166,7 @@ export const updatedStandardChips = [
     memory: "66 MB",
     description: "Fires if something behind",
     key: "NoBeam1G",
+    chipType: "standard",
   },
   {
     number: 84,
@@ -6743,6 +7178,7 @@ export const updatedStandardChips = [
     memory: "66 MB",
     description: "Fires if something behind",
     key: "NoBeam1T",
+    chipType: "standard",
   },
   {
     number: 84,
@@ -6754,6 +7190,7 @@ export const updatedStandardChips = [
     memory: "66 MB",
     description: "Fires if something behind",
     key: "NoBeam1Z",
+    chipType: "standard",
   },
   {
     number: 85,
@@ -6765,6 +7202,7 @@ export const updatedStandardChips = [
     memory: "77 MB",
     description: "Fires if something behind",
     key: "NoBeam2E",
+    chipType: "standard",
   },
   {
     number: 85,
@@ -6776,6 +7214,7 @@ export const updatedStandardChips = [
     memory: "77 MB",
     description: "Fires if something behind",
     key: "NoBeam2I",
+    chipType: "standard",
   },
   {
     number: 85,
@@ -6787,6 +7226,7 @@ export const updatedStandardChips = [
     memory: "77 MB",
     description: "Fires if something behind",
     key: "NoBeam2S",
+    chipType: "standard",
   },
   {
     number: 85,
@@ -6798,6 +7238,7 @@ export const updatedStandardChips = [
     memory: "77 MB",
     description: "Fires if something behind",
     key: "NoBeam2U",
+    chipType: "standard",
   },
   {
     number: 85,
@@ -6809,6 +7250,7 @@ export const updatedStandardChips = [
     memory: "77 MB",
     description: "Fires if something behind",
     key: "NoBeam2Y",
+    chipType: "standard",
   },
   {
     number: 86,
@@ -6820,6 +7262,7 @@ export const updatedStandardChips = [
     memory: "88 MB",
     description: "Fires if something behind",
     key: "NoBeam3H",
+    chipType: "standard",
   },
   {
     number: 86,
@@ -6831,6 +7274,7 @@ export const updatedStandardChips = [
     memory: "88 MB",
     description: "Fires if something behind",
     key: "NoBeam3M",
+    chipType: "standard",
   },
   {
     number: 86,
@@ -6842,6 +7286,7 @@ export const updatedStandardChips = [
     memory: "88 MB",
     description: "Fires if something behind",
     key: "NoBeam3V",
+    chipType: "standard",
   },
   {
     number: 86,
@@ -6853,6 +7298,7 @@ export const updatedStandardChips = [
     memory: "88 MB",
     description: "Fires if something behind",
     key: "NoBeam3W",
+    chipType: "standard",
   },
   {
     number: 86,
@@ -6864,6 +7310,7 @@ export const updatedStandardChips = [
     memory: "88 MB",
     description: "Fires if something behind",
     key: "NoBeam3Z",
+    chipType: "standard",
   },
   {
     number: 87,
@@ -6875,6 +7322,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Hammer smashes front!",
     key: "HammerB",
+    chipType: "standard",
   },
   {
     number: 87,
@@ -6886,6 +7334,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Hammer smashes front!",
     key: "HammerG",
+    chipType: "standard",
   },
   {
     number: 87,
@@ -6897,6 +7346,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Hammer smashes front!",
     key: "HammerL",
+    chipType: "standard",
   },
   {
     number: 87,
@@ -6908,6 +7358,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Hammer smashes front!",
     key: "HammerP",
+    chipType: "standard",
   },
   {
     number: 87,
@@ -6919,6 +7370,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Hammer smashes front!",
     key: "HammerT",
+    chipType: "standard",
   },
   {
     number: 87,
@@ -6930,6 +7382,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Hammer smashes front!",
     key: "Hammer*",
+    chipType: "standard",
   },
   {
     number: 88,
@@ -6941,6 +7394,7 @@ export const updatedStandardChips = [
     memory: "22 MB",
     description: "Geyser 3 squares forward",
     key: "GeyserB",
+    chipType: "standard",
   },
   {
     number: 88,
@@ -6952,6 +7406,7 @@ export const updatedStandardChips = [
     memory: "22 MB",
     description: "Geyser 3 squares forward",
     key: "GeyserC",
+    chipType: "standard",
   },
   {
     number: 88,
@@ -6963,6 +7418,7 @@ export const updatedStandardChips = [
     memory: "22 MB",
     description: "Geyser 3 squares forward",
     key: "GeyserL",
+    chipType: "standard",
   },
   {
     number: 88,
@@ -6974,6 +7430,7 @@ export const updatedStandardChips = [
     memory: "22 MB",
     description: "Geyser 3 squares forward",
     key: "GeyserS",
+    chipType: "standard",
   },
   {
     number: 88,
@@ -6985,6 +7442,7 @@ export const updatedStandardChips = [
     memory: "22 MB",
     description: "Geyser 3 squares forward",
     key: "GeyserW",
+    chipType: "standard",
   },
   {
     number: 89,
@@ -6996,6 +7454,7 @@ export const updatedStandardChips = [
     memory: "45 MB",
     description: "Entwines adjacent enemies!",
     key: "Rope1D",
+    chipType: "standard",
   },
   {
     number: 89,
@@ -7007,6 +7466,7 @@ export const updatedStandardChips = [
     memory: "45 MB",
     description: "Entwines adjacent enemies!",
     key: "Rope1G",
+    chipType: "standard",
   },
   {
     number: 89,
@@ -7018,6 +7478,7 @@ export const updatedStandardChips = [
     memory: "45 MB",
     description: "Entwines adjacent enemies!",
     key: "Rope1J",
+    chipType: "standard",
   },
   {
     number: 89,
@@ -7029,6 +7490,7 @@ export const updatedStandardChips = [
     memory: "45 MB",
     description: "Entwines adjacent enemies!",
     key: "Rope1M",
+    chipType: "standard",
   },
   {
     number: 89,
@@ -7040,6 +7502,7 @@ export const updatedStandardChips = [
     memory: "45 MB",
     description: "Entwines adjacent enemies!",
     key: "Rope1O",
+    chipType: "standard",
   },
   {
     number: 89,
@@ -7051,6 +7514,7 @@ export const updatedStandardChips = [
     memory: "45 MB",
     description: "Entwines adjacent enemies!",
     key: "Rope1*",
+    chipType: "standard",
   },
   {
     number: 90,
@@ -7062,6 +7526,7 @@ export const updatedStandardChips = [
     memory: "55 MB",
     description: "Entwines adjacent enemies!",
     key: "Rope2E",
+    chipType: "standard",
   },
   {
     number: 90,
@@ -7073,6 +7538,7 @@ export const updatedStandardChips = [
     memory: "55 MB",
     description: "Entwines adjacent enemies!",
     key: "Rope2G",
+    chipType: "standard",
   },
   {
     number: 90,
@@ -7084,6 +7550,7 @@ export const updatedStandardChips = [
     memory: "55 MB",
     description: "Entwines adjacent enemies!",
     key: "Rope2O",
+    chipType: "standard",
   },
   {
     number: 90,
@@ -7095,6 +7562,7 @@ export const updatedStandardChips = [
     memory: "55 MB",
     description: "Entwines adjacent enemies!",
     key: "Rope2T",
+    chipType: "standard",
   },
   {
     number: 90,
@@ -7106,6 +7574,7 @@ export const updatedStandardChips = [
     memory: "55 MB",
     description: "Entwines adjacent enemies!",
     key: "Rope2U",
+    chipType: "standard",
   },
   {
     number: 91,
@@ -7117,6 +7586,7 @@ export const updatedStandardChips = [
     memory: "65 MB",
     description: "Entwines adjacent enemies!",
     key: "Rope3H",
+    chipType: "standard",
   },
   {
     number: 91,
@@ -7128,6 +7598,7 @@ export const updatedStandardChips = [
     memory: "65 MB",
     description: "Entwines adjacent enemies!",
     key: "Rope3I",
+    chipType: "standard",
   },
   {
     number: 91,
@@ -7139,6 +7610,7 @@ export const updatedStandardChips = [
     memory: "65 MB",
     description: "Entwines adjacent enemies!",
     key: "Rope3T",
+    chipType: "standard",
   },
   {
     number: 91,
@@ -7150,6 +7622,7 @@ export const updatedStandardChips = [
     memory: "65 MB",
     description: "Entwines adjacent enemies!",
     key: "Rope3U",
+    chipType: "standard",
   },
   {
     number: 91,
@@ -7161,6 +7634,7 @@ export const updatedStandardChips = [
     memory: "65 MB",
     description: "Entwines adjacent enemies!",
     key: "Rope3V",
+    chipType: "standard",
   },
   {
     number: 92,
@@ -7172,6 +7646,7 @@ export const updatedStandardChips = [
     memory: "15 MB",
     description: "Boomerang encircles field",
     key: "Boomer1F",
+    chipType: "standard",
   },
   {
     number: 92,
@@ -7183,6 +7658,7 @@ export const updatedStandardChips = [
     memory: "15 MB",
     description: "Boomerang encircles field",
     key: "Boomer1H",
+    chipType: "standard",
   },
   {
     number: 92,
@@ -7194,6 +7670,7 @@ export const updatedStandardChips = [
     memory: "15 MB",
     description: "Boomerang encircles field",
     key: "Boomer1J",
+    chipType: "standard",
   },
   {
     number: 92,
@@ -7205,6 +7682,7 @@ export const updatedStandardChips = [
     memory: "15 MB",
     description: "Boomerang encircles field",
     key: "Boomer1M",
+    chipType: "standard",
   },
   {
     number: 92,
@@ -7216,6 +7694,7 @@ export const updatedStandardChips = [
     memory: "15 MB",
     description: "Boomerang encircles field",
     key: "Boomer1T",
+    chipType: "standard",
   },
   {
     number: 92,
@@ -7227,6 +7706,7 @@ export const updatedStandardChips = [
     memory: "15 MB",
     description: "Boomerang encircles field",
     key: "Boomer1*",
+    chipType: "standard",
   },
   {
     number: 93,
@@ -7238,6 +7718,7 @@ export const updatedStandardChips = [
     memory: "22 MB",
     description: "Boomerang encircles field",
     key: "Boomer2E",
+    chipType: "standard",
   },
   {
     number: 93,
@@ -7249,6 +7730,7 @@ export const updatedStandardChips = [
     memory: "22 MB",
     description: "Boomerang encircles field",
     key: "Boomer2I",
+    chipType: "standard",
   },
   {
     number: 93,
@@ -7260,6 +7742,7 @@ export const updatedStandardChips = [
     memory: "22 MB",
     description: "Boomerang encircles field",
     key: "Boomer2K",
+    chipType: "standard",
   },
   {
     number: 93,
@@ -7271,6 +7754,7 @@ export const updatedStandardChips = [
     memory: "22 MB",
     description: "Boomerang encircles field",
     key: "Boomer2N",
+    chipType: "standard",
   },
   {
     number: 93,
@@ -7282,6 +7766,7 @@ export const updatedStandardChips = [
     memory: "22 MB",
     description: "Boomerang encircles field",
     key: "Boomer2V",
+    chipType: "standard",
   },
   {
     number: 93,
@@ -7293,6 +7778,7 @@ export const updatedStandardChips = [
     memory: "22 MB",
     description: "Boomerang encircles field",
     key: "Boomer2*",
+    chipType: "standard",
   },
   {
     number: 94,
@@ -7304,6 +7790,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Boomerang encircles field",
     key: "Boomer3L",
+    chipType: "standard",
   },
   {
     number: 94,
@@ -7315,6 +7802,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Boomerang encircles field",
     key: "Boomer3O",
+    chipType: "standard",
   },
   {
     number: 94,
@@ -7326,6 +7814,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Boomerang encircles field",
     key: "Boomer3P",
+    chipType: "standard",
   },
   {
     number: 94,
@@ -7337,6 +7826,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Boomerang encircles field",
     key: "Boomer3U",
+    chipType: "standard",
   },
   {
     number: 94,
@@ -7348,6 +7838,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Boomerang encircles field",
     key: "Boomer3Z",
+    chipType: "standard",
   },
   {
     number: 95,
@@ -7359,6 +7850,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Poison area w/ A Button!",
     key: "PoisMaskA",
+    chipType: "standard",
   },
   {
     number: 95,
@@ -7370,6 +7862,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Poison area w/ A Button!",
     key: "PoisMaskF",
+    chipType: "standard",
   },
   {
     number: 95,
@@ -7381,6 +7874,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Poison area w/ A Button!",
     key: "PoisMaskN",
+    chipType: "standard",
   },
   {
     number: 95,
@@ -7392,6 +7886,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Poison area w/ A Button!",
     key: "PoisMaskQ",
+    chipType: "standard",
   },
   {
     number: 95,
@@ -7403,6 +7898,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Poison area w/ A Button!",
     key: "PoisMaskV",
+    chipType: "standard",
   },
   {
     number: 95,
@@ -7414,6 +7910,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Poison area w/ A Button!",
     key: "PoisMask*",
+    chipType: "standard",
   },
   {
     number: 96,
@@ -7425,6 +7922,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Spread poison w/ A Button!",
     key: "PoisFaceA",
+    chipType: "standard",
   },
   {
     number: 96,
@@ -7436,6 +7934,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Spread poison w/ A Button!",
     key: "PoisFaceN",
+    chipType: "standard",
   },
   {
     number: 96,
@@ -7447,6 +7946,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Spread poison w/ A Button!",
     key: "PoisFaceQ",
+    chipType: "standard",
   },
   {
     number: 96,
@@ -7458,6 +7958,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Spread poison w/ A Button!",
     key: "PoisFaceV",
+    chipType: "standard",
   },
   {
     number: 96,
@@ -7469,6 +7970,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Spread poison w/ A Button!",
     key: "PoisFaceW",
+    chipType: "standard",
   },
   {
     number: 96,
@@ -7480,6 +7982,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Spread poison w/ A Button!",
     key: "PoisFace*",
+    chipType: "standard",
   },
   {
     number: 97,
@@ -7491,6 +7994,7 @@ export const updatedStandardChips = [
     memory: "23 MB",
     description: "Paralyzes enemy w/ erthquake",
     key: "RockArm1D",
+    chipType: "standard",
   },
   {
     number: 97,
@@ -7502,6 +8006,7 @@ export const updatedStandardChips = [
     memory: "23 MB",
     description: "Paralyzes enemy w/ erthquake",
     key: "RockArm1H",
+    chipType: "standard",
   },
   {
     number: 97,
@@ -7513,6 +8018,7 @@ export const updatedStandardChips = [
     memory: "23 MB",
     description: "Paralyzes enemy w/ erthquake",
     key: "RockArm1J",
+    chipType: "standard",
   },
   {
     number: 97,
@@ -7524,6 +8030,7 @@ export const updatedStandardChips = [
     memory: "23 MB",
     description: "Paralyzes enemy w/ erthquake",
     key: "RockArm1O",
+    chipType: "standard",
   },
   {
     number: 97,
@@ -7535,6 +8042,7 @@ export const updatedStandardChips = [
     memory: "23 MB",
     description: "Paralyzes enemy w/ erthquake",
     key: "RockArm1P",
+    chipType: "standard",
   },
   {
     number: 97,
@@ -7546,6 +8054,7 @@ export const updatedStandardChips = [
     memory: "23 MB",
     description: "Paralyzes enemy w/ erthquake",
     key: "RockArm1*",
+    chipType: "standard",
   },
   {
     number: 98,
@@ -7557,6 +8066,7 @@ export const updatedStandardChips = [
     memory: "35 MB",
     description: "Paralyzes enemy w/ erthquake",
     key: "RockArm2G",
+    chipType: "standard",
   },
   {
     number: 98,
@@ -7568,6 +8078,7 @@ export const updatedStandardChips = [
     memory: "35 MB",
     description: "Paralyzes enemy w/ erthquake",
     key: "RockArm2M",
+    chipType: "standard",
   },
   {
     number: 98,
@@ -7579,6 +8090,7 @@ export const updatedStandardChips = [
     memory: "35 MB",
     description: "Paralyzes enemy w/ erthquake",
     key: "RockArm2P",
+    chipType: "standard",
   },
   {
     number: 98,
@@ -7590,6 +8102,7 @@ export const updatedStandardChips = [
     memory: "35 MB",
     description: "Paralyzes enemy w/ erthquake",
     key: "RockArm2S",
+    chipType: "standard",
   },
   {
     number: 98,
@@ -7601,6 +8114,7 @@ export const updatedStandardChips = [
     memory: "35 MB",
     description: "Paralyzes enemy w/ erthquake",
     key: "RockArm2V",
+    chipType: "standard",
   },
   {
     number: 98,
@@ -7612,6 +8126,7 @@ export const updatedStandardChips = [
     memory: "35 MB",
     description: "Paralyzes enemy w/ erthquake",
     key: "RockArm2*",
+    chipType: "standard",
   },
   {
     number: 99,
@@ -7623,6 +8138,7 @@ export const updatedStandardChips = [
     memory: "47 MB",
     description: "Paralyzes enemy w/ erthquake",
     key: "RockArm3C",
+    chipType: "standard",
   },
   {
     number: 99,
@@ -7634,6 +8150,7 @@ export const updatedStandardChips = [
     memory: "47 MB",
     description: "Paralyzes enemy w/ erthquake",
     key: "RockArm3I",
+    chipType: "standard",
   },
   {
     number: 99,
@@ -7645,6 +8162,7 @@ export const updatedStandardChips = [
     memory: "47 MB",
     description: "Paralyzes enemy w/ erthquake",
     key: "RockArm3L",
+    chipType: "standard",
   },
   {
     number: 99,
@@ -7656,6 +8174,7 @@ export const updatedStandardChips = [
     memory: "47 MB",
     description: "Paralyzes enemy w/ erthquake",
     key: "RockArm3T",
+    chipType: "standard",
   },
   {
     number: 99,
@@ -7667,6 +8186,7 @@ export const updatedStandardChips = [
     memory: "47 MB",
     description: "Paralyzes enemy w/ erthquake",
     key: "RockArm3Z",
+    chipType: "standard",
   },
   {
     number: 100,
@@ -7678,6 +8198,7 @@ export const updatedStandardChips = [
     memory: "25 MB",
     description: "Guard, and bite into the enemy",
     key: "CrsShld1A",
+    chipType: "standard",
   },
   {
     number: 100,
@@ -7689,6 +8210,7 @@ export const updatedStandardChips = [
     memory: "25 MB",
     description: "Guard, and bite into the enemy",
     key: "CrsShld1C",
+    chipType: "standard",
   },
   {
     number: 100,
@@ -7700,6 +8222,7 @@ export const updatedStandardChips = [
     memory: "25 MB",
     description: "Guard, and bite into the enemy",
     key: "CrsShld1H",
+    chipType: "standard",
   },
   {
     number: 100,
@@ -7711,6 +8234,7 @@ export const updatedStandardChips = [
     memory: "25 MB",
     description: "Guard, and bite into the enemy",
     key: "CrsShld1L",
+    chipType: "standard",
   },
   {
     number: 100,
@@ -7722,6 +8246,7 @@ export const updatedStandardChips = [
     memory: "25 MB",
     description: "Guard, and bite into the enemy",
     key: "CrsShld1P",
+    chipType: "standard",
   },
   {
     number: 100,
@@ -7733,6 +8258,7 @@ export const updatedStandardChips = [
     memory: "25 MB",
     description: "Guard, and bite into the enemy",
     key: "CrsShld1*",
+    chipType: "standard",
   },
   {
     number: 101,
@@ -7744,6 +8270,7 @@ export const updatedStandardChips = [
     memory: "33 MB",
     description: "Guard, and bite into the enemy",
     key: "CrsShld2B",
+    chipType: "standard",
   },
   {
     number: 101,
@@ -7755,6 +8282,7 @@ export const updatedStandardChips = [
     memory: "33 MB",
     description: "Guard, and bite into the enemy",
     key: "CrsShld2C",
+    chipType: "standard",
   },
   {
     number: 101,
@@ -7766,6 +8294,7 @@ export const updatedStandardChips = [
     memory: "33 MB",
     description: "Guard, and bite into the enemy",
     key: "CrsShld2L",
+    chipType: "standard",
   },
   {
     number: 101,
@@ -7777,6 +8306,7 @@ export const updatedStandardChips = [
     memory: "33 MB",
     description: "Guard, and bite into the enemy",
     key: "CrsShld2S",
+    chipType: "standard",
   },
   {
     number: 101,
@@ -7788,6 +8318,7 @@ export const updatedStandardChips = [
     memory: "33 MB",
     description: "Guard, and bite into the enemy",
     key: "CrsShld2T",
+    chipType: "standard",
   },
   {
     number: 102,
@@ -7799,6 +8330,7 @@ export const updatedStandardChips = [
     memory: "41 MB",
     description: "Guard, and bite into the enemy",
     key: "CrsShld3C",
+    chipType: "standard",
   },
   {
     number: 102,
@@ -7810,6 +8342,7 @@ export const updatedStandardChips = [
     memory: "41 MB",
     description: "Guard, and bite into the enemy",
     key: "CrsShld3E",
+    chipType: "standard",
   },
   {
     number: 102,
@@ -7821,6 +8354,7 @@ export const updatedStandardChips = [
     memory: "41 MB",
     description: "Guard, and bite into the enemy",
     key: "CrsShld3L",
+    chipType: "standard",
   },
   {
     number: 102,
@@ -7832,6 +8366,7 @@ export const updatedStandardChips = [
     memory: "41 MB",
     description: "Guard, and bite into the enemy",
     key: "CrsShld3N",
+    chipType: "standard",
   },
   {
     number: 102,
@@ -7843,6 +8378,7 @@ export const updatedStandardChips = [
     memory: "41 MB",
     description: "Guard, and bite into the enemy",
     key: "CrsShld3R",
+    chipType: "standard",
   },
   {
     number: 103,
@@ -7854,6 +8390,7 @@ export const updatedStandardChips = [
     memory: "35 MB",
     description: "Cursor destroys panel!",
     key: "Magnum1A",
+    chipType: "standard",
   },
   {
     number: 103,
@@ -7865,6 +8402,7 @@ export const updatedStandardChips = [
     memory: "35 MB",
     description: "Cursor destroys panel!",
     key: "Magnum1C",
+    chipType: "standard",
   },
   {
     number: 103,
@@ -7876,6 +8414,7 @@ export const updatedStandardChips = [
     memory: "35 MB",
     description: "Cursor destroys panel!",
     key: "Magnum1H",
+    chipType: "standard",
   },
   {
     number: 103,
@@ -7887,6 +8426,7 @@ export const updatedStandardChips = [
     memory: "35 MB",
     description: "Cursor destroys panel!",
     key: "Magnum1T",
+    chipType: "standard",
   },
   {
     number: 103,
@@ -7898,6 +8438,7 @@ export const updatedStandardChips = [
     memory: "35 MB",
     description: "Cursor destroys panel!",
     key: "Magnum1V",
+    chipType: "standard",
   },
   {
     number: 104,
@@ -7909,6 +8450,7 @@ export const updatedStandardChips = [
     memory: "55 MB",
     description: "Cursor destroys panel!",
     key: "Magnum2B",
+    chipType: "standard",
   },
   {
     number: 104,
@@ -7920,6 +8462,7 @@ export const updatedStandardChips = [
     memory: "55 MB",
     description: "Cursor destroys panel!",
     key: "Magnum2G",
+    chipType: "standard",
   },
   {
     number: 104,
@@ -7931,6 +8474,7 @@ export const updatedStandardChips = [
     memory: "55 MB",
     description: "Cursor destroys panel!",
     key: "Magnum2N",
+    chipType: "standard",
   },
   {
     number: 104,
@@ -7942,6 +8486,7 @@ export const updatedStandardChips = [
     memory: "55 MB",
     description: "Cursor destroys panel!",
     key: "Magnum2O",
+    chipType: "standard",
   },
   {
     number: 104,
@@ -7953,6 +8498,7 @@ export const updatedStandardChips = [
     memory: "55 MB",
     description: "Cursor destroys panel!",
     key: "Magnum2Z",
+    chipType: "standard",
   },
   {
     number: 105,
@@ -7964,6 +8510,7 @@ export const updatedStandardChips = [
     memory: "75 MB",
     description: "Cursor destroys panel!",
     key: "Magnum3D",
+    chipType: "standard",
   },
   {
     number: 105,
@@ -7975,6 +8522,7 @@ export const updatedStandardChips = [
     memory: "75 MB",
     description: "Cursor destroys panel!",
     key: "Magnum3F",
+    chipType: "standard",
   },
   {
     number: 105,
@@ -7986,6 +8534,7 @@ export const updatedStandardChips = [
     memory: "75 MB",
     description: "Cursor destroys panel!",
     key: "Magnum3I",
+    chipType: "standard",
   },
   {
     number: 105,
@@ -7997,6 +8546,7 @@ export const updatedStandardChips = [
     memory: "75 MB",
     description: "Cursor destroys panel!",
     key: "Magnum3S",
+    chipType: "standard",
   },
   {
     number: 105,
@@ -8008,6 +8558,7 @@ export const updatedStandardChips = [
     memory: "75 MB",
     description: "Cursor destroys panel!",
     key: "Magnum3W",
+    chipType: "standard",
   },
   {
     number: 106,
@@ -8019,6 +8570,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Launches electric attack",
     key: "Plasma1B",
+    chipType: "standard",
   },
   {
     number: 106,
@@ -8030,6 +8582,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Launches electric attack",
     key: "Plasma1D",
+    chipType: "standard",
   },
   {
     number: 106,
@@ -8041,6 +8594,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Launches electric attack",
     key: "Plasma1J",
+    chipType: "standard",
   },
   {
     number: 106,
@@ -8052,6 +8606,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Launches electric attack",
     key: "Plasma1R",
+    chipType: "standard",
   },
   {
     number: 106,
@@ -8063,6 +8618,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Launches electric attack",
     key: "Plasma1T",
+    chipType: "standard",
   },
   {
     number: 107,
@@ -8074,6 +8630,7 @@ export const updatedStandardChips = [
     memory: "26 MB",
     description: "Launches electric attack",
     key: "Plasma2A",
+    chipType: "standard",
   },
   {
     number: 107,
@@ -8085,6 +8642,7 @@ export const updatedStandardChips = [
     memory: "26 MB",
     description: "Launches electric attack",
     key: "Plasma2G",
+    chipType: "standard",
   },
   {
     number: 107,
@@ -8096,6 +8654,7 @@ export const updatedStandardChips = [
     memory: "26 MB",
     description: "Launches electric attack",
     key: "Plasma2K",
+    chipType: "standard",
   },
   {
     number: 107,
@@ -8107,6 +8666,7 @@ export const updatedStandardChips = [
     memory: "26 MB",
     description: "Launches electric attack",
     key: "Plasma2M",
+    chipType: "standard",
   },
   {
     number: 107,
@@ -8118,6 +8678,7 @@ export const updatedStandardChips = [
     memory: "26 MB",
     description: "Launches electric attack",
     key: "Plasma2Q",
+    chipType: "standard",
   },
   {
     number: 108,
@@ -8129,6 +8690,7 @@ export const updatedStandardChips = [
     memory: "34 MB",
     description: "Launches electric attack",
     key: "Plasma3F",
+    chipType: "standard",
   },
   {
     number: 108,
@@ -8140,6 +8702,7 @@ export const updatedStandardChips = [
     memory: "34 MB",
     description: "Launches electric attack",
     key: "Plasma3I",
+    chipType: "standard",
   },
   {
     number: 108,
@@ -8151,6 +8714,7 @@ export const updatedStandardChips = [
     memory: "34 MB",
     description: "Launches electric attack",
     key: "Plasma3N",
+    chipType: "standard",
   },
   {
     number: 108,
@@ -8162,6 +8726,7 @@ export const updatedStandardChips = [
     memory: "34 MB",
     description: "Launches electric attack",
     key: "Plasma3P",
+    chipType: "standard",
   },
   {
     number: 108,
@@ -8173,6 +8738,7 @@ export const updatedStandardChips = [
     memory: "34 MB",
     description: "Launches electric attack",
     key: "Plasma3S",
+    chipType: "standard",
   },
   {
     number: 109,
@@ -8184,6 +8750,7 @@ export const updatedStandardChips = [
     memory: "28 MB",
     description: "Meteors smash enemies!",
     key: "RndmMetrE",
+    chipType: "standard",
   },
   {
     number: 109,
@@ -8195,6 +8762,7 @@ export const updatedStandardChips = [
     memory: "28 MB",
     description: "Meteors smash enemies!",
     key: "RndmMetrI",
+    chipType: "standard",
   },
   {
     number: 109,
@@ -8206,6 +8774,7 @@ export const updatedStandardChips = [
     memory: "28 MB",
     description: "Meteors smash enemies!",
     key: "RndmMetrS",
+    chipType: "standard",
   },
   {
     number: 109,
@@ -8217,6 +8786,7 @@ export const updatedStandardChips = [
     memory: "28 MB",
     description: "Meteors smash enemies!",
     key: "RndmMetrV",
+    chipType: "standard",
   },
   {
     number: 109,
@@ -8228,6 +8798,7 @@ export const updatedStandardChips = [
     memory: "28 MB",
     description: "Meteors smash enemies!",
     key: "RndmMetrZ",
+    chipType: "standard",
   },
   {
     number: 110,
@@ -8239,6 +8810,7 @@ export const updatedStandardChips = [
     memory: "48 MB",
     description: "Meteors smash into sq",
     key: "HoleMetrC",
+    chipType: "standard",
   },
   {
     number: 110,
@@ -8250,6 +8822,7 @@ export const updatedStandardChips = [
     memory: "48 MB",
     description: "Meteors smash into sq",
     key: "HoleMetrH",
+    chipType: "standard",
   },
   {
     number: 110,
@@ -8261,6 +8834,7 @@ export const updatedStandardChips = [
     memory: "48 MB",
     description: "Meteors smash into sq",
     key: "HoleMetrJ",
+    chipType: "standard",
   },
   {
     number: 110,
@@ -8272,6 +8846,7 @@ export const updatedStandardChips = [
     memory: "48 MB",
     description: "Meteors smash into sq",
     key: "HoleMetrN",
+    chipType: "standard",
   },
   {
     number: 110,
@@ -8283,6 +8858,7 @@ export const updatedStandardChips = [
     memory: "48 MB",
     description: "Meteors smash into sq",
     key: "HoleMetrQ",
+    chipType: "standard",
   },
   {
     number: 111,
@@ -8294,6 +8870,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Meteors shoot out forward",
     key: "ShotMetrA",
+    chipType: "standard",
   },
   {
     number: 111,
@@ -8305,6 +8882,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Meteors shoot out forward",
     key: "ShotMetrD",
+    chipType: "standard",
   },
   {
     number: 111,
@@ -8316,6 +8894,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Meteors shoot out forward",
     key: "ShotMetrF",
+    chipType: "standard",
   },
   {
     number: 111,
@@ -8327,6 +8906,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Meteors shoot out forward",
     key: "ShotMetrS",
+    chipType: "standard",
   },
   {
     number: 111,
@@ -8338,6 +8918,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Meteors shoot out forward",
     key: "ShotMetrY",
+    chipType: "standard",
   },
   {
     number: 112,
@@ -8349,6 +8930,7 @@ export const updatedStandardChips = [
     memory: "32 MB",
     description: "Advance w/ A, stop to attack",
     key: "Needler1I",
+    chipType: "standard",
   },
   {
     number: 112,
@@ -8360,6 +8942,7 @@ export const updatedStandardChips = [
     memory: "32 MB",
     description: "Advance w/ A, stop to attack",
     key: "Needler1J",
+    chipType: "standard",
   },
   {
     number: 112,
@@ -8371,6 +8954,7 @@ export const updatedStandardChips = [
     memory: "32 MB",
     description: "Advance w/ A, stop to attack",
     key: "Needler1M",
+    chipType: "standard",
   },
   {
     number: 112,
@@ -8382,6 +8966,7 @@ export const updatedStandardChips = [
     memory: "32 MB",
     description: "Advance w/ A, stop to attack",
     key: "Needler1R",
+    chipType: "standard",
   },
   {
     number: 112,
@@ -8393,6 +8978,7 @@ export const updatedStandardChips = [
     memory: "32 MB",
     description: "Advance w/ A, stop to attack",
     key: "Needler1S",
+    chipType: "standard",
   },
   {
     number: 113,
@@ -8404,6 +8990,7 @@ export const updatedStandardChips = [
     memory: "52 MB",
     description: "Advance w/ A, stop to attack",
     key: "Needler2F",
+    chipType: "standard",
   },
   {
     number: 113,
@@ -8415,6 +9002,7 @@ export const updatedStandardChips = [
     memory: "52 MB",
     description: "Advance w/ A, stop to attack",
     key: "Needler2H",
+    chipType: "standard",
   },
   {
     number: 113,
@@ -8426,6 +9014,7 @@ export const updatedStandardChips = [
     memory: "52 MB",
     description: "Advance w/ A, stop to attack",
     key: "Needler2M",
+    chipType: "standard",
   },
   {
     number: 113,
@@ -8437,6 +9026,7 @@ export const updatedStandardChips = [
     memory: "52 MB",
     description: "Advance w/ A, stop to attack",
     key: "Needler2T",
+    chipType: "standard",
   },
   {
     number: 113,
@@ -8448,6 +9038,7 @@ export const updatedStandardChips = [
     memory: "52 MB",
     description: "Advance w/ A, stop to attack",
     key: "Needler2V",
+    chipType: "standard",
   },
   {
     number: 114,
@@ -8459,6 +9050,7 @@ export const updatedStandardChips = [
     memory: "72 MB",
     description: "Advance w/ A, stop to attack",
     key: "Needler3D",
+    chipType: "standard",
   },
   {
     number: 114,
@@ -8470,6 +9062,7 @@ export const updatedStandardChips = [
     memory: "72 MB",
     description: "Advance w/ A, stop to attack",
     key: "Needler3L",
+    chipType: "standard",
   },
   {
     number: 114,
@@ -8481,6 +9074,7 @@ export const updatedStandardChips = [
     memory: "72 MB",
     description: "Advance w/ A, stop to attack",
     key: "Needler3O",
+    chipType: "standard",
   },
   {
     number: 114,
@@ -8492,6 +9086,7 @@ export const updatedStandardChips = [
     memory: "72 MB",
     description: "Advance w/ A, stop to attack",
     key: "Needler3U",
+    chipType: "standard",
   },
   {
     number: 114,
@@ -8503,6 +9098,7 @@ export const updatedStandardChips = [
     memory: "72 MB",
     description: "Advance w/ A, stop to attack",
     key: "Needler3Z",
+    chipType: "standard",
   },
   {
     number: 115,
@@ -8514,6 +9110,7 @@ export const updatedStandardChips = [
     memory: "29 MB",
     description: "Creates a totem to blow fire",
     key: "Totem1G",
+    chipType: "standard",
   },
   {
     number: 115,
@@ -8525,6 +9122,7 @@ export const updatedStandardChips = [
     memory: "29 MB",
     description: "Creates a totem to blow fire",
     key: "Totem1H",
+    chipType: "standard",
   },
   {
     number: 115,
@@ -8536,6 +9134,7 @@ export const updatedStandardChips = [
     memory: "29 MB",
     description: "Creates a totem to blow fire",
     key: "Totem1M",
+    chipType: "standard",
   },
   {
     number: 115,
@@ -8547,6 +9146,7 @@ export const updatedStandardChips = [
     memory: "29 MB",
     description: "Creates a totem to blow fire",
     key: "Totem1O",
+    chipType: "standard",
   },
   {
     number: 115,
@@ -8558,6 +9158,7 @@ export const updatedStandardChips = [
     memory: "29 MB",
     description: "Creates a totem to blow fire",
     key: "Totem1V",
+    chipType: "standard",
   },
   {
     number: 116,
@@ -8569,6 +9170,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Creates a totem to blow fire",
     key: "Totem2A",
+    chipType: "standard",
   },
   {
     number: 116,
@@ -8580,6 +9182,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Creates a totem to blow fire",
     key: "Totem2C",
+    chipType: "standard",
   },
   {
     number: 116,
@@ -8591,6 +9194,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Creates a totem to blow fire",
     key: "Totem2E",
+    chipType: "standard",
   },
   {
     number: 116,
@@ -8602,6 +9206,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Creates a totem to blow fire",
     key: "Totem2T",
+    chipType: "standard",
   },
   {
     number: 116,
@@ -8613,6 +9218,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Creates a totem to blow fire",
     key: "Totem2Z",
+    chipType: "standard",
   },
   {
     number: 117,
@@ -8624,6 +9230,7 @@ export const updatedStandardChips = [
     memory: "47 MB",
     description: "Creates a totem to blow fire",
     key: "Totem3D",
+    chipType: "standard",
   },
   {
     number: 117,
@@ -8635,6 +9242,7 @@ export const updatedStandardChips = [
     memory: "47 MB",
     description: "Creates a totem to blow fire",
     key: "Totem3I",
+    chipType: "standard",
   },
   {
     number: 117,
@@ -8646,6 +9254,7 @@ export const updatedStandardChips = [
     memory: "47 MB",
     description: "Creates a totem to blow fire",
     key: "Totem3K",
+    chipType: "standard",
   },
   {
     number: 117,
@@ -8657,6 +9266,7 @@ export const updatedStandardChips = [
     memory: "47 MB",
     description: "Creates a totem to blow fire",
     key: "Totem3N",
+    chipType: "standard",
   },
   {
     number: 117,
@@ -8668,6 +9278,7 @@ export const updatedStandardChips = [
     memory: "47 MB",
     description: "Creates a totem to blow fire",
     key: "Totem3Q",
+    chipType: "standard",
   },
   {
     number: 118,
@@ -8679,6 +9290,7 @@ export const updatedStandardChips = [
     memory: "62 MB",
     description: "Sensor to watch sq ahead",
     key: "Sensor1C",
+    chipType: "standard",
   },
   {
     number: 118,
@@ -8690,6 +9302,7 @@ export const updatedStandardChips = [
     memory: "62 MB",
     description: "Sensor to watch sq ahead",
     key: "Sensor1K",
+    chipType: "standard",
   },
   {
     number: 118,
@@ -8701,6 +9314,7 @@ export const updatedStandardChips = [
     memory: "62 MB",
     description: "Sensor to watch sq ahead",
     key: "Sensor1L",
+    chipType: "standard",
   },
   {
     number: 118,
@@ -8712,6 +9326,7 @@ export const updatedStandardChips = [
     memory: "62 MB",
     description: "Sensor to watch sq ahead",
     key: "Sensor1O",
+    chipType: "standard",
   },
   {
     number: 118,
@@ -8723,6 +9338,7 @@ export const updatedStandardChips = [
     memory: "62 MB",
     description: "Sensor to watch sq ahead",
     key: "Sensor1P",
+    chipType: "standard",
   },
   {
     number: 119,
@@ -8734,6 +9350,7 @@ export const updatedStandardChips = [
     memory: "70 MB",
     description: "Watch sq ahead or diagonal",
     key: "Sensor2A",
+    chipType: "standard",
   },
   {
     number: 119,
@@ -8745,6 +9362,7 @@ export const updatedStandardChips = [
     memory: "70 MB",
     description: "Watch sq ahead or diagonal",
     key: "Sensor2G",
+    chipType: "standard",
   },
   {
     number: 119,
@@ -8756,6 +9374,7 @@ export const updatedStandardChips = [
     memory: "70 MB",
     description: "Watch sq ahead or diagonal",
     key: "Sensor2H",
+    chipType: "standard",
   },
   {
     number: 119,
@@ -8767,6 +9386,7 @@ export const updatedStandardChips = [
     memory: "70 MB",
     description: "Watch sq ahead or diagonal",
     key: "Sensor2N",
+    chipType: "standard",
   },
   {
     number: 119,
@@ -8778,6 +9398,7 @@ export const updatedStandardChips = [
     memory: "70 MB",
     description: "Watch sq ahead or diagonal",
     key: "Sensor2S",
+    chipType: "standard",
   },
   {
     number: 120,
@@ -8789,6 +9410,7 @@ export const updatedStandardChips = [
     memory: "72 MB",
     description: "Watch sq ahead or diagonal",
     key: "Sensor3B",
+    chipType: "standard",
   },
   {
     number: 120,
@@ -8800,6 +9422,7 @@ export const updatedStandardChips = [
     memory: "72 MB",
     description: "Watch sq ahead or diagonal",
     key: "Sensor3E",
+    chipType: "standard",
   },
   {
     number: 120,
@@ -8811,6 +9434,7 @@ export const updatedStandardChips = [
     memory: "72 MB",
     description: "Watch sq ahead or diagonal",
     key: "Sensor3J",
+    chipType: "standard",
   },
   {
     number: 120,
@@ -8822,6 +9446,7 @@ export const updatedStandardChips = [
     memory: "72 MB",
     description: "Watch sq ahead or diagonal",
     key: "Sensor3O",
+    chipType: "standard",
   },
   {
     number: 120,
@@ -8833,6 +9458,7 @@ export const updatedStandardChips = [
     memory: "72 MB",
     description: "Watch sq ahead or diagonal",
     key: "Sensor3P",
+    chipType: "standard",
   },
   {
     number: 121,
@@ -8844,6 +9470,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Gel atk steals a panel!",
     key: "MetaGel1B",
+    chipType: "standard",
   },
   {
     number: 121,
@@ -8855,6 +9482,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Gel atk steals a panel!",
     key: "MetaGel1C",
+    chipType: "standard",
   },
   {
     number: 121,
@@ -8866,6 +9494,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Gel atk steals a panel!",
     key: "MetaGel1D",
+    chipType: "standard",
   },
   {
     number: 121,
@@ -8877,6 +9506,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Gel atk steals a panel!",
     key: "MetaGel1K",
+    chipType: "standard",
   },
   {
     number: 121,
@@ -8888,6 +9518,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Gel atk steals a panel!",
     key: "MetaGel1Y",
+    chipType: "standard",
   },
   {
     number: 122,
@@ -8899,6 +9530,7 @@ export const updatedStandardChips = [
     memory: "28 MB",
     description: "Gel atk steals a panel!",
     key: "MetaGel2E",
+    chipType: "standard",
   },
   {
     number: 122,
@@ -8910,6 +9542,7 @@ export const updatedStandardChips = [
     memory: "28 MB",
     description: "Gel atk steals a panel!",
     key: "MetaGel2F",
+    chipType: "standard",
   },
   {
     number: 122,
@@ -8921,6 +9554,7 @@ export const updatedStandardChips = [
     memory: "28 MB",
     description: "Gel atk steals a panel!",
     key: "MetaGel2G",
+    chipType: "standard",
   },
   {
     number: 122,
@@ -8932,6 +9566,7 @@ export const updatedStandardChips = [
     memory: "28 MB",
     description: "Gel atk steals a panel!",
     key: "MetaGel2P",
+    chipType: "standard",
   },
   {
     number: 122,
@@ -8943,6 +9578,7 @@ export const updatedStandardChips = [
     memory: "28 MB",
     description: "Gel atk steals a panel!",
     key: "MetaGel2S",
+    chipType: "standard",
   },
   {
     number: 123,
@@ -8954,6 +9590,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Gel atk steals a panel!",
     key: "MetaGel3G",
+    chipType: "standard",
   },
   {
     number: 123,
@@ -8965,6 +9602,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Gel atk steals a panel!",
     key: "MetaGel3H",
+    chipType: "standard",
   },
   {
     number: 123,
@@ -8976,6 +9614,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Gel atk steals a panel!",
     key: "MetaGel3S",
+    chipType: "standard",
   },
   {
     number: 123,
@@ -8987,6 +9626,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Gel atk steals a panel!",
     key: "MetaGel3T",
+    chipType: "standard",
   },
   {
     number: 123,
@@ -8998,6 +9638,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Gel atk steals a panel!",
     key: "MetaGel3U",
+    chipType: "standard",
   },
   {
     number: 124,
@@ -9009,6 +9650,7 @@ export const updatedStandardChips = [
     memory: "44 MB",
     description: "Attack by pressing A Button",
     key: "PawnB",
+    chipType: "standard",
   },
   {
     number: 124,
@@ -9020,6 +9662,7 @@ export const updatedStandardChips = [
     memory: "44 MB",
     description: "Attack by pressing A Button",
     key: "PawnE",
+    chipType: "standard",
   },
   {
     number: 124,
@@ -9031,6 +9674,7 @@ export const updatedStandardChips = [
     memory: "44 MB",
     description: "Attack by pressing A Button",
     key: "PawnN",
+    chipType: "standard",
   },
   {
     number: 124,
@@ -9042,6 +9686,7 @@ export const updatedStandardChips = [
     memory: "44 MB",
     description: "Attack by pressing A Button",
     key: "PawnR",
+    chipType: "standard",
   },
   {
     number: 124,
@@ -9053,6 +9698,7 @@ export const updatedStandardChips = [
     memory: "44 MB",
     description: "Attack by pressing A Button",
     key: "PawnY",
+    chipType: "standard",
   },
   {
     number: 125,
@@ -9064,6 +9710,7 @@ export const updatedStandardChips = [
     memory: "64 MB",
     description: "Jumps fwd and attacks",
     key: "KnightC",
+    chipType: "standard",
   },
   {
     number: 125,
@@ -9075,6 +9722,7 @@ export const updatedStandardChips = [
     memory: "64 MB",
     description: "Jumps fwd and attacks",
     key: "KnightH",
+    chipType: "standard",
   },
   {
     number: 125,
@@ -9086,6 +9734,7 @@ export const updatedStandardChips = [
     memory: "64 MB",
     description: "Jumps fwd and attacks",
     key: "KnightM",
+    chipType: "standard",
   },
   {
     number: 125,
@@ -9097,6 +9746,7 @@ export const updatedStandardChips = [
     memory: "64 MB",
     description: "Jumps fwd and attacks",
     key: "KnightU",
+    chipType: "standard",
   },
   {
     number: 125,
@@ -9108,6 +9758,7 @@ export const updatedStandardChips = [
     memory: "64 MB",
     description: "Jumps fwd and attacks",
     key: "KnightV",
+    chipType: "standard",
   },
   {
     number: 126,
@@ -9119,6 +9770,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Protects you from attacks",
     key: "RookD",
+    chipType: "standard",
   },
   {
     number: 126,
@@ -9130,6 +9782,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Protects you from attacks",
     key: "RookF",
+    chipType: "standard",
   },
   {
     number: 126,
@@ -9141,6 +9794,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Protects you from attacks",
     key: "RookN",
+    chipType: "standard",
   },
   {
     number: 126,
@@ -9152,6 +9806,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Protects you from attacks",
     key: "RookQ",
+    chipType: "standard",
   },
   {
     number: 126,
@@ -9163,6 +9818,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Protects you from attacks",
     key: "RookU",
+    chipType: "standard",
   },
   {
     number: 126,
@@ -9174,6 +9830,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Protects you from attacks",
     key: "Rook*",
+    chipType: "standard",
   },
   {
     number: 127,
@@ -9185,6 +9842,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Powers up when ally is hit",
     key: "Team1A",
+    chipType: "standard",
   },
   {
     number: 127,
@@ -9196,6 +9854,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Powers up when ally is hit",
     key: "Team1C",
+    chipType: "standard",
   },
   {
     number: 127,
@@ -9207,6 +9866,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Powers up when ally is hit",
     key: "Team1E",
+    chipType: "standard",
   },
   {
     number: 127,
@@ -9218,6 +9878,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Powers up when ally is hit",
     key: "Team1T",
+    chipType: "standard",
   },
   {
     number: 127,
@@ -9229,6 +9890,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Powers up when ally is hit",
     key: "Team1Z",
+    chipType: "standard",
   },
   {
     number: 127,
@@ -9240,6 +9902,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Powers up when ally is hit",
     key: "Team1*",
+    chipType: "standard",
   },
   {
     number: 128,
@@ -9251,6 +9914,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "Ally's HP recovered if hurt",
     key: "Team2D",
+    chipType: "standard",
   },
   {
     number: 128,
@@ -9262,6 +9926,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "Ally's HP recovered if hurt",
     key: "Team2L",
+    chipType: "standard",
   },
   {
     number: 128,
@@ -9273,6 +9938,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "Ally's HP recovered if hurt",
     key: "Team2P",
+    chipType: "standard",
   },
   {
     number: 128,
@@ -9284,6 +9950,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "Ally's HP recovered if hurt",
     key: "Team2S",
+    chipType: "standard",
   },
   {
     number: 128,
@@ -9295,6 +9962,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "Ally's HP recovered if hurt",
     key: "Team2Z",
+    chipType: "standard",
   },
   {
     number: 128,
@@ -9306,6 +9974,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "Ally's HP recovered if hurt",
     key: "Team2*",
+    chipType: "standard",
   },
   {
     number: 129,
@@ -9317,6 +9986,7 @@ export const updatedStandardChips = [
     memory: "32 MB",
     description: "An area-wide time bomb",
     key: "TimeBombJ",
+    chipType: "standard",
   },
   {
     number: 129,
@@ -9328,6 +9998,7 @@ export const updatedStandardChips = [
     memory: "32 MB",
     description: "An area-wide time bomb",
     key: "TimeBombK",
+    chipType: "standard",
   },
   {
     number: 129,
@@ -9339,6 +10010,7 @@ export const updatedStandardChips = [
     memory: "32 MB",
     description: "An area-wide time bomb",
     key: "TimeBombL",
+    chipType: "standard",
   },
   {
     number: 129,
@@ -9350,6 +10022,7 @@ export const updatedStandardChips = [
     memory: "32 MB",
     description: "An area-wide time bomb",
     key: "TimeBombM",
+    chipType: "standard",
   },
   {
     number: 129,
@@ -9361,6 +10034,7 @@ export const updatedStandardChips = [
     memory: "32 MB",
     description: "An area-wide time bomb",
     key: "TimeBombN",
+    chipType: "standard",
   },
   {
     number: 130,
@@ -9372,6 +10046,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Places a mine in enmy area",
     key: "MineA",
+    chipType: "standard",
   },
   {
     number: 130,
@@ -9383,6 +10058,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Places a mine in enmy area",
     key: "MineD",
+    chipType: "standard",
   },
   {
     number: 130,
@@ -9394,6 +10070,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Places a mine in enmy area",
     key: "MineL",
+    chipType: "standard",
   },
   {
     number: 130,
@@ -9405,6 +10082,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Places a mine in enmy area",
     key: "MineR",
+    chipType: "standard",
   },
   {
     number: 130,
@@ -9416,6 +10094,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Places a mine in enmy area",
     key: "MineS",
+    chipType: "standard",
   },
   {
     number: 130,
@@ -9427,6 +10106,7 @@ export const updatedStandardChips = [
     memory: "16 MB",
     description: "Places a mine in enmy area",
     key: "Mine*",
+    chipType: "standard",
   },
   {
     number: 131,
@@ -9438,6 +10118,7 @@ export const updatedStandardChips = [
     memory: "46 MB",
     description: "Lances through back line",
     key: "LanceD",
+    chipType: "standard",
   },
   {
     number: 131,
@@ -9449,6 +10130,7 @@ export const updatedStandardChips = [
     memory: "46 MB",
     description: "Lances through back line",
     key: "LanceE",
+    chipType: "standard",
   },
   {
     number: 131,
@@ -9460,6 +10142,7 @@ export const updatedStandardChips = [
     memory: "46 MB",
     description: "Lances through back line",
     key: "LanceH",
+    chipType: "standard",
   },
   {
     number: 131,
@@ -9471,6 +10154,7 @@ export const updatedStandardChips = [
     memory: "46 MB",
     description: "Lances through back line",
     key: "LanceR",
+    chipType: "standard",
   },
   {
     number: 131,
@@ -9482,6 +10166,7 @@ export const updatedStandardChips = [
     memory: "46 MB",
     description: "Lances through back line",
     key: "LanceZ",
+    chipType: "standard",
   },
   {
     number: 132,
@@ -9493,6 +10178,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "Snake from hole in area",
     key: "SnakeD",
+    chipType: "standard",
   },
   {
     number: 132,
@@ -9504,6 +10190,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "Snake from hole in area",
     key: "SnakeE",
+    chipType: "standard",
   },
   {
     number: 132,
@@ -9515,6 +10202,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "Snake from hole in area",
     key: "SnakeI",
+    chipType: "standard",
   },
   {
     number: 132,
@@ -9526,6 +10214,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "Snake from hole in area",
     key: "SnakeR",
+    chipType: "standard",
   },
   {
     number: 132,
@@ -9537,6 +10226,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "Snake from hole in area",
     key: "SnakeY",
+    chipType: "standard",
   },
   {
     number: 133,
@@ -9548,6 +10238,7 @@ export const updatedStandardChips = [
     memory: "5 MB",
     description: "Repels enemy's attack",
     key: "Guard*",
+    chipType: "standard",
   },
   {
     number: 134,
@@ -9559,6 +10250,7 @@ export const updatedStandardChips = [
     memory: "4 MB",
     description: "Destroys 1 panel in front",
     key: "PanlOut1A",
+    chipType: "standard",
   },
   {
     number: 134,
@@ -9570,6 +10262,7 @@ export const updatedStandardChips = [
     memory: "4 MB",
     description: "Destroys 1 panel in front",
     key: "PanlOut1B",
+    chipType: "standard",
   },
   {
     number: 134,
@@ -9581,6 +10274,7 @@ export const updatedStandardChips = [
     memory: "4 MB",
     description: "Destroys 1 panel in front",
     key: "PanlOut1D",
+    chipType: "standard",
   },
   {
     number: 134,
@@ -9592,6 +10286,7 @@ export const updatedStandardChips = [
     memory: "4 MB",
     description: "Destroys 1 panel in front",
     key: "PanlOut1L",
+    chipType: "standard",
   },
   {
     number: 134,
@@ -9603,6 +10298,7 @@ export const updatedStandardChips = [
     memory: "4 MB",
     description: "Destroys 1 panel in front",
     key: "PanlOut1S",
+    chipType: "standard",
   },
   {
     number: 134,
@@ -9614,6 +10310,7 @@ export const updatedStandardChips = [
     memory: "4 MB",
     description: "Destroys 1 panel in front",
     key: "PanlOut1*",
+    chipType: "standard",
   },
   {
     number: 135,
@@ -9625,6 +10322,7 @@ export const updatedStandardChips = [
     memory: "7 MB",
     description: "Destroys 3 panels in front",
     key: "PanlOut3C",
+    chipType: "standard",
   },
   {
     number: 135,
@@ -9636,6 +10334,7 @@ export const updatedStandardChips = [
     memory: "7 MB",
     description: "Destroys 3 panels in front",
     key: "PanlOut3E",
+    chipType: "standard",
   },
   {
     number: 135,
@@ -9647,6 +10346,7 @@ export const updatedStandardChips = [
     memory: "7 MB",
     description: "Destroys 3 panels in front",
     key: "PanlOut3N",
+    chipType: "standard",
   },
   {
     number: 135,
@@ -9658,6 +10358,7 @@ export const updatedStandardChips = [
     memory: "7 MB",
     description: "Destroys 3 panels in front",
     key: "PanlOut3R",
+    chipType: "standard",
   },
   {
     number: 135,
@@ -9669,6 +10370,7 @@ export const updatedStandardChips = [
     memory: "7 MB",
     description: "Destroys 3 panels in front",
     key: "PanlOut3Y",
+    chipType: "standard",
   },
   {
     number: 136,
@@ -9680,6 +10382,7 @@ export const updatedStandardChips = [
     memory: "10 MB",
     description: "Steals 1 enemy square!",
     key: "PanlGrabA",
+    chipType: "standard",
   },
   {
     number: 136,
@@ -9691,6 +10394,7 @@ export const updatedStandardChips = [
     memory: "10 MB",
     description: "Steals 1 enemy square!",
     key: "PanlGrabH",
+    chipType: "standard",
   },
   {
     number: 136,
@@ -9702,6 +10406,7 @@ export const updatedStandardChips = [
     memory: "10 MB",
     description: "Steals 1 enemy square!",
     key: "PanlGrabL",
+    chipType: "standard",
   },
   {
     number: 136,
@@ -9713,6 +10418,7 @@ export const updatedStandardChips = [
     memory: "10 MB",
     description: "Steals 1 enemy square!",
     key: "PanlGrabS",
+    chipType: "standard",
   },
   {
     number: 136,
@@ -9724,6 +10430,7 @@ export const updatedStandardChips = [
     memory: "10 MB",
     description: "Steals 1 enemy square!",
     key: "PanlGrabY",
+    chipType: "standard",
   },
   {
     number: 136,
@@ -9735,6 +10442,7 @@ export const updatedStandardChips = [
     memory: "10 MB",
     description: "Steals 1 enemy square!",
     key: "PanlGrab*",
+    chipType: "standard",
   },
   {
     number: 137,
@@ -9746,6 +10454,7 @@ export const updatedStandardChips = [
     memory: "15 MB",
     description: "Steals left edge from enmy",
     key: "AreaGrabE",
+    chipType: "standard",
   },
   {
     number: 137,
@@ -9757,6 +10466,7 @@ export const updatedStandardChips = [
     memory: "15 MB",
     description: "Steals left edge from enmy",
     key: "AreaGrabL",
+    chipType: "standard",
   },
   {
     number: 137,
@@ -9768,6 +10478,7 @@ export const updatedStandardChips = [
     memory: "15 MB",
     description: "Steals left edge from enmy",
     key: "AreaGrabR",
+    chipType: "standard",
   },
   {
     number: 137,
@@ -9779,6 +10490,7 @@ export const updatedStandardChips = [
     memory: "15 MB",
     description: "Steals left edge from enmy",
     key: "AreaGrabS",
+    chipType: "standard",
   },
   {
     number: 137,
@@ -9790,6 +10502,7 @@ export const updatedStandardChips = [
     memory: "15 MB",
     description: "Steals left edge from enmy",
     key: "AreaGrabY",
+    chipType: "standard",
   },
   {
     number: 137,
@@ -9801,6 +10514,7 @@ export const updatedStandardChips = [
     memory: "15 MB",
     description: "Steals left edge from enmy",
     key: "AreaGrab*",
+    chipType: "standard",
   },
   {
     number: 138,
@@ -9812,6 +10526,7 @@ export const updatedStandardChips = [
     memory: "10 MB",
     description: "Retaliate stolen panels!",
     key: "GrabBackA",
+    chipType: "standard",
   },
   {
     number: 138,
@@ -9823,6 +10538,7 @@ export const updatedStandardChips = [
     memory: "10 MB",
     description: "Retaliate stolen panels!",
     key: "GrabBackE",
+    chipType: "standard",
   },
   {
     number: 138,
@@ -9834,6 +10550,7 @@ export const updatedStandardChips = [
     memory: "10 MB",
     description: "Retaliate stolen panels!",
     key: "GrabBackI",
+    chipType: "standard",
   },
   {
     number: 138,
@@ -9845,6 +10562,7 @@ export const updatedStandardChips = [
     memory: "10 MB",
     description: "Retaliate stolen panels!",
     key: "GrabBackK",
+    chipType: "standard",
   },
   {
     number: 138,
@@ -9856,6 +10574,7 @@ export const updatedStandardChips = [
     memory: "10 MB",
     description: "Retaliate stolen panels!",
     key: "GrabBackN",
+    chipType: "standard",
   },
   {
     number: 139,
@@ -9867,6 +10586,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Retaliate stolen panels!",
     key: "GrabRvngC",
+    chipType: "standard",
   },
   {
     number: 139,
@@ -9878,6 +10598,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Retaliate stolen panels!",
     key: "GrabRvngG",
+    chipType: "standard",
   },
   {
     number: 139,
@@ -9889,6 +10610,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Retaliate stolen panels!",
     key: "GrabRvngP",
+    chipType: "standard",
   },
   {
     number: 139,
@@ -9900,6 +10622,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Retaliate stolen panels!",
     key: "GrabRvngR",
+    chipType: "standard",
   },
   {
     number: 139,
@@ -9911,6 +10634,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Retaliate stolen panels!",
     key: "GrabRvngY",
+    chipType: "standard",
   },
   {
     number: 140,
@@ -9922,6 +10646,7 @@ export const updatedStandardChips = [
     memory: "9 MB",
     description: "Places a rock cube in front",
     key: "RockCubeA",
+    chipType: "standard",
   },
   {
     number: 140,
@@ -9933,6 +10658,7 @@ export const updatedStandardChips = [
     memory: "9 MB",
     description: "Places a rock cube in front",
     key: "RockCubeC",
+    chipType: "standard",
   },
   {
     number: 140,
@@ -9944,6 +10670,7 @@ export const updatedStandardChips = [
     memory: "9 MB",
     description: "Places a rock cube in front",
     key: "RockCubeE",
+    chipType: "standard",
   },
   {
     number: 140,
@@ -9955,6 +10682,7 @@ export const updatedStandardChips = [
     memory: "9 MB",
     description: "Places a rock cube in front",
     key: "RockCubeH",
+    chipType: "standard",
   },
   {
     number: 140,
@@ -9966,6 +10694,7 @@ export const updatedStandardChips = [
     memory: "9 MB",
     description: "Places a rock cube in front",
     key: "RockCubeR",
+    chipType: "standard",
   },
   {
     number: 140,
@@ -9977,6 +10706,7 @@ export const updatedStandardChips = [
     memory: "9 MB",
     description: "Places a rock cube in front",
     key: "RockCube*",
+    chipType: "standard",
   },
   {
     number: 141,
@@ -9988,6 +10718,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Prism fires randomly",
     key: "PrismH",
+    chipType: "standard",
   },
   {
     number: 141,
@@ -9999,6 +10730,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Prism fires randomly",
     key: "PrismJ",
+    chipType: "standard",
   },
   {
     number: 141,
@@ -10010,6 +10742,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Prism fires randomly",
     key: "PrismK",
+    chipType: "standard",
   },
   {
     number: 141,
@@ -10021,6 +10754,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Prism fires randomly",
     key: "PrismQ",
+    chipType: "standard",
   },
   {
     number: 141,
@@ -10032,6 +10766,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Prism fires randomly",
     key: "PrismW",
+    chipType: "standard",
   },
   {
     number: 142,
@@ -10043,6 +10778,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "WindBox blows at enmy area",
     key: "WindA",
+    chipType: "standard",
   },
   {
     number: 142,
@@ -10054,6 +10790,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "WindBox blows at enmy area",
     key: "WindE",
+    chipType: "standard",
   },
   {
     number: 142,
@@ -10065,6 +10802,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "WindBox blows at enmy area",
     key: "WindH",
+    chipType: "standard",
   },
   {
     number: 142,
@@ -10076,6 +10814,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "WindBox blows at enmy area",
     key: "WindO",
+    chipType: "standard",
   },
   {
     number: 142,
@@ -10087,6 +10826,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "WindBox blows at enmy area",
     key: "WindS",
+    chipType: "standard",
   },
   {
     number: 142,
@@ -10098,6 +10838,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "WindBox blows at enmy area",
     key: "Wind*",
+    chipType: "standard",
   },
   {
     number: 143,
@@ -10109,6 +10850,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Vacuum pulls enemies",
     key: "FanA",
+    chipType: "standard",
   },
   {
     number: 143,
@@ -10120,6 +10862,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Vacuum pulls enemies",
     key: "FanG",
+    chipType: "standard",
   },
   {
     number: 143,
@@ -10131,6 +10874,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Vacuum pulls enemies",
     key: "FanL",
+    chipType: "standard",
   },
   {
     number: 143,
@@ -10142,6 +10886,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Vacuum pulls enemies",
     key: "FanR",
+    chipType: "standard",
   },
   {
     number: 143,
@@ -10153,6 +10898,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Vacuum pulls enemies",
     key: "FanT",
+    chipType: "standard",
   },
   {
     number: 143,
@@ -10164,6 +10910,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Vacuum pulls enemies",
     key: "Fan*",
+    chipType: "standard",
   },
   {
     number: 144,
@@ -10175,6 +10922,7 @@ export const updatedStandardChips = [
     memory: "32 MB",
     description: "Take no dmg for a while",
     key: "FanfareC",
+    chipType: "standard",
   },
   {
     number: 144,
@@ -10186,6 +10934,7 @@ export const updatedStandardChips = [
     memory: "32 MB",
     description: "Take no dmg for a while",
     key: "FanfareE",
+    chipType: "standard",
   },
   {
     number: 144,
@@ -10197,6 +10946,7 @@ export const updatedStandardChips = [
     memory: "32 MB",
     description: "Take no dmg for a while",
     key: "FanfareG",
+    chipType: "standard",
   },
   {
     number: 144,
@@ -10208,6 +10958,7 @@ export const updatedStandardChips = [
     memory: "32 MB",
     description: "Take no dmg for a while",
     key: "FanfareL",
+    chipType: "standard",
   },
   {
     number: 144,
@@ -10219,6 +10970,7 @@ export const updatedStandardChips = [
     memory: "32 MB",
     description: "Take no dmg for a while",
     key: "FanfareY",
+    chipType: "standard",
   },
   {
     number: 144,
@@ -10230,6 +10982,7 @@ export const updatedStandardChips = [
     memory: "32 MB",
     description: "Take no dmg for a while",
     key: "Fanfare*",
+    chipType: "standard",
   },
   {
     number: 145,
@@ -10241,6 +10994,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Confuses enemies w/ music",
     key: "DiscordD",
+    chipType: "standard",
   },
   {
     number: 145,
@@ -10252,6 +11006,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Confuses enemies w/ music",
     key: "DiscordF",
+    chipType: "standard",
   },
   {
     number: 145,
@@ -10263,6 +11018,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Confuses enemies w/ music",
     key: "DiscordN",
+    chipType: "standard",
   },
   {
     number: 145,
@@ -10274,6 +11030,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Confuses enemies w/ music",
     key: "DiscordT",
+    chipType: "standard",
   },
   {
     number: 145,
@@ -10285,6 +11042,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Confuses enemies w/ music",
     key: "DiscordZ",
+    chipType: "standard",
   },
   {
     number: 145,
@@ -10296,6 +11054,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Confuses enemies w/ music",
     key: "Discord*",
+    chipType: "standard",
   },
   {
     number: 146,
@@ -10307,6 +11066,7 @@ export const updatedStandardChips = [
     memory: "42 MB",
     description: "Paralyzes enemies w/ music",
     key: "TimpaniA",
+    chipType: "standard",
   },
   {
     number: 146,
@@ -10318,6 +11078,7 @@ export const updatedStandardChips = [
     memory: "42 MB",
     description: "Paralyzes enemies w/ music",
     key: "TimpaniN",
+    chipType: "standard",
   },
   {
     number: 146,
@@ -10329,6 +11090,7 @@ export const updatedStandardChips = [
     memory: "42 MB",
     description: "Paralyzes enemies w/ music",
     key: "TimpaniQ",
+    chipType: "standard",
   },
   {
     number: 146,
@@ -10340,6 +11102,7 @@ export const updatedStandardChips = [
     memory: "42 MB",
     description: "Paralyzes enemies w/ music",
     key: "TimpaniU",
+    chipType: "standard",
   },
   {
     number: 146,
@@ -10351,6 +11114,7 @@ export const updatedStandardChips = [
     memory: "42 MB",
     description: "Paralyzes enemies w/ music",
     key: "TimpaniW",
+    chipType: "standard",
   },
   {
     number: 146,
@@ -10362,6 +11126,7 @@ export const updatedStandardChips = [
     memory: "42 MB",
     description: "Paralyzes enemies w/ music",
     key: "Timpani*",
+    chipType: "standard",
   },
   {
     number: 147,
@@ -10373,6 +11138,7 @@ export const updatedStandardChips = [
     memory: "5 MB",
     description: "Recovers 10HP",
     key: "Recov10A",
+    chipType: "standard",
   },
   {
     number: 147,
@@ -10384,6 +11150,7 @@ export const updatedStandardChips = [
     memory: "5 MB",
     description: "Recovers 10HP",
     key: "Recov10C",
+    chipType: "standard",
   },
   {
     number: 147,
@@ -10395,6 +11162,7 @@ export const updatedStandardChips = [
     memory: "5 MB",
     description: "Recovers 10HP",
     key: "Recov10E",
+    chipType: "standard",
   },
   {
     number: 147,
@@ -10406,6 +11174,7 @@ export const updatedStandardChips = [
     memory: "5 MB",
     description: "Recovers 10HP",
     key: "Recov10G",
+    chipType: "standard",
   },
   {
     number: 147,
@@ -10417,6 +11186,7 @@ export const updatedStandardChips = [
     memory: "5 MB",
     description: "Recovers 10HP",
     key: "Recov10L",
+    chipType: "standard",
   },
   {
     number: 147,
@@ -10428,6 +11198,7 @@ export const updatedStandardChips = [
     memory: "5 MB",
     description: "Recovers 10HP",
     key: "Recov10*",
+    chipType: "standard",
   },
   {
     number: 148,
@@ -10439,6 +11210,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Recovers 30HP",
     key: "Recov30B",
+    chipType: "standard",
   },
   {
     number: 148,
@@ -10450,6 +11222,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Recovers 30HP",
     key: "Recov30D",
+    chipType: "standard",
   },
   {
     number: 148,
@@ -10461,6 +11234,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Recovers 30HP",
     key: "Recov30F",
+    chipType: "standard",
   },
   {
     number: 148,
@@ -10472,6 +11246,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Recovers 30HP",
     key: "Recov30H",
+    chipType: "standard",
   },
   {
     number: 148,
@@ -10483,6 +11258,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Recovers 30HP",
     key: "Recov30M",
+    chipType: "standard",
   },
   {
     number: 148,
@@ -10494,6 +11270,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Recovers 30HP",
     key: "Recov30*",
+    chipType: "standard",
   },
   {
     number: 149,
@@ -10505,6 +11282,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Recovers 50HP",
     key: "Recov50C",
+    chipType: "standard",
   },
   {
     number: 149,
@@ -10516,6 +11294,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Recovers 50HP",
     key: "Recov50E",
+    chipType: "standard",
   },
   {
     number: 149,
@@ -10527,6 +11306,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Recovers 50HP",
     key: "Recov50G",
+    chipType: "standard",
   },
   {
     number: 149,
@@ -10538,6 +11318,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Recovers 50HP",
     key: "Recov50I",
+    chipType: "standard",
   },
   {
     number: 149,
@@ -10549,6 +11330,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Recovers 50HP",
     key: "Recov50N",
+    chipType: "standard",
   },
   {
     number: 149,
@@ -10560,6 +11342,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Recovers 50HP",
     key: "Recov50*",
+    chipType: "standard",
   },
   {
     number: 150,
@@ -10571,6 +11354,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "Recovers 80HP",
     key: "Recov80D",
+    chipType: "standard",
   },
   {
     number: 150,
@@ -10582,6 +11366,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "Recovers 80HP",
     key: "Recov80F",
+    chipType: "standard",
   },
   {
     number: 150,
@@ -10593,6 +11378,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "Recovers 80HP",
     key: "Recov80H",
+    chipType: "standard",
   },
   {
     number: 150,
@@ -10604,6 +11390,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "Recovers 80HP",
     key: "Recov80J",
+    chipType: "standard",
   },
   {
     number: 150,
@@ -10615,6 +11402,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "Recovers 80HP",
     key: "Recov80O",
+    chipType: "standard",
   },
   {
     number: 150,
@@ -10626,6 +11414,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "Recovers 80HP",
     key: "Recov80*",
+    chipType: "standard",
   },
   {
     number: 151,
@@ -10637,6 +11426,7 @@ export const updatedStandardChips = [
     memory: "35 MB",
     description: "Recovers 120HP",
     key: "Recov120O",
+    chipType: "standard",
   },
   {
     number: 151,
@@ -10648,6 +11438,7 @@ export const updatedStandardChips = [
     memory: "35 MB",
     description: "Recovers 120HP",
     key: "Recov120Q",
+    chipType: "standard",
   },
   {
     number: 151,
@@ -10659,6 +11450,7 @@ export const updatedStandardChips = [
     memory: "35 MB",
     description: "Recovers 120HP",
     key: "Recov120S",
+    chipType: "standard",
   },
   {
     number: 151,
@@ -10670,6 +11462,7 @@ export const updatedStandardChips = [
     memory: "35 MB",
     description: "Recovers 120HP",
     key: "Recov120U",
+    chipType: "standard",
   },
   {
     number: 151,
@@ -10681,6 +11474,7 @@ export const updatedStandardChips = [
     memory: "35 MB",
     description: "Recovers 120HP",
     key: "Recov120W",
+    chipType: "standard",
   },
   {
     number: 151,
@@ -10692,6 +11486,7 @@ export const updatedStandardChips = [
     memory: "35 MB",
     description: "Recovers 120HP",
     key: "Recov120*",
+    chipType: "standard",
   },
   {
     number: 152,
@@ -10703,6 +11498,7 @@ export const updatedStandardChips = [
     memory: "50 MB",
     description: "Recovers 150HP",
     key: "Recov150N",
+    chipType: "standard",
   },
   {
     number: 152,
@@ -10714,6 +11510,7 @@ export const updatedStandardChips = [
     memory: "50 MB",
     description: "Recovers 150HP",
     key: "Recov150P",
+    chipType: "standard",
   },
   {
     number: 152,
@@ -10725,6 +11522,7 @@ export const updatedStandardChips = [
     memory: "50 MB",
     description: "Recovers 150HP",
     key: "Recov150R",
+    chipType: "standard",
   },
   {
     number: 152,
@@ -10736,6 +11534,7 @@ export const updatedStandardChips = [
     memory: "50 MB",
     description: "Recovers 150HP",
     key: "Recov150T",
+    chipType: "standard",
   },
   {
     number: 152,
@@ -10747,6 +11546,7 @@ export const updatedStandardChips = [
     memory: "50 MB",
     description: "Recovers 150HP",
     key: "Recov150V",
+    chipType: "standard",
   },
   {
     number: 153,
@@ -10758,6 +11558,7 @@ export const updatedStandardChips = [
     memory: "65 MB",
     description: "Recovers 200HP",
     key: "Recov200M",
+    chipType: "standard",
   },
   {
     number: 153,
@@ -10769,6 +11570,7 @@ export const updatedStandardChips = [
     memory: "65 MB",
     description: "Recovers 200HP",
     key: "Recov200N",
+    chipType: "standard",
   },
   {
     number: 153,
@@ -10780,6 +11582,7 @@ export const updatedStandardChips = [
     memory: "65 MB",
     description: "Recovers 200HP",
     key: "Recov200U",
+    chipType: "standard",
   },
   {
     number: 153,
@@ -10791,6 +11594,7 @@ export const updatedStandardChips = [
     memory: "65 MB",
     description: "Recovers 200HP",
     key: "Recov200V",
+    chipType: "standard",
   },
   {
     number: 153,
@@ -10802,6 +11606,7 @@ export const updatedStandardChips = [
     memory: "65 MB",
     description: "Recovers 200HP",
     key: "Recov200W",
+    chipType: "standard",
   },
   {
     number: 154,
@@ -10813,6 +11618,7 @@ export const updatedStandardChips = [
     memory: "80 MB",
     description: "Recovers 300HP",
     key: "Recov300O",
+    chipType: "standard",
   },
   {
     number: 154,
@@ -10824,6 +11630,7 @@ export const updatedStandardChips = [
     memory: "80 MB",
     description: "Recovers 300HP",
     key: "Recov300R",
+    chipType: "standard",
   },
   {
     number: 154,
@@ -10835,6 +11642,7 @@ export const updatedStandardChips = [
     memory: "80 MB",
     description: "Recovers 300HP",
     key: "Recov300V",
+    chipType: "standard",
   },
   {
     number: 154,
@@ -10846,6 +11654,7 @@ export const updatedStandardChips = [
     memory: "80 MB",
     description: "Recovers 300HP",
     key: "Recov300W",
+    chipType: "standard",
   },
   {
     number: 154,
@@ -10857,6 +11666,7 @@ export const updatedStandardChips = [
     memory: "80 MB",
     description: "Recovers 300HP",
     key: "Recov300Z",
+    chipType: "standard",
   },
   {
     number: 155,
@@ -10868,6 +11678,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Fix your area's panels",
     key: "RepairA",
+    chipType: "standard",
   },
   {
     number: 155,
@@ -10879,6 +11690,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Fix your area's panels",
     key: "RepairC",
+    chipType: "standard",
   },
   {
     number: 155,
@@ -10890,6 +11702,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Fix your area's panels",
     key: "RepairD",
+    chipType: "standard",
   },
   {
     number: 155,
@@ -10901,6 +11714,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Fix your area's panels",
     key: "RepairF",
+    chipType: "standard",
   },
   {
     number: 155,
@@ -10912,6 +11726,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Fix your area's panels",
     key: "RepairS",
+    chipType: "standard",
   },
   {
     number: 155,
@@ -10923,6 +11738,7 @@ export const updatedStandardChips = [
     memory: "8 MB",
     description: "Fix your area's panels",
     key: "Repair*",
+    chipType: "standard",
   },
   {
     number: 156,
@@ -10934,6 +11750,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "CustGauge slow down in battle",
     key: "SloGaugeA",
+    chipType: "standard",
   },
   {
     number: 156,
@@ -10945,6 +11762,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "CustGauge slow down in battle",
     key: "SloGaugeC",
+    chipType: "standard",
   },
   {
     number: 156,
@@ -10956,6 +11774,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "CustGauge slow down in battle",
     key: "SloGaugeR",
+    chipType: "standard",
   },
   {
     number: 156,
@@ -10967,6 +11786,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "CustGauge slow down in battle",
     key: "SloGaugeS",
+    chipType: "standard",
   },
   {
     number: 156,
@@ -10978,6 +11798,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "CustGauge slow down in battle",
     key: "SloGaugeZ",
+    chipType: "standard",
   },
   {
     number: 156,
@@ -10989,6 +11810,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "CustGauge slow down in battle",
     key: "SloGauge*",
+    chipType: "standard",
   },
   {
     number: 157,
@@ -11000,6 +11822,7 @@ export const updatedStandardChips = [
     memory: "40 MB",
     description: "CustGauge speeds up in battle",
     key: "FstGaugeB",
+    chipType: "standard",
   },
   {
     number: 157,
@@ -11011,6 +11834,7 @@ export const updatedStandardChips = [
     memory: "40 MB",
     description: "CustGauge speeds up in battle",
     key: "FstGaugeE",
+    chipType: "standard",
   },
   {
     number: 157,
@@ -11022,6 +11846,7 @@ export const updatedStandardChips = [
     memory: "40 MB",
     description: "CustGauge speeds up in battle",
     key: "FstGaugeJ",
+    chipType: "standard",
   },
   {
     number: 157,
@@ -11033,6 +11858,7 @@ export const updatedStandardChips = [
     memory: "40 MB",
     description: "CustGauge speeds up in battle",
     key: "FstGaugeR",
+    chipType: "standard",
   },
   {
     number: 157,
@@ -11044,6 +11870,7 @@ export const updatedStandardChips = [
     memory: "40 MB",
     description: "CustGauge speeds up in battle",
     key: "FstGaugeY",
+    chipType: "standard",
   },
   {
     number: 158,
@@ -11055,6 +11882,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Confuses enemies if you are",
     key: "PanicA",
+    chipType: "standard",
   },
   {
     number: 158,
@@ -11066,6 +11894,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Confuses enemies if you are",
     key: "PanicC",
+    chipType: "standard",
   },
   {
     number: 158,
@@ -11077,6 +11906,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Confuses enemies if you are",
     key: "PanicL",
+    chipType: "standard",
   },
   {
     number: 158,
@@ -11088,6 +11918,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Confuses enemies if you are",
     key: "PanicR",
+    chipType: "standard",
   },
   {
     number: 158,
@@ -11099,6 +11930,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Confuses enemies if you are",
     key: "PanicZ",
+    chipType: "standard",
   },
   {
     number: 159,
@@ -11110,6 +11942,7 @@ export const updatedStandardChips = [
     memory: "10 MB",
     description: "Cracks all panels!",
     key: "Geddon1D",
+    chipType: "standard",
   },
   {
     number: 159,
@@ -11121,6 +11954,7 @@ export const updatedStandardChips = [
     memory: "10 MB",
     description: "Cracks all panels!",
     key: "Geddon1J",
+    chipType: "standard",
   },
   {
     number: 159,
@@ -11132,6 +11966,7 @@ export const updatedStandardChips = [
     memory: "10 MB",
     description: "Cracks all panels!",
     key: "Geddon1M",
+    chipType: "standard",
   },
   {
     number: 159,
@@ -11143,6 +11978,7 @@ export const updatedStandardChips = [
     memory: "10 MB",
     description: "Cracks all panels!",
     key: "Geddon1O",
+    chipType: "standard",
   },
   {
     number: 159,
@@ -11154,6 +11990,7 @@ export const updatedStandardChips = [
     memory: "10 MB",
     description: "Cracks all panels!",
     key: "Geddon1S",
+    chipType: "standard",
   },
   {
     number: 159,
@@ -11165,6 +12002,7 @@ export const updatedStandardChips = [
     memory: "10 MB",
     description: "Cracks all panels!",
     key: "Geddon1*",
+    chipType: "standard",
   },
   {
     number: 160,
@@ -11176,6 +12014,7 @@ export const updatedStandardChips = [
     memory: "50 MB",
     description: "Breaks all empty squares!",
     key: "Geddon2F",
+    chipType: "standard",
   },
   {
     number: 160,
@@ -11187,6 +12026,7 @@ export const updatedStandardChips = [
     memory: "50 MB",
     description: "Breaks all empty squares!",
     key: "Geddon2H",
+    chipType: "standard",
   },
   {
     number: 160,
@@ -11198,6 +12038,7 @@ export const updatedStandardChips = [
     memory: "50 MB",
     description: "Breaks all empty squares!",
     key: "Geddon2N",
+    chipType: "standard",
   },
   {
     number: 160,
@@ -11209,6 +12050,7 @@ export const updatedStandardChips = [
     memory: "50 MB",
     description: "Breaks all empty squares!",
     key: "Geddon2O",
+    chipType: "standard",
   },
   {
     number: 160,
@@ -11220,6 +12062,7 @@ export const updatedStandardChips = [
     memory: "50 MB",
     description: "Breaks all empty squares!",
     key: "Geddon2W",
+    chipType: "standard",
   },
   {
     number: 161,
@@ -11231,6 +12074,7 @@ export const updatedStandardChips = [
     memory: "90 MB",
     description: "Turns all panels to swamp!",
     key: "Geddon3C",
+    chipType: "standard",
   },
   {
     number: 161,
@@ -11242,6 +12086,7 @@ export const updatedStandardChips = [
     memory: "90 MB",
     description: "Turns all panels to swamp!",
     key: "Geddon3M",
+    chipType: "standard",
   },
   {
     number: 161,
@@ -11253,6 +12098,7 @@ export const updatedStandardChips = [
     memory: "90 MB",
     description: "Turns all panels to swamp!",
     key: "Geddon3U",
+    chipType: "standard",
   },
   {
     number: 161,
@@ -11264,6 +12110,7 @@ export const updatedStandardChips = [
     memory: "90 MB",
     description: "Turns all panels to swamp!",
     key: "Geddon3W",
+    chipType: "standard",
   },
   {
     number: 161,
@@ -11275,6 +12122,7 @@ export const updatedStandardChips = [
     memory: "90 MB",
     description: "Turns all panels to swamp!",
     key: "Geddon3Y",
+    chipType: "standard",
   },
   {
     number: 162,
@@ -11286,6 +12134,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Duplicate damage on 2nd enemy",
     key: "CopyDmgA",
+    chipType: "standard",
   },
   {
     number: 162,
@@ -11297,6 +12146,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Duplicate damage on 2nd enemy",
     key: "CopyDmgF",
+    chipType: "standard",
   },
   {
     number: 162,
@@ -11308,6 +12158,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Duplicate damage on 2nd enemy",
     key: "CopyDmgH",
+    chipType: "standard",
   },
   {
     number: 162,
@@ -11319,6 +12170,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Duplicate damage on 2nd enemy",
     key: "CopyDmgL",
+    chipType: "standard",
   },
   {
     number: 162,
@@ -11330,6 +12182,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Duplicate damage on 2nd enemy",
     key: "CopyDmgY",
+    chipType: "standard",
   },
   {
     number: 162,
@@ -11341,6 +12194,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Duplicate damage on 2nd enemy",
     key: "CopyDmg*",
+    chipType: "standard",
   },
   {
     number: 163,
@@ -11352,6 +12206,7 @@ export const updatedStandardChips = [
     memory: "11 MB",
     description: "Invisible for a while",
     key: "InvisB",
+    chipType: "standard",
   },
   {
     number: 163,
@@ -11363,6 +12218,7 @@ export const updatedStandardChips = [
     memory: "11 MB",
     description: "Invisible for a while",
     key: "InvisE",
+    chipType: "standard",
   },
   {
     number: 163,
@@ -11374,6 +12230,7 @@ export const updatedStandardChips = [
     memory: "11 MB",
     description: "Invisible for a while",
     key: "InvisF",
+    chipType: "standard",
   },
   {
     number: 163,
@@ -11385,6 +12242,7 @@ export const updatedStandardChips = [
     memory: "11 MB",
     description: "Invisible for a while",
     key: "InvisR",
+    chipType: "standard",
   },
   {
     number: 163,
@@ -11396,6 +12254,7 @@ export const updatedStandardChips = [
     memory: "11 MB",
     description: "Invisible for a while",
     key: "InvisS",
+    chipType: "standard",
   },
   {
     number: 163,
@@ -11407,6 +12266,7 @@ export const updatedStandardChips = [
     memory: "11 MB",
     description: "Invisible for a while",
     key: "Invis*",
+    chipType: "standard",
   },
   {
     number: 164,
@@ -11418,6 +12278,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Only swrd attacks hurt you",
     key: "ShadowH",
+    chipType: "standard",
   },
   {
     number: 164,
@@ -11429,6 +12290,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Only swrd attacks hurt you",
     key: "ShadowJ",
+    chipType: "standard",
   },
   {
     number: 164,
@@ -11440,6 +12302,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Only swrd attacks hurt you",
     key: "ShadowN",
+    chipType: "standard",
   },
   {
     number: 164,
@@ -11451,6 +12314,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Only swrd attacks hurt you",
     key: "ShadowQ",
+    chipType: "standard",
   },
   {
     number: 164,
@@ -11462,6 +12326,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Only swrd attacks hurt you",
     key: "ShadowU",
+    chipType: "standard",
   },
   {
     number: 164,
@@ -11473,6 +12338,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Only swrd attacks hurt you",
     key: "Shadow*",
+    chipType: "standard",
   },
   {
     number: 165,
@@ -11484,6 +12350,7 @@ export const updatedStandardChips = [
     memory: "28 MB",
     description: "Attacks fr. under ground!",
     key: "Mole1A",
+    chipType: "standard",
   },
   {
     number: 165,
@@ -11495,6 +12362,7 @@ export const updatedStandardChips = [
     memory: "28 MB",
     description: "Attacks fr. under ground!",
     key: "Mole1D",
+    chipType: "standard",
   },
   {
     number: 165,
@@ -11506,6 +12374,7 @@ export const updatedStandardChips = [
     memory: "28 MB",
     description: "Attacks fr. under ground!",
     key: "Mole1H",
+    chipType: "standard",
   },
   {
     number: 165,
@@ -11517,6 +12386,7 @@ export const updatedStandardChips = [
     memory: "28 MB",
     description: "Attacks fr. under ground!",
     key: "Mole1J",
+    chipType: "standard",
   },
   {
     number: 165,
@@ -11528,6 +12398,7 @@ export const updatedStandardChips = [
     memory: "28 MB",
     description: "Attacks fr. under ground!",
     key: "Mole1O",
+    chipType: "standard",
   },
   {
     number: 165,
@@ -11539,6 +12410,7 @@ export const updatedStandardChips = [
     memory: "28 MB",
     description: "Attacks fr. under ground!",
     key: "Mole1*",
+    chipType: "standard",
   },
   {
     number: 166,
@@ -11550,6 +12422,7 @@ export const updatedStandardChips = [
     memory: "35 MB",
     description: "Attacks fr. under ground!",
     key: "Mole2B",
+    chipType: "standard",
   },
   {
     number: 166,
@@ -11561,6 +12434,7 @@ export const updatedStandardChips = [
     memory: "35 MB",
     description: "Attacks fr. under ground!",
     key: "Mole2D",
+    chipType: "standard",
   },
   {
     number: 166,
@@ -11572,6 +12446,7 @@ export const updatedStandardChips = [
     memory: "35 MB",
     description: "Attacks fr. under ground!",
     key: "Mole2I",
+    chipType: "standard",
   },
   {
     number: 166,
@@ -11583,6 +12458,7 @@ export const updatedStandardChips = [
     memory: "35 MB",
     description: "Attacks fr. under ground!",
     key: "Mole2K",
+    chipType: "standard",
   },
   {
     number: 166,
@@ -11594,6 +12470,7 @@ export const updatedStandardChips = [
     memory: "35 MB",
     description: "Attacks fr. under ground!",
     key: "Mole2R",
+    chipType: "standard",
   },
   {
     number: 166,
@@ -11605,6 +12482,7 @@ export const updatedStandardChips = [
     memory: "35 MB",
     description: "Attacks fr. under ground!",
     key: "Mole2*",
+    chipType: "standard",
   },
   {
     number: 167,
@@ -11616,6 +12494,7 @@ export const updatedStandardChips = [
     memory: "42 MB",
     description: "Attacks fr. under ground!",
     key: "Mole3C",
+    chipType: "standard",
   },
   {
     number: 167,
@@ -11627,6 +12506,7 @@ export const updatedStandardChips = [
     memory: "42 MB",
     description: "Attacks fr. under ground!",
     key: "Mole3E",
+    chipType: "standard",
   },
   {
     number: 167,
@@ -11638,6 +12518,7 @@ export const updatedStandardChips = [
     memory: "42 MB",
     description: "Attacks fr. under ground!",
     key: "Mole3L",
+    chipType: "standard",
   },
   {
     number: 167,
@@ -11649,6 +12530,7 @@ export const updatedStandardChips = [
     memory: "42 MB",
     description: "Attacks fr. under ground!",
     key: "Mole3M",
+    chipType: "standard",
   },
   {
     number: 167,
@@ -11660,6 +12542,7 @@ export const updatedStandardChips = [
     memory: "42 MB",
     description: "Attacks fr. under ground!",
     key: "Mole3Q",
+    chipType: "standard",
   },
   {
     number: 168,
@@ -11671,6 +12554,7 @@ export const updatedStandardChips = [
     memory: "26 MB",
     description: "Can stand on empty squares",
     key: "AirShoesH",
+    chipType: "standard",
   },
   {
     number: 168,
@@ -11682,6 +12566,7 @@ export const updatedStandardChips = [
     memory: "26 MB",
     description: "Can stand on empty squares",
     key: "AirShoesI",
+    chipType: "standard",
   },
   {
     number: 168,
@@ -11693,6 +12578,7 @@ export const updatedStandardChips = [
     memory: "26 MB",
     description: "Can stand on empty squares",
     key: "AirShoesN",
+    chipType: "standard",
   },
   {
     number: 168,
@@ -11704,6 +12590,7 @@ export const updatedStandardChips = [
     memory: "26 MB",
     description: "Can stand on empty squares",
     key: "AirShoesU",
+    chipType: "standard",
   },
   {
     number: 168,
@@ -11715,6 +12602,7 @@ export const updatedStandardChips = [
     memory: "26 MB",
     description: "Can stand on empty squares",
     key: "AirShoesY",
+    chipType: "standard",
   },
   {
     number: 168,
@@ -11726,6 +12614,7 @@ export const updatedStandardChips = [
     memory: "26 MB",
     description: "Can stand on empty squares",
     key: "AirShoes*",
+    chipType: "standard",
   },
   {
     number: 169,
@@ -11737,6 +12626,7 @@ export const updatedStandardChips = [
     memory: "7 MB",
     description: "Nullifies 10HP of damage!",
     key: "BarrierC",
+    chipType: "standard",
   },
   {
     number: 169,
@@ -11748,6 +12638,7 @@ export const updatedStandardChips = [
     memory: "7 MB",
     description: "Nullifies 10HP of damage!",
     key: "BarrierE",
+    chipType: "standard",
   },
   {
     number: 169,
@@ -11759,6 +12650,7 @@ export const updatedStandardChips = [
     memory: "7 MB",
     description: "Nullifies 10HP of damage!",
     key: "BarrierL",
+    chipType: "standard",
   },
   {
     number: 169,
@@ -11770,6 +12662,7 @@ export const updatedStandardChips = [
     memory: "7 MB",
     description: "Nullifies 10HP of damage!",
     key: "BarrierR",
+    chipType: "standard",
   },
   {
     number: 169,
@@ -11781,6 +12674,7 @@ export const updatedStandardChips = [
     memory: "7 MB",
     description: "Nullifies 10HP of damage!",
     key: "BarrierS",
+    chipType: "standard",
   },
   {
     number: 169,
@@ -11792,6 +12686,7 @@ export const updatedStandardChips = [
     memory: "7 MB",
     description: "Nullifies 10HP of damage!",
     key: "Barrier*",
+    chipType: "standard",
   },
   {
     number: 170,
@@ -11803,6 +12698,7 @@ export const updatedStandardChips = [
     memory: "25 MB",
     description: "Nullifies 100HP of damage!",
     key: "Barr100E",
+    chipType: "standard",
   },
   {
     number: 170,
@@ -11814,6 +12710,7 @@ export const updatedStandardChips = [
     memory: "25 MB",
     description: "Nullifies 100HP of damage!",
     key: "Barr100J",
+    chipType: "standard",
   },
   {
     number: 170,
@@ -11825,6 +12722,7 @@ export const updatedStandardChips = [
     memory: "25 MB",
     description: "Nullifies 100HP of damage!",
     key: "Barr100M",
+    chipType: "standard",
   },
   {
     number: 170,
@@ -11836,6 +12734,7 @@ export const updatedStandardChips = [
     memory: "25 MB",
     description: "Nullifies 100HP of damage!",
     key: "Barr100R",
+    chipType: "standard",
   },
   {
     number: 170,
@@ -11847,6 +12746,7 @@ export const updatedStandardChips = [
     memory: "25 MB",
     description: "Nullifies 100HP of damage!",
     key: "Barr100T",
+    chipType: "standard",
   },
   {
     number: 170,
@@ -11858,6 +12758,7 @@ export const updatedStandardChips = [
     memory: "25 MB",
     description: "Nullifies 100HP of damage!",
     key: "Barr100*",
+    chipType: "standard",
   },
   {
     number: 171,
@@ -11869,6 +12770,7 @@ export const updatedStandardChips = [
     memory: "50 MB",
     description: "Nullifies 200HP of damage!",
     key: "Barr200E",
+    chipType: "standard",
   },
   {
     number: 171,
@@ -11880,6 +12782,7 @@ export const updatedStandardChips = [
     memory: "50 MB",
     description: "Nullifies 200HP of damage!",
     key: "Barr200F",
+    chipType: "standard",
   },
   {
     number: 171,
@@ -11891,6 +12794,7 @@ export const updatedStandardChips = [
     memory: "50 MB",
     description: "Nullifies 200HP of damage!",
     key: "Barr200H",
+    chipType: "standard",
   },
   {
     number: 171,
@@ -11902,6 +12806,7 @@ export const updatedStandardChips = [
     memory: "50 MB",
     description: "Nullifies 200HP of damage!",
     key: "Barr200R",
+    chipType: "standard",
   },
   {
     number: 171,
@@ -11913,6 +12818,7 @@ export const updatedStandardChips = [
     memory: "50 MB",
     description: "Nullifies 200HP of damage!",
     key: "Barr200U",
+    chipType: "standard",
   },
   {
     number: 172,
@@ -11924,6 +12830,7 @@ export const updatedStandardChips = [
     memory: "55 MB",
     description: "Repels attacks under 100",
     key: "AuraF",
+    chipType: "standard",
   },
   {
     number: 172,
@@ -11935,6 +12842,7 @@ export const updatedStandardChips = [
     memory: "55 MB",
     description: "Repels attacks under 100",
     key: "AuraI",
+    chipType: "standard",
   },
   {
     number: 172,
@@ -11946,6 +12854,7 @@ export const updatedStandardChips = [
     memory: "55 MB",
     description: "Repels attacks under 100",
     key: "AuraS",
+    chipType: "standard",
   },
   {
     number: 172,
@@ -11957,6 +12866,7 @@ export const updatedStandardChips = [
     memory: "55 MB",
     description: "Repels attacks under 100",
     key: "AuraU",
+    chipType: "standard",
   },
   {
     number: 172,
@@ -11968,6 +12878,7 @@ export const updatedStandardChips = [
     memory: "55 MB",
     description: "Repels attacks under 100",
     key: "AuraY",
+    chipType: "standard",
   },
   {
     number: 173,
@@ -11979,6 +12890,7 @@ export const updatedStandardChips = [
     memory: "43 MB",
     description: "Wind removes auras, etc",
     key: "NrthWindA",
+    chipType: "standard",
   },
   {
     number: 173,
@@ -11990,6 +12902,7 @@ export const updatedStandardChips = [
     memory: "43 MB",
     description: "Wind removes auras, etc",
     key: "NrthWindC",
+    chipType: "standard",
   },
   {
     number: 173,
@@ -12001,6 +12914,7 @@ export const updatedStandardChips = [
     memory: "43 MB",
     description: "Wind removes auras, etc",
     key: "NrthWindN",
+    chipType: "standard",
   },
   {
     number: 173,
@@ -12012,6 +12926,7 @@ export const updatedStandardChips = [
     memory: "43 MB",
     description: "Wind removes auras, etc",
     key: "NrthWindS",
+    chipType: "standard",
   },
   {
     number: 173,
@@ -12023,6 +12938,7 @@ export const updatedStandardChips = [
     memory: "43 MB",
     description: "Wind removes auras, etc",
     key: "NrthWindZ",
+    chipType: "standard",
   },
   {
     number: 174,
@@ -12034,6 +12950,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Summons a Mettaur to fight!",
     key: "MettaurE",
+    chipType: "standard",
   },
   {
     number: 174,
@@ -12045,6 +12962,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Summons a Mettaur to fight!",
     key: "MettaurL",
+    chipType: "standard",
   },
   {
     number: 174,
@@ -12056,6 +12974,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Summons a Mettaur to fight!",
     key: "MettaurM",
+    chipType: "standard",
   },
   {
     number: 174,
@@ -12067,6 +12986,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Summons a Mettaur to fight!",
     key: "MettaurO",
+    chipType: "standard",
   },
   {
     number: 174,
@@ -12078,6 +12998,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Summons a Mettaur to fight!",
     key: "MettaurT",
+    chipType: "standard",
   },
   {
     number: 175,
@@ -12089,6 +13010,7 @@ export const updatedStandardChips = [
     memory: "32 MB",
     description: "Summons a Bunny to fight!",
     key: "BunnyA",
+    chipType: "standard",
   },
   {
     number: 175,
@@ -12100,6 +13022,7 @@ export const updatedStandardChips = [
     memory: "32 MB",
     description: "Summons a Bunny to fight!",
     key: "BunnyB",
+    chipType: "standard",
   },
   {
     number: 175,
@@ -12111,6 +13034,7 @@ export const updatedStandardChips = [
     memory: "32 MB",
     description: "Summons a Bunny to fight!",
     key: "BunnyI",
+    chipType: "standard",
   },
   {
     number: 175,
@@ -12122,6 +13046,7 @@ export const updatedStandardChips = [
     memory: "32 MB",
     description: "Summons a Bunny to fight!",
     key: "BunnyL",
+    chipType: "standard",
   },
   {
     number: 175,
@@ -12133,6 +13058,7 @@ export const updatedStandardChips = [
     memory: "32 MB",
     description: "Summons a Bunny to fight!",
     key: "BunnyR",
+    chipType: "standard",
   },
   {
     number: 176,
@@ -12144,6 +13070,7 @@ export const updatedStandardChips = [
     memory: "34 MB",
     description: "Summons a Spikey to fight!",
     key: "SpikeyA",
+    chipType: "standard",
   },
   {
     number: 176,
@@ -12155,6 +13082,7 @@ export const updatedStandardChips = [
     memory: "34 MB",
     description: "Summons a Spikey to fight!",
     key: "SpikeyE",
+    chipType: "standard",
   },
   {
     number: 176,
@@ -12166,6 +13094,7 @@ export const updatedStandardChips = [
     memory: "34 MB",
     description: "Summons a Spikey to fight!",
     key: "SpikeyG",
+    chipType: "standard",
   },
   {
     number: 176,
@@ -12177,6 +13106,7 @@ export const updatedStandardChips = [
     memory: "34 MB",
     description: "Summons a Spikey to fight!",
     key: "SpikeyR",
+    chipType: "standard",
   },
   {
     number: 176,
@@ -12188,6 +13118,7 @@ export const updatedStandardChips = [
     memory: "34 MB",
     description: "Summons a Spikey to fight!",
     key: "SpikeyU",
+    chipType: "standard",
   },
   {
     number: 177,
@@ -12199,6 +13130,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Summons a Swordy to fight!",
     key: "SwordyD",
+    chipType: "standard",
   },
   {
     number: 177,
@@ -12210,6 +13142,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Summons a Swordy to fight!",
     key: "SwordyI",
+    chipType: "standard",
   },
   {
     number: 177,
@@ -12221,6 +13154,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Summons a Swordy to fight!",
     key: "SwordyO",
+    chipType: "standard",
   },
   {
     number: 177,
@@ -12232,6 +13166,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Summons a Swordy to fight!",
     key: "SwordyS",
+    chipType: "standard",
   },
   {
     number: 177,
@@ -12243,6 +13178,7 @@ export const updatedStandardChips = [
     memory: "30 MB",
     description: "Summons a Swordy to fight!",
     key: "SwordyW",
+    chipType: "standard",
   },
   {
     number: 178,
@@ -12254,6 +13190,7 @@ export const updatedStandardChips = [
     memory: "46 MB",
     description: "Summons a Jelly to fight!",
     key: "JellyE",
+    chipType: "standard",
   },
   {
     number: 178,
@@ -12265,6 +13202,7 @@ export const updatedStandardChips = [
     memory: "46 MB",
     description: "Summons a Jelly to fight!",
     key: "JellyJ",
+    chipType: "standard",
   },
   {
     number: 178,
@@ -12276,6 +13214,7 @@ export const updatedStandardChips = [
     memory: "46 MB",
     description: "Summons a Jelly to fight!",
     key: "JellyL",
+    chipType: "standard",
   },
   {
     number: 178,
@@ -12287,6 +13226,7 @@ export const updatedStandardChips = [
     memory: "46 MB",
     description: "Summons a Jelly to fight!",
     key: "JellyR",
+    chipType: "standard",
   },
   {
     number: 178,
@@ -12298,6 +13238,7 @@ export const updatedStandardChips = [
     memory: "46 MB",
     description: "Summons a Jelly to fight!",
     key: "JellyY",
+    chipType: "standard",
   },
   {
     number: 179,
@@ -12309,6 +13250,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Summons a Mushy to fight!",
     key: "MushyC",
+    chipType: "standard",
   },
   {
     number: 179,
@@ -12320,6 +13262,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Summons a Mushy to fight!",
     key: "MushyH",
+    chipType: "standard",
   },
   {
     number: 179,
@@ -12331,6 +13274,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Summons a Mushy to fight!",
     key: "MushyM",
+    chipType: "standard",
   },
   {
     number: 179,
@@ -12342,6 +13286,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Summons a Mushy to fight!",
     key: "MushyS",
+    chipType: "standard",
   },
   {
     number: 179,
@@ -12353,6 +13298,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Summons a Mushy to fight!",
     key: "MushyY",
+    chipType: "standard",
   },
   {
     number: 180,
@@ -12364,6 +13310,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Summons a Momogra to fight!",
     key: "MomograG",
+    chipType: "standard",
   },
   {
     number: 180,
@@ -12375,6 +13322,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Summons a Momogra to fight!",
     key: "MomograM",
+    chipType: "standard",
   },
   {
     number: 180,
@@ -12386,6 +13334,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Summons a Momogra to fight!",
     key: "MomograO",
+    chipType: "standard",
   },
   {
     number: 180,
@@ -12397,6 +13346,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Summons a Momogra to fight!",
     key: "MomograR",
+    chipType: "standard",
   },
   {
     number: 180,
@@ -12408,6 +13358,7 @@ export const updatedStandardChips = [
     memory: "38 MB",
     description: "Summons a Momogra to fight!",
     key: "MomograU",
+    chipType: "standard",
   },
   {
     number: 181,
@@ -12419,6 +13370,7 @@ export const updatedStandardChips = [
     memory: "50 MB",
     description: "Summons a KillerEye to fight!",
     key: "KillrEyeE",
+    chipType: "standard",
   },
   {
     number: 181,
@@ -12430,6 +13382,7 @@ export const updatedStandardChips = [
     memory: "50 MB",
     description: "Summons a KillerEye to fight!",
     key: "KillrEyeI",
+    chipType: "standard",
   },
   {
     number: 181,
@@ -12441,6 +13394,7 @@ export const updatedStandardChips = [
     memory: "50 MB",
     description: "Summons a KillerEye to fight!",
     key: "KillrEyeK",
+    chipType: "standard",
   },
   {
     number: 181,
@@ -12452,6 +13406,7 @@ export const updatedStandardChips = [
     memory: "50 MB",
     description: "Summons a KillerEye to fight!",
     key: "KillrEyeL",
+    chipType: "standard",
   },
   {
     number: 181,
@@ -12463,6 +13418,7 @@ export const updatedStandardChips = [
     memory: "50 MB",
     description: "Summons a KillerEye to fight!",
     key: "KillrEyeR",
+    chipType: "standard",
   },
   {
     number: 182,
@@ -12474,6 +13430,7 @@ export const updatedStandardChips = [
     memory: "53 MB",
     description: "Summons a Scuttlest to fight!",
     key: "ScuttlstA",
+    chipType: "standard",
   },
   {
     number: 182,
@@ -12485,6 +13442,7 @@ export const updatedStandardChips = [
     memory: "53 MB",
     description: "Summons a Scuttlest to fight!",
     key: "ScuttlstD",
+    chipType: "standard",
   },
   {
     number: 182,
@@ -12496,6 +13454,7 @@ export const updatedStandardChips = [
     memory: "53 MB",
     description: "Summons a Scuttlest to fight!",
     key: "ScuttlstE",
+    chipType: "standard",
   },
   {
     number: 182,
@@ -12507,6 +13466,7 @@ export const updatedStandardChips = [
     memory: "53 MB",
     description: "Summons a Scuttlest to fight!",
     key: "ScuttlstM",
+    chipType: "standard",
   },
   {
     number: 182,
@@ -12518,6 +13478,7 @@ export const updatedStandardChips = [
     memory: "53 MB",
     description: "Summons a Scuttlest to fight!",
     key: "ScuttlstR",
+    chipType: "standard",
   },
   {
     number: 183,
@@ -12529,6 +13490,7 @@ export const updatedStandardChips = [
     memory: "55 MB",
     description: "Open hole to dark world",
     key: "HoleA",
+    chipType: "standard",
   },
   {
     number: 183,
@@ -12540,6 +13502,7 @@ export const updatedStandardChips = [
     memory: "55 MB",
     description: "Open hole to dark world",
     key: "HoleB",
+    chipType: "standard",
   },
   {
     number: 183,
@@ -12551,6 +13514,7 @@ export const updatedStandardChips = [
     memory: "55 MB",
     description: "Open hole to dark world",
     key: "HoleS",
+    chipType: "standard",
   },
   {
     number: 183,
@@ -12562,6 +13526,7 @@ export const updatedStandardChips = [
     memory: "55 MB",
     description: "Open hole to dark world",
     key: "HoleT",
+    chipType: "standard",
   },
   {
     number: 183,
@@ -12573,6 +13538,7 @@ export const updatedStandardChips = [
     memory: "55 MB",
     description: "Open hole to dark world",
     key: "HoleZ",
+    chipType: "standard",
   },
   {
     number: 183,
@@ -12584,6 +13550,7 @@ export const updatedStandardChips = [
     memory: "55 MB",
     description: "Open hole to dark world",
     key: "Hole*",
+    chipType: "standard",
   },
   {
     number: 184,
@@ -12595,6 +13562,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Creates a holy pnl in front",
     key: "HolyPanlE",
+    chipType: "standard",
   },
   {
     number: 184,
@@ -12606,6 +13574,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Creates a holy pnl in front",
     key: "HolyPanlJ",
+    chipType: "standard",
   },
   {
     number: 184,
@@ -12617,6 +13586,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Creates a holy pnl in front",
     key: "HolyPanlL",
+    chipType: "standard",
   },
   {
     number: 184,
@@ -12628,6 +13598,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Creates a holy pnl in front",
     key: "HolyPanlR",
+    chipType: "standard",
   },
   {
     number: 184,
@@ -12639,6 +13610,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Creates a holy pnl in front",
     key: "HolyPanlU",
+    chipType: "standard",
   },
   {
     number: 184,
@@ -12650,6 +13622,7 @@ export const updatedStandardChips = [
     memory: "14 MB",
     description: "Creates a holy pnl in front",
     key: "HolyPanl*",
+    chipType: "standard",
   },
   {
     number: 185,
@@ -12661,6 +13634,7 @@ export const updatedStandardChips = [
     memory: "22 MB",
     description: "Changes all panls to lava",
     key: "LavaStgeA",
+    chipType: "standard",
   },
   {
     number: 185,
@@ -12672,6 +13646,7 @@ export const updatedStandardChips = [
     memory: "22 MB",
     description: "Changes all panls to lava",
     key: "LavaStgeE",
+    chipType: "standard",
   },
   {
     number: 185,
@@ -12683,6 +13658,7 @@ export const updatedStandardChips = [
     memory: "22 MB",
     description: "Changes all panls to lava",
     key: "LavaStgeR",
+    chipType: "standard",
   },
   {
     number: 185,
@@ -12694,6 +13670,7 @@ export const updatedStandardChips = [
     memory: "22 MB",
     description: "Changes all panls to lava",
     key: "LavaStgeT",
+    chipType: "standard",
   },
   {
     number: 185,
@@ -12705,6 +13682,7 @@ export const updatedStandardChips = [
     memory: "22 MB",
     description: "Changes all panls to lava",
     key: "LavaStgeY",
+    chipType: "standard",
   },
   {
     number: 185,
@@ -12716,6 +13694,7 @@ export const updatedStandardChips = [
     memory: "22 MB",
     description: "Changes all panls to lava",
     key: "LavaStge*",
+    chipType: "standard",
   },
   {
     number: 186,
@@ -12727,6 +13706,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "Changes all panls to ice",
     key: "IceStageC",
+    chipType: "standard",
   },
   {
     number: 186,
@@ -12738,6 +13718,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "Changes all panls to ice",
     key: "IceStageG",
+    chipType: "standard",
   },
   {
     number: 186,
@@ -12749,6 +13730,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "Changes all panls to ice",
     key: "IceStageM",
+    chipType: "standard",
   },
   {
     number: 186,
@@ -12760,6 +13742,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "Changes all panls to ice",
     key: "IceStageQ",
+    chipType: "standard",
   },
   {
     number: 186,
@@ -12771,6 +13754,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "Changes all panls to ice",
     key: "IceStageT",
+    chipType: "standard",
   },
   {
     number: 186,
@@ -12782,6 +13766,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "Changes all panls to ice",
     key: "IceStage*",
+    chipType: "standard",
   },
   {
     number: 187,
@@ -12793,6 +13778,7 @@ export const updatedStandardChips = [
     memory: "10 MB",
     description: "Changes all panls to grass",
     key: "GrassStgE",
+    chipType: "standard",
   },
   {
     number: 187,
@@ -12804,6 +13790,7 @@ export const updatedStandardChips = [
     memory: "10 MB",
     description: "Changes all panls to grass",
     key: "GrassStgJ",
+    chipType: "standard",
   },
   {
     number: 187,
@@ -12815,6 +13802,7 @@ export const updatedStandardChips = [
     memory: "10 MB",
     description: "Changes all panls to grass",
     key: "GrassStgR",
+    chipType: "standard",
   },
   {
     number: 187,
@@ -12826,6 +13814,7 @@ export const updatedStandardChips = [
     memory: "10 MB",
     description: "Changes all panls to grass",
     key: "GrassStgW",
+    chipType: "standard",
   },
   {
     number: 187,
@@ -12837,6 +13826,7 @@ export const updatedStandardChips = [
     memory: "10 MB",
     description: "Changes all panls to grass",
     key: "GrassStgZ",
+    chipType: "standard",
   },
   {
     number: 187,
@@ -12848,6 +13838,7 @@ export const updatedStandardChips = [
     memory: "10 MB",
     description: "Changes all panls to grass",
     key: "GrassStg*",
+    chipType: "standard",
   },
   {
     number: 188,
@@ -12859,6 +13850,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Changes all panls to sand",
     key: "SandStgeB",
+    chipType: "standard",
   },
   {
     number: 188,
@@ -12870,6 +13862,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Changes all panls to sand",
     key: "SandStgeC",
+    chipType: "standard",
   },
   {
     number: 188,
@@ -12881,6 +13874,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Changes all panls to sand",
     key: "SandStgeQ",
+    chipType: "standard",
   },
   {
     number: 188,
@@ -12892,6 +13886,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Changes all panls to sand",
     key: "SandStgeU",
+    chipType: "standard",
   },
   {
     number: 188,
@@ -12903,6 +13898,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Changes all panls to sand",
     key: "SandStgeW",
+    chipType: "standard",
   },
   {
     number: 189,
@@ -12914,6 +13910,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Changes all panls to metal",
     key: "MetlStgeD",
+    chipType: "standard",
   },
   {
     number: 189,
@@ -12925,6 +13922,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Changes all panls to metal",
     key: "MetlStgeG",
+    chipType: "standard",
   },
   {
     number: 189,
@@ -12936,6 +13934,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Changes all panls to metal",
     key: "MetlStgeM",
+    chipType: "standard",
   },
   {
     number: 189,
@@ -12947,6 +13946,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Changes all panls to metal",
     key: "MetlStgeO",
+    chipType: "standard",
   },
   {
     number: 189,
@@ -12958,6 +13958,7 @@ export const updatedStandardChips = [
     memory: "18 MB",
     description: "Changes all panls to metal",
     key: "MetlStgeS",
+    chipType: "standard",
   },
   {
     number: 190,
@@ -12969,6 +13970,7 @@ export const updatedStandardChips = [
     memory: "54 MB",
     description: "Change own panls to holy",
     key: "SnctuaryA",
+    chipType: "standard",
   },
   {
     number: 190,
@@ -12980,6 +13982,7 @@ export const updatedStandardChips = [
     memory: "54 MB",
     description: "Change own panls to holy",
     key: "SnctuaryC",
+    chipType: "standard",
   },
   {
     number: 190,
@@ -12991,6 +13994,7 @@ export const updatedStandardChips = [
     memory: "54 MB",
     description: "Change own panls to holy",
     key: "SnctuaryE",
+    chipType: "standard",
   },
   {
     number: 190,
@@ -13002,6 +14006,7 @@ export const updatedStandardChips = [
     memory: "54 MB",
     description: "Change own panls to holy",
     key: "SnctuaryL",
+    chipType: "standard",
   },
   {
     number: 190,
@@ -13013,6 +14018,7 @@ export const updatedStandardChips = [
     memory: "54 MB",
     description: "Change own panls to holy",
     key: "SnctuaryS",
+    chipType: "standard",
   },
   {
     number: 191,
@@ -13024,6 +14030,7 @@ export const updatedStandardChips = [
     memory: "45 MB",
     description: "Sets trap & throws stars!",
     key: "AntiDmgC",
+    chipType: "standard",
   },
   {
     number: 191,
@@ -13035,6 +14042,7 @@ export const updatedStandardChips = [
     memory: "45 MB",
     description: "Sets trap & throws stars!",
     key: "AntiDmgF",
+    chipType: "standard",
   },
   {
     number: 191,
@@ -13046,6 +14054,7 @@ export const updatedStandardChips = [
     memory: "45 MB",
     description: "Sets trap & throws stars!",
     key: "AntiDmgH",
+    chipType: "standard",
   },
   {
     number: 191,
@@ -13057,6 +14066,7 @@ export const updatedStandardChips = [
     memory: "45 MB",
     description: "Sets trap & throws stars!",
     key: "AntiDmgM",
+    chipType: "standard",
   },
   {
     number: 191,
@@ -13068,6 +14078,7 @@ export const updatedStandardChips = [
     memory: "45 MB",
     description: "Sets trap & throws stars!",
     key: "AntiDmgS",
+    chipType: "standard",
   },
   {
     number: 192,
@@ -13079,6 +14090,7 @@ export const updatedStandardChips = [
     memory: "68 MB",
     description: "Retaliate for sword damage",
     key: "AntiSwrdB",
+    chipType: "standard",
   },
   {
     number: 192,
@@ -13090,6 +14102,7 @@ export const updatedStandardChips = [
     memory: "68 MB",
     description: "Retaliate for sword damage",
     key: "AntiSwrdK",
+    chipType: "standard",
   },
   {
     number: 192,
@@ -13101,6 +14114,7 @@ export const updatedStandardChips = [
     memory: "68 MB",
     description: "Retaliate for sword damage",
     key: "AntiSwrdR",
+    chipType: "standard",
   },
   {
     number: 192,
@@ -13112,6 +14126,7 @@ export const updatedStandardChips = [
     memory: "68 MB",
     description: "Retaliate for sword damage",
     key: "AntiSwrdU",
+    chipType: "standard",
   },
   {
     number: 192,
@@ -13123,6 +14138,7 @@ export const updatedStandardChips = [
     memory: "68 MB",
     description: "Retaliate for sword damage",
     key: "AntiSwrdY",
+    chipType: "standard",
   },
   {
     number: 193,
@@ -13134,6 +14150,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Takes the enemy's Navi away",
     key: "AntiNaviA",
+    chipType: "standard",
   },
   {
     number: 193,
@@ -13145,6 +14162,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Takes the enemy's Navi away",
     key: "AntiNaviM",
+    chipType: "standard",
   },
   {
     number: 193,
@@ -13156,6 +14174,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Takes the enemy's Navi away",
     key: "AntiNaviN",
+    chipType: "standard",
   },
   {
     number: 193,
@@ -13167,6 +14186,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Takes the enemy's Navi away",
     key: "AntiNaviV",
+    chipType: "standard",
   },
   {
     number: 193,
@@ -13178,6 +14198,7 @@ export const updatedStandardChips = [
     memory: "60 MB",
     description: "Takes the enemy's Navi away",
     key: "AntiNaviW",
+    chipType: "standard",
   },
   {
     number: 194,
@@ -13189,6 +14210,7 @@ export const updatedStandardChips = [
     memory: "73 MB",
     description: "Punish recovery of HPs!",
     key: "AntiRecvB",
+    chipType: "standard",
   },
   {
     number: 194,
@@ -13200,6 +14222,7 @@ export const updatedStandardChips = [
     memory: "73 MB",
     description: "Punish recovery of HPs!",
     key: "AntiRecvD",
+    chipType: "standard",
   },
   {
     number: 194,
@@ -13211,6 +14234,7 @@ export const updatedStandardChips = [
     memory: "73 MB",
     description: "Punish recovery of HPs!",
     key: "AntiRecvE",
+    chipType: "standard",
   },
   {
     number: 194,
@@ -13222,6 +14246,7 @@ export const updatedStandardChips = [
     memory: "73 MB",
     description: "Punish recovery of HPs!",
     key: "AntiRecvO",
+    chipType: "standard",
   },
   {
     number: 194,
@@ -13233,6 +14258,7 @@ export const updatedStandardChips = [
     memory: "73 MB",
     description: "Punish recovery of HPs!",
     key: "AntiRecvS",
+    chipType: "standard",
   },
   {
     number: 195,
@@ -13244,6 +14270,7 @@ export const updatedStandardChips = [
     memory: "4 MB",
     description: "+10 for selected atk chip",
     key: "Atk+10*",
+    chipType: "standard",
   },
   {
     number: 196,
@@ -13255,6 +14282,7 @@ export const updatedStandardChips = [
     memory: "20 MB",
     description: "+30 for Fire atk chip",
     key: "Fire+30*",
+    chipType: "standard",
   },
   {
     number: 197,
@@ -13266,6 +14294,7 @@ export const updatedStandardChips = [
     memory: "21 MB",
     description: "+30 for Aqua atk chip",
     key: "Aqua+30*",
+    chipType: "standard",
   },
   {
     number: 198,
@@ -13277,6 +14306,7 @@ export const updatedStandardChips = [
     memory: "23 MB",
     description: "+30 for Elec atk chip",
     key: "Elec+30*",
+    chipType: "standard",
   },
   {
     number: 199,
@@ -13288,6 +14318,7 @@ export const updatedStandardChips = [
     memory: "26 MB",
     description: "+30 for Wood atk chip",
     key: "Wood+30*",
+    chipType: "standard",
   },
   {
     number: 200,
@@ -13299,6 +14330,7 @@ export const updatedStandardChips = [
     memory: "34 MB",
     description: "+20 for selected Navi chip",
     key: "Navi+20*",
+    chipType: "standard",
   },
 ];
 
@@ -13318,6 +14350,7 @@ export const updatedStandardChips = [
 //       memory: chip.memory,
 //       description: chip.description,
 //       key: chip.name + code,
+//       chipType: "standard",
 //     };
 //     formattedChips.push(newChip);
 //   });
