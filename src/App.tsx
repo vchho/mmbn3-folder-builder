@@ -1,5 +1,5 @@
 import { StandardChip, updatedStandardChips } from "./utils/chips";
-import { ChangeEvent, useState } from "react";
+import { useState } from "react";
 import { Tab } from "@headlessui/react";
 import { megaChips } from "./utils/megaChips";
 
@@ -160,10 +160,10 @@ function App() {
     }
   };
 
-  const handleChipSearch = (event: ChangeEvent<HTMLInputElement>) => {
-    const text = event.target.value;
-    // setChipSearchValue(text);
-  };
+  // const handleChipSearch = (event: ChangeEvent<HTMLInputElement>) => {
+  //   const text = event.target.value;
+  //   setChipSearchValue(text);
+  // };
 
   return (
     <>
@@ -201,7 +201,7 @@ function App() {
                   id="chip-search-input"
                   className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
                   placeholder="Search for chips here..."
-                  onChange={handleChipSearch}
+                  // onChange={handleChipSearch}
                 />
               </div>
               {/* {updatedStandardChips
