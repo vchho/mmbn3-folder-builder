@@ -9,7 +9,7 @@ export const megaChips = [
     memory: "74 MB",
     description: "Power=amount of HP lost!",
     key: "MuramasaM",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 2,
@@ -21,7 +21,7 @@ export const megaChips = [
     memory: "65 MB",
     description: "Legendary swrd cuts 3 sq!",
     key: "HeroSwrdP",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 3,
@@ -33,7 +33,7 @@ export const megaChips = [
     memory: "90 MB",
     description: "Damages anyone on a panel",
     key: "ZeusHamrZ",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 4,
@@ -45,7 +45,7 @@ export const megaChips = [
     memory: "22 MB",
     description: "Send Fire into hole",
     key: "StandOutP",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 5,
@@ -57,7 +57,7 @@ export const megaChips = [
     memory: "50 MB",
     description: "Send Fire into hole",
     key: "SalamndrS",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 5,
@@ -69,7 +69,7 @@ export const megaChips = [
     memory: "50 MB",
     description: "Send Fire into hole",
     key: "Salamndr*",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 6,
@@ -81,7 +81,7 @@ export const megaChips = [
     memory: "18 MB",
     description: "Draw wter from hole",
     key: "WatrLineC",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 6,
@@ -93,7 +93,7 @@ export const megaChips = [
     memory: "18 MB",
     description: "Draw wter from hole",
     key: "WatrLine*",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 7,
@@ -105,7 +105,7 @@ export const megaChips = [
     memory: "48 MB",
     description: "Draw wter from hole",
     key: "FountainD",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 7,
@@ -117,7 +117,7 @@ export const megaChips = [
     memory: "48 MB",
     description: "Draw wter from hole",
     key: "Fountain*",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 8,
@@ -129,7 +129,7 @@ export const megaChips = [
     memory: "30 MB",
     description: "Dmgs object & area",
     key: "LightningL",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 8,
@@ -141,7 +141,7 @@ export const megaChips = [
     memory: "30 MB",
     description: "Dmgs object & area",
     key: "Lightning*",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 9,
@@ -153,7 +153,7 @@ export const megaChips = [
     memory: "52 MB",
     description: "Dmgs object & area",
     key: "BoltT",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 9,
@@ -165,7 +165,7 @@ export const megaChips = [
     memory: "52 MB",
     description: "Dmgs object & area",
     key: "Bolt*",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 10,
@@ -177,7 +177,7 @@ export const megaChips = [
     memory: "28 MB",
     description: "Take power frm next chip",
     key: "GaiaSwrdG",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 10,
@@ -189,7 +189,7 @@ export const megaChips = [
     memory: "28 MB",
     description: "Take power frm next chip",
     key: "GaiaSwrd*",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 11,
@@ -201,7 +201,7 @@ export const megaChips = [
     memory: "55 MB",
     description: "Take power fr. next chip",
     key: "GaiaBladG",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 11,
@@ -213,7 +213,7 @@ export const megaChips = [
     memory: "55 MB",
     description: "Take power fr. next chip",
     key: "GaiaBlad*",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 12,
@@ -225,7 +225,7 @@ export const megaChips = [
     memory: "86 MB",
     description: "Drop many meteors on enemy",
     key: "MeteorsR",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 13,
@@ -237,7 +237,7 @@ export const megaChips = [
     memory: "82 MB",
     description: "Statue punishes when hit",
     key: "GuardianO",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 14,
@@ -249,7 +249,7 @@ export const megaChips = [
     memory: "90 MB",
     description: "Anubis poisons enemies",
     key: "AnubisA",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 15,
@@ -261,7 +261,7 @@ export const megaChips = [
     memory: "66 MB",
     description: "Summons a GodStone from hole",
     key: "GodStoneS",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 16,
@@ -273,7 +273,7 @@ export const megaChips = [
     memory: "72 MB",
     description: "Summons OldWood from hole",
     key: "OldWoodW",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 17,
@@ -285,7 +285,7 @@ export const megaChips = [
     memory: "64 MB",
     description: "More dmg if enemy has chips",
     key: "JealousyJ",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 18,
@@ -297,7 +297,7 @@ export const megaChips = [
     memory: "58 MB",
     description: "Objects thrown at enemies!",
     key: "PoltrgstG",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 19,
@@ -309,7 +309,7 @@ export const megaChips = [
     memory: "77 MB",
     description: "Repel all attacks under 200",
     key: "LifeAuraD",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 20,
@@ -321,7 +321,7 @@ export const megaChips = [
     memory: "10 MB",
     description: "CustGauge instantly refills!",
     key: "FullCust*",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 21,
@@ -333,7 +333,7 @@ export const megaChips = [
     memory: "50 MB",
     description: "+30 for selected atk chip",
     key: "Atk+30*",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 22,
@@ -345,7 +345,7 @@ export const megaChips = [
     memory: "60 MB",
     description: "+40 for selected Navi chip",
     key: "Navi+40*",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 23,
@@ -357,7 +357,7 @@ export const megaChips = [
     memory: "10 MB",
     description: "Attack an enemy, heal you",
     key: "RollR",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 24,
@@ -369,7 +369,7 @@ export const megaChips = [
     memory: "22 MB",
     description: "Attack an enemy, heal you",
     key: "Roll V2R",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 25,
@@ -381,7 +381,7 @@ export const megaChips = [
     memory: "34 MB",
     description: "Attack an enemy, heal you",
     key: "Roll V3R",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 26,
@@ -393,7 +393,7 @@ export const megaChips = [
     memory: "15 MB",
     description: "Sneaks up to smash panels!",
     key: "GutsManG",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 27,
@@ -405,7 +405,7 @@ export const megaChips = [
     memory: "41 MB",
     description: "Sneaks up to smash panels!",
     key: "GutsMan V2G",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 28,
@@ -417,7 +417,7 @@ export const megaChips = [
     memory: "57 MB",
     description: "Sneaks up to smash panels!",
     key: "GutsMan V3G",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 29,
@@ -429,7 +429,7 @@ export const megaChips = [
     memory: "63 MB",
     description: "Sneaks up to smash panels!",
     key: "GutsMan V4G",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 30,
@@ -441,7 +441,7 @@ export const megaChips = [
     memory: "68 MB",
     description: "Moves in to slice the enemy",
     key: "ProtoManB",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 31,
@@ -453,7 +453,7 @@ export const megaChips = [
     memory: "76 MB",
     description: "Moves in to slice the enemy",
     key: "ProtoMn V2B",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 32,
@@ -465,7 +465,7 @@ export const megaChips = [
     memory: "82 MB",
     description: "Moves in to slice the enemy",
     key: "ProtoMn V3B",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 33,
@@ -477,7 +477,7 @@ export const megaChips = [
     memory: "90 MB",
     description: "Moves in to slice the enemy",
     key: "ProtoMn V4B",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 34,
@@ -489,7 +489,7 @@ export const megaChips = [
     memory: "39 MB",
     description: "Flash atk paralyzes enemy",
     key: "FlashManF",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 35,
@@ -501,7 +501,7 @@ export const megaChips = [
     memory: "59 MB",
     description: "Flash atk paralyzes enemy",
     key: "FlashMn V2F",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 36,
@@ -513,7 +513,7 @@ export const megaChips = [
     memory: "69 MB",
     description: "Flash atk paralyzes enemy",
     key: "FlashMn V3F",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 37,
@@ -525,7 +525,7 @@ export const megaChips = [
     memory: "79 MB",
     description: "Flash atk paralyzes enemy",
     key: "FlashMn V4F",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 38,
@@ -537,7 +537,7 @@ export const megaChips = [
     memory: "38 MB",
     description: "Claw atk 3 squares ahead!",
     key: "BeastManB",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 39,
@@ -549,7 +549,7 @@ export const megaChips = [
     memory: "60 MB",
     description: "Claw atk 3 squares ahead!",
     key: "BeastMn V2B",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 40,
@@ -561,7 +561,7 @@ export const megaChips = [
     memory: "68 MB",
     description: "Claw atk 3 squares ahead!",
     key: "BeastMn V3B",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 41,
@@ -573,7 +573,7 @@ export const megaChips = [
     memory: "76 MB",
     description: "Claw atk 3 squares ahead!",
     key: "BeastMn V4B",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 42,
@@ -585,7 +585,7 @@ export const megaChips = [
     memory: "50 MB",
     description: "Fires several AquaShots",
     key: "BubblManB",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 43,
@@ -597,7 +597,7 @@ export const megaChips = [
     memory: "62 MB",
     description: "Fires several AquaShots",
     key: "BubblMn V2B",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 44,
@@ -609,7 +609,7 @@ export const megaChips = [
     memory: "74 MB",
     description: "Fires several AquaShots",
     key: "BubblMn V3B",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 45,
@@ -621,7 +621,7 @@ export const megaChips = [
     memory: "80 MB",
     description: "Fires several AquaShots",
     key: "BubblMn V4B",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 46,
@@ -633,7 +633,7 @@ export const megaChips = [
     memory: "38 MB",
     description: "Launches fists at enemies!",
     key: "DesrtManD",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 47,
@@ -645,7 +645,7 @@ export const megaChips = [
     memory: "52 MB",
     description: "Launches fists at enemies!",
     key: "DesrtMn V2D",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 48,
@@ -657,7 +657,7 @@ export const megaChips = [
     memory: "64 MB",
     description: "Launches fists at enemies!",
     key: "DesrtMn V3D",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 49,
@@ -669,7 +669,7 @@ export const megaChips = [
     memory: "72 MB",
     description: "Launches fists at enemies!",
     key: "DesrtMn V4D",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 50,
@@ -681,7 +681,7 @@ export const megaChips = [
     memory: "60 MB",
     description: "Vines harm all enemies!",
     key: "PlantManP",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 51,
@@ -693,7 +693,7 @@ export const megaChips = [
     memory: "65 MB",
     description: "Vines harm all enemies!",
     key: "PlantMn V2P",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 52,
@@ -705,7 +705,7 @@ export const megaChips = [
     memory: "70 MB",
     description: "Vines harm all enemies!",
     key: "PlantMn V3P",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 53,
@@ -717,7 +717,7 @@ export const megaChips = [
     memory: "75 MB",
     description: "Vines harm all enemies!",
     key: "PlantMn V4P",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 54,
@@ -729,7 +729,7 @@ export const megaChips = [
     memory: "32 MB",
     description: "Flames burn all enemies!",
     key: "FlamManF",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 55,
@@ -741,7 +741,7 @@ export const megaChips = [
     memory: "52 MB",
     description: "Flames burn all enemies!",
     key: "FlamMan V2F",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 56,
@@ -753,7 +753,7 @@ export const megaChips = [
     memory: "62 MB",
     description: "Flames burn all enemies!",
     key: "FlamMan V3F",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 57,
@@ -765,7 +765,7 @@ export const megaChips = [
     memory: "72 MB",
     description: "Flames burn all enemies!",
     key: "FlamMan V4F",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 58,
@@ -777,7 +777,7 @@ export const megaChips = [
     memory: "66 MB",
     description: "3 drills fly at enemies!",
     key: "DrillManD",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 59,
@@ -789,7 +789,7 @@ export const megaChips = [
     memory: "70 MB",
     description: "3 drills fly at enemies!",
     key: "DrillMn V2D",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 60,
@@ -801,7 +801,7 @@ export const megaChips = [
     memory: "74 MB",
     description: "3 drills fly at enemies!",
     key: "DrillMn V3D",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 61,
@@ -813,7 +813,7 @@ export const megaChips = [
     memory: "78 MB",
     description: "3 drills fly at enemies!",
     key: "DrillMn V4D",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 62,
@@ -825,7 +825,7 @@ export const megaChips = [
     memory: "40 MB",
     description: "Iron fist smashes 1 square!",
     key: "MetalManM",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 63,
@@ -837,7 +837,7 @@ export const megaChips = [
     memory: "60 MB",
     description: "Iron fist smashes 1 square!",
     key: "MetalMn V2M",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 64,
@@ -849,7 +849,7 @@ export const megaChips = [
     memory: "70 MB",
     description: "Iron fist smashes 1 square!",
     key: "MetalMn V3M",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 65,
@@ -861,7 +861,7 @@ export const megaChips = [
     memory: "80 MB",
     description: "Iron fist smashes 1 square!",
     key: "MetalMn V4M",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 66,
@@ -873,7 +873,7 @@ export const megaChips = [
     memory: "36 MB",
     description: "Move up 3 square & 4-way hit",
     key: "KingManK",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 67,
@@ -885,7 +885,7 @@ export const megaChips = [
     memory: "48 MB",
     description: "Move up 3 square & 4-way hit",
     key: "KingMan V2K",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 68,
@@ -897,7 +897,7 @@ export const megaChips = [
     memory: "60 MB",
     description: "Move up 3 square & 4-way hit",
     key: "KingMan V3K",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 69,
@@ -909,7 +909,7 @@ export const megaChips = [
     memory: "72 MB",
     description: "Move up 3 square & 4-way hit",
     key: "KingMan V4K",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 70,
@@ -921,7 +921,7 @@ export const megaChips = [
     memory: "68 MB",
     description: "Appears from mist & attacks",
     key: "MistManM",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 71,
@@ -933,7 +933,7 @@ export const megaChips = [
     memory: "71 MB",
     description: "Appears from mist & attacks",
     key: "MistMan V2M",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 72,
@@ -945,7 +945,7 @@ export const megaChips = [
     memory: "74 MB",
     description: "Appears from mist & attacks",
     key: "MistMan V3M",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 73,
@@ -957,7 +957,7 @@ export const megaChips = [
     memory: "77 MB",
     description: "Appears from mist & attacks",
     key: "MistMan V4M",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 74,
@@ -969,7 +969,7 @@ export const megaChips = [
     memory: "80 MB",
     description: "Lines up pins for a strike!",
     key: "BowlManB",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 75,
@@ -981,7 +981,7 @@ export const megaChips = [
     memory: "82 MB",
     description: "Lines up pins for a strike!",
     key: "BowlMan V2B",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 76,
@@ -993,7 +993,7 @@ export const megaChips = [
     memory: "84 MB",
     description: "Lines up pins for a strike!",
     key: "BowlMan V3B",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 77,
@@ -1005,7 +1005,7 @@ export const megaChips = [
     memory: "86 MB",
     description: "Lines up pins for a strike!",
     key: "BowlMan V4B",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 78,
@@ -1017,7 +1017,7 @@ export const megaChips = [
     memory: "72 MB",
     description: "Creates 3 caves in enmy area",
     key: "DarkManD",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 79,
@@ -1029,7 +1029,7 @@ export const megaChips = [
     memory: "76 MB",
     description: "Creates 3 caves in enmy area",
     key: "DarkMan V2D",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 80,
@@ -1041,7 +1041,7 @@ export const megaChips = [
     memory: "80 MB",
     description: "Creates 3 caves in enmy area",
     key: "DarkMan V3D",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 81,
@@ -1053,7 +1053,7 @@ export const megaChips = [
     memory: "84 MB",
     description: "Creates 3 caves in enmy area",
     key: "DarkMan V4D",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 82,
@@ -1065,7 +1065,7 @@ export const megaChips = [
     memory: "82 MB",
     description: "Multiple attacks w/ spear",
     key: "JapanManY",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 83,
@@ -1077,7 +1077,7 @@ export const megaChips = [
     memory: "85 MB",
     description: "Multiple attacks w/ spear",
     key: "JapanMn V2Y",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 84,
@@ -1089,7 +1089,7 @@ export const megaChips = [
     memory: "88 MB",
     description: "Multiple attacks w/ spear",
     key: "JapanMn V3Y",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 85,
@@ -1101,7 +1101,7 @@ export const megaChips = [
     memory: "91 MB",
     description: "Multiple attacks w/ spear",
     key: "JapanMn V4Y",
-    chipType: "giga",
+    chipType: "mega",
   },
   {
     number: 86,
@@ -1113,6 +1113,6 @@ export const megaChips = [
     memory: "92 MB",
     description: "Spins and smashes enemies!",
     key: "PunkP",
-    chipType: "giga",
+    chipType: "mega",
   },
 ];
