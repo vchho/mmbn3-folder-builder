@@ -1,8 +1,8 @@
-import { StandardChip, updatedStandardChips } from "./utils/chips";
-import { useState } from "react";
+import { StandardChip } from "./utils/chips";
+import { useState, ChangeEvent } from "react";
 import { Tab } from "@headlessui/react";
-import { megaChips } from "./utils/megaChips";
 import { BottomTabBar } from "./components/BottomTabBar";
+import useBattleChips from "./hooks/useBattleChips";
 
 // const megaChip = 5;
 // const gigaChip = 1;
@@ -11,25 +11,28 @@ function classNames(...classes: any[]) {
   return classes.filter(Boolean).join(" ");
 }
 
+type FolderTrack = {
+  count: number;
+  chipType: string;
+  name: string;
+};
+
 function App() {
   const [folder, setFolder] = useState<any[]>([]);
-  const [folderTrack, setFolder2] = useState<any[]>([]);
-  // const [searchValue, setChipSearchValue] = useState("");
+  const [folderTrack, setFolder2] = useState<FolderTrack[]>([]);
+  const [currentTabIndex, setCurrentTabIndex] = useState(0);
+  const { chipLibrary, originalChipLibrary, setSearchTerm } =
+    useBattleChips(currentTabIndex);
 
-  let [categories] = useState({
-    Standard: updatedStandardChips,
-    Mega: megaChips,
-  });
+  const totalCount = folderTrack.reduce((accumulator, currentValue) => {
+    return accumulator + currentValue.count;
+  }, 0);
 
-  const totalCount = folderTrack.reduce(
-    (
-      accumulator: number,
-      currentValue: { count: number; chipType: string; name: string }
-    ) => {
-      return accumulator + currentValue.count;
-    },
-    0
-  );
+  const totalMegaChips = folderTrack.reduce((accumulator, currentValue) => {
+    return currentValue.chipType === "mega"
+      ? accumulator + currentValue.count
+      : accumulator;
+  }, 0);
 
   const handleFolderAdd2 = (chip: StandardChip) => {
     const chipIndex = folderTrack.findIndex(
@@ -39,29 +42,17 @@ function App() {
     if (chipIndex > -1) {
       const currentChip = folderTrack.find((c) => c.name === chip.name);
 
-      const totalMegaChips = folderTrack.reduce(
-        (
-          accumulator: number,
-          currentValue: { count: number; chipType: string; name: string }
-        ) => {
-          if (currentValue.chipType === "mega") {
-            return (accumulator = accumulator + 1);
-          }
-        },
-        0
-      );
-
       if (totalMegaChips === 5) {
         alert("Can only have 5 mega chips");
         return;
       }
 
-      if (currentChip.count === 1 && currentChip.chipType === "mega") {
+      if (currentChip?.count === 1 && currentChip?.chipType === "mega") {
         alert("Can only have 1 of each mega chip");
         return;
       }
 
-      if (currentChip.count === 4) {
+      if (currentChip?.count === 4) {
         alert("Can only have 4 of each chip");
       } else {
         const chipIndexForFolder = folder.findIndex(
@@ -112,7 +103,6 @@ function App() {
       // const currentChip = folderTrack.find((c) => c.name === chip.name);
       const chipData = folderTrack[chipIndex];
       const updatedChip = { ...chipData, count: chipData.count - 1 };
-      console.log(updatedChip);
       if (updatedChip.count === 0) {
         setFolder2([
           ...folderTrack.slice(0, chipIndex),
@@ -153,15 +143,18 @@ function App() {
         // setFolder([...folder.slice(0, index), ...folder.slice(index + 1)]);
       }
     } else {
-      setFolder2([...folderTrack, { count: 1, name: chip.name }]);
+      setFolder2([
+        ...folderTrack,
+        { count: 1, name: chip.name, chipType: chip.chipType },
+      ]);
       setFolder([...folder, chip]);
     }
   };
 
-  // const handleChipSearch = (event: ChangeEvent<HTMLInputElement>) => {
-  //   const text = event.target.value;
-  //   setChipSearchValue(text);
-  // };
+  const handleChipSearch = (event: ChangeEvent<HTMLInputElement>) => {
+    const text = event.target.value;
+    setSearchTerm(text);
+  };
 
   return (
     <>
@@ -192,49 +185,26 @@ function App() {
         <div className="col-span-6 flex flex-1 overflow-hidden">
           <div className="flex-1 overflow-y-scroll">
             <div className="bg-lime-400">
-              <p>Standard</p>
               <div className="mb-6">
                 <input
                   type="text"
                   id="chip-search-input"
                   className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
                   placeholder="Search for chips here..."
-                  // onChange={handleChipSearch}
+                  onChange={handleChipSearch}
                 />
               </div>
-              {/* {updatedStandardChips
-                .filter((data) => {
-                  const lower = data.name.toLowerCase();
-                  const inputLower = searchValue.toLowerCase();
-
-                  return lower.includes(inputLower);
-                })
-                .map((chip) => {
-                  return (
-                    <div
-                      className="max-w mb-2 block h-24 rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100"
-                      key={chip.key}
-                    >
-                      <div className="flex">
-                        {chip.name} {chip.lettercode}
-                      </div>
-                      <span className="flex">{chip.memory}</span>
-                      <button
-                        onClick={() => handleFolderAdd2(chip)}
-                        className="relative inline-flex items-center rounded-md border border-pink-700 bg-pink-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:border-pink-800 hover:bg-pink-700"
-                      >
-                        +
-                      </button>
-                    </div>
-                  );
-                })} */}
 
               <div className="max-w w-full px-2 sm:px-0">
-                <Tab.Group>
+                <Tab.Group
+                  onChange={(index) => {
+                    setCurrentTabIndex(index);
+                  }}
+                >
                   <Tab.List className="flex space-x-1 rounded-xl bg-blue-900/20 p-1">
-                    {Object.keys(categories).map((category) => (
+                    {Object.keys(originalChipLibrary).map((title) => (
                       <Tab
-                        key={category}
+                        key={title}
                         className={({ selected }) =>
                           classNames(
                             "w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-blue-700",
@@ -245,75 +215,47 @@ function App() {
                           )
                         }
                       >
-                        {category}
+                        {title}
                       </Tab>
                     ))}
                   </Tab.List>
                   <Tab.Panels className="mt-2">
-                    {Object.values(categories).map((posts, idx) => (
-                      <Tab.Panel
-                        key={idx}
-                        className={classNames(
-                          "rounded-xl bg-white p-3",
-                          "ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2"
-                        )}
-                      >
-                        <ul>
-                          {posts.map((post) => (
-                            <li
-                              key={post.key}
-                              className="relative rounded-md p-3 hover:bg-gray-100"
+                    {chipLibrary.map((chip, index) => {
+                      return (
+                        <div
+                          className={classNames(
+                            "rounded-xl bg-white p-3",
+                            "ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2"
+                          )}
+                          key={index}
+                        >
+                          <div
+                            key={chip.key}
+                            className="relative rounded-md p-3 hover:bg-gray-100"
+                          >
+                            <h3 className="text-sm font-medium leading-5">
+                              {chip.name} {chip.lettercode}
+                            </h3>
+
+                            <div
+                              className="max-w mb-2 block h-24 rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100"
+                              key={chip.key}
                             >
-                              <h3 className="text-sm font-medium leading-5">
-                                {post.name} {post.lettercode}
-                              </h3>
-
-                              <div
-                                className="max-w mb-2 block h-24 rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100"
-                                key={post.key}
-                              >
-                                <div className="flex">
-                                  {post.name} {post.lettercode}
-                                </div>
-                                <span className="flex">{post.memory}</span>
-                                <button
-                                  onClick={() => handleFolderAdd2(post)}
-                                  className="relative inline-flex items-center rounded-md border border-pink-700 bg-pink-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:border-pink-800 hover:bg-pink-700"
-                                >
-                                  +
-                                </button>
+                              <div className="flex">
+                                {chip.name} {chip.lettercode}
                               </div>
-                            </li>
-                          ))}
-                        </ul>
-                        {/* {updatedStandardChips
-                          .filter((data) => {
-                            const lower = data.name.toLowerCase();
-                            const inputLower = searchValue.toLowerCase();
-
-                            return lower.includes(inputLower);
-                          })
-                          .map((chip) => {
-                            return (
-                              <div
-                                className="max-w mb-2 block h-24 rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100"
-                                key={chip.key}
+                              <span className="flex">{chip.memory}</span>
+                              <button
+                                onClick={() => handleFolderAdd2(chip)}
+                                className="relative inline-flex items-center rounded-md border border-pink-700 bg-pink-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:border-pink-800 hover:bg-pink-700"
                               >
-                                <div className="flex">
-                                  {chip.name} {chip.lettercode}
-                                </div>
-                                <span className="flex">{chip.memory}</span>
-                                <button
-                                  onClick={() => handleFolderAdd2(chip)}
-                                  className="relative inline-flex items-center rounded-md border border-pink-700 bg-pink-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:border-pink-800 hover:bg-pink-700"
-                                >
-                                  +
-                                </button>
-                              </div>
-                            );
-                          })} */}
-                      </Tab.Panel>
-                    ))}
+                                +
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      );
+                    })}
                   </Tab.Panels>
                 </Tab.Group>
               </div>
