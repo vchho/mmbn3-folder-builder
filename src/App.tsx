@@ -3,6 +3,7 @@ import { useState, ChangeEvent } from "react";
 import { Tab } from "@headlessui/react";
 import { BottomTabBar } from "./components/BottomTabBar";
 import useBattleChips from "./hooks/useBattleChips";
+import { FolderNav } from "./components/FolderNav";
 
 // const megaChip = 5;
 // const gigaChip = 1;
@@ -17,6 +18,59 @@ type FolderTrack = {
   name: string;
 };
 
+function ChipItem({
+  chip,
+  addChipToFolder,
+  chipIndex,
+}: {
+  chip: {
+    number: number;
+    image: string;
+    name: string;
+    type: string;
+    damage: string;
+    lettercode: string;
+    memory: string;
+    description: string;
+    key: string;
+    chipType: string;
+  };
+  addChipToFolder: (chip: StandardChip) => void;
+  chipIndex: number;
+}) {
+  return (
+    <div
+      className={classNames(
+        "rounded-xl bg-white p-3",
+        "mb-3 ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2"
+      )}
+      key={chipIndex}
+    >
+      <div key={chip.key} className="relative rounded-sm p-3 hover:bg-gray-100">
+        <div className="flex justify-between">
+          <div className="flex-row">
+            <div className="text-sm font-medium leading-6 text-gray-900">
+              <label htmlFor="comments" className="font-medium text-gray-900">
+                {chip.name} {chip.lettercode}
+              </label>
+              <p>Description: {chip.description}</p>
+              <p>Damage: {chip.damage}</p>
+              <p>Memory: {chip.memory}</p>
+            </div>
+          </div>
+          <button
+            onClick={() => addChipToFolder(chip)}
+            // className="relative inline-flex items-center rounded-md border border-pink-700 bg-pink-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:border-pink-800 hover:bg-pink-700"
+            className="rounded-md border border-pink-700 bg-pink-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:border-pink-800 hover:bg-pink-700"
+          >
+            +
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function App() {
   const [folder, setFolder] = useState<any[]>([]);
   const [folderTrack, setFolder2] = useState<FolderTrack[]>([]);
@@ -28,29 +82,46 @@ function App() {
     return accumulator + currentValue.count;
   }, 0);
 
+  const totalStandardChips = folderTrack.reduce((accumulator, currentValue) => {
+    return currentValue.chipType === "standard"
+      ? accumulator + currentValue.count
+      : accumulator;
+  }, 0);
+
   const totalMegaChips = folderTrack.reduce((accumulator, currentValue) => {
     return currentValue.chipType === "mega"
       ? accumulator + currentValue.count
       : accumulator;
   }, 0);
 
+  const totalGigaChips = folderTrack.reduce((accumulator, currentValue) => {
+    return currentValue.chipType === "giga"
+      ? accumulator + currentValue.count
+      : accumulator;
+  }, 0);
+
   const addChipToFolder = (chip: StandardChip) => {
+    if (totalCount === 30) {
+      alert("30 is the maximum amount of chips you can have in your folder");
+      return;
+    }
+
+    if (chip.chipType === "mega" && totalMegaChips === 5) {
+      alert("Can only have 5 mega chips");
+      return;
+    }
+
+    if (chip.chipType === "giga" && totalGigaChips === 1) {
+      alert("Can only have 1 giga chip");
+      return;
+    }
+
     const chipIndex = folderTrack.findIndex(
       (c: any) => c.name.toLowerCase() === chip.name.toLowerCase()
     );
 
     if (chipIndex > -1) {
       const currentChip = folderTrack.find((c) => c.name === chip.name);
-
-      if (totalCount === 30) {
-        alert("30 is the maximum amount of chips you can have in your folder");
-        return;
-      }
-
-      if (totalMegaChips === 5) {
-        alert("Can only have 5 mega chips");
-        return;
-      }
 
       if (currentChip?.count === 1 && currentChip?.chipType === "mega") {
         alert("Can only have 1 of each mega chip");
@@ -160,41 +231,53 @@ function App() {
     <>
       <div className="grid h-screen grid-cols-12 bg-blue-500">
         <div className="col-span-6 flex-1 overflow-y-scroll">
-          <p>Total Chips: {totalCount} / 30</p>
-          {folder.map((chip, index) => {
-            return (
-              <div
-                className="max-w mb-2 block h-24 rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100"
-                key={index}
-              >
-                <span className="flex">
-                  {chip.name} {chip.lettercode}
-                </span>
-                <p>{chip.count}</p>
-                <button
-                  onClick={() => removeChipFromFolder(chip, index)}
-                  className="relative inline-flex items-center rounded-md border border-pink-700 bg-pink-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:border-pink-800 hover:bg-pink-700"
+          <header className="sticky top-0 z-50">
+            <FolderNav
+              totalCount={totalCount}
+              totalStandardChips={totalStandardChips}
+              totalMegaChips={totalMegaChips}
+              totalGigaChips={totalGigaChips}
+            />
+          </header>
+
+          <div className="container">
+            {folder.map((chip, index) => {
+              return (
+                <div
+                  className="max-w mb-2 block h-24 rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100"
+                  key={index}
                 >
-                  -
-                </button>
-              </div>
-            );
-          })}
+                  <span className="flex">
+                    {chip.name} {chip.lettercode}
+                  </span>
+                  <p>{chip.count}</p>
+                  <button
+                    onClick={() => removeChipFromFolder(chip, index)}
+                    className="relative inline-flex items-center rounded-md border border-pink-700 bg-pink-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:border-pink-800 hover:bg-pink-700"
+                  >
+                    -
+                  </button>
+                </div>
+              );
+            })}
+          </div>
         </div>
 
         <div className="col-span-6 flex flex-1 overflow-hidden">
           <div className="flex-1 overflow-y-scroll">
             <div className="bg-lime-400">
-              <div className="mb-6">
-                <input
-                  type="text"
-                  id="chip-search-input"
-                  className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
-                  placeholder="Search for chips here..."
-                  onChange={handleChipSearch}
-                  value={searchTerm}
-                />
-              </div>
+              <header className="sticky top-0 z-50">
+                <div className="mb-6">
+                  <input
+                    type="text"
+                    id="chip-search-input"
+                    className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
+                    placeholder="Search for chips here..."
+                    onChange={handleChipSearch}
+                    value={searchTerm}
+                  />
+                </div>
+              </header>
 
               <div className="max-w w-full px-2 sm:px-0">
                 <Tab.Group
@@ -224,41 +307,11 @@ function App() {
                   <Tab.Panels className="mt-2">
                     {chipLibrary.map((chip, index) => {
                       return (
-                        <div
-                          className={classNames(
-                            "rounded-xl bg-white p-3",
-                            "mb-3 ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2"
-                          )}
-                          key={index}
-                        >
-                          <div
-                            key={chip.key}
-                            className="relative rounded-sm p-3 hover:bg-gray-100"
-                          >
-                            <div className="flex justify-between">
-                              <div className="flex-row">
-                                <div className="text-sm font-medium leading-6 text-gray-900">
-                                  <label
-                                    htmlFor="comments"
-                                    className="font-medium text-gray-900"
-                                  >
-                                    {chip.name} {chip.lettercode}
-                                  </label>
-                                  <p>Description: {chip.description}</p>
-                                  <p>Damage: {chip.damage}</p>
-                                  <p>Memory: {chip.memory}</p>
-                                </div>
-                              </div>
-                              <button
-                                onClick={() => addChipToFolder(chip)}
-                                // className="relative inline-flex items-center rounded-md border border-pink-700 bg-pink-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:border-pink-800 hover:bg-pink-700"
-                                className="rounded-md border border-pink-700 bg-pink-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:border-pink-800 hover:bg-pink-700"
-                              >
-                                +
-                              </button>
-                            </div>
-                          </div>
-                        </div>
+                        <ChipItem
+                          chip={chip}
+                          addChipToFolder={addChipToFolder}
+                          chipIndex={index}
+                        />
                       );
                     })}
                   </Tab.Panels>
@@ -269,7 +322,7 @@ function App() {
         </div>
       </div>
 
-      <BottomTabBar totalCount={totalCount} />
+      {/* <BottomTabBar totalCount={totalCount} /> */}
     </>
   );
 }

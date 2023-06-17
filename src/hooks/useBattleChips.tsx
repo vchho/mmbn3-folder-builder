@@ -1,11 +1,13 @@
 import { useMemo, useState } from "react";
 import { updatedStandardChips } from "../utils/chips";
 import { megaChips } from "../utils/megaChips";
+import { gigaChips } from "../utils/gigaChips";
 
 export default function useBattleChips(currentTabIndex: number) {
   const [chipLibrary] = useState({
     Standard: updatedStandardChips,
     Mega: megaChips,
+    Giga: gigaChips,
   });
 
   const [searchTerm, setSearchTerm] = useState("");
