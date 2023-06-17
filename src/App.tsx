@@ -1,7 +1,6 @@
 import { StandardChip } from "./utils/chips";
 import { useState, ChangeEvent } from "react";
 import { Tab } from "@headlessui/react";
-import { BottomTabBar } from "./components/BottomTabBar";
 import useBattleChips from "./hooks/useBattleChips";
 import { FolderNav } from "./components/FolderNav";
 
