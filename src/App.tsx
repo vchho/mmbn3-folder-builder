@@ -42,6 +42,11 @@ function App() {
     if (chipIndex > -1) {
       const currentChip = folderTrack.find((c) => c.name === chip.name);
 
+      if (totalCount === 30) {
+        alert("30 is the maximum amount of chips you can have in your folder");
+        return;
+      }
+
       if (totalMegaChips === 5) {
         alert("Can only have 5 mega chips");
         return;
@@ -222,29 +227,32 @@ function App() {
                         <div
                           className={classNames(
                             "rounded-xl bg-white p-3",
-                            "ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2"
+                            "mb-3 ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2"
                           )}
                           key={index}
                         >
                           <div
                             key={chip.key}
-                            className="relative rounded-md p-3 hover:bg-gray-100"
+                            className="relative rounded-sm p-3 hover:bg-gray-100"
                           >
-                            <h3 className="text-sm font-medium leading-5">
-                              {chip.name} {chip.lettercode}
-                            </h3>
-
-                            <div
-                              className="max-w mb-2 block h-24 rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100"
-                              key={chip.key}
-                            >
-                              <div className="flex">
-                                {chip.name} {chip.lettercode}
+                            <div className="flex justify-between">
+                              <div className="flex-row">
+                                <div className="text-sm font-medium leading-6 text-gray-900">
+                                  <label
+                                    htmlFor="comments"
+                                    className="font-medium text-gray-900"
+                                  >
+                                    {chip.name} {chip.lettercode}
+                                  </label>
+                                  <p>Description: {chip.description}</p>
+                                  <p>Damage: {chip.damage}</p>
+                                  <p>Memory: {chip.memory}</p>
+                                </div>
                               </div>
-                              <span className="flex">{chip.memory}</span>
                               <button
-                                onClick={() => handleFolderAdd2(chip)}
-                                className="relative inline-flex items-center rounded-md border border-pink-700 bg-pink-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:border-pink-800 hover:bg-pink-700"
+                                onClick={() => addChipToFolder(chip)}
+                                // className="relative inline-flex items-center rounded-md border border-pink-700 bg-pink-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:border-pink-800 hover:bg-pink-700"
+                                className="rounded-md border border-pink-700 bg-pink-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:border-pink-800 hover:bg-pink-700"
                               >
                                 +
                               </button>
