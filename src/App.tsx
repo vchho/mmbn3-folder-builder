@@ -34,7 +34,7 @@ function App() {
       : accumulator;
   }, 0);
 
-  const handleFolderAdd2 = (chip: StandardChip) => {
+  const addChipToFolder = (chip: StandardChip) => {
     const chipIndex = folderTrack.findIndex(
       (c: any) => c.name.toLowerCase() === chip.name.toLowerCase()
     );
@@ -87,7 +87,7 @@ function App() {
     }
   };
 
-  const removeChip = (chip: StandardChip, index: number) => {
+  const removeChipFromFolder = (chip: StandardChip, index: number) => {
     const chipIndex = folderTrack.findIndex(
       (c: any) => c.name.toLowerCase() === chip.name.toLowerCase()
     );
@@ -129,11 +129,6 @@ function App() {
         } else {
           setFolder([...folder.slice(0, index), ...folder.slice(index + 1)]);
         }
-        // console.log("hit in else updatedChip.count === 0");
-        // const clonedFolderTrack = [...folderTrack];
-        // clonedFolderTrack[chipIndex] = updatedChip;
-
-        // setFolder2(clonedFolderTrack);
 
         const clonedFolderTrack = [...folderTrack];
         clonedFolderTrack[chipIndex] = updatedChip;
@@ -172,7 +167,7 @@ function App() {
                 </span>
                 <p>{chip.count}</p>
                 <button
-                  onClick={() => removeChip(chip, index)}
+                  onClick={() => removeChipFromFolder(chip, index)}
                   className="relative inline-flex items-center rounded-md border border-pink-700 bg-pink-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:border-pink-800 hover:bg-pink-700"
                 >
                   -
