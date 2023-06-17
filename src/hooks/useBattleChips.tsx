@@ -22,5 +22,6 @@ export default function useBattleChips(currentTabIndex: number) {
     originalChipLibrary: chipLibrary,
     chipLibrary: filteredBattleChips,
     setSearchTerm: setSearchTerm,
+    searchTerm: searchTerm,
   };
 }

@@ -21,7 +21,7 @@ function App() {
   const [folder, setFolder] = useState<any[]>([]);
   const [folderTrack, setFolder2] = useState<FolderTrack[]>([]);
   const [currentTabIndex, setCurrentTabIndex] = useState(0);
-  const { chipLibrary, originalChipLibrary, setSearchTerm } =
+  const { chipLibrary, originalChipLibrary, setSearchTerm, searchTerm } =
     useBattleChips(currentTabIndex);
 
   const totalCount = folderTrack.reduce((accumulator, currentValue) => {
@@ -192,6 +192,7 @@ function App() {
                   className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
                   placeholder="Search for chips here..."
                   onChange={handleChipSearch}
+                  value={searchTerm}
                 />
               </div>
 
@@ -199,6 +200,7 @@ function App() {
                 <Tab.Group
                   onChange={(index) => {
                     setCurrentTabIndex(index);
+                    setSearchTerm("");
                   }}
                 >
                   <Tab.List className="flex space-x-1 rounded-xl bg-blue-900/20 p-1">
