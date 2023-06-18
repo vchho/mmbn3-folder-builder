@@ -1,4 +1,4 @@
-import { StandardChip } from "./utils/chips";
+import { Chip } from "./utils/chips";
 import { useState, ChangeEvent } from "react";
 import { Tab } from "@headlessui/react";
 import useBattleChips from "./hooks/useBattleChips";
@@ -17,6 +17,10 @@ type FolderTrack = {
   name: string;
 };
 
+interface Folder extends Chip {
+  count: number;
+}
+
 function ChipItem({
   chip,
   addChipToFolder,
@@ -34,8 +38,8 @@ function ChipItem({
     key: string;
     chipType: string;
   };
-  addChipToFolder: (chip: StandardChip) => void;
-  chipIndex: number;
+  addChipToFolder: (chip: Chip | Folder) => void;
+  chipIndex: string;
 }) {
   return (
     <div
@@ -45,7 +49,7 @@ function ChipItem({
       )}
       key={chipIndex}
     >
-      <div key={chip.key} className="relative rounded-sm p-3 hover:bg-gray-100">
+      <div className="relative rounded-sm p-3 hover:bg-gray-100">
         <div className="flex justify-between">
           <div className="flex-row">
             <div className="text-sm font-medium leading-6 text-gray-900">
@@ -57,13 +61,68 @@ function ChipItem({
               <p>Memory: {chip.memory}</p>
             </div>
           </div>
-          <button
-            onClick={() => addChipToFolder(chip)}
-            // className="relative inline-flex items-center rounded-md border border-pink-700 bg-pink-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:border-pink-800 hover:bg-pink-700"
-            className="rounded-md border border-pink-700 bg-pink-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:border-pink-800 hover:bg-pink-700"
-          >
-            +
-          </button>
+          <div className="flex self-center">
+            <img
+              src={chip.image}
+              className="mr-1 flex h-24 w-24 self-center"
+              alt={`${chip.name} image`}
+            />
+            <button
+              onClick={() => addChipToFolder(chip)}
+              className="h-11 self-center rounded-md border border-pink-700 bg-pink-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:border-pink-800 hover:bg-pink-700"
+            >
+              +
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function ChipItemLeftSide({
+  chip,
+  index,
+  removeChipFromFolder,
+}: {
+  chip: any;
+  index: number;
+  removeChipFromFolder: (chip: Chip, index: number) => void;
+}) {
+  return (
+    <div
+      className={classNames(
+        "rounded-xl bg-white p-3",
+        "mb-3 ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2"
+      )}
+      key={index}
+    >
+      <div className="relative rounded-sm p-3 hover:bg-gray-100">
+        <div className="flex justify-between">
+          <div className="flex-row">
+            <div className="text-sm font-medium leading-6 text-gray-900">
+              <label htmlFor="comments" className="font-medium text-gray-900">
+                {chip.name} {chip.lettercode}
+              </label>
+              <p>Description: {chip.description}</p>
+              <p>Damage: {chip.damage}</p>
+              <p>Memory: {chip.memory}</p>
+              <p>Total: {chip.count}</p>
+            </div>
+          </div>
+          <div className="flex self-center">
+            <img
+              src={chip.image}
+              className="mr-1 flex h-24 w-24 self-center"
+              alt={`${chip.name} image`}
+            />
+            <button
+              onClick={() => removeChipFromFolder(chip, index)}
+              className="h-11 self-center rounded-md border border-pink-700 bg-pink-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:border-pink-800 hover:bg-pink-700"
+            >
+              -
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -99,7 +158,11 @@ function App() {
       : accumulator;
   }, 0);
 
-  const addChipToFolder = (chip: StandardChip) => {
+  const ChipType = Object.keys(originalChipLibrary)[currentTabIndex];
+
+  console.log(ChipType);
+
+  const addChipToFolder = (chip: Chip) => {
     if (totalCount === 30) {
       alert("30 is the maximum amount of chips you can have in your folder");
       return;
@@ -162,7 +225,7 @@ function App() {
     }
   };
 
-  const removeChipFromFolder = (chip: StandardChip, index: number) => {
+  const removeChipFromFolder = (chip: Chip, index: number) => {
     const chipIndex = folderTrack.findIndex(
       (c: any) => c.name.toLowerCase() === chip.name.toLowerCase()
     );
@@ -242,21 +305,11 @@ function App() {
           <div className="container">
             {folder.map((chip, index) => {
               return (
-                <div
-                  className="max-w mb-2 block h-24 rounded-lg border border-gray-200 bg-white shadow hover:bg-gray-100"
-                  key={index}
-                >
-                  <span className="flex">
-                    {chip.name} {chip.lettercode}
-                  </span>
-                  <p>{chip.count}</p>
-                  <button
-                    onClick={() => removeChipFromFolder(chip, index)}
-                    className="relative inline-flex items-center rounded-md border border-pink-700 bg-pink-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:border-pink-800 hover:bg-pink-700"
-                  >
-                    -
-                  </button>
-                </div>
+                <ChipItemLeftSide
+                  chip={chip}
+                  index={index}
+                  removeChipFromFolder={removeChipFromFolder}
+                />
               );
             })}
           </div>
@@ -267,14 +320,18 @@ function App() {
             <div className="bg-lime-400">
               <header className="sticky top-0 z-50">
                 <div className="mb-6">
-                  <input
-                    type="text"
-                    id="chip-search-input"
-                    className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
-                    placeholder="Search for chips here..."
-                    onChange={handleChipSearch}
-                    value={searchTerm}
-                  />
+                  <nav className="h-16 border-gray-200 bg-white dark:bg-gray-900">
+                    <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
+                      <input
+                        type="text"
+                        id="chip-search-input"
+                        className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
+                        placeholder="Search for chips here..."
+                        onChange={handleChipSearch}
+                        value={searchTerm}
+                      />
+                    </div>
+                  </nav>
                 </div>
               </header>
 
@@ -309,7 +366,7 @@ function App() {
                         <ChipItem
                           chip={chip}
                           addChipToFolder={addChipToFolder}
-                          chipIndex={index}
+                          chipIndex={chip.name + index}
                         />
                       );
                     })}
@@ -320,8 +377,6 @@ function App() {
           </div>
         </div>
       </div>
-
-      {/* <BottomTabBar totalCount={totalCount} /> */}
     </>
   );
 }
