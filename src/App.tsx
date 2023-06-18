@@ -1,5 +1,5 @@
 import { Chip } from "./utils/chips";
-import { useState, ChangeEvent, memo, useMemo, useCallback } from "react";
+import { useState, ChangeEvent, memo, useCallback } from "react";
 import { Tab } from "@headlessui/react";
 import useBattleChips from "./hooks/useBattleChips";
 import { FolderNav } from "./components/FolderNav";
