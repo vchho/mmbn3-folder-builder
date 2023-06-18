@@ -44,12 +44,12 @@ const ChipItem = memo(function ChipItem({
   return (
     <div
       className={classNames(
-        "rounded-xl bg-white p-3",
-        "mb-3 ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2"
+        "rounded-xl bg-white p-1",
+        "mb-3 ml-3 mr-3 ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2"
       )}
       key={chipIndex}
     >
-      <div className="relative rounded-sm p-3 hover:bg-gray-100">
+      <div className="relative rounded-sm p-2">
         <div className="flex justify-between">
           <div className="flex-row">
             <div className="text-sm font-medium leading-6 text-gray-900">
@@ -92,12 +92,12 @@ function ChipItemLeftSide({
   return (
     <div
       className={classNames(
-        "rounded-xl bg-white p-3",
-        "mb-3 ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2"
+        "rounded-xl bg-white p-1",
+        "mb-3 ml-3 mr-3 ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2"
       )}
       key={index}
     >
-      <div className="relative rounded-sm p-3 hover:bg-gray-100">
+      <div className="relative rounded-sm p-2">
         <div className="flex justify-between">
           <div className="flex-row">
             <div className="text-sm font-medium leading-6 text-gray-900">
@@ -155,15 +155,15 @@ function App() {
   const { chipLibrary, originalChipLibrary, setSearchTerm, searchTerm } =
     useBattleChips(currentTabIndex);
 
-  // const totalCount = folderTrack.reduce((accumulator, currentValue) => {
-  //   return accumulator + currentValue.count;
-  // }, 0);
+  const totalCount = folderTrack.reduce((accumulator, currentValue) => {
+    return accumulator + currentValue.count;
+  }, 0);
 
-  const totalCount = useMemo(() => {
-    return folderTrack.reduce((accumulator, currentValue) => {
-      return accumulator + currentValue.count;
-    }, 0);
-  }, []);
+  // const totalCount = useMemo(() => {
+  //   return folderTrack.reduce((accumulator, currentValue) => {
+  //     return accumulator + currentValue.count;
+  //   }, 0);
+  // }, []);
 
   const totalStandardChips = folderTrack.reduce((accumulator, currentValue) => {
     return currentValue.chipType === "standard"
@@ -365,14 +365,14 @@ function App() {
                 </div>
               </header>
 
-              <div className="max-w w-full px-2 sm:px-0">
+              <div className="w-full px-2 sm:px-0">
                 <Tab.Group
                   onChange={(index) => {
                     setCurrentTabIndex(index);
                     setSearchTerm("");
                   }}
                 >
-                  <Tab.List className="flex space-x-1 rounded-xl bg-blue-900/20 p-1">
+                  <Tab.List className="ml-3 mr-3 flex space-x-1 rounded-xl bg-blue-900/20 p-1 ">
                     {Object.keys(originalChipLibrary).map((title) => (
                       <Tab
                         key={title}
