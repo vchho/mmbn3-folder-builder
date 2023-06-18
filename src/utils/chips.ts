@@ -14,7 +14,7 @@ export type Chip = {
 export const standardChips = [
   {
     number: 1,
-    image: "../../public/assets/standard/2460.png",
+    image: "../../assets/standard/2460.png",
     name: "Cannon",
     type: "",
     damage: "40",
@@ -26,7 +26,7 @@ export const standardChips = [
   },
   {
     number: 1,
-    image: "../../public/assets/standard/2460.png",
+    image: "../../assets/standard/2460.png",
     name: "Cannon",
     type: "",
     damage: "40",
@@ -38,7 +38,7 @@ export const standardChips = [
   },
   {
     number: 1,
-    image: "../../public/assets/standard/2460.png",
+    image: "../../assets/standard/2460.png",
     name: "Cannon",
     type: "",
     damage: "40",
@@ -50,7 +50,7 @@ export const standardChips = [
   },
   {
     number: 1,
-    image: "../../public/assets/standard/2460.png",
+    image: "../../assets/standard/2460.png",
     name: "Cannon",
     type: "",
     damage: "40",
@@ -62,7 +62,7 @@ export const standardChips = [
   },
   {
     number: 1,
-    image: "../../public/assets/standard/2460.png",
+    image: "../../assets/standard/2460.png",
     name: "Cannon",
     type: "",
     damage: "40",
@@ -74,7 +74,7 @@ export const standardChips = [
   },
   {
     number: 1,
-    image: "../../public/assets/standard/2460.png",
+    image: "../../assets/standard/2460.png",
     name: "Cannon",
     type: "",
     damage: "40",
@@ -86,7 +86,7 @@ export const standardChips = [
   },
   {
     number: 2,
-    image: "../../public/assets/standard/2461.png",
+    image: "../../assets/standard/2461.png",
     name: "HiCannon",
     type: "",
     damage: "60",
@@ -98,7 +98,7 @@ export const standardChips = [
   },
   {
     number: 2,
-    image: "../../public/assets/standard/2461.png",
+    image: "../../assets/standard/2461.png",
     name: "HiCannon",
     type: "",
     damage: "60",
@@ -110,7 +110,7 @@ export const standardChips = [
   },
   {
     number: 2,
-    image: "../../public/assets/standard/2461.png",
+    image: "../../assets/standard/2461.png",
     name: "HiCannon",
     type: "",
     damage: "60",
@@ -122,7 +122,7 @@ export const standardChips = [
   },
   {
     number: 2,
-    image: "../../public/assets/standard/2461.png",
+    image: "../../assets/standard/2461.png",
     name: "HiCannon",
     type: "",
     damage: "60",
@@ -134,7 +134,7 @@ export const standardChips = [
   },
   {
     number: 2,
-    image: "../../public/assets/standard/2461.png",
+    image: "../../assets/standard/2461.png",
     name: "HiCannon",
     type: "",
     damage: "60",
@@ -146,7 +146,7 @@ export const standardChips = [
   },
   {
     number: 2,
-    image: "../../public/assets/standard/2461.png",
+    image: "../../assets/standard/2461.png",
     name: "HiCannon",
     type: "",
     damage: "60",
@@ -158,7 +158,7 @@ export const standardChips = [
   },
   {
     number: 3,
-    image: "../../public/assets/standard/2462.png",
+    image: "../../assets/standard/2462.png",
     name: "M-Cannon",
     type: "",
     damage: "80",
@@ -170,7 +170,7 @@ export const standardChips = [
   },
   {
     number: 3,
-    image: "../../public/assets/standard/2462.png",
+    image: "../../assets/standard/2462.png",
     name: "M-Cannon",
     type: "",
     damage: "80",
@@ -182,7 +182,7 @@ export const standardChips = [
   },
   {
     number: 3,
-    image: "../../public/assets/standard/2462.png",
+    image: "../../assets/standard/2462.png",
     name: "M-Cannon",
     type: "",
     damage: "80",
@@ -194,7 +194,7 @@ export const standardChips = [
   },
   {
     number: 3,
-    image: "../../public/assets/standard/2462.png",
+    image: "../../assets/standard/2462.png",
     name: "M-Cannon",
     type: "",
     damage: "80",
@@ -206,7 +206,7 @@ export const standardChips = [
   },
   {
     number: 3,
-    image: "../../public/assets/standard/2462.png",
+    image: "../../assets/standard/2462.png",
     name: "M-Cannon",
     type: "",
     damage: "80",
@@ -218,7 +218,7 @@ export const standardChips = [
   },
   {
     number: 4,
-    image: "../../public/assets/standard/2463.png",
+    image: "../../assets/standard/2463.png",
     name: "AirShot1",
     type: "",
     damage: "20",
@@ -230,7 +230,7 @@ export const standardChips = [
   },
   {
     number: 5,
-    image: "../../public/assets/standard/2464.png",
+    image: "../../assets/standard/2464.png",
     name: "AirShot2",
     type: "",
     damage: "30",
@@ -242,7 +242,7 @@ export const standardChips = [
   },
   {
     number: 6,
-    image: "../../public/assets/standard/2465.png",
+    image: "../../assets/standard/2465.png",
     name: "AirShot3",
     type: "",
     damage: "40",
@@ -254,7 +254,7 @@ export const standardChips = [
   },
   {
     number: 7,
-    image: "../../public/assets/standard/2466.png",
+    image: "../../assets/standard/2466.png",
     name: "LavaCan1",
     type: "",
     damage: "90",
@@ -266,7 +266,7 @@ export const standardChips = [
   },
   {
     number: 7,
-    image: "../../public/assets/standard/2466.png",
+    image: "../../assets/standard/2466.png",
     name: "LavaCan1",
     type: "",
     damage: "90",
@@ -278,7 +278,7 @@ export const standardChips = [
   },
   {
     number: 7,
-    image: "../../public/assets/standard/2466.png",
+    image: "../../assets/standard/2466.png",
     name: "LavaCan1",
     type: "",
     damage: "90",
@@ -290,7 +290,7 @@ export const standardChips = [
   },
   {
     number: 7,
-    image: "../../public/assets/standard/2466.png",
+    image: "../../assets/standard/2466.png",
     name: "LavaCan1",
     type: "",
     damage: "90",
@@ -302,7 +302,7 @@ export const standardChips = [
   },
   {
     number: 7,
-    image: "../../public/assets/standard/2466.png",
+    image: "../../assets/standard/2466.png",
     name: "LavaCan1",
     type: "",
     damage: "90",
@@ -314,7 +314,7 @@ export const standardChips = [
   },
   {
     number: 8,
-    image: "../../public/assets/standard/2467.png",
+    image: "../../assets/standard/2467.png",
     name: "LavaCan2",
     type: "",
     damage: "120",
@@ -326,7 +326,7 @@ export const standardChips = [
   },
   {
     number: 8,
-    image: "../../public/assets/standard/2467.png",
+    image: "../../assets/standard/2467.png",
     name: "LavaCan2",
     type: "",
     damage: "120",
@@ -338,7 +338,7 @@ export const standardChips = [
   },
   {
     number: 8,
-    image: "../../public/assets/standard/2467.png",
+    image: "../../assets/standard/2467.png",
     name: "LavaCan2",
     type: "",
     damage: "120",
@@ -350,7 +350,7 @@ export const standardChips = [
   },
   {
     number: 8,
-    image: "../../public/assets/standard/2467.png",
+    image: "../../assets/standard/2467.png",
     name: "LavaCan2",
     type: "",
     damage: "120",
@@ -362,7 +362,7 @@ export const standardChips = [
   },
   {
     number: 8,
-    image: "../../public/assets/standard/2467.png",
+    image: "../../assets/standard/2467.png",
     name: "LavaCan2",
     type: "",
     damage: "120",
@@ -374,7 +374,7 @@ export const standardChips = [
   },
   {
     number: 9,
-    image: "../../public/assets/standard/2468.png",
+    image: "../../assets/standard/2468.png",
     name: "LavaCan3",
     type: "",
     damage: "150",
@@ -386,7 +386,7 @@ export const standardChips = [
   },
   {
     number: 9,
-    image: "../../public/assets/standard/2468.png",
+    image: "../../assets/standard/2468.png",
     name: "LavaCan3",
     type: "",
     damage: "150",
@@ -398,7 +398,7 @@ export const standardChips = [
   },
   {
     number: 9,
-    image: "../../public/assets/standard/2468.png",
+    image: "../../assets/standard/2468.png",
     name: "LavaCan3",
     type: "",
     damage: "150",
@@ -410,7 +410,7 @@ export const standardChips = [
   },
   {
     number: 9,
-    image: "../../public/assets/standard/2468.png",
+    image: "../../assets/standard/2468.png",
     name: "LavaCan3",
     type: "",
     damage: "150",
@@ -422,7 +422,7 @@ export const standardChips = [
   },
   {
     number: 9,
-    image: "../../public/assets/standard/2468.png",
+    image: "../../assets/standard/2468.png",
     name: "LavaCan3",
     type: "",
     damage: "150",
@@ -434,7 +434,7 @@ export const standardChips = [
   },
   {
     number: 10,
-    image: "../../public/assets/standard/2573.png",
+    image: "../../assets/standard/2573.png",
     name: "Volcano",
     type: "",
     damage: "150",
@@ -446,7 +446,7 @@ export const standardChips = [
   },
   {
     number: 10,
-    image: "../../public/assets/standard/2573.png",
+    image: "../../assets/standard/2573.png",
     name: "Volcano",
     type: "",
     damage: "150",
@@ -458,7 +458,7 @@ export const standardChips = [
   },
   {
     number: 10,
-    image: "../../public/assets/standard/2573.png",
+    image: "../../assets/standard/2573.png",
     name: "Volcano",
     type: "",
     damage: "150",
@@ -470,7 +470,7 @@ export const standardChips = [
   },
   {
     number: 10,
-    image: "../../public/assets/standard/2573.png",
+    image: "../../assets/standard/2573.png",
     name: "Volcano",
     type: "",
     damage: "150",
@@ -482,7 +482,7 @@ export const standardChips = [
   },
   {
     number: 10,
-    image: "../../public/assets/standard/2573.png",
+    image: "../../assets/standard/2573.png",
     name: "Volcano",
     type: "",
     damage: "150",
@@ -494,7 +494,7 @@ export const standardChips = [
   },
   {
     number: 11,
-    image: "../../public/assets/standard/2469.png",
+    image: "../../assets/standard/2469.png",
     name: "ShotGun",
     type: "",
     damage: "30",
@@ -506,7 +506,7 @@ export const standardChips = [
   },
   {
     number: 11,
-    image: "../../public/assets/standard/2469.png",
+    image: "../../assets/standard/2469.png",
     name: "ShotGun",
     type: "",
     damage: "30",
@@ -518,7 +518,7 @@ export const standardChips = [
   },
   {
     number: 11,
-    image: "../../public/assets/standard/2469.png",
+    image: "../../assets/standard/2469.png",
     name: "ShotGun",
     type: "",
     damage: "30",
@@ -530,7 +530,7 @@ export const standardChips = [
   },
   {
     number: 11,
-    image: "../../public/assets/standard/2469.png",
+    image: "../../assets/standard/2469.png",
     name: "ShotGun",
     type: "",
     damage: "30",
@@ -542,7 +542,7 @@ export const standardChips = [
   },
   {
     number: 11,
-    image: "../../public/assets/standard/2469.png",
+    image: "../../assets/standard/2469.png",
     name: "ShotGun",
     type: "",
     damage: "30",
@@ -554,7 +554,7 @@ export const standardChips = [
   },
   {
     number: 11,
-    image: "../../public/assets/standard/2469.png",
+    image: "../../assets/standard/2469.png",
     name: "ShotGun",
     type: "",
     damage: "30",
@@ -566,7 +566,7 @@ export const standardChips = [
   },
   {
     number: 12,
-    image: "../../public/assets/standard/2470.png",
+    image: "../../assets/standard/2470.png",
     name: "V-Gun",
     type: "",
     damage: "30",
@@ -578,7 +578,7 @@ export const standardChips = [
   },
   {
     number: 12,
-    image: "../../public/assets/standard/2470.png",
+    image: "../../assets/standard/2470.png",
     name: "V-Gun",
     type: "",
     damage: "30",
@@ -590,7 +590,7 @@ export const standardChips = [
   },
   {
     number: 12,
-    image: "../../public/assets/standard/2470.png",
+    image: "../../assets/standard/2470.png",
     name: "V-Gun",
     type: "",
     damage: "30",
@@ -602,7 +602,7 @@ export const standardChips = [
   },
   {
     number: 12,
-    image: "../../public/assets/standard/2470.png",
+    image: "../../assets/standard/2470.png",
     name: "V-Gun",
     type: "",
     damage: "30",
@@ -614,7 +614,7 @@ export const standardChips = [
   },
   {
     number: 12,
-    image: "../../public/assets/standard/2470.png",
+    image: "../../assets/standard/2470.png",
     name: "V-Gun",
     type: "",
     damage: "30",
@@ -626,7 +626,7 @@ export const standardChips = [
   },
   {
     number: 12,
-    image: "../../public/assets/standard/2470.png",
+    image: "../../assets/standard/2470.png",
     name: "V-Gun",
     type: "",
     damage: "30",
@@ -638,7 +638,7 @@ export const standardChips = [
   },
   {
     number: 13,
-    image: "../../public/assets/standard/2471.png",
+    image: "../../assets/standard/2471.png",
     name: "SideGun",
     type: "",
     damage: "30",
@@ -650,7 +650,7 @@ export const standardChips = [
   },
   {
     number: 13,
-    image: "../../public/assets/standard/2471.png",
+    image: "../../assets/standard/2471.png",
     name: "SideGun",
     type: "",
     damage: "30",
@@ -662,7 +662,7 @@ export const standardChips = [
   },
   {
     number: 13,
-    image: "../../public/assets/standard/2471.png",
+    image: "../../assets/standard/2471.png",
     name: "SideGun",
     type: "",
     damage: "30",
@@ -674,7 +674,7 @@ export const standardChips = [
   },
   {
     number: 13,
-    image: "../../public/assets/standard/2471.png",
+    image: "../../assets/standard/2471.png",
     name: "SideGun",
     type: "",
     damage: "30",
@@ -686,7 +686,7 @@ export const standardChips = [
   },
   {
     number: 13,
-    image: "../../public/assets/standard/2471.png",
+    image: "../../assets/standard/2471.png",
     name: "SideGun",
     type: "",
     damage: "30",
@@ -698,7 +698,7 @@ export const standardChips = [
   },
   {
     number: 13,
-    image: "../../public/assets/standard/2471.png",
+    image: "../../assets/standard/2471.png",
     name: "SideGun",
     type: "",
     damage: "30",
@@ -710,7 +710,7 @@ export const standardChips = [
   },
   {
     number: 14,
-    image: "../../public/assets/standard/2472.png",
+    image: "../../assets/standard/2472.png",
     name: "Spreader",
     type: "",
     damage: "30",
@@ -722,7 +722,7 @@ export const standardChips = [
   },
   {
     number: 14,
-    image: "../../public/assets/standard/2472.png",
+    image: "../../assets/standard/2472.png",
     name: "Spreader",
     type: "",
     damage: "30",
@@ -734,7 +734,7 @@ export const standardChips = [
   },
   {
     number: 14,
-    image: "../../public/assets/standard/2472.png",
+    image: "../../assets/standard/2472.png",
     name: "Spreader",
     type: "",
     damage: "30",
@@ -746,7 +746,7 @@ export const standardChips = [
   },
   {
     number: 14,
-    image: "../../public/assets/standard/2472.png",
+    image: "../../assets/standard/2472.png",
     name: "Spreader",
     type: "",
     damage: "30",
@@ -758,7 +758,7 @@ export const standardChips = [
   },
   {
     number: 14,
-    image: "../../public/assets/standard/2472.png",
+    image: "../../assets/standard/2472.png",
     name: "Spreader",
     type: "",
     damage: "30",
@@ -770,7 +770,7 @@ export const standardChips = [
   },
   {
     number: 14,
-    image: "../../public/assets/standard/2472.png",
+    image: "../../assets/standard/2472.png",
     name: "Spreader",
     type: "",
     damage: "30",
@@ -782,7 +782,7 @@ export const standardChips = [
   },
   {
     number: 15,
-    image: "../../public/assets/standard/2473.png",
+    image: "../../assets/standard/2473.png",
     name: "Bubbler",
     type: "",
     damage: "60",
@@ -794,7 +794,7 @@ export const standardChips = [
   },
   {
     number: 15,
-    image: "../../public/assets/standard/2473.png",
+    image: "../../assets/standard/2473.png",
     name: "Bubbler",
     type: "",
     damage: "60",
@@ -806,7 +806,7 @@ export const standardChips = [
   },
   {
     number: 15,
-    image: "../../public/assets/standard/2473.png",
+    image: "../../assets/standard/2473.png",
     name: "Bubbler",
     type: "",
     damage: "60",
@@ -818,7 +818,7 @@ export const standardChips = [
   },
   {
     number: 15,
-    image: "../../public/assets/standard/2473.png",
+    image: "../../assets/standard/2473.png",
     name: "Bubbler",
     type: "",
     damage: "60",
@@ -830,7 +830,7 @@ export const standardChips = [
   },
   {
     number: 15,
-    image: "../../public/assets/standard/2473.png",
+    image: "../../assets/standard/2473.png",
     name: "Bubbler",
     type: "",
     damage: "60",
@@ -842,7 +842,7 @@ export const standardChips = [
   },
   {
     number: 15,
-    image: "../../public/assets/standard/2473.png",
+    image: "../../assets/standard/2473.png",
     name: "Bubbler",
     type: "",
     damage: "60",
@@ -854,7 +854,7 @@ export const standardChips = [
   },
   {
     number: 16,
-    image: "../../public/assets/standard/2474.png",
+    image: "../../assets/standard/2474.png",
     name: "Bub-V",
     type: "",
     damage: "60",
@@ -866,7 +866,7 @@ export const standardChips = [
   },
   {
     number: 16,
-    image: "../../public/assets/standard/2474.png",
+    image: "../../assets/standard/2474.png",
     name: "Bub-V",
     type: "",
     damage: "60",
@@ -878,7 +878,7 @@ export const standardChips = [
   },
   {
     number: 16,
-    image: "../../public/assets/standard/2474.png",
+    image: "../../assets/standard/2474.png",
     name: "Bub-V",
     type: "",
     damage: "60",
@@ -890,7 +890,7 @@ export const standardChips = [
   },
   {
     number: 16,
-    image: "../../public/assets/standard/2474.png",
+    image: "../../assets/standard/2474.png",
     name: "Bub-V",
     type: "",
     damage: "60",
@@ -902,7 +902,7 @@ export const standardChips = [
   },
   {
     number: 16,
-    image: "../../public/assets/standard/2474.png",
+    image: "../../assets/standard/2474.png",
     name: "Bub-V",
     type: "",
     damage: "60",
@@ -914,7 +914,7 @@ export const standardChips = [
   },
   {
     number: 17,
-    image: "../../public/assets/standard/2475.png",
+    image: "../../assets/standard/2475.png",
     name: "BublSide",
     type: "",
     damage: "60",
@@ -926,7 +926,7 @@ export const standardChips = [
   },
   {
     number: 17,
-    image: "../../public/assets/standard/2475.png",
+    image: "../../assets/standard/2475.png",
     name: "BublSide",
     type: "",
     damage: "60",
@@ -938,7 +938,7 @@ export const standardChips = [
   },
   {
     number: 17,
-    image: "../../public/assets/standard/2475.png",
+    image: "../../assets/standard/2475.png",
     name: "BublSide",
     type: "",
     damage: "60",
@@ -950,7 +950,7 @@ export const standardChips = [
   },
   {
     number: 17,
-    image: "../../public/assets/standard/2475.png",
+    image: "../../assets/standard/2475.png",
     name: "BublSide",
     type: "",
     damage: "60",
@@ -962,7 +962,7 @@ export const standardChips = [
   },
   {
     number: 17,
-    image: "../../public/assets/standard/2475.png",
+    image: "../../assets/standard/2475.png",
     name: "BublSide",
     type: "",
     damage: "60",
@@ -974,7 +974,7 @@ export const standardChips = [
   },
   {
     number: 18,
-    image: "../../public/assets/standard/2476.png",
+    image: "../../assets/standard/2476.png",
     name: "HeatShot",
     type: "",
     damage: "40",
@@ -986,7 +986,7 @@ export const standardChips = [
   },
   {
     number: 18,
-    image: "../../public/assets/standard/2476.png",
+    image: "../../assets/standard/2476.png",
     name: "HeatShot",
     type: "",
     damage: "40",
@@ -998,7 +998,7 @@ export const standardChips = [
   },
   {
     number: 18,
-    image: "../../public/assets/standard/2476.png",
+    image: "../../assets/standard/2476.png",
     name: "HeatShot",
     type: "",
     damage: "40",
@@ -1010,7 +1010,7 @@ export const standardChips = [
   },
   {
     number: 18,
-    image: "../../public/assets/standard/2476.png",
+    image: "../../assets/standard/2476.png",
     name: "HeatShot",
     type: "",
     damage: "40",
@@ -1022,7 +1022,7 @@ export const standardChips = [
   },
   {
     number: 18,
-    image: "../../public/assets/standard/2476.png",
+    image: "../../assets/standard/2476.png",
     name: "HeatShot",
     type: "",
     damage: "40",
@@ -1034,7 +1034,7 @@ export const standardChips = [
   },
   {
     number: 18,
-    image: "../../public/assets/standard/2476.png",
+    image: "../../assets/standard/2476.png",
     name: "HeatShot",
     type: "",
     damage: "40",
@@ -1046,7 +1046,7 @@ export const standardChips = [
   },
   {
     number: 19,
-    image: "../../public/assets/standard/2477.png",
+    image: "../../assets/standard/2477.png",
     name: "Heat-V",
     type: "",
     damage: "40",
@@ -1058,7 +1058,7 @@ export const standardChips = [
   },
   {
     number: 19,
-    image: "../../public/assets/standard/2477.png",
+    image: "../../assets/standard/2477.png",
     name: "Heat-V",
     type: "",
     damage: "40",
@@ -1070,7 +1070,7 @@ export const standardChips = [
   },
   {
     number: 19,
-    image: "../../public/assets/standard/2477.png",
+    image: "../../assets/standard/2477.png",
     name: "Heat-V",
     type: "",
     damage: "40",
@@ -1082,7 +1082,7 @@ export const standardChips = [
   },
   {
     number: 19,
-    image: "../../public/assets/standard/2477.png",
+    image: "../../assets/standard/2477.png",
     name: "Heat-V",
     type: "",
     damage: "40",
@@ -1094,7 +1094,7 @@ export const standardChips = [
   },
   {
     number: 19,
-    image: "../../public/assets/standard/2477.png",
+    image: "../../assets/standard/2477.png",
     name: "Heat-V",
     type: "",
     damage: "40",
@@ -1106,7 +1106,7 @@ export const standardChips = [
   },
   {
     number: 19,
-    image: "../../public/assets/standard/2477.png",
+    image: "../../assets/standard/2477.png",
     name: "Heat-V",
     type: "",
     damage: "40",
@@ -1118,7 +1118,7 @@ export const standardChips = [
   },
   {
     number: 20,
-    image: "../../public/assets/standard/2478.png",
+    image: "../../assets/standard/2478.png",
     name: "HeatSide",
     type: "",
     damage: "40",
@@ -1130,7 +1130,7 @@ export const standardChips = [
   },
   {
     number: 20,
-    image: "../../public/assets/standard/2478.png",
+    image: "../../assets/standard/2478.png",
     name: "HeatSide",
     type: "",
     damage: "40",
@@ -1142,7 +1142,7 @@ export const standardChips = [
   },
   {
     number: 20,
-    image: "../../public/assets/standard/2478.png",
+    image: "../../assets/standard/2478.png",
     name: "HeatSide",
     type: "",
     damage: "40",
@@ -1154,7 +1154,7 @@ export const standardChips = [
   },
   {
     number: 20,
-    image: "../../public/assets/standard/2478.png",
+    image: "../../assets/standard/2478.png",
     name: "HeatSide",
     type: "",
     damage: "40",
@@ -1166,7 +1166,7 @@ export const standardChips = [
   },
   {
     number: 20,
-    image: "../../public/assets/standard/2478.png",
+    image: "../../assets/standard/2478.png",
     name: "HeatSide",
     type: "",
     damage: "40",
@@ -1178,7 +1178,7 @@ export const standardChips = [
   },
   {
     number: 20,
-    image: "../../public/assets/standard/2478.png",
+    image: "../../assets/standard/2478.png",
     name: "HeatSide",
     type: "",
     damage: "40",
@@ -1190,7 +1190,7 @@ export const standardChips = [
   },
   {
     number: 21,
-    image: "../../public/assets/standard/2479.png",
+    image: "../../assets/standard/2479.png",
     name: "MiniBomb",
     type: "",
     damage: "50",
@@ -1202,7 +1202,7 @@ export const standardChips = [
   },
   {
     number: 21,
-    image: "../../public/assets/standard/2479.png",
+    image: "../../assets/standard/2479.png",
     name: "MiniBomb",
     type: "",
     damage: "50",
@@ -1214,7 +1214,7 @@ export const standardChips = [
   },
   {
     number: 21,
-    image: "../../public/assets/standard/2479.png",
+    image: "../../assets/standard/2479.png",
     name: "MiniBomb",
     type: "",
     damage: "50",
@@ -1226,7 +1226,7 @@ export const standardChips = [
   },
   {
     number: 21,
-    image: "../../public/assets/standard/2479.png",
+    image: "../../assets/standard/2479.png",
     name: "MiniBomb",
     type: "",
     damage: "50",
@@ -1238,7 +1238,7 @@ export const standardChips = [
   },
   {
     number: 21,
-    image: "../../public/assets/standard/2479.png",
+    image: "../../assets/standard/2479.png",
     name: "MiniBomb",
     type: "",
     damage: "50",
@@ -1250,7 +1250,7 @@ export const standardChips = [
   },
   {
     number: 21,
-    image: "../../public/assets/standard/2479.png",
+    image: "../../assets/standard/2479.png",
     name: "MiniBomb",
     type: "",
     damage: "50",
@@ -1262,7 +1262,7 @@ export const standardChips = [
   },
   {
     number: 22,
-    image: "../../public/assets/standard/2480.png",
+    image: "../../assets/standard/2480.png",
     name: "SnglBomb",
     type: "",
     damage: "50",
@@ -1274,7 +1274,7 @@ export const standardChips = [
   },
   {
     number: 22,
-    image: "../../public/assets/standard/2480.png",
+    image: "../../assets/standard/2480.png",
     name: "SnglBomb",
     type: "",
     damage: "50",
@@ -1286,7 +1286,7 @@ export const standardChips = [
   },
   {
     number: 22,
-    image: "../../public/assets/standard/2480.png",
+    image: "../../assets/standard/2480.png",
     name: "SnglBomb",
     type: "",
     damage: "50",
@@ -1298,7 +1298,7 @@ export const standardChips = [
   },
   {
     number: 22,
-    image: "../../public/assets/standard/2480.png",
+    image: "../../assets/standard/2480.png",
     name: "SnglBomb",
     type: "",
     damage: "50",
@@ -1310,7 +1310,7 @@ export const standardChips = [
   },
   {
     number: 22,
-    image: "../../public/assets/standard/2480.png",
+    image: "../../assets/standard/2480.png",
     name: "SnglBomb",
     type: "",
     damage: "50",
@@ -1322,7 +1322,7 @@ export const standardChips = [
   },
   {
     number: 22,
-    image: "../../public/assets/standard/2480.png",
+    image: "../../assets/standard/2480.png",
     name: "SnglBomb",
     type: "",
     damage: "50",
@@ -1334,7 +1334,7 @@ export const standardChips = [
   },
   {
     number: 23,
-    image: "../../public/assets/standard/2481.png",
+    image: "../../assets/standard/2481.png",
     name: "DublBomb",
     type: "",
     damage: "50",
@@ -1346,7 +1346,7 @@ export const standardChips = [
   },
   {
     number: 23,
-    image: "../../public/assets/standard/2481.png",
+    image: "../../assets/standard/2481.png",
     name: "DublBomb",
     type: "",
     damage: "50",
@@ -1358,7 +1358,7 @@ export const standardChips = [
   },
   {
     number: 23,
-    image: "../../public/assets/standard/2481.png",
+    image: "../../assets/standard/2481.png",
     name: "DublBomb",
     type: "",
     damage: "50",
@@ -1370,7 +1370,7 @@ export const standardChips = [
   },
   {
     number: 23,
-    image: "../../public/assets/standard/2481.png",
+    image: "../../assets/standard/2481.png",
     name: "DublBomb",
     type: "",
     damage: "50",
@@ -1382,7 +1382,7 @@ export const standardChips = [
   },
   {
     number: 23,
-    image: "../../public/assets/standard/2481.png",
+    image: "../../assets/standard/2481.png",
     name: "DublBomb",
     type: "",
     damage: "50",
@@ -1394,7 +1394,7 @@ export const standardChips = [
   },
   {
     number: 23,
-    image: "../../public/assets/standard/2481.png",
+    image: "../../assets/standard/2481.png",
     name: "DublBomb",
     type: "",
     damage: "50",
@@ -1406,7 +1406,7 @@ export const standardChips = [
   },
   {
     number: 24,
-    image: "../../public/assets/standard/2482.png",
+    image: "../../assets/standard/2482.png",
     name: "TrplBomb",
     type: "",
     damage: "50",
@@ -1418,7 +1418,7 @@ export const standardChips = [
   },
   {
     number: 24,
-    image: "../../public/assets/standard/2482.png",
+    image: "../../assets/standard/2482.png",
     name: "TrplBomb",
     type: "",
     damage: "50",
@@ -1430,7 +1430,7 @@ export const standardChips = [
   },
   {
     number: 24,
-    image: "../../public/assets/standard/2482.png",
+    image: "../../assets/standard/2482.png",
     name: "TrplBomb",
     type: "",
     damage: "50",
@@ -1442,7 +1442,7 @@ export const standardChips = [
   },
   {
     number: 24,
-    image: "../../public/assets/standard/2482.png",
+    image: "../../assets/standard/2482.png",
     name: "TrplBomb",
     type: "",
     damage: "50",
@@ -1454,7 +1454,7 @@ export const standardChips = [
   },
   {
     number: 24,
-    image: "../../public/assets/standard/2482.png",
+    image: "../../assets/standard/2482.png",
     name: "TrplBomb",
     type: "",
     damage: "50",
@@ -1466,7 +1466,7 @@ export const standardChips = [
   },
   {
     number: 25,
-    image: "../../public/assets/standard/2483.png",
+    image: "../../assets/standard/2483.png",
     name: "CannBall",
     type: "",
     damage: "160",
@@ -1478,7 +1478,7 @@ export const standardChips = [
   },
   {
     number: 25,
-    image: "../../public/assets/standard/2483.png",
+    image: "../../assets/standard/2483.png",
     name: "CannBall",
     type: "",
     damage: "160",
@@ -1490,7 +1490,7 @@ export const standardChips = [
   },
   {
     number: 25,
-    image: "../../public/assets/standard/2483.png",
+    image: "../../assets/standard/2483.png",
     name: "CannBall",
     type: "",
     damage: "160",
@@ -1502,7 +1502,7 @@ export const standardChips = [
   },
   {
     number: 25,
-    image: "../../public/assets/standard/2483.png",
+    image: "../../assets/standard/2483.png",
     name: "CannBall",
     type: "",
     damage: "160",
@@ -1514,7 +1514,7 @@ export const standardChips = [
   },
   {
     number: 25,
-    image: "../../public/assets/standard/2483.png",
+    image: "../../assets/standard/2483.png",
     name: "CannBall",
     type: "",
     damage: "160",
@@ -1526,7 +1526,7 @@ export const standardChips = [
   },
   {
     number: 25,
-    image: "../../public/assets/standard/2483.png",
+    image: "../../assets/standard/2483.png",
     name: "CannBall",
     type: "",
     damage: "160",
@@ -1538,7 +1538,7 @@ export const standardChips = [
   },
   {
     number: 26,
-    image: "../../public/assets/standard/2484.png",
+    image: "../../assets/standard/2484.png",
     name: "IceBall",
     type: "",
     damage: "120",
@@ -1550,7 +1550,7 @@ export const standardChips = [
   },
   {
     number: 26,
-    image: "../../public/assets/standard/2484.png",
+    image: "../../assets/standard/2484.png",
     name: "IceBall",
     type: "",
     damage: "120",
@@ -1562,7 +1562,7 @@ export const standardChips = [
   },
   {
     number: 26,
-    image: "../../public/assets/standard/2484.png",
+    image: "../../assets/standard/2484.png",
     name: "IceBall",
     type: "",
     damage: "120",
@@ -1574,7 +1574,7 @@ export const standardChips = [
   },
   {
     number: 26,
-    image: "../../public/assets/standard/2484.png",
+    image: "../../assets/standard/2484.png",
     name: "IceBall",
     type: "",
     damage: "120",
@@ -1586,7 +1586,7 @@ export const standardChips = [
   },
   {
     number: 26,
-    image: "../../public/assets/standard/2484.png",
+    image: "../../assets/standard/2484.png",
     name: "IceBall",
     type: "",
     damage: "120",
@@ -1598,7 +1598,7 @@ export const standardChips = [
   },
   {
     number: 26,
-    image: "../../public/assets/standard/2484.png",
+    image: "../../assets/standard/2484.png",
     name: "IceBall",
     type: "",
     damage: "120",
@@ -1610,7 +1610,7 @@ export const standardChips = [
   },
   {
     number: 27,
-    image: "../../public/assets/standard/2485.png",
+    image: "../../assets/standard/2485.png",
     name: "LavaBall",
     type: "",
     damage: "140",
@@ -1622,7 +1622,7 @@ export const standardChips = [
   },
   {
     number: 27,
-    image: "../../public/assets/standard/2485.png",
+    image: "../../assets/standard/2485.png",
     name: "LavaBall",
     type: "",
     damage: "140",
@@ -1634,7 +1634,7 @@ export const standardChips = [
   },
   {
     number: 27,
-    image: "../../public/assets/standard/2485.png",
+    image: "../../assets/standard/2485.png",
     name: "LavaBall",
     type: "",
     damage: "140",
@@ -1646,7 +1646,7 @@ export const standardChips = [
   },
   {
     number: 27,
-    image: "../../public/assets/standard/2485.png",
+    image: "../../assets/standard/2485.png",
     name: "LavaBall",
     type: "",
     damage: "140",
@@ -1658,7 +1658,7 @@ export const standardChips = [
   },
   {
     number: 27,
-    image: "../../public/assets/standard/2485.png",
+    image: "../../assets/standard/2485.png",
     name: "LavaBall",
     type: "",
     damage: "140",
@@ -1670,7 +1670,7 @@ export const standardChips = [
   },
   {
     number: 27,
-    image: "../../public/assets/standard/2485.png",
+    image: "../../assets/standard/2485.png",
     name: "LavaBall",
     type: "",
     damage: "140",
@@ -1682,7 +1682,7 @@ export const standardChips = [
   },
   {
     number: 28,
-    image: "../../public/assets/standard/2486.png",
+    image: "../../assets/standard/2486.png",
     name: "BlkBomb1",
     type: "",
     damage: "120",
@@ -1694,7 +1694,7 @@ export const standardChips = [
   },
   {
     number: 28,
-    image: "../../public/assets/standard/2486.png",
+    image: "../../assets/standard/2486.png",
     name: "BlkBomb1",
     type: "",
     damage: "120",
@@ -1706,7 +1706,7 @@ export const standardChips = [
   },
   {
     number: 28,
-    image: "../../public/assets/standard/2486.png",
+    image: "../../assets/standard/2486.png",
     name: "BlkBomb1",
     type: "",
     damage: "120",
@@ -1718,7 +1718,7 @@ export const standardChips = [
   },
   {
     number: 28,
-    image: "../../public/assets/standard/2486.png",
+    image: "../../assets/standard/2486.png",
     name: "BlkBomb1",
     type: "",
     damage: "120",
@@ -1730,7 +1730,7 @@ export const standardChips = [
   },
   {
     number: 28,
-    image: "../../public/assets/standard/2486.png",
+    image: "../../assets/standard/2486.png",
     name: "BlkBomb1",
     type: "",
     damage: "120",
@@ -1742,7 +1742,7 @@ export const standardChips = [
   },
   {
     number: 29,
-    image: "../../public/assets/standard/2487.png",
+    image: "../../assets/standard/2487.png",
     name: "BlkBomb2",
     type: "",
     damage: "170",
@@ -1754,7 +1754,7 @@ export const standardChips = [
   },
   {
     number: 29,
-    image: "../../public/assets/standard/2487.png",
+    image: "../../assets/standard/2487.png",
     name: "BlkBomb2",
     type: "",
     damage: "170",
@@ -1766,7 +1766,7 @@ export const standardChips = [
   },
   {
     number: 29,
-    image: "../../public/assets/standard/2487.png",
+    image: "../../assets/standard/2487.png",
     name: "BlkBomb2",
     type: "",
     damage: "170",
@@ -1778,7 +1778,7 @@ export const standardChips = [
   },
   {
     number: 29,
-    image: "../../public/assets/standard/2487.png",
+    image: "../../assets/standard/2487.png",
     name: "BlkBomb2",
     type: "",
     damage: "170",
@@ -1790,7 +1790,7 @@ export const standardChips = [
   },
   {
     number: 29,
-    image: "../../public/assets/standard/2487.png",
+    image: "../../assets/standard/2487.png",
     name: "BlkBomb2",
     type: "",
     damage: "170",
@@ -1802,7 +1802,7 @@ export const standardChips = [
   },
   {
     number: 30,
-    image: "../../public/assets/standard/2488.png",
+    image: "../../assets/standard/2488.png",
     name: "BlkBomb3",
     type: "",
     damage: "220",
@@ -1814,7 +1814,7 @@ export const standardChips = [
   },
   {
     number: 30,
-    image: "../../public/assets/standard/2488.png",
+    image: "../../assets/standard/2488.png",
     name: "BlkBomb3",
     type: "",
     damage: "220",
@@ -1826,7 +1826,7 @@ export const standardChips = [
   },
   {
     number: 30,
-    image: "../../public/assets/standard/2488.png",
+    image: "../../assets/standard/2488.png",
     name: "BlkBomb3",
     type: "",
     damage: "220",
@@ -1838,7 +1838,7 @@ export const standardChips = [
   },
   {
     number: 30,
-    image: "../../public/assets/standard/2488.png",
+    image: "../../assets/standard/2488.png",
     name: "BlkBomb3",
     type: "",
     damage: "220",
@@ -1850,7 +1850,7 @@ export const standardChips = [
   },
   {
     number: 30,
-    image: "../../public/assets/standard/2488.png",
+    image: "../../assets/standard/2488.png",
     name: "BlkBomb3",
     type: "",
     damage: "220",
@@ -1862,7 +1862,7 @@ export const standardChips = [
   },
   {
     number: 31,
-    image: "../../public/assets/standard/2489.png",
+    image: "../../assets/standard/2489.png",
     name: "Sword",
     type: "",
     damage: "80",
@@ -1874,7 +1874,7 @@ export const standardChips = [
   },
   {
     number: 31,
-    image: "../../public/assets/standard/2489.png",
+    image: "../../assets/standard/2489.png",
     name: "Sword",
     type: "",
     damage: "80",
@@ -1886,7 +1886,7 @@ export const standardChips = [
   },
   {
     number: 31,
-    image: "../../public/assets/standard/2489.png",
+    image: "../../assets/standard/2489.png",
     name: "Sword",
     type: "",
     damage: "80",
@@ -1898,7 +1898,7 @@ export const standardChips = [
   },
   {
     number: 31,
-    image: "../../public/assets/standard/2489.png",
+    image: "../../assets/standard/2489.png",
     name: "Sword",
     type: "",
     damage: "80",
@@ -1910,7 +1910,7 @@ export const standardChips = [
   },
   {
     number: 31,
-    image: "../../public/assets/standard/2489.png",
+    image: "../../assets/standard/2489.png",
     name: "Sword",
     type: "",
     damage: "80",
@@ -1922,7 +1922,7 @@ export const standardChips = [
   },
   {
     number: 32,
-    image: "../../public/assets/standard/2490.png",
+    image: "../../assets/standard/2490.png",
     name: "WideSwrd",
     type: "",
     damage: "80",
@@ -1934,7 +1934,7 @@ export const standardChips = [
   },
   {
     number: 32,
-    image: "../../public/assets/standard/2490.png",
+    image: "../../assets/standard/2490.png",
     name: "WideSwrd",
     type: "",
     damage: "80",
@@ -1946,7 +1946,7 @@ export const standardChips = [
   },
   {
     number: 32,
-    image: "../../public/assets/standard/2490.png",
+    image: "../../assets/standard/2490.png",
     name: "WideSwrd",
     type: "",
     damage: "80",
@@ -1958,7 +1958,7 @@ export const standardChips = [
   },
   {
     number: 32,
-    image: "../../public/assets/standard/2490.png",
+    image: "../../assets/standard/2490.png",
     name: "WideSwrd",
     type: "",
     damage: "80",
@@ -1970,7 +1970,7 @@ export const standardChips = [
   },
   {
     number: 32,
-    image: "../../public/assets/standard/2490.png",
+    image: "../../assets/standard/2490.png",
     name: "WideSwrd",
     type: "",
     damage: "80",
@@ -1982,7 +1982,7 @@ export const standardChips = [
   },
   {
     number: 33,
-    image: "../../public/assets/standard/2491.png",
+    image: "../../assets/standard/2491.png",
     name: "LongSwrd",
     type: "",
     damage: "80",
@@ -1994,7 +1994,7 @@ export const standardChips = [
   },
   {
     number: 33,
-    image: "../../public/assets/standard/2491.png",
+    image: "../../assets/standard/2491.png",
     name: "LongSwrd",
     type: "",
     damage: "80",
@@ -2006,7 +2006,7 @@ export const standardChips = [
   },
   {
     number: 33,
-    image: "../../public/assets/standard/2491.png",
+    image: "../../assets/standard/2491.png",
     name: "LongSwrd",
     type: "",
     damage: "80",
@@ -2018,7 +2018,7 @@ export const standardChips = [
   },
   {
     number: 33,
-    image: "../../public/assets/standard/2491.png",
+    image: "../../assets/standard/2491.png",
     name: "LongSwrd",
     type: "",
     damage: "80",
@@ -2030,7 +2030,7 @@ export const standardChips = [
   },
   {
     number: 33,
-    image: "../../public/assets/standard/2491.png",
+    image: "../../assets/standard/2491.png",
     name: "LongSwrd",
     type: "",
     damage: "80",
@@ -2042,7 +2042,7 @@ export const standardChips = [
   },
   {
     number: 34,
-    image: "../../public/assets/standard/2492.png",
+    image: "../../assets/standard/2492.png",
     name: "FireSwrd",
     type: "",
     damage: "130",
@@ -2054,7 +2054,7 @@ export const standardChips = [
   },
   {
     number: 34,
-    image: "../../public/assets/standard/2492.png",
+    image: "../../assets/standard/2492.png",
     name: "FireSwrd",
     type: "",
     damage: "130",
@@ -2066,7 +2066,7 @@ export const standardChips = [
   },
   {
     number: 34,
-    image: "../../public/assets/standard/2492.png",
+    image: "../../assets/standard/2492.png",
     name: "FireSwrd",
     type: "",
     damage: "130",
@@ -2078,7 +2078,7 @@ export const standardChips = [
   },
   {
     number: 34,
-    image: "../../public/assets/standard/2492.png",
+    image: "../../assets/standard/2492.png",
     name: "FireSwrd",
     type: "",
     damage: "130",
@@ -2090,7 +2090,7 @@ export const standardChips = [
   },
   {
     number: 34,
-    image: "../../public/assets/standard/2492.png",
+    image: "../../assets/standard/2492.png",
     name: "FireSwrd",
     type: "",
     damage: "130",
@@ -2102,7 +2102,7 @@ export const standardChips = [
   },
   {
     number: 35,
-    image: "../../public/assets/standard/2493.png",
+    image: "../../assets/standard/2493.png",
     name: "AquaSwrd",
     type: "",
     damage: "150",
@@ -2114,7 +2114,7 @@ export const standardChips = [
   },
   {
     number: 35,
-    image: "../../public/assets/standard/2493.png",
+    image: "../../assets/standard/2493.png",
     name: "AquaSwrd",
     type: "",
     damage: "150",
@@ -2126,7 +2126,7 @@ export const standardChips = [
   },
   {
     number: 35,
-    image: "../../public/assets/standard/2493.png",
+    image: "../../assets/standard/2493.png",
     name: "AquaSwrd",
     type: "",
     damage: "150",
@@ -2138,7 +2138,7 @@ export const standardChips = [
   },
   {
     number: 35,
-    image: "../../public/assets/standard/2493.png",
+    image: "../../assets/standard/2493.png",
     name: "AquaSwrd",
     type: "",
     damage: "150",
@@ -2150,7 +2150,7 @@ export const standardChips = [
   },
   {
     number: 35,
-    image: "../../public/assets/standard/2493.png",
+    image: "../../assets/standard/2493.png",
     name: "AquaSwrd",
     type: "",
     damage: "150",
@@ -2162,7 +2162,7 @@ export const standardChips = [
   },
   {
     number: 36,
-    image: "../../public/assets/standard/2494.png",
+    image: "../../assets/standard/2494.png",
     name: "ElecSwrd",
     type: "",
     damage: "130",
@@ -2174,7 +2174,7 @@ export const standardChips = [
   },
   {
     number: 36,
-    image: "../../public/assets/standard/2494.png",
+    image: "../../assets/standard/2494.png",
     name: "ElecSwrd",
     type: "",
     damage: "130",
@@ -2186,7 +2186,7 @@ export const standardChips = [
   },
   {
     number: 36,
-    image: "../../public/assets/standard/2494.png",
+    image: "../../assets/standard/2494.png",
     name: "ElecSwrd",
     type: "",
     damage: "130",
@@ -2198,7 +2198,7 @@ export const standardChips = [
   },
   {
     number: 36,
-    image: "../../public/assets/standard/2494.png",
+    image: "../../assets/standard/2494.png",
     name: "ElecSwrd",
     type: "",
     damage: "130",
@@ -2210,7 +2210,7 @@ export const standardChips = [
   },
   {
     number: 36,
-    image: "../../public/assets/standard/2494.png",
+    image: "../../assets/standard/2494.png",
     name: "ElecSwrd",
     type: "",
     damage: "130",
@@ -2222,7 +2222,7 @@ export const standardChips = [
   },
   {
     number: 37,
-    image: "../../public/assets/standard/2495.png",
+    image: "../../assets/standard/2495.png",
     name: "BambSwrd",
     type: "",
     damage: "140",
@@ -2234,7 +2234,7 @@ export const standardChips = [
   },
   {
     number: 37,
-    image: "../../public/assets/standard/2495.png",
+    image: "../../assets/standard/2495.png",
     name: "BambSwrd",
     type: "",
     damage: "140",
@@ -2246,7 +2246,7 @@ export const standardChips = [
   },
   {
     number: 37,
-    image: "../../public/assets/standard/2495.png",
+    image: "../../assets/standard/2495.png",
     name: "BambSwrd",
     type: "",
     damage: "140",
@@ -2258,7 +2258,7 @@ export const standardChips = [
   },
   {
     number: 37,
-    image: "../../public/assets/standard/2495.png",
+    image: "../../assets/standard/2495.png",
     name: "BambSwrd",
     type: "",
     damage: "140",
@@ -2270,7 +2270,7 @@ export const standardChips = [
   },
   {
     number: 37,
-    image: "../../public/assets/standard/2495.png",
+    image: "../../assets/standard/2495.png",
     name: "BambSwrd",
     type: "",
     damage: "140",
@@ -2282,7 +2282,7 @@ export const standardChips = [
   },
   {
     number: 38,
-    image: "../../public/assets/standard/2496.png",
+    image: "../../assets/standard/2496.png",
     name: "CustSwrd",
     type: "",
     damage: "????",
@@ -2294,7 +2294,7 @@ export const standardChips = [
   },
   {
     number: 38,
-    image: "../../public/assets/standard/2496.png",
+    image: "../../assets/standard/2496.png",
     name: "CustSwrd",
     type: "",
     damage: "????",
@@ -2306,7 +2306,7 @@ export const standardChips = [
   },
   {
     number: 38,
-    image: "../../public/assets/standard/2496.png",
+    image: "../../assets/standard/2496.png",
     name: "CustSwrd",
     type: "",
     damage: "????",
@@ -2318,7 +2318,7 @@ export const standardChips = [
   },
   {
     number: 38,
-    image: "../../public/assets/standard/2496.png",
+    image: "../../assets/standard/2496.png",
     name: "CustSwrd",
     type: "",
     damage: "????",
@@ -2330,7 +2330,7 @@ export const standardChips = [
   },
   {
     number: 38,
-    image: "../../public/assets/standard/2496.png",
+    image: "../../assets/standard/2496.png",
     name: "CustSwrd",
     type: "",
     damage: "????",
@@ -2342,7 +2342,7 @@ export const standardChips = [
   },
   {
     number: 39,
-    image: "../../public/assets/standard/2497.png",
+    image: "../../assets/standard/2497.png",
     name: "VarSwrd",
     type: "",
     damage: "160",
@@ -2354,7 +2354,7 @@ export const standardChips = [
   },
   {
     number: 39,
-    image: "../../public/assets/standard/2497.png",
+    image: "../../assets/standard/2497.png",
     name: "VarSwrd",
     type: "",
     damage: "160",
@@ -2366,7 +2366,7 @@ export const standardChips = [
   },
   {
     number: 39,
-    image: "../../public/assets/standard/2497.png",
+    image: "../../assets/standard/2497.png",
     name: "VarSwrd",
     type: "",
     damage: "160",
@@ -2378,7 +2378,7 @@ export const standardChips = [
   },
   {
     number: 39,
-    image: "../../public/assets/standard/2497.png",
+    image: "../../assets/standard/2497.png",
     name: "VarSwrd",
     type: "",
     damage: "160",
@@ -2390,7 +2390,7 @@ export const standardChips = [
   },
   {
     number: 39,
-    image: "../../public/assets/standard/2497.png",
+    image: "../../assets/standard/2497.png",
     name: "VarSwrd",
     type: "",
     damage: "160",
@@ -2402,7 +2402,7 @@ export const standardChips = [
   },
   {
     number: 40,
-    image: "../../public/assets/standard/2501.png",
+    image: "../../assets/standard/2501.png",
     name: "AirSwrd",
     type: "",
     damage: "100",
@@ -2414,7 +2414,7 @@ export const standardChips = [
   },
   {
     number: 40,
-    image: "../../public/assets/standard/2501.png",
+    image: "../../assets/standard/2501.png",
     name: "AirSwrd",
     type: "",
     damage: "100",
@@ -2426,7 +2426,7 @@ export const standardChips = [
   },
   {
     number: 40,
-    image: "../../public/assets/standard/2501.png",
+    image: "../../assets/standard/2501.png",
     name: "AirSwrd",
     type: "",
     damage: "100",
@@ -2438,7 +2438,7 @@ export const standardChips = [
   },
   {
     number: 40,
-    image: "../../public/assets/standard/2501.png",
+    image: "../../assets/standard/2501.png",
     name: "AirSwrd",
     type: "",
     damage: "100",
@@ -2450,7 +2450,7 @@ export const standardChips = [
   },
   {
     number: 40,
-    image: "../../public/assets/standard/2501.png",
+    image: "../../assets/standard/2501.png",
     name: "AirSwrd",
     type: "",
     damage: "100",
@@ -2462,7 +2462,7 @@ export const standardChips = [
   },
   {
     number: 40,
-    image: "../../public/assets/standard/2501.png",
+    image: "../../assets/standard/2501.png",
     name: "AirSwrd",
     type: "",
     damage: "100",
@@ -2474,7 +2474,7 @@ export const standardChips = [
   },
   {
     number: 41,
-    image: "../../public/assets/standard/2498.png",
+    image: "../../assets/standard/2498.png",
     name: "StepSwrd",
     type: "",
     damage: "130",
@@ -2486,7 +2486,7 @@ export const standardChips = [
   },
   {
     number: 41,
-    image: "../../public/assets/standard/2498.png",
+    image: "../../assets/standard/2498.png",
     name: "StepSwrd",
     type: "",
     damage: "130",
@@ -2498,7 +2498,7 @@ export const standardChips = [
   },
   {
     number: 41,
-    image: "../../public/assets/standard/2498.png",
+    image: "../../assets/standard/2498.png",
     name: "StepSwrd",
     type: "",
     damage: "130",
@@ -2510,7 +2510,7 @@ export const standardChips = [
   },
   {
     number: 41,
-    image: "../../public/assets/standard/2498.png",
+    image: "../../assets/standard/2498.png",
     name: "StepSwrd",
     type: "",
     damage: "130",
@@ -2522,7 +2522,7 @@ export const standardChips = [
   },
   {
     number: 41,
-    image: "../../public/assets/standard/2498.png",
+    image: "../../assets/standard/2498.png",
     name: "StepSwrd",
     type: "",
     damage: "130",
@@ -2534,7 +2534,7 @@ export const standardChips = [
   },
   {
     number: 42,
-    image: "../../public/assets/standard/2499.png",
+    image: "../../assets/standard/2499.png",
     name: "StepCros",
     type: "",
     damage: "130",
@@ -2546,7 +2546,7 @@ export const standardChips = [
   },
   {
     number: 42,
-    image: "../../public/assets/standard/2499.png",
+    image: "../../assets/standard/2499.png",
     name: "StepCros",
     type: "",
     damage: "130",
@@ -2558,7 +2558,7 @@ export const standardChips = [
   },
   {
     number: 42,
-    image: "../../public/assets/standard/2499.png",
+    image: "../../assets/standard/2499.png",
     name: "StepCros",
     type: "",
     damage: "130",
@@ -2570,7 +2570,7 @@ export const standardChips = [
   },
   {
     number: 42,
-    image: "../../public/assets/standard/2499.png",
+    image: "../../assets/standard/2499.png",
     name: "StepCros",
     type: "",
     damage: "130",
@@ -2582,7 +2582,7 @@ export const standardChips = [
   },
   {
     number: 42,
-    image: "../../public/assets/standard/2499.png",
+    image: "../../assets/standard/2499.png",
     name: "StepCros",
     type: "",
     damage: "130",
@@ -2594,7 +2594,7 @@ export const standardChips = [
   },
   {
     number: 43,
-    image: "../../public/assets/standard/2502.png",
+    image: "../../assets/standard/2502.png",
     name: "Slasher",
     type: "",
     damage: "240",
@@ -2606,7 +2606,7 @@ export const standardChips = [
   },
   {
     number: 43,
-    image: "../../public/assets/standard/2502.png",
+    image: "../../assets/standard/2502.png",
     name: "Slasher",
     type: "",
     damage: "240",
@@ -2618,7 +2618,7 @@ export const standardChips = [
   },
   {
     number: 43,
-    image: "../../public/assets/standard/2502.png",
+    image: "../../assets/standard/2502.png",
     name: "Slasher",
     type: "",
     damage: "240",
@@ -2630,7 +2630,7 @@ export const standardChips = [
   },
   {
     number: 43,
-    image: "../../public/assets/standard/2502.png",
+    image: "../../assets/standard/2502.png",
     name: "Slasher",
     type: "",
     damage: "240",
@@ -2642,7 +2642,7 @@ export const standardChips = [
   },
   {
     number: 43,
-    image: "../../public/assets/standard/2502.png",
+    image: "../../assets/standard/2502.png",
     name: "Slasher",
     type: "",
     damage: "240",
@@ -2654,7 +2654,7 @@ export const standardChips = [
   },
   {
     number: 44,
-    image: "../../public/assets/standard/2503.png",
+    image: "../../assets/standard/2503.png",
     name: "ShockWav",
     type: "",
     damage: "60",
@@ -2666,7 +2666,7 @@ export const standardChips = [
   },
   {
     number: 44,
-    image: "../../public/assets/standard/2503.png",
+    image: "../../assets/standard/2503.png",
     name: "ShockWav",
     type: "",
     damage: "60",
@@ -2678,7 +2678,7 @@ export const standardChips = [
   },
   {
     number: 44,
-    image: "../../public/assets/standard/2503.png",
+    image: "../../assets/standard/2503.png",
     name: "ShockWav",
     type: "",
     damage: "60",
@@ -2690,7 +2690,7 @@ export const standardChips = [
   },
   {
     number: 44,
-    image: "../../public/assets/standard/2503.png",
+    image: "../../assets/standard/2503.png",
     name: "ShockWav",
     type: "",
     damage: "60",
@@ -2702,7 +2702,7 @@ export const standardChips = [
   },
   {
     number: 44,
-    image: "../../public/assets/standard/2503.png",
+    image: "../../assets/standard/2503.png",
     name: "ShockWav",
     type: "",
     damage: "60",
@@ -2714,7 +2714,7 @@ export const standardChips = [
   },
   {
     number: 45,
-    image: "../../public/assets/standard/2504.png",
+    image: "../../assets/standard/2504.png",
     name: "SonicWav",
     type: "",
     damage: "80",
@@ -2726,7 +2726,7 @@ export const standardChips = [
   },
   {
     number: 45,
-    image: "../../public/assets/standard/2504.png",
+    image: "../../assets/standard/2504.png",
     name: "SonicWav",
     type: "",
     damage: "80",
@@ -2738,7 +2738,7 @@ export const standardChips = [
   },
   {
     number: 45,
-    image: "../../public/assets/standard/2504.png",
+    image: "../../assets/standard/2504.png",
     name: "SonicWav",
     type: "",
     damage: "80",
@@ -2750,7 +2750,7 @@ export const standardChips = [
   },
   {
     number: 45,
-    image: "../../public/assets/standard/2504.png",
+    image: "../../assets/standard/2504.png",
     name: "SonicWav",
     type: "",
     damage: "80",
@@ -2762,7 +2762,7 @@ export const standardChips = [
   },
   {
     number: 45,
-    image: "../../public/assets/standard/2504.png",
+    image: "../../assets/standard/2504.png",
     name: "SonicWav",
     type: "",
     damage: "80",
@@ -2774,7 +2774,7 @@ export const standardChips = [
   },
   {
     number: 46,
-    image: "../../public/assets/standard/2505.png",
+    image: "../../assets/standard/2505.png",
     name: "DynaWave",
     type: "",
     damage: "100",
@@ -2786,7 +2786,7 @@ export const standardChips = [
   },
   {
     number: 46,
-    image: "../../public/assets/standard/2505.png",
+    image: "../../assets/standard/2505.png",
     name: "DynaWave",
     type: "",
     damage: "100",
@@ -2798,7 +2798,7 @@ export const standardChips = [
   },
   {
     number: 46,
-    image: "../../public/assets/standard/2505.png",
+    image: "../../assets/standard/2505.png",
     name: "DynaWave",
     type: "",
     damage: "100",
@@ -2810,7 +2810,7 @@ export const standardChips = [
   },
   {
     number: 46,
-    image: "../../public/assets/standard/2505.png",
+    image: "../../assets/standard/2505.png",
     name: "DynaWave",
     type: "",
     damage: "100",
@@ -2822,7 +2822,7 @@ export const standardChips = [
   },
   {
     number: 46,
-    image: "../../public/assets/standard/2505.png",
+    image: "../../assets/standard/2505.png",
     name: "DynaWave",
     type: "",
     damage: "100",
@@ -2834,7 +2834,7 @@ export const standardChips = [
   },
   {
     number: 47,
-    image: "../../public/assets/standard/2572.png",
+    image: "../../assets/standard/2572.png",
     name: "BigWave",
     type: "",
     damage: "190",
@@ -2846,7 +2846,7 @@ export const standardChips = [
   },
   {
     number: 47,
-    image: "../../public/assets/standard/2572.png",
+    image: "../../assets/standard/2572.png",
     name: "BigWave",
     type: "",
     damage: "190",
@@ -2858,7 +2858,7 @@ export const standardChips = [
   },
   {
     number: 47,
-    image: "../../public/assets/standard/2572.png",
+    image: "../../assets/standard/2572.png",
     name: "BigWave",
     type: "",
     damage: "190",
@@ -2870,7 +2870,7 @@ export const standardChips = [
   },
   {
     number: 47,
-    image: "../../public/assets/standard/2572.png",
+    image: "../../assets/standard/2572.png",
     name: "BigWave",
     type: "",
     damage: "190",
@@ -2882,7 +2882,7 @@ export const standardChips = [
   },
   {
     number: 47,
-    image: "../../public/assets/standard/2572.png",
+    image: "../../assets/standard/2572.png",
     name: "BigWave",
     type: "",
     damage: "190",
@@ -2894,7 +2894,7 @@ export const standardChips = [
   },
   {
     number: 48,
-    image: "../../public/assets/standard/2506.png",
+    image: "../../assets/standard/2506.png",
     name: "GutPunch",
     type: "",
     damage: "80",
@@ -2906,7 +2906,7 @@ export const standardChips = [
   },
   {
     number: 48,
-    image: "../../public/assets/standard/2506.png",
+    image: "../../assets/standard/2506.png",
     name: "GutPunch",
     type: "",
     damage: "80",
@@ -2918,7 +2918,7 @@ export const standardChips = [
   },
   {
     number: 48,
-    image: "../../public/assets/standard/2506.png",
+    image: "../../assets/standard/2506.png",
     name: "GutPunch",
     type: "",
     damage: "80",
@@ -2930,7 +2930,7 @@ export const standardChips = [
   },
   {
     number: 48,
-    image: "../../public/assets/standard/2506.png",
+    image: "../../assets/standard/2506.png",
     name: "GutPunch",
     type: "",
     damage: "80",
@@ -2942,7 +2942,7 @@ export const standardChips = [
   },
   {
     number: 48,
-    image: "../../public/assets/standard/2506.png",
+    image: "../../assets/standard/2506.png",
     name: "GutPunch",
     type: "",
     damage: "80",
@@ -2954,7 +2954,7 @@ export const standardChips = [
   },
   {
     number: 49,
-    image: "../../public/assets/standard/2507.png",
+    image: "../../assets/standard/2507.png",
     name: "GutStrgt",
     type: "",
     damage: "100",
@@ -2966,7 +2966,7 @@ export const standardChips = [
   },
   {
     number: 49,
-    image: "../../public/assets/standard/2507.png",
+    image: "../../assets/standard/2507.png",
     name: "GutStrgt",
     type: "",
     damage: "100",
@@ -2978,7 +2978,7 @@ export const standardChips = [
   },
   {
     number: 49,
-    image: "../../public/assets/standard/2507.png",
+    image: "../../assets/standard/2507.png",
     name: "GutStrgt",
     type: "",
     damage: "100",
@@ -2990,7 +2990,7 @@ export const standardChips = [
   },
   {
     number: 49,
-    image: "../../public/assets/standard/2507.png",
+    image: "../../assets/standard/2507.png",
     name: "GutStrgt",
     type: "",
     damage: "100",
@@ -3002,7 +3002,7 @@ export const standardChips = [
   },
   {
     number: 49,
-    image: "../../public/assets/standard/2507.png",
+    image: "../../assets/standard/2507.png",
     name: "GutStrgt",
     type: "",
     damage: "100",
@@ -3014,7 +3014,7 @@ export const standardChips = [
   },
   {
     number: 50,
-    image: "../../public/assets/standard/2508.png",
+    image: "../../assets/standard/2508.png",
     name: "GutImpct",
     type: "",
     damage: "160",
@@ -3026,7 +3026,7 @@ export const standardChips = [
   },
   {
     number: 50,
-    image: "../../public/assets/standard/2508.png",
+    image: "../../assets/standard/2508.png",
     name: "GutImpct",
     type: "",
     damage: "160",
@@ -3038,7 +3038,7 @@ export const standardChips = [
   },
   {
     number: 50,
-    image: "../../public/assets/standard/2508.png",
+    image: "../../assets/standard/2508.png",
     name: "GutImpct",
     type: "",
     damage: "160",
@@ -3050,7 +3050,7 @@ export const standardChips = [
   },
   {
     number: 50,
-    image: "../../public/assets/standard/2508.png",
+    image: "../../assets/standard/2508.png",
     name: "GutImpct",
     type: "",
     damage: "160",
@@ -3062,7 +3062,7 @@ export const standardChips = [
   },
   {
     number: 50,
-    image: "../../public/assets/standard/2508.png",
+    image: "../../assets/standard/2508.png",
     name: "GutImpct",
     type: "",
     damage: "160",
@@ -3074,7 +3074,7 @@ export const standardChips = [
   },
   {
     number: 51,
-    image: "../../public/assets/standard/2512.png",
+    image: "../../assets/standard/2512.png",
     name: "DashAtk",
     type: "",
     damage: "90",
@@ -3086,7 +3086,7 @@ export const standardChips = [
   },
   {
     number: 51,
-    image: "../../public/assets/standard/2512.png",
+    image: "../../assets/standard/2512.png",
     name: "DashAtk",
     type: "",
     damage: "90",
@@ -3098,7 +3098,7 @@ export const standardChips = [
   },
   {
     number: 51,
-    image: "../../public/assets/standard/2512.png",
+    image: "../../assets/standard/2512.png",
     name: "DashAtk",
     type: "",
     damage: "90",
@@ -3110,7 +3110,7 @@ export const standardChips = [
   },
   {
     number: 51,
-    image: "../../public/assets/standard/2512.png",
+    image: "../../assets/standard/2512.png",
     name: "DashAtk",
     type: "",
     damage: "90",
@@ -3122,7 +3122,7 @@ export const standardChips = [
   },
   {
     number: 51,
-    image: "../../public/assets/standard/2512.png",
+    image: "../../assets/standard/2512.png",
     name: "DashAtk",
     type: "",
     damage: "90",
@@ -3134,7 +3134,7 @@ export const standardChips = [
   },
   {
     number: 51,
-    image: "../../public/assets/standard/2512.png",
+    image: "../../assets/standard/2512.png",
     name: "DashAtk",
     type: "",
     damage: "90",
@@ -3146,7 +3146,7 @@ export const standardChips = [
   },
   {
     number: 52,
-    image: "../../public/assets/standard/2513.png",
+    image: "../../assets/standard/2513.png",
     name: "Burner",
     type: "",
     damage: "130",
@@ -3158,7 +3158,7 @@ export const standardChips = [
   },
   {
     number: 52,
-    image: "../../public/assets/standard/2513.png",
+    image: "../../assets/standard/2513.png",
     name: "Burner",
     type: "",
     damage: "130",
@@ -3170,7 +3170,7 @@ export const standardChips = [
   },
   {
     number: 52,
-    image: "../../public/assets/standard/2513.png",
+    image: "../../assets/standard/2513.png",
     name: "Burner",
     type: "",
     damage: "130",
@@ -3182,7 +3182,7 @@ export const standardChips = [
   },
   {
     number: 52,
-    image: "../../public/assets/standard/2513.png",
+    image: "../../assets/standard/2513.png",
     name: "Burner",
     type: "",
     damage: "130",
@@ -3194,7 +3194,7 @@ export const standardChips = [
   },
   {
     number: 52,
-    image: "../../public/assets/standard/2513.png",
+    image: "../../assets/standard/2513.png",
     name: "Burner",
     type: "",
     damage: "130",
@@ -3206,7 +3206,7 @@ export const standardChips = [
   },
   {
     number: 53,
-    image: "../../public/assets/standard/2574.png",
+    image: "../../assets/standard/2574.png",
     name: "Condor",
     type: "",
     damage: "180",
@@ -3218,7 +3218,7 @@ export const standardChips = [
   },
   {
     number: 53,
-    image: "../../public/assets/standard/2574.png",
+    image: "../../assets/standard/2574.png",
     name: "Condor",
     type: "",
     damage: "180",
@@ -3230,7 +3230,7 @@ export const standardChips = [
   },
   {
     number: 53,
-    image: "../../public/assets/standard/2574.png",
+    image: "../../assets/standard/2574.png",
     name: "Condor",
     type: "",
     damage: "180",
@@ -3242,7 +3242,7 @@ export const standardChips = [
   },
   {
     number: 53,
-    image: "../../public/assets/standard/2574.png",
+    image: "../../assets/standard/2574.png",
     name: "Condor",
     type: "",
     damage: "180",
@@ -3254,7 +3254,7 @@ export const standardChips = [
   },
   {
     number: 53,
-    image: "../../public/assets/standard/2574.png",
+    image: "../../assets/standard/2574.png",
     name: "Condor",
     type: "",
     damage: "180",
@@ -3266,7 +3266,7 @@ export const standardChips = [
   },
   {
     number: 54,
-    image: "../../public/assets/standard/2575.png",
+    image: "../../assets/standard/2575.png",
     name: "Burning",
     type: "",
     damage: "150",
@@ -3278,7 +3278,7 @@ export const standardChips = [
   },
   {
     number: 54,
-    image: "../../public/assets/standard/2575.png",
+    image: "../../assets/standard/2575.png",
     name: "Burning",
     type: "",
     damage: "150",
@@ -3290,7 +3290,7 @@ export const standardChips = [
   },
   {
     number: 54,
-    image: "../../public/assets/standard/2575.png",
+    image: "../../assets/standard/2575.png",
     name: "Burning",
     type: "",
     damage: "150",
@@ -3302,7 +3302,7 @@ export const standardChips = [
   },
   {
     number: 54,
-    image: "../../public/assets/standard/2575.png",
+    image: "../../assets/standard/2575.png",
     name: "Burning",
     type: "",
     damage: "150",
@@ -3314,7 +3314,7 @@ export const standardChips = [
   },
   {
     number: 54,
-    image: "../../public/assets/standard/2575.png",
+    image: "../../assets/standard/2575.png",
     name: "Burning",
     type: "",
     damage: "150",
@@ -3326,7 +3326,7 @@ export const standardChips = [
   },
   {
     number: 55,
-    image: "../../public/assets/standard/2525.png",
+    image: "../../assets/standard/2525.png",
     name: "ZapRing1",
     type: "",
     damage: "20",
@@ -3338,7 +3338,7 @@ export const standardChips = [
   },
   {
     number: 55,
-    image: "../../public/assets/standard/2525.png",
+    image: "../../assets/standard/2525.png",
     name: "ZapRing1",
     type: "",
     damage: "20",
@@ -3350,7 +3350,7 @@ export const standardChips = [
   },
   {
     number: 55,
-    image: "../../public/assets/standard/2525.png",
+    image: "../../assets/standard/2525.png",
     name: "ZapRing1",
     type: "",
     damage: "20",
@@ -3362,7 +3362,7 @@ export const standardChips = [
   },
   {
     number: 55,
-    image: "../../public/assets/standard/2525.png",
+    image: "../../assets/standard/2525.png",
     name: "ZapRing1",
     type: "",
     damage: "20",
@@ -3374,7 +3374,7 @@ export const standardChips = [
   },
   {
     number: 55,
-    image: "../../public/assets/standard/2525.png",
+    image: "../../assets/standard/2525.png",
     name: "ZapRing1",
     type: "",
     damage: "20",
@@ -3386,7 +3386,7 @@ export const standardChips = [
   },
   {
     number: 55,
-    image: "../../public/assets/standard/2525.png",
+    image: "../../assets/standard/2525.png",
     name: "ZapRing1",
     type: "",
     damage: "20",
@@ -3398,7 +3398,7 @@ export const standardChips = [
   },
   {
     number: 56,
-    image: "../../public/assets/standard/2526.png",
+    image: "../../assets/standard/2526.png",
     name: "ZapRing2",
     type: "",
     damage: "40",
@@ -3410,7 +3410,7 @@ export const standardChips = [
   },
   {
     number: 56,
-    image: "../../public/assets/standard/2526.png",
+    image: "../../assets/standard/2526.png",
     name: "ZapRing2",
     type: "",
     damage: "40",
@@ -3422,7 +3422,7 @@ export const standardChips = [
   },
   {
     number: 56,
-    image: "../../public/assets/standard/2526.png",
+    image: "../../assets/standard/2526.png",
     name: "ZapRing2",
     type: "",
     damage: "40",
@@ -3434,7 +3434,7 @@ export const standardChips = [
   },
   {
     number: 56,
-    image: "../../public/assets/standard/2526.png",
+    image: "../../assets/standard/2526.png",
     name: "ZapRing2",
     type: "",
     damage: "40",
@@ -3446,7 +3446,7 @@ export const standardChips = [
   },
   {
     number: 56,
-    image: "../../public/assets/standard/2526.png",
+    image: "../../assets/standard/2526.png",
     name: "ZapRing2",
     type: "",
     damage: "40",
@@ -3458,7 +3458,7 @@ export const standardChips = [
   },
   {
     number: 57,
-    image: "../../public/assets/standard/2527.png",
+    image: "../../assets/standard/2527.png",
     name: "ZapRing3",
     type: "",
     damage: "60",
@@ -3470,7 +3470,7 @@ export const standardChips = [
   },
   {
     number: 57,
-    image: "../../public/assets/standard/2527.png",
+    image: "../../assets/standard/2527.png",
     name: "ZapRing3",
     type: "",
     damage: "60",
@@ -3482,7 +3482,7 @@ export const standardChips = [
   },
   {
     number: 57,
-    image: "../../public/assets/standard/2527.png",
+    image: "../../assets/standard/2527.png",
     name: "ZapRing3",
     type: "",
     damage: "60",
@@ -3494,7 +3494,7 @@ export const standardChips = [
   },
   {
     number: 57,
-    image: "../../public/assets/standard/2527.png",
+    image: "../../assets/standard/2527.png",
     name: "ZapRing3",
     type: "",
     damage: "60",
@@ -3506,7 +3506,7 @@ export const standardChips = [
   },
   {
     number: 57,
-    image: "../../public/assets/standard/2527.png",
+    image: "../../assets/standard/2527.png",
     name: "ZapRing3",
     type: "",
     damage: "60",
@@ -3518,7 +3518,7 @@ export const standardChips = [
   },
   {
     number: 58,
-    image: "../../public/assets/standard/2549.png",
+    image: "../../assets/standard/2549.png",
     name: "IceWave1",
     type: "",
     damage: "80",
@@ -3530,7 +3530,7 @@ export const standardChips = [
   },
   {
     number: 58,
-    image: "../../public/assets/standard/2549.png",
+    image: "../../assets/standard/2549.png",
     name: "IceWave1",
     type: "",
     damage: "80",
@@ -3542,7 +3542,7 @@ export const standardChips = [
   },
   {
     number: 58,
-    image: "../../public/assets/standard/2549.png",
+    image: "../../assets/standard/2549.png",
     name: "IceWave1",
     type: "",
     damage: "80",
@@ -3554,7 +3554,7 @@ export const standardChips = [
   },
   {
     number: 58,
-    image: "../../public/assets/standard/2549.png",
+    image: "../../assets/standard/2549.png",
     name: "IceWave1",
     type: "",
     damage: "80",
@@ -3566,7 +3566,7 @@ export const standardChips = [
   },
   {
     number: 58,
-    image: "../../public/assets/standard/2549.png",
+    image: "../../assets/standard/2549.png",
     name: "IceWave1",
     type: "",
     damage: "80",
@@ -3578,7 +3578,7 @@ export const standardChips = [
   },
   {
     number: 58,
-    image: "../../public/assets/standard/2549.png",
+    image: "../../assets/standard/2549.png",
     name: "IceWave1",
     type: "",
     damage: "80",
@@ -3590,7 +3590,7 @@ export const standardChips = [
   },
   {
     number: 59,
-    image: "../../public/assets/standard/2550.png",
+    image: "../../assets/standard/2550.png",
     name: "IceWave2",
     type: "",
     damage: "100",
@@ -3602,7 +3602,7 @@ export const standardChips = [
   },
   {
     number: 59,
-    image: "../../public/assets/standard/2550.png",
+    image: "../../assets/standard/2550.png",
     name: "IceWave2",
     type: "",
     damage: "100",
@@ -3614,7 +3614,7 @@ export const standardChips = [
   },
   {
     number: 59,
-    image: "../../public/assets/standard/2550.png",
+    image: "../../assets/standard/2550.png",
     name: "IceWave2",
     type: "",
     damage: "100",
@@ -3626,7 +3626,7 @@ export const standardChips = [
   },
   {
     number: 59,
-    image: "../../public/assets/standard/2550.png",
+    image: "../../assets/standard/2550.png",
     name: "IceWave2",
     type: "",
     damage: "100",
@@ -3638,7 +3638,7 @@ export const standardChips = [
   },
   {
     number: 59,
-    image: "../../public/assets/standard/2550.png",
+    image: "../../assets/standard/2550.png",
     name: "IceWave2",
     type: "",
     damage: "100",
@@ -3650,7 +3650,7 @@ export const standardChips = [
   },
   {
     number: 59,
-    image: "../../public/assets/standard/2550.png",
+    image: "../../assets/standard/2550.png",
     name: "IceWave2",
     type: "",
     damage: "100",
@@ -3662,7 +3662,7 @@ export const standardChips = [
   },
   {
     number: 60,
-    image: "../../public/assets/standard/2551.png",
+    image: "../../assets/standard/2551.png",
     name: "IceWave3",
     type: "",
     damage: "140",
@@ -3674,7 +3674,7 @@ export const standardChips = [
   },
   {
     number: 60,
-    image: "../../public/assets/standard/2551.png",
+    image: "../../assets/standard/2551.png",
     name: "IceWave3",
     type: "",
     damage: "140",
@@ -3686,7 +3686,7 @@ export const standardChips = [
   },
   {
     number: 60,
-    image: "../../public/assets/standard/2551.png",
+    image: "../../assets/standard/2551.png",
     name: "IceWave3",
     type: "",
     damage: "140",
@@ -3698,7 +3698,7 @@ export const standardChips = [
   },
   {
     number: 60,
-    image: "../../public/assets/standard/2551.png",
+    image: "../../assets/standard/2551.png",
     name: "IceWave3",
     type: "",
     damage: "140",
@@ -3710,7 +3710,7 @@ export const standardChips = [
   },
   {
     number: 60,
-    image: "../../public/assets/standard/2551.png",
+    image: "../../assets/standard/2551.png",
     name: "IceWave3",
     type: "",
     damage: "140",
@@ -3722,7 +3722,7 @@ export const standardChips = [
   },
   {
     number: 61,
-    image: "../../public/assets/standard/2528.png",
+    image: "../../assets/standard/2528.png",
     name: "Yo-Yo1",
     type: "",
     damage: "40",
@@ -3734,7 +3734,7 @@ export const standardChips = [
   },
   {
     number: 61,
-    image: "../../public/assets/standard/2528.png",
+    image: "../../assets/standard/2528.png",
     name: "Yo-Yo1",
     type: "",
     damage: "40",
@@ -3746,7 +3746,7 @@ export const standardChips = [
   },
   {
     number: 61,
-    image: "../../public/assets/standard/2528.png",
+    image: "../../assets/standard/2528.png",
     name: "Yo-Yo1",
     type: "",
     damage: "40",
@@ -3758,7 +3758,7 @@ export const standardChips = [
   },
   {
     number: 61,
-    image: "../../public/assets/standard/2528.png",
+    image: "../../assets/standard/2528.png",
     name: "Yo-Yo1",
     type: "",
     damage: "40",
@@ -3770,7 +3770,7 @@ export const standardChips = [
   },
   {
     number: 61,
-    image: "../../public/assets/standard/2528.png",
+    image: "../../assets/standard/2528.png",
     name: "Yo-Yo1",
     type: "",
     damage: "40",
@@ -3782,7 +3782,7 @@ export const standardChips = [
   },
   {
     number: 61,
-    image: "../../public/assets/standard/2528.png",
+    image: "../../assets/standard/2528.png",
     name: "Yo-Yo1",
     type: "",
     damage: "40",
@@ -3794,7 +3794,7 @@ export const standardChips = [
   },
   {
     number: 62,
-    image: "../../public/assets/standard/2529.png",
+    image: "../../assets/standard/2529.png",
     name: "Yo-Yo2",
     type: "",
     damage: "50",
@@ -3806,7 +3806,7 @@ export const standardChips = [
   },
   {
     number: 62,
-    image: "../../public/assets/standard/2529.png",
+    image: "../../assets/standard/2529.png",
     name: "Yo-Yo2",
     type: "",
     damage: "50",
@@ -3818,7 +3818,7 @@ export const standardChips = [
   },
   {
     number: 62,
-    image: "../../public/assets/standard/2529.png",
+    image: "../../assets/standard/2529.png",
     name: "Yo-Yo2",
     type: "",
     damage: "50",
@@ -3830,7 +3830,7 @@ export const standardChips = [
   },
   {
     number: 62,
-    image: "../../public/assets/standard/2529.png",
+    image: "../../assets/standard/2529.png",
     name: "Yo-Yo2",
     type: "",
     damage: "50",
@@ -3842,7 +3842,7 @@ export const standardChips = [
   },
   {
     number: 62,
-    image: "../../public/assets/standard/2529.png",
+    image: "../../assets/standard/2529.png",
     name: "Yo-Yo2",
     type: "",
     damage: "50",
@@ -3854,7 +3854,7 @@ export const standardChips = [
   },
   {
     number: 63,
-    image: "../../public/assets/standard/2530.png",
+    image: "../../assets/standard/2530.png",
     name: "Yo-Yo3",
     type: "",
     damage: "60",
@@ -3866,7 +3866,7 @@ export const standardChips = [
   },
   {
     number: 63,
-    image: "../../public/assets/standard/2530.png",
+    image: "../../assets/standard/2530.png",
     name: "Yo-Yo3",
     type: "",
     damage: "60",
@@ -3878,7 +3878,7 @@ export const standardChips = [
   },
   {
     number: 63,
-    image: "../../public/assets/standard/2530.png",
+    image: "../../assets/standard/2530.png",
     name: "Yo-Yo3",
     type: "",
     damage: "60",
@@ -3890,7 +3890,7 @@ export const standardChips = [
   },
   {
     number: 63,
-    image: "../../public/assets/standard/2530.png",
+    image: "../../assets/standard/2530.png",
     name: "Yo-Yo3",
     type: "",
     damage: "60",
@@ -3902,7 +3902,7 @@ export const standardChips = [
   },
   {
     number: 63,
-    image: "../../public/assets/standard/2530.png",
+    image: "../../assets/standard/2530.png",
     name: "Yo-Yo3",
     type: "",
     damage: "60",
@@ -3914,7 +3914,7 @@ export const standardChips = [
   },
   {
     number: 64,
-    image: "../../public/assets/standard/2509.png",
+    image: "../../assets/standard/2509.png",
     name: "AirStrm1",
     type: "",
     damage: "50",
@@ -3926,7 +3926,7 @@ export const standardChips = [
   },
   {
     number: 64,
-    image: "../../public/assets/standard/2509.png",
+    image: "../../assets/standard/2509.png",
     name: "AirStrm1",
     type: "",
     damage: "50",
@@ -3938,7 +3938,7 @@ export const standardChips = [
   },
   {
     number: 64,
-    image: "../../public/assets/standard/2509.png",
+    image: "../../assets/standard/2509.png",
     name: "AirStrm1",
     type: "",
     damage: "50",
@@ -3950,7 +3950,7 @@ export const standardChips = [
   },
   {
     number: 64,
-    image: "../../public/assets/standard/2509.png",
+    image: "../../assets/standard/2509.png",
     name: "AirStrm1",
     type: "",
     damage: "50",
@@ -3962,7 +3962,7 @@ export const standardChips = [
   },
   {
     number: 64,
-    image: "../../public/assets/standard/2509.png",
+    image: "../../assets/standard/2509.png",
     name: "AirStrm1",
     type: "",
     damage: "50",
@@ -3974,7 +3974,7 @@ export const standardChips = [
   },
   {
     number: 65,
-    image: "../../public/assets/standard/2510.png",
+    image: "../../assets/standard/2510.png",
     name: "AirStrm2",
     type: "",
     damage: "60",
@@ -3986,7 +3986,7 @@ export const standardChips = [
   },
   {
     number: 65,
-    image: "../../public/assets/standard/2510.png",
+    image: "../../assets/standard/2510.png",
     name: "AirStrm2",
     type: "",
     damage: "60",
@@ -3998,7 +3998,7 @@ export const standardChips = [
   },
   {
     number: 65,
-    image: "../../public/assets/standard/2510.png",
+    image: "../../assets/standard/2510.png",
     name: "AirStrm2",
     type: "",
     damage: "60",
@@ -4010,7 +4010,7 @@ export const standardChips = [
   },
   {
     number: 65,
-    image: "../../public/assets/standard/2510.png",
+    image: "../../assets/standard/2510.png",
     name: "AirStrm2",
     type: "",
     damage: "60",
@@ -4022,7 +4022,7 @@ export const standardChips = [
   },
   {
     number: 65,
-    image: "../../public/assets/standard/2510.png",
+    image: "../../assets/standard/2510.png",
     name: "AirStrm2",
     type: "",
     damage: "60",
@@ -4034,7 +4034,7 @@ export const standardChips = [
   },
   {
     number: 66,
-    image: "../../public/assets/standard/2511.png",
+    image: "../../assets/standard/2511.png",
     name: "AirStrm3",
     type: "",
     damage: "70",
@@ -4046,7 +4046,7 @@ export const standardChips = [
   },
   {
     number: 66,
-    image: "../../public/assets/standard/2511.png",
+    image: "../../assets/standard/2511.png",
     name: "AirStrm3",
     type: "",
     damage: "70",
@@ -4058,7 +4058,7 @@ export const standardChips = [
   },
   {
     number: 66,
-    image: "../../public/assets/standard/2511.png",
+    image: "../../assets/standard/2511.png",
     name: "AirStrm3",
     type: "",
     damage: "70",
@@ -4070,7 +4070,7 @@ export const standardChips = [
   },
   {
     number: 66,
-    image: "../../public/assets/standard/2511.png",
+    image: "../../assets/standard/2511.png",
     name: "AirStrm3",
     type: "",
     damage: "70",
@@ -4082,7 +4082,7 @@ export const standardChips = [
   },
   {
     number: 66,
-    image: "../../public/assets/standard/2511.png",
+    image: "../../assets/standard/2511.png",
     name: "AirStrm3",
     type: "",
     damage: "70",
@@ -4094,7 +4094,7 @@ export const standardChips = [
   },
   {
     number: 67,
-    image: "../../public/assets/standard/2555.png",
+    image: "../../assets/standard/2555.png",
     name: "Arrow1",
     type: "",
     damage: "100",
@@ -4106,7 +4106,7 @@ export const standardChips = [
   },
   {
     number: 67,
-    image: "../../public/assets/standard/2555.png",
+    image: "../../assets/standard/2555.png",
     name: "Arrow1",
     type: "",
     damage: "100",
@@ -4118,7 +4118,7 @@ export const standardChips = [
   },
   {
     number: 67,
-    image: "../../public/assets/standard/2555.png",
+    image: "../../assets/standard/2555.png",
     name: "Arrow1",
     type: "",
     damage: "100",
@@ -4130,7 +4130,7 @@ export const standardChips = [
   },
   {
     number: 67,
-    image: "../../public/assets/standard/2555.png",
+    image: "../../assets/standard/2555.png",
     name: "Arrow1",
     type: "",
     damage: "100",
@@ -4142,7 +4142,7 @@ export const standardChips = [
   },
   {
     number: 67,
-    image: "../../public/assets/standard/2555.png",
+    image: "../../assets/standard/2555.png",
     name: "Arrow1",
     type: "",
     damage: "100",
@@ -4154,7 +4154,7 @@ export const standardChips = [
   },
   {
     number: 68,
-    image: "../../public/assets/standard/2556.png",
+    image: "../../assets/standard/2556.png",
     name: "Arrow2",
     type: "",
     damage: "130",
@@ -4166,7 +4166,7 @@ export const standardChips = [
   },
   {
     number: 68,
-    image: "../../public/assets/standard/2556.png",
+    image: "../../assets/standard/2556.png",
     name: "Arrow2",
     type: "",
     damage: "130",
@@ -4178,7 +4178,7 @@ export const standardChips = [
   },
   {
     number: 68,
-    image: "../../public/assets/standard/2556.png",
+    image: "../../assets/standard/2556.png",
     name: "Arrow2",
     type: "",
     damage: "130",
@@ -4190,7 +4190,7 @@ export const standardChips = [
   },
   {
     number: 68,
-    image: "../../public/assets/standard/2556.png",
+    image: "../../assets/standard/2556.png",
     name: "Arrow2",
     type: "",
     damage: "130",
@@ -4202,7 +4202,7 @@ export const standardChips = [
   },
   {
     number: 68,
-    image: "../../public/assets/standard/2556.png",
+    image: "../../assets/standard/2556.png",
     name: "Arrow2",
     type: "",
     damage: "130",
@@ -4214,7 +4214,7 @@ export const standardChips = [
   },
   {
     number: 69,
-    image: "../../public/assets/standard/2557.png",
+    image: "../../assets/standard/2557.png",
     name: "Arrow3",
     type: "",
     damage: "160",
@@ -4226,7 +4226,7 @@ export const standardChips = [
   },
   {
     number: 69,
-    image: "../../public/assets/standard/2557.png",
+    image: "../../assets/standard/2557.png",
     name: "Arrow3",
     type: "",
     damage: "160",
@@ -4238,7 +4238,7 @@ export const standardChips = [
   },
   {
     number: 69,
-    image: "../../public/assets/standard/2557.png",
+    image: "../../assets/standard/2557.png",
     name: "Arrow3",
     type: "",
     damage: "160",
@@ -4250,7 +4250,7 @@ export const standardChips = [
   },
   {
     number: 69,
-    image: "../../public/assets/standard/2557.png",
+    image: "../../assets/standard/2557.png",
     name: "Arrow3",
     type: "",
     damage: "160",
@@ -4262,7 +4262,7 @@ export const standardChips = [
   },
   {
     number: 69,
-    image: "../../public/assets/standard/2557.png",
+    image: "../../assets/standard/2557.png",
     name: "Arrow3",
     type: "",
     damage: "160",
@@ -4274,7 +4274,7 @@ export const standardChips = [
   },
   {
     number: 70,
-    image: "../../public/assets/standard/2517.png",
+    image: "../../assets/standard/2517.png",
     name: "Ratton1",
     type: "",
     damage: "80",
@@ -4286,7 +4286,7 @@ export const standardChips = [
   },
   {
     number: 70,
-    image: "../../public/assets/standard/2517.png",
+    image: "../../assets/standard/2517.png",
     name: "Ratton1",
     type: "",
     damage: "80",
@@ -4298,7 +4298,7 @@ export const standardChips = [
   },
   {
     number: 70,
-    image: "../../public/assets/standard/2517.png",
+    image: "../../assets/standard/2517.png",
     name: "Ratton1",
     type: "",
     damage: "80",
@@ -4310,7 +4310,7 @@ export const standardChips = [
   },
   {
     number: 70,
-    image: "../../public/assets/standard/2517.png",
+    image: "../../assets/standard/2517.png",
     name: "Ratton1",
     type: "",
     damage: "80",
@@ -4322,7 +4322,7 @@ export const standardChips = [
   },
   {
     number: 70,
-    image: "../../public/assets/standard/2517.png",
+    image: "../../assets/standard/2517.png",
     name: "Ratton1",
     type: "",
     damage: "80",
@@ -4334,7 +4334,7 @@ export const standardChips = [
   },
   {
     number: 71,
-    image: "../../public/assets/standard/2518.png",
+    image: "../../assets/standard/2518.png",
     name: "Ratton2",
     type: "",
     damage: "100",
@@ -4346,7 +4346,7 @@ export const standardChips = [
   },
   {
     number: 71,
-    image: "../../public/assets/standard/2518.png",
+    image: "../../assets/standard/2518.png",
     name: "Ratton2",
     type: "",
     damage: "100",
@@ -4358,7 +4358,7 @@ export const standardChips = [
   },
   {
     number: 71,
-    image: "../../public/assets/standard/2518.png",
+    image: "../../assets/standard/2518.png",
     name: "Ratton2",
     type: "",
     damage: "100",
@@ -4370,7 +4370,7 @@ export const standardChips = [
   },
   {
     number: 71,
-    image: "../../public/assets/standard/2518.png",
+    image: "../../assets/standard/2518.png",
     name: "Ratton2",
     type: "",
     damage: "100",
@@ -4382,7 +4382,7 @@ export const standardChips = [
   },
   {
     number: 71,
-    image: "../../public/assets/standard/2518.png",
+    image: "../../assets/standard/2518.png",
     name: "Ratton2",
     type: "",
     damage: "100",
@@ -4394,7 +4394,7 @@ export const standardChips = [
   },
   {
     number: 72,
-    image: "../../public/assets/standard/2519.png",
+    image: "../../assets/standard/2519.png",
     name: "Ratton3",
     type: "",
     damage: "120",
@@ -4406,7 +4406,7 @@ export const standardChips = [
   },
   {
     number: 72,
-    image: "../../public/assets/standard/2519.png",
+    image: "../../assets/standard/2519.png",
     name: "Ratton3",
     type: "",
     damage: "120",
@@ -4418,7 +4418,7 @@ export const standardChips = [
   },
   {
     number: 72,
-    image: "../../public/assets/standard/2519.png",
+    image: "../../assets/standard/2519.png",
     name: "Ratton3",
     type: "",
     damage: "120",
@@ -4430,7 +4430,7 @@ export const standardChips = [
   },
   {
     number: 72,
-    image: "../../public/assets/standard/2519.png",
+    image: "../../assets/standard/2519.png",
     name: "Ratton3",
     type: "",
     damage: "120",
@@ -4442,7 +4442,7 @@ export const standardChips = [
   },
   {
     number: 72,
-    image: "../../public/assets/standard/2519.png",
+    image: "../../assets/standard/2519.png",
     name: "Ratton3",
     type: "",
     damage: "120",
@@ -4454,7 +4454,7 @@ export const standardChips = [
   },
   {
     number: 73,
-    image: "../../public/assets/standard/2576.png",
+    image: "../../assets/standard/2576.png",
     name: "FireRatn",
     type: "",
     damage: "230",
@@ -4466,7 +4466,7 @@ export const standardChips = [
   },
   {
     number: 73,
-    image: "../../public/assets/standard/2576.png",
+    image: "../../assets/standard/2576.png",
     name: "FireRatn",
     type: "",
     damage: "230",
@@ -4478,7 +4478,7 @@ export const standardChips = [
   },
   {
     number: 73,
-    image: "../../public/assets/standard/2576.png",
+    image: "../../assets/standard/2576.png",
     name: "FireRatn",
     type: "",
     damage: "230",
@@ -4490,7 +4490,7 @@ export const standardChips = [
   },
   {
     number: 73,
-    image: "../../public/assets/standard/2576.png",
+    image: "../../assets/standard/2576.png",
     name: "FireRatn",
     type: "",
     damage: "230",
@@ -4502,7 +4502,7 @@ export const standardChips = [
   },
   {
     number: 73,
-    image: "../../public/assets/standard/2576.png",
+    image: "../../assets/standard/2576.png",
     name: "FireRatn",
     type: "",
     damage: "230",
@@ -4514,7 +4514,7 @@ export const standardChips = [
   },
   {
     number: 74,
-    image: "../../public/assets/standard/2520.png",
+    image: "../../assets/standard/2520.png",
     name: "Wave",
     type: "",
     damage: "80",
@@ -4526,7 +4526,7 @@ export const standardChips = [
   },
   {
     number: 74,
-    image: "../../public/assets/standard/2520.png",
+    image: "../../assets/standard/2520.png",
     name: "Wave",
     type: "",
     damage: "80",
@@ -4538,7 +4538,7 @@ export const standardChips = [
   },
   {
     number: 74,
-    image: "../../public/assets/standard/2520.png",
+    image: "../../assets/standard/2520.png",
     name: "Wave",
     type: "",
     damage: "80",
@@ -4550,7 +4550,7 @@ export const standardChips = [
   },
   {
     number: 74,
-    image: "../../public/assets/standard/2520.png",
+    image: "../../assets/standard/2520.png",
     name: "Wave",
     type: "",
     damage: "80",
@@ -4562,7 +4562,7 @@ export const standardChips = [
   },
   {
     number: 74,
-    image: "../../public/assets/standard/2520.png",
+    image: "../../assets/standard/2520.png",
     name: "Wave",
     type: "",
     damage: "80",
@@ -4574,7 +4574,7 @@ export const standardChips = [
   },
   {
     number: 75,
-    image: "../../public/assets/standard/2521.png",
+    image: "../../assets/standard/2521.png",
     name: "RedWave",
     type: "",
     damage: "90",
@@ -4586,7 +4586,7 @@ export const standardChips = [
   },
   {
     number: 75,
-    image: "../../public/assets/standard/2521.png",
+    image: "../../assets/standard/2521.png",
     name: "RedWave",
     type: "",
     damage: "90",
@@ -4598,7 +4598,7 @@ export const standardChips = [
   },
   {
     number: 75,
-    image: "../../public/assets/standard/2521.png",
+    image: "../../assets/standard/2521.png",
     name: "RedWave",
     type: "",
     damage: "90",
@@ -4610,7 +4610,7 @@ export const standardChips = [
   },
   {
     number: 75,
-    image: "../../public/assets/standard/2521.png",
+    image: "../../assets/standard/2521.png",
     name: "RedWave",
     type: "",
     damage: "90",
@@ -4622,7 +4622,7 @@ export const standardChips = [
   },
   {
     number: 75,
-    image: "../../public/assets/standard/2521.png",
+    image: "../../assets/standard/2521.png",
     name: "RedWave",
     type: "",
     damage: "90",
@@ -4634,7 +4634,7 @@ export const standardChips = [
   },
   {
     number: 76,
-    image: "../../public/assets/standard/2522.png",
+    image: "../../assets/standard/2522.png",
     name: "MudWave",
     type: "",
     damage: "100",
@@ -4646,7 +4646,7 @@ export const standardChips = [
   },
   {
     number: 76,
-    image: "../../public/assets/standard/2522.png",
+    image: "../../assets/standard/2522.png",
     name: "MudWave",
     type: "",
     damage: "100",
@@ -4658,7 +4658,7 @@ export const standardChips = [
   },
   {
     number: 76,
-    image: "../../public/assets/standard/2522.png",
+    image: "../../assets/standard/2522.png",
     name: "MudWave",
     type: "",
     damage: "100",
@@ -4670,7 +4670,7 @@ export const standardChips = [
   },
   {
     number: 76,
-    image: "../../public/assets/standard/2522.png",
+    image: "../../assets/standard/2522.png",
     name: "MudWave",
     type: "",
     damage: "100",
@@ -4682,7 +4682,7 @@ export const standardChips = [
   },
   {
     number: 76,
-    image: "../../public/assets/standard/2522.png",
+    image: "../../assets/standard/2522.png",
     name: "MudWave",
     type: "",
     damage: "100",
@@ -4694,7 +4694,7 @@ export const standardChips = [
   },
   {
     number: 77,
-    image: "../../public/assets/standard/2524.png",
+    image: "../../assets/standard/2524.png",
     name: "Tornado",
     type: "",
     damage: "20",
@@ -4706,7 +4706,7 @@ export const standardChips = [
   },
   {
     number: 77,
-    image: "../../public/assets/standard/2524.png",
+    image: "../../assets/standard/2524.png",
     name: "Tornado",
     type: "",
     damage: "20",
@@ -4718,7 +4718,7 @@ export const standardChips = [
   },
   {
     number: 77,
-    image: "../../public/assets/standard/2524.png",
+    image: "../../assets/standard/2524.png",
     name: "Tornado",
     type: "",
     damage: "20",
@@ -4730,7 +4730,7 @@ export const standardChips = [
   },
   {
     number: 77,
-    image: "../../public/assets/standard/2524.png",
+    image: "../../assets/standard/2524.png",
     name: "Tornado",
     type: "",
     damage: "20",
@@ -4742,7 +4742,7 @@ export const standardChips = [
   },
   {
     number: 77,
-    image: "../../public/assets/standard/2524.png",
+    image: "../../assets/standard/2524.png",
     name: "Tornado",
     type: "",
     damage: "20",
@@ -4754,7 +4754,7 @@ export const standardChips = [
   },
   {
     number: 78,
-    image: "../../public/assets/standard/2531.png",
+    image: "../../assets/standard/2531.png",
     name: "Spice1",
     type: "",
     damage: "80",
@@ -4766,7 +4766,7 @@ export const standardChips = [
   },
   {
     number: 78,
-    image: "../../public/assets/standard/2531.png",
+    image: "../../assets/standard/2531.png",
     name: "Spice1",
     type: "",
     damage: "80",
@@ -4778,7 +4778,7 @@ export const standardChips = [
   },
   {
     number: 78,
-    image: "../../public/assets/standard/2531.png",
+    image: "../../assets/standard/2531.png",
     name: "Spice1",
     type: "",
     damage: "80",
@@ -4790,7 +4790,7 @@ export const standardChips = [
   },
   {
     number: 78,
-    image: "../../public/assets/standard/2531.png",
+    image: "../../assets/standard/2531.png",
     name: "Spice1",
     type: "",
     damage: "80",
@@ -4802,7 +4802,7 @@ export const standardChips = [
   },
   {
     number: 78,
-    image: "../../public/assets/standard/2531.png",
+    image: "../../assets/standard/2531.png",
     name: "Spice1",
     type: "",
     damage: "80",
@@ -4814,7 +4814,7 @@ export const standardChips = [
   },
   {
     number: 78,
-    image: "../../public/assets/standard/2531.png",
+    image: "../../assets/standard/2531.png",
     name: "Spice1",
     type: "",
     damage: "80",
@@ -4826,7 +4826,7 @@ export const standardChips = [
   },
   {
     number: 79,
-    image: "../../public/assets/standard/2532.png",
+    image: "../../assets/standard/2532.png",
     name: "Spice2",
     type: "",
     damage: "110",
@@ -4838,7 +4838,7 @@ export const standardChips = [
   },
   {
     number: 79,
-    image: "../../public/assets/standard/2532.png",
+    image: "../../assets/standard/2532.png",
     name: "Spice2",
     type: "",
     damage: "110",
@@ -4850,7 +4850,7 @@ export const standardChips = [
   },
   {
     number: 79,
-    image: "../../public/assets/standard/2532.png",
+    image: "../../assets/standard/2532.png",
     name: "Spice2",
     type: "",
     damage: "110",
@@ -4862,7 +4862,7 @@ export const standardChips = [
   },
   {
     number: 79,
-    image: "../../public/assets/standard/2532.png",
+    image: "../../assets/standard/2532.png",
     name: "Spice2",
     type: "",
     damage: "110",
@@ -4874,7 +4874,7 @@ export const standardChips = [
   },
   {
     number: 79,
-    image: "../../public/assets/standard/2532.png",
+    image: "../../assets/standard/2532.png",
     name: "Spice2",
     type: "",
     damage: "110",
@@ -4886,7 +4886,7 @@ export const standardChips = [
   },
   {
     number: 80,
-    image: "../../public/assets/standard/2533.png",
+    image: "../../assets/standard/2533.png",
     name: "Spice3",
     type: "",
     damage: "140",
@@ -4898,7 +4898,7 @@ export const standardChips = [
   },
   {
     number: 80,
-    image: "../../public/assets/standard/2533.png",
+    image: "../../assets/standard/2533.png",
     name: "Spice3",
     type: "",
     damage: "140",
@@ -4910,7 +4910,7 @@ export const standardChips = [
   },
   {
     number: 80,
-    image: "../../public/assets/standard/2533.png",
+    image: "../../assets/standard/2533.png",
     name: "Spice3",
     type: "",
     damage: "140",
@@ -4922,7 +4922,7 @@ export const standardChips = [
   },
   {
     number: 80,
-    image: "../../public/assets/standard/2533.png",
+    image: "../../assets/standard/2533.png",
     name: "Spice3",
     type: "",
     damage: "140",
@@ -4934,7 +4934,7 @@ export const standardChips = [
   },
   {
     number: 80,
-    image: "../../public/assets/standard/2533.png",
+    image: "../../assets/standard/2533.png",
     name: "Spice3",
     type: "",
     damage: "140",
@@ -4946,7 +4946,7 @@ export const standardChips = [
   },
   {
     number: 81,
-    image: "../../public/assets/standard/2569.png",
+    image: "../../assets/standard/2569.png",
     name: "Shake1",
     type: "",
     damage: "90",
@@ -4958,7 +4958,7 @@ export const standardChips = [
   },
   {
     number: 81,
-    image: "../../public/assets/standard/2569.png",
+    image: "../../assets/standard/2569.png",
     name: "Shake1",
     type: "",
     damage: "90",
@@ -4970,7 +4970,7 @@ export const standardChips = [
   },
   {
     number: 81,
-    image: "../../public/assets/standard/2569.png",
+    image: "../../assets/standard/2569.png",
     name: "Shake1",
     type: "",
     damage: "90",
@@ -4982,7 +4982,7 @@ export const standardChips = [
   },
   {
     number: 81,
-    image: "../../public/assets/standard/2569.png",
+    image: "../../assets/standard/2569.png",
     name: "Shake1",
     type: "",
     damage: "90",
@@ -4994,7 +4994,7 @@ export const standardChips = [
   },
   {
     number: 81,
-    image: "../../public/assets/standard/2569.png",
+    image: "../../assets/standard/2569.png",
     name: "Shake1",
     type: "",
     damage: "90",
@@ -5006,7 +5006,7 @@ export const standardChips = [
   },
   {
     number: 82,
-    image: "../../public/assets/standard/2570.png",
+    image: "../../assets/standard/2570.png",
     name: "Shake2",
     type: "",
     damage: "110",
@@ -5018,7 +5018,7 @@ export const standardChips = [
   },
   {
     number: 82,
-    image: "../../public/assets/standard/2570.png",
+    image: "../../assets/standard/2570.png",
     name: "Shake2",
     type: "",
     damage: "110",
@@ -5030,7 +5030,7 @@ export const standardChips = [
   },
   {
     number: 82,
-    image: "../../public/assets/standard/2570.png",
+    image: "../../assets/standard/2570.png",
     name: "Shake2",
     type: "",
     damage: "110",
@@ -5042,7 +5042,7 @@ export const standardChips = [
   },
   {
     number: 82,
-    image: "../../public/assets/standard/2570.png",
+    image: "../../assets/standard/2570.png",
     name: "Shake2",
     type: "",
     damage: "110",
@@ -5054,7 +5054,7 @@ export const standardChips = [
   },
   {
     number: 82,
-    image: "../../public/assets/standard/2570.png",
+    image: "../../assets/standard/2570.png",
     name: "Shake2",
     type: "",
     damage: "110",
@@ -5066,7 +5066,7 @@ export const standardChips = [
   },
   {
     number: 83,
-    image: "../../public/assets/standard/2570.png",
+    image: "../../assets/standard/2570.png",
     name: "Shake3",
     type: "",
     damage: "140",
@@ -5078,7 +5078,7 @@ export const standardChips = [
   },
   {
     number: 83,
-    image: "../../public/assets/standard/2570.png",
+    image: "../../assets/standard/2570.png",
     name: "Shake3",
     type: "",
     damage: "140",
@@ -5090,7 +5090,7 @@ export const standardChips = [
   },
   {
     number: 83,
-    image: "../../public/assets/standard/2570.png",
+    image: "../../assets/standard/2570.png",
     name: "Shake3",
     type: "",
     damage: "140",
@@ -5102,7 +5102,7 @@ export const standardChips = [
   },
   {
     number: 83,
-    image: "../../public/assets/standard/2570.png",
+    image: "../../assets/standard/2570.png",
     name: "Shake3",
     type: "",
     damage: "140",
@@ -5114,7 +5114,7 @@ export const standardChips = [
   },
   {
     number: 83,
-    image: "../../public/assets/standard/2570.png",
+    image: "../../assets/standard/2570.png",
     name: "Shake3",
     type: "",
     damage: "140",
@@ -5126,7 +5126,7 @@ export const standardChips = [
   },
   {
     number: 84,
-    image: "../../public/assets/standard/2607.png",
+    image: "../../assets/standard/2607.png",
     name: "NoBeam1",
     type: "",
     damage: "200",
@@ -5138,7 +5138,7 @@ export const standardChips = [
   },
   {
     number: 84,
-    image: "../../public/assets/standard/2607.png",
+    image: "../../assets/standard/2607.png",
     name: "NoBeam1",
     type: "",
     damage: "200",
@@ -5150,7 +5150,7 @@ export const standardChips = [
   },
   {
     number: 84,
-    image: "../../public/assets/standard/2607.png",
+    image: "../../assets/standard/2607.png",
     name: "NoBeam1",
     type: "",
     damage: "200",
@@ -5162,7 +5162,7 @@ export const standardChips = [
   },
   {
     number: 84,
-    image: "../../public/assets/standard/2607.png",
+    image: "../../assets/standard/2607.png",
     name: "NoBeam1",
     type: "",
     damage: "200",
@@ -5174,7 +5174,7 @@ export const standardChips = [
   },
   {
     number: 84,
-    image: "../../public/assets/standard/2607.png",
+    image: "../../assets/standard/2607.png",
     name: "NoBeam1",
     type: "",
     damage: "200",
@@ -5186,7 +5186,7 @@ export const standardChips = [
   },
   {
     number: 85,
-    image: "../../public/assets/standard/2608.png",
+    image: "../../assets/standard/2608.png",
     name: "NoBeam2",
     type: "",
     damage: "260",
@@ -5198,7 +5198,7 @@ export const standardChips = [
   },
   {
     number: 85,
-    image: "../../public/assets/standard/2608.png",
+    image: "../../assets/standard/2608.png",
     name: "NoBeam2",
     type: "",
     damage: "260",
@@ -5210,7 +5210,7 @@ export const standardChips = [
   },
   {
     number: 85,
-    image: "../../public/assets/standard/2608.png",
+    image: "../../assets/standard/2608.png",
     name: "NoBeam2",
     type: "",
     damage: "260",
@@ -5222,7 +5222,7 @@ export const standardChips = [
   },
   {
     number: 85,
-    image: "../../public/assets/standard/2608.png",
+    image: "../../assets/standard/2608.png",
     name: "NoBeam2",
     type: "",
     damage: "260",
@@ -5234,7 +5234,7 @@ export const standardChips = [
   },
   {
     number: 85,
-    image: "../../public/assets/standard/2608.png",
+    image: "../../assets/standard/2608.png",
     name: "NoBeam2",
     type: "",
     damage: "260",
@@ -5246,7 +5246,7 @@ export const standardChips = [
   },
   {
     number: 86,
-    image: "../../public/assets/standard/2609.png",
+    image: "../../assets/standard/2609.png",
     name: "NoBeam3",
     type: "",
     damage: "300",
@@ -5258,7 +5258,7 @@ export const standardChips = [
   },
   {
     number: 86,
-    image: "../../public/assets/standard/2609.png",
+    image: "../../assets/standard/2609.png",
     name: "NoBeam3",
     type: "",
     damage: "300",
@@ -5270,7 +5270,7 @@ export const standardChips = [
   },
   {
     number: 86,
-    image: "../../public/assets/standard/2609.png",
+    image: "../../assets/standard/2609.png",
     name: "NoBeam3",
     type: "",
     damage: "300",
@@ -5282,7 +5282,7 @@ export const standardChips = [
   },
   {
     number: 86,
-    image: "../../public/assets/standard/2609.png",
+    image: "../../assets/standard/2609.png",
     name: "NoBeam3",
     type: "",
     damage: "300",
@@ -5294,7 +5294,7 @@ export const standardChips = [
   },
   {
     number: 86,
-    image: "../../public/assets/standard/2609.png",
+    image: "../../assets/standard/2609.png",
     name: "NoBeam3",
     type: "",
     damage: "300",
@@ -5306,7 +5306,7 @@ export const standardChips = [
   },
   {
     number: 87,
-    image: "../../public/assets/standard/2523.png",
+    image: "../../assets/standard/2523.png",
     name: "Hammer",
     type: "",
     damage: "100",
@@ -5318,7 +5318,7 @@ export const standardChips = [
   },
   {
     number: 87,
-    image: "../../public/assets/standard/2523.png",
+    image: "../../assets/standard/2523.png",
     name: "Hammer",
     type: "",
     damage: "100",
@@ -5330,7 +5330,7 @@ export const standardChips = [
   },
   {
     number: 87,
-    image: "../../public/assets/standard/2523.png",
+    image: "../../assets/standard/2523.png",
     name: "Hammer",
     type: "",
     damage: "100",
@@ -5342,7 +5342,7 @@ export const standardChips = [
   },
   {
     number: 87,
-    image: "../../public/assets/standard/2523.png",
+    image: "../../assets/standard/2523.png",
     name: "Hammer",
     type: "",
     damage: "100",
@@ -5354,7 +5354,7 @@ export const standardChips = [
   },
   {
     number: 87,
-    image: "../../public/assets/standard/2523.png",
+    image: "../../assets/standard/2523.png",
     name: "Hammer",
     type: "",
     damage: "100",
@@ -5366,7 +5366,7 @@ export const standardChips = [
   },
   {
     number: 87,
-    image: "../../public/assets/standard/2523.png",
+    image: "../../assets/standard/2523.png",
     name: "Hammer",
     type: "",
     damage: "100",
@@ -5378,7 +5378,7 @@ export const standardChips = [
   },
   {
     number: 88,
-    image: "../../public/assets/standard/2566.png",
+    image: "../../assets/standard/2566.png",
     name: "Geyser",
     type: "",
     damage: "200",
@@ -5390,7 +5390,7 @@ export const standardChips = [
   },
   {
     number: 88,
-    image: "../../public/assets/standard/2566.png",
+    image: "../../assets/standard/2566.png",
     name: "Geyser",
     type: "",
     damage: "200",
@@ -5402,7 +5402,7 @@ export const standardChips = [
   },
   {
     number: 88,
-    image: "../../public/assets/standard/2566.png",
+    image: "../../assets/standard/2566.png",
     name: "Geyser",
     type: "",
     damage: "200",
@@ -5414,7 +5414,7 @@ export const standardChips = [
   },
   {
     number: 88,
-    image: "../../public/assets/standard/2566.png",
+    image: "../../assets/standard/2566.png",
     name: "Geyser",
     type: "",
     damage: "200",
@@ -5426,7 +5426,7 @@ export const standardChips = [
   },
   {
     number: 88,
-    image: "../../public/assets/standard/2566.png",
+    image: "../../assets/standard/2566.png",
     name: "Geyser",
     type: "",
     damage: "200",
@@ -5438,7 +5438,7 @@ export const standardChips = [
   },
   {
     number: 89,
-    image: "../../public/assets/standard/2537.png",
+    image: "../../assets/standard/2537.png",
     name: "Rope1",
     type: "",
     damage: "50",
@@ -5450,7 +5450,7 @@ export const standardChips = [
   },
   {
     number: 89,
-    image: "../../public/assets/standard/2537.png",
+    image: "../../assets/standard/2537.png",
     name: "Rope1",
     type: "",
     damage: "50",
@@ -5462,7 +5462,7 @@ export const standardChips = [
   },
   {
     number: 89,
-    image: "../../public/assets/standard/2537.png",
+    image: "../../assets/standard/2537.png",
     name: "Rope1",
     type: "",
     damage: "50",
@@ -5474,7 +5474,7 @@ export const standardChips = [
   },
   {
     number: 89,
-    image: "../../public/assets/standard/2537.png",
+    image: "../../assets/standard/2537.png",
     name: "Rope1",
     type: "",
     damage: "50",
@@ -5486,7 +5486,7 @@ export const standardChips = [
   },
   {
     number: 89,
-    image: "../../public/assets/standard/2537.png",
+    image: "../../assets/standard/2537.png",
     name: "Rope1",
     type: "",
     damage: "50",
@@ -5498,7 +5498,7 @@ export const standardChips = [
   },
   {
     number: 89,
-    image: "../../public/assets/standard/2537.png",
+    image: "../../assets/standard/2537.png",
     name: "Rope1",
     type: "",
     damage: "50",
@@ -5510,7 +5510,7 @@ export const standardChips = [
   },
   {
     number: 90,
-    image: "../../public/assets/standard/2538.png",
+    image: "../../assets/standard/2538.png",
     name: "Rope2",
     type: "",
     damage: "70",
@@ -5522,7 +5522,7 @@ export const standardChips = [
   },
   {
     number: 90,
-    image: "../../public/assets/standard/2538.png",
+    image: "../../assets/standard/2538.png",
     name: "Rope2",
     type: "",
     damage: "70",
@@ -5534,7 +5534,7 @@ export const standardChips = [
   },
   {
     number: 90,
-    image: "../../public/assets/standard/2538.png",
+    image: "../../assets/standard/2538.png",
     name: "Rope2",
     type: "",
     damage: "70",
@@ -5546,7 +5546,7 @@ export const standardChips = [
   },
   {
     number: 90,
-    image: "../../public/assets/standard/2538.png",
+    image: "../../assets/standard/2538.png",
     name: "Rope2",
     type: "",
     damage: "70",
@@ -5558,7 +5558,7 @@ export const standardChips = [
   },
   {
     number: 90,
-    image: "../../public/assets/standard/2538.png",
+    image: "../../assets/standard/2538.png",
     name: "Rope2",
     type: "",
     damage: "70",
@@ -5570,7 +5570,7 @@ export const standardChips = [
   },
   {
     number: 91,
-    image: "../../public/assets/standard/2539.png",
+    image: "../../assets/standard/2539.png",
     name: "Rope3",
     type: "",
     damage: "90",
@@ -5582,7 +5582,7 @@ export const standardChips = [
   },
   {
     number: 91,
-    image: "../../public/assets/standard/2539.png",
+    image: "../../assets/standard/2539.png",
     name: "Rope3",
     type: "",
     damage: "90",
@@ -5594,7 +5594,7 @@ export const standardChips = [
   },
   {
     number: 91,
-    image: "../../public/assets/standard/2539.png",
+    image: "../../assets/standard/2539.png",
     name: "Rope3",
     type: "",
     damage: "90",
@@ -5606,7 +5606,7 @@ export const standardChips = [
   },
   {
     number: 91,
-    image: "../../public/assets/standard/2539.png",
+    image: "../../assets/standard/2539.png",
     name: "Rope3",
     type: "",
     damage: "90",
@@ -5618,7 +5618,7 @@ export const standardChips = [
   },
   {
     number: 91,
-    image: "../../public/assets/standard/2539.png",
+    image: "../../assets/standard/2539.png",
     name: "Rope3",
     type: "",
     damage: "90",
@@ -5630,7 +5630,7 @@ export const standardChips = [
   },
   {
     number: 92,
-    image: "../../public/assets/standard/2543.png",
+    image: "../../assets/standard/2543.png",
     name: "Boomer1",
     type: "",
     damage: "60",
@@ -5642,7 +5642,7 @@ export const standardChips = [
   },
   {
     number: 92,
-    image: "../../public/assets/standard/2543.png",
+    image: "../../assets/standard/2543.png",
     name: "Boomer1",
     type: "",
     damage: "60",
@@ -5654,7 +5654,7 @@ export const standardChips = [
   },
   {
     number: 92,
-    image: "../../public/assets/standard/2543.png",
+    image: "../../assets/standard/2543.png",
     name: "Boomer1",
     type: "",
     damage: "60",
@@ -5666,7 +5666,7 @@ export const standardChips = [
   },
   {
     number: 92,
-    image: "../../public/assets/standard/2543.png",
+    image: "../../assets/standard/2543.png",
     name: "Boomer1",
     type: "",
     damage: "60",
@@ -5678,7 +5678,7 @@ export const standardChips = [
   },
   {
     number: 92,
-    image: "../../public/assets/standard/2543.png",
+    image: "../../assets/standard/2543.png",
     name: "Boomer1",
     type: "",
     damage: "60",
@@ -5690,7 +5690,7 @@ export const standardChips = [
   },
   {
     number: 92,
-    image: "../../public/assets/standard/2543.png",
+    image: "../../assets/standard/2543.png",
     name: "Boomer1",
     type: "",
     damage: "60",
@@ -5702,7 +5702,7 @@ export const standardChips = [
   },
   {
     number: 93,
-    image: "../../public/assets/standard/2544.png",
+    image: "../../assets/standard/2544.png",
     name: "Boomer2",
     type: "",
     damage: "80",
@@ -5714,7 +5714,7 @@ export const standardChips = [
   },
   {
     number: 93,
-    image: "../../public/assets/standard/2544.png",
+    image: "../../assets/standard/2544.png",
     name: "Boomer2",
     type: "",
     damage: "80",
@@ -5726,7 +5726,7 @@ export const standardChips = [
   },
   {
     number: 93,
-    image: "../../public/assets/standard/2544.png",
+    image: "../../assets/standard/2544.png",
     name: "Boomer2",
     type: "",
     damage: "80",
@@ -5738,7 +5738,7 @@ export const standardChips = [
   },
   {
     number: 93,
-    image: "../../public/assets/standard/2544.png",
+    image: "../../assets/standard/2544.png",
     name: "Boomer2",
     type: "",
     damage: "80",
@@ -5750,7 +5750,7 @@ export const standardChips = [
   },
   {
     number: 93,
-    image: "../../public/assets/standard/2544.png",
+    image: "../../assets/standard/2544.png",
     name: "Boomer2",
     type: "",
     damage: "80",
@@ -5762,7 +5762,7 @@ export const standardChips = [
   },
   {
     number: 93,
-    image: "../../public/assets/standard/2544.png",
+    image: "../../assets/standard/2544.png",
     name: "Boomer2",
     type: "",
     damage: "80",
@@ -5774,7 +5774,7 @@ export const standardChips = [
   },
   {
     number: 94,
-    image: "../../public/assets/standard/2545.png",
+    image: "../../assets/standard/2545.png",
     name: "Boomer3",
     type: "",
     damage: "100",
@@ -5786,7 +5786,7 @@ export const standardChips = [
   },
   {
     number: 94,
-    image: "../../public/assets/standard/2545.png",
+    image: "../../assets/standard/2545.png",
     name: "Boomer3",
     type: "",
     damage: "100",
@@ -5798,7 +5798,7 @@ export const standardChips = [
   },
   {
     number: 94,
-    image: "../../public/assets/standard/2545.png",
+    image: "../../assets/standard/2545.png",
     name: "Boomer3",
     type: "",
     damage: "100",
@@ -5810,7 +5810,7 @@ export const standardChips = [
   },
   {
     number: 94,
-    image: "../../public/assets/standard/2545.png",
+    image: "../../assets/standard/2545.png",
     name: "Boomer3",
     type: "",
     damage: "100",
@@ -5822,7 +5822,7 @@ export const standardChips = [
   },
   {
     number: 94,
-    image: "../../public/assets/standard/2545.png",
+    image: "../../assets/standard/2545.png",
     name: "Boomer3",
     type: "",
     damage: "100",
@@ -5834,7 +5834,7 @@ export const standardChips = [
   },
   {
     number: 95,
-    image: "../../public/assets/standard/2567.png",
+    image: "../../assets/standard/2567.png",
     name: "PoisMask",
     type: "",
     damage: "-",
@@ -5846,7 +5846,7 @@ export const standardChips = [
   },
   {
     number: 95,
-    image: "../../public/assets/standard/2567.png",
+    image: "../../assets/standard/2567.png",
     name: "PoisMask",
     type: "",
     damage: "-",
@@ -5858,7 +5858,7 @@ export const standardChips = [
   },
   {
     number: 95,
-    image: "../../public/assets/standard/2567.png",
+    image: "../../assets/standard/2567.png",
     name: "PoisMask",
     type: "",
     damage: "-",
@@ -5870,7 +5870,7 @@ export const standardChips = [
   },
   {
     number: 95,
-    image: "../../public/assets/standard/2567.png",
+    image: "../../assets/standard/2567.png",
     name: "PoisMask",
     type: "",
     damage: "-",
@@ -5882,7 +5882,7 @@ export const standardChips = [
   },
   {
     number: 95,
-    image: "../../public/assets/standard/2567.png",
+    image: "../../assets/standard/2567.png",
     name: "PoisMask",
     type: "",
     damage: "-",
@@ -5894,7 +5894,7 @@ export const standardChips = [
   },
   {
     number: 95,
-    image: "../../public/assets/standard/2567.png",
+    image: "../../assets/standard/2567.png",
     name: "PoisMask",
     type: "",
     damage: "-",
@@ -5906,7 +5906,7 @@ export const standardChips = [
   },
   {
     number: 96,
-    image: "../../public/assets/standard/2568.png",
+    image: "../../assets/standard/2568.png",
     name: "PoisFace",
     type: "",
     damage: "-",
@@ -5918,7 +5918,7 @@ export const standardChips = [
   },
   {
     number: 96,
-    image: "../../public/assets/standard/2568.png",
+    image: "../../assets/standard/2568.png",
     name: "PoisFace",
     type: "",
     damage: "-",
@@ -5930,7 +5930,7 @@ export const standardChips = [
   },
   {
     number: 96,
-    image: "../../public/assets/standard/2568.png",
+    image: "../../assets/standard/2568.png",
     name: "PoisFace",
     type: "",
     damage: "-",
@@ -5942,7 +5942,7 @@ export const standardChips = [
   },
   {
     number: 96,
-    image: "../../public/assets/standard/2568.png",
+    image: "../../assets/standard/2568.png",
     name: "PoisFace",
     type: "",
     damage: "-",
@@ -5954,7 +5954,7 @@ export const standardChips = [
   },
   {
     number: 96,
-    image: "../../public/assets/standard/2568.png",
+    image: "../../assets/standard/2568.png",
     name: "PoisFace",
     type: "",
     damage: "-",
@@ -5966,7 +5966,7 @@ export const standardChips = [
   },
   {
     number: 96,
-    image: "../../public/assets/standard/2568.png",
+    image: "../../assets/standard/2568.png",
     name: "PoisFace",
     type: "",
     damage: "-",
@@ -5978,7 +5978,7 @@ export const standardChips = [
   },
   {
     number: 97,
-    image: "../../public/assets/standard/2604.png",
+    image: "../../assets/standard/2604.png",
     name: "RockArm1",
     type: "",
     damage: "100",
@@ -5990,7 +5990,7 @@ export const standardChips = [
   },
   {
     number: 97,
-    image: "../../public/assets/standard/2604.png",
+    image: "../../assets/standard/2604.png",
     name: "RockArm1",
     type: "",
     damage: "100",
@@ -6002,7 +6002,7 @@ export const standardChips = [
   },
   {
     number: 97,
-    image: "../../public/assets/standard/2604.png",
+    image: "../../assets/standard/2604.png",
     name: "RockArm1",
     type: "",
     damage: "100",
@@ -6014,7 +6014,7 @@ export const standardChips = [
   },
   {
     number: 97,
-    image: "../../public/assets/standard/2604.png",
+    image: "../../assets/standard/2604.png",
     name: "RockArm1",
     type: "",
     damage: "100",
@@ -6026,7 +6026,7 @@ export const standardChips = [
   },
   {
     number: 97,
-    image: "../../public/assets/standard/2604.png",
+    image: "../../assets/standard/2604.png",
     name: "RockArm1",
     type: "",
     damage: "100",
@@ -6038,7 +6038,7 @@ export const standardChips = [
   },
   {
     number: 97,
-    image: "../../public/assets/standard/2604.png",
+    image: "../../assets/standard/2604.png",
     name: "RockArm1",
     type: "",
     damage: "100",
@@ -6050,7 +6050,7 @@ export const standardChips = [
   },
   {
     number: 98,
-    image: "../../public/assets/standard/2605.png",
+    image: "../../assets/standard/2605.png",
     name: "RockArm2",
     type: "",
     damage: "150",
@@ -6062,7 +6062,7 @@ export const standardChips = [
   },
   {
     number: 98,
-    image: "../../public/assets/standard/2605.png",
+    image: "../../assets/standard/2605.png",
     name: "RockArm2",
     type: "",
     damage: "150",
@@ -6074,7 +6074,7 @@ export const standardChips = [
   },
   {
     number: 98,
-    image: "../../public/assets/standard/2605.png",
+    image: "../../assets/standard/2605.png",
     name: "RockArm2",
     type: "",
     damage: "150",
@@ -6086,7 +6086,7 @@ export const standardChips = [
   },
   {
     number: 98,
-    image: "../../public/assets/standard/2605.png",
+    image: "../../assets/standard/2605.png",
     name: "RockArm2",
     type: "",
     damage: "150",
@@ -6098,7 +6098,7 @@ export const standardChips = [
   },
   {
     number: 98,
-    image: "../../public/assets/standard/2605.png",
+    image: "../../assets/standard/2605.png",
     name: "RockArm2",
     type: "",
     damage: "150",
@@ -6110,7 +6110,7 @@ export const standardChips = [
   },
   {
     number: 98,
-    image: "../../public/assets/standard/2605.png",
+    image: "../../assets/standard/2605.png",
     name: "RockArm2",
     type: "",
     damage: "150",
@@ -6122,7 +6122,7 @@ export const standardChips = [
   },
   {
     number: 99,
-    image: "../../public/assets/standard/2606.png",
+    image: "../../assets/standard/2606.png",
     name: "RockArm3",
     type: "",
     damage: "200",
@@ -6134,7 +6134,7 @@ export const standardChips = [
   },
   {
     number: 99,
-    image: "../../public/assets/standard/2606.png",
+    image: "../../assets/standard/2606.png",
     name: "RockArm3",
     type: "",
     damage: "200",
@@ -6146,7 +6146,7 @@ export const standardChips = [
   },
   {
     number: 99,
-    image: "../../public/assets/standard/2606.png",
+    image: "../../assets/standard/2606.png",
     name: "RockArm3",
     type: "",
     damage: "200",
@@ -6158,7 +6158,7 @@ export const standardChips = [
   },
   {
     number: 99,
-    image: "../../public/assets/standard/2606.png",
+    image: "../../assets/standard/2606.png",
     name: "RockArm3",
     type: "",
     damage: "200",
@@ -6170,7 +6170,7 @@ export const standardChips = [
   },
   {
     number: 99,
-    image: "../../public/assets/standard/2606.png",
+    image: "../../assets/standard/2606.png",
     name: "RockArm3",
     type: "",
     damage: "200",
@@ -6182,7 +6182,7 @@ export const standardChips = [
   },
   {
     number: 100,
-    image: "../../public/assets/standard/2563.png",
+    image: "../../assets/standard/2563.png",
     name: "CrsShld1",
     type: "",
     damage: "160",
@@ -6194,7 +6194,7 @@ export const standardChips = [
   },
   {
     number: 100,
-    image: "../../public/assets/standard/2563.png",
+    image: "../../assets/standard/2563.png",
     name: "CrsShld1",
     type: "",
     damage: "160",
@@ -6206,7 +6206,7 @@ export const standardChips = [
   },
   {
     number: 100,
-    image: "../../public/assets/standard/2563.png",
+    image: "../../assets/standard/2563.png",
     name: "CrsShld1",
     type: "",
     damage: "160",
@@ -6218,7 +6218,7 @@ export const standardChips = [
   },
   {
     number: 100,
-    image: "../../public/assets/standard/2563.png",
+    image: "../../assets/standard/2563.png",
     name: "CrsShld1",
     type: "",
     damage: "160",
@@ -6230,7 +6230,7 @@ export const standardChips = [
   },
   {
     number: 100,
-    image: "../../public/assets/standard/2563.png",
+    image: "../../assets/standard/2563.png",
     name: "CrsShld1",
     type: "",
     damage: "160",
@@ -6242,7 +6242,7 @@ export const standardChips = [
   },
   {
     number: 100,
-    image: "../../public/assets/standard/2563.png",
+    image: "../../assets/standard/2563.png",
     name: "CrsShld1",
     type: "",
     damage: "160",
@@ -6254,7 +6254,7 @@ export const standardChips = [
   },
   {
     number: 101,
-    image: "../../public/assets/standard/2564.png",
+    image: "../../assets/standard/2564.png",
     name: "CrsShld2",
     type: "",
     damage: "210",
@@ -6266,7 +6266,7 @@ export const standardChips = [
   },
   {
     number: 101,
-    image: "../../public/assets/standard/2564.png",
+    image: "../../assets/standard/2564.png",
     name: "CrsShld2",
     type: "",
     damage: "210",
@@ -6278,7 +6278,7 @@ export const standardChips = [
   },
   {
     number: 101,
-    image: "../../public/assets/standard/2564.png",
+    image: "../../assets/standard/2564.png",
     name: "CrsShld2",
     type: "",
     damage: "210",
@@ -6290,7 +6290,7 @@ export const standardChips = [
   },
   {
     number: 101,
-    image: "../../public/assets/standard/2564.png",
+    image: "../../assets/standard/2564.png",
     name: "CrsShld2",
     type: "",
     damage: "210",
@@ -6302,7 +6302,7 @@ export const standardChips = [
   },
   {
     number: 101,
-    image: "../../public/assets/standard/2564.png",
+    image: "../../assets/standard/2564.png",
     name: "CrsShld2",
     type: "",
     damage: "210",
@@ -6314,7 +6314,7 @@ export const standardChips = [
   },
   {
     number: 102,
-    image: "../../public/assets/standard/2565.png",
+    image: "../../assets/standard/2565.png",
     name: "CrsShld3",
     type: "",
     damage: "260",
@@ -6326,7 +6326,7 @@ export const standardChips = [
   },
   {
     number: 102,
-    image: "../../public/assets/standard/2565.png",
+    image: "../../assets/standard/2565.png",
     name: "CrsShld3",
     type: "",
     damage: "260",
@@ -6338,7 +6338,7 @@ export const standardChips = [
   },
   {
     number: 102,
-    image: "../../public/assets/standard/2565.png",
+    image: "../../assets/standard/2565.png",
     name: "CrsShld3",
     type: "",
     damage: "260",
@@ -6350,7 +6350,7 @@ export const standardChips = [
   },
   {
     number: 102,
-    image: "../../public/assets/standard/2565.png",
+    image: "../../assets/standard/2565.png",
     name: "CrsShld3",
     type: "",
     damage: "260",
@@ -6362,7 +6362,7 @@ export const standardChips = [
   },
   {
     number: 102,
-    image: "../../public/assets/standard/2565.png",
+    image: "../../assets/standard/2565.png",
     name: "CrsShld3",
     type: "",
     damage: "260",
@@ -6374,7 +6374,7 @@ export const standardChips = [
   },
   {
     number: 103,
-    image: "../../public/assets/standard/2540.png",
+    image: "../../assets/standard/2540.png",
     name: "Magnum1",
     type: "",
     damage: "120",
@@ -6386,7 +6386,7 @@ export const standardChips = [
   },
   {
     number: 103,
-    image: "../../public/assets/standard/2540.png",
+    image: "../../assets/standard/2540.png",
     name: "Magnum1",
     type: "",
     damage: "120",
@@ -6398,7 +6398,7 @@ export const standardChips = [
   },
   {
     number: 103,
-    image: "../../public/assets/standard/2540.png",
+    image: "../../assets/standard/2540.png",
     name: "Magnum1",
     type: "",
     damage: "120",
@@ -6410,7 +6410,7 @@ export const standardChips = [
   },
   {
     number: 103,
-    image: "../../public/assets/standard/2540.png",
+    image: "../../assets/standard/2540.png",
     name: "Magnum1",
     type: "",
     damage: "120",
@@ -6422,7 +6422,7 @@ export const standardChips = [
   },
   {
     number: 103,
-    image: "../../public/assets/standard/2540.png",
+    image: "../../assets/standard/2540.png",
     name: "Magnum1",
     type: "",
     damage: "120",
@@ -6434,7 +6434,7 @@ export const standardChips = [
   },
   {
     number: 104,
-    image: "../../public/assets/standard/2541.png",
+    image: "../../assets/standard/2541.png",
     name: "Magnum2",
     type: "",
     damage: "150",
@@ -6446,7 +6446,7 @@ export const standardChips = [
   },
   {
     number: 104,
-    image: "../../public/assets/standard/2541.png",
+    image: "../../assets/standard/2541.png",
     name: "Magnum2",
     type: "",
     damage: "150",
@@ -6458,7 +6458,7 @@ export const standardChips = [
   },
   {
     number: 104,
-    image: "../../public/assets/standard/2541.png",
+    image: "../../assets/standard/2541.png",
     name: "Magnum2",
     type: "",
     damage: "150",
@@ -6470,7 +6470,7 @@ export const standardChips = [
   },
   {
     number: 104,
-    image: "../../public/assets/standard/2541.png",
+    image: "../../assets/standard/2541.png",
     name: "Magnum2",
     type: "",
     damage: "150",
@@ -6482,7 +6482,7 @@ export const standardChips = [
   },
   {
     number: 104,
-    image: "../../public/assets/standard/2541.png",
+    image: "../../assets/standard/2541.png",
     name: "Magnum2",
     type: "",
     damage: "150",
@@ -6494,7 +6494,7 @@ export const standardChips = [
   },
   {
     number: 105,
-    image: "../../public/assets/standard/2542.png",
+    image: "../../assets/standard/2542.png",
     name: "Magnum3",
     type: "",
     damage: "180",
@@ -6506,7 +6506,7 @@ export const standardChips = [
   },
   {
     number: 105,
-    image: "../../public/assets/standard/2542.png",
+    image: "../../assets/standard/2542.png",
     name: "Magnum3",
     type: "",
     damage: "180",
@@ -6518,7 +6518,7 @@ export const standardChips = [
   },
   {
     number: 105,
-    image: "../../public/assets/standard/2542.png",
+    image: "../../assets/standard/2542.png",
     name: "Magnum3",
     type: "",
     damage: "180",
@@ -6530,7 +6530,7 @@ export const standardChips = [
   },
   {
     number: 105,
-    image: "../../public/assets/standard/2542.png",
+    image: "../../assets/standard/2542.png",
     name: "Magnum3",
     type: "",
     damage: "180",
@@ -6542,7 +6542,7 @@ export const standardChips = [
   },
   {
     number: 105,
-    image: "../../public/assets/standard/2542.png",
+    image: "../../assets/standard/2542.png",
     name: "Magnum3",
     type: "",
     damage: "180",
@@ -6554,7 +6554,7 @@ export const standardChips = [
   },
   {
     number: 106,
-    image: "../../public/assets/standard/2552.png",
+    image: "../../assets/standard/2552.png",
     name: "Plasma1",
     type: "",
     damage: "30",
@@ -6566,7 +6566,7 @@ export const standardChips = [
   },
   {
     number: 106,
-    image: "../../public/assets/standard/2552.png",
+    image: "../../assets/standard/2552.png",
     name: "Plasma1",
     type: "",
     damage: "30",
@@ -6578,7 +6578,7 @@ export const standardChips = [
   },
   {
     number: 106,
-    image: "../../public/assets/standard/2552.png",
+    image: "../../assets/standard/2552.png",
     name: "Plasma1",
     type: "",
     damage: "30",
@@ -6590,7 +6590,7 @@ export const standardChips = [
   },
   {
     number: 106,
-    image: "../../public/assets/standard/2552.png",
+    image: "../../assets/standard/2552.png",
     name: "Plasma1",
     type: "",
     damage: "30",
@@ -6602,7 +6602,7 @@ export const standardChips = [
   },
   {
     number: 106,
-    image: "../../public/assets/standard/2552.png",
+    image: "../../assets/standard/2552.png",
     name: "Plasma1",
     type: "",
     damage: "30",
@@ -6614,7 +6614,7 @@ export const standardChips = [
   },
   {
     number: 107,
-    image: "../../public/assets/standard/2553.png",
+    image: "../../assets/standard/2553.png",
     name: "Plasma2",
     type: "",
     damage: "60",
@@ -6626,7 +6626,7 @@ export const standardChips = [
   },
   {
     number: 107,
-    image: "../../public/assets/standard/2553.png",
+    image: "../../assets/standard/2553.png",
     name: "Plasma2",
     type: "",
     damage: "60",
@@ -6638,7 +6638,7 @@ export const standardChips = [
   },
   {
     number: 107,
-    image: "../../public/assets/standard/2553.png",
+    image: "../../assets/standard/2553.png",
     name: "Plasma2",
     type: "",
     damage: "60",
@@ -6650,7 +6650,7 @@ export const standardChips = [
   },
   {
     number: 107,
-    image: "../../public/assets/standard/2553.png",
+    image: "../../assets/standard/2553.png",
     name: "Plasma2",
     type: "",
     damage: "60",
@@ -6662,7 +6662,7 @@ export const standardChips = [
   },
   {
     number: 107,
-    image: "../../public/assets/standard/2553.png",
+    image: "../../assets/standard/2553.png",
     name: "Plasma2",
     type: "",
     damage: "60",
@@ -6674,7 +6674,7 @@ export const standardChips = [
   },
   {
     number: 108,
-    image: "../../public/assets/standard/2554.png",
+    image: "../../assets/standard/2554.png",
     name: "Plasma3",
     type: "",
     damage: "90",
@@ -6686,7 +6686,7 @@ export const standardChips = [
   },
   {
     number: 108,
-    image: "../../public/assets/standard/2554.png",
+    image: "../../assets/standard/2554.png",
     name: "Plasma3",
     type: "",
     damage: "90",
@@ -6698,7 +6698,7 @@ export const standardChips = [
   },
   {
     number: 108,
-    image: "../../public/assets/standard/2554.png",
+    image: "../../assets/standard/2554.png",
     name: "Plasma3",
     type: "",
     damage: "90",
@@ -6710,7 +6710,7 @@ export const standardChips = [
   },
   {
     number: 108,
-    image: "../../public/assets/standard/2554.png",
+    image: "../../assets/standard/2554.png",
     name: "Plasma3",
     type: "",
     damage: "90",
@@ -6722,7 +6722,7 @@ export const standardChips = [
   },
   {
     number: 108,
-    image: "../../public/assets/standard/2554.png",
+    image: "../../assets/standard/2554.png",
     name: "Plasma3",
     type: "",
     damage: "90",
@@ -6734,7 +6734,7 @@ export const standardChips = [
   },
   {
     number: 109,
-    image: "../../public/assets/standard/2546.png",
+    image: "../../assets/standard/2546.png",
     name: "RndmMetr",
     type: "",
     damage: "100",
@@ -6746,7 +6746,7 @@ export const standardChips = [
   },
   {
     number: 109,
-    image: "../../public/assets/standard/2546.png",
+    image: "../../assets/standard/2546.png",
     name: "RndmMetr",
     type: "",
     damage: "100",
@@ -6758,7 +6758,7 @@ export const standardChips = [
   },
   {
     number: 109,
-    image: "../../public/assets/standard/2546.png",
+    image: "../../assets/standard/2546.png",
     name: "RndmMetr",
     type: "",
     damage: "100",
@@ -6770,7 +6770,7 @@ export const standardChips = [
   },
   {
     number: 109,
-    image: "../../public/assets/standard/2546.png",
+    image: "../../assets/standard/2546.png",
     name: "RndmMetr",
     type: "",
     damage: "100",
@@ -6782,7 +6782,7 @@ export const standardChips = [
   },
   {
     number: 109,
-    image: "../../public/assets/standard/2546.png",
+    image: "../../assets/standard/2546.png",
     name: "RndmMetr",
     type: "",
     damage: "100",
@@ -6794,7 +6794,7 @@ export const standardChips = [
   },
   {
     number: 110,
-    image: "../../public/assets/standard/2547.png",
+    image: "../../assets/standard/2547.png",
     name: "HoleMetr",
     type: "",
     damage: "100",
@@ -6806,7 +6806,7 @@ export const standardChips = [
   },
   {
     number: 110,
-    image: "../../public/assets/standard/2547.png",
+    image: "../../assets/standard/2547.png",
     name: "HoleMetr",
     type: "",
     damage: "100",
@@ -6818,7 +6818,7 @@ export const standardChips = [
   },
   {
     number: 110,
-    image: "../../public/assets/standard/2547.png",
+    image: "../../assets/standard/2547.png",
     name: "HoleMetr",
     type: "",
     damage: "100",
@@ -6830,7 +6830,7 @@ export const standardChips = [
   },
   {
     number: 110,
-    image: "../../public/assets/standard/2547.png",
+    image: "../../assets/standard/2547.png",
     name: "HoleMetr",
     type: "",
     damage: "100",
@@ -6842,7 +6842,7 @@ export const standardChips = [
   },
   {
     number: 110,
-    image: "../../public/assets/standard/2547.png",
+    image: "../../assets/standard/2547.png",
     name: "HoleMetr",
     type: "",
     damage: "100",
@@ -6854,7 +6854,7 @@ export const standardChips = [
   },
   {
     number: 111,
-    image: "../../public/assets/standard/2548.png",
+    image: "../../assets/standard/2548.png",
     name: "ShotMetr",
     type: "",
     damage: "100",
@@ -6866,7 +6866,7 @@ export const standardChips = [
   },
   {
     number: 111,
-    image: "../../public/assets/standard/2548.png",
+    image: "../../assets/standard/2548.png",
     name: "ShotMetr",
     type: "",
     damage: "100",
@@ -6878,7 +6878,7 @@ export const standardChips = [
   },
   {
     number: 111,
-    image: "../../public/assets/standard/2548.png",
+    image: "../../assets/standard/2548.png",
     name: "ShotMetr",
     type: "",
     damage: "100",
@@ -6890,7 +6890,7 @@ export const standardChips = [
   },
   {
     number: 111,
-    image: "../../public/assets/standard/2548.png",
+    image: "../../assets/standard/2548.png",
     name: "ShotMetr",
     type: "",
     damage: "100",
@@ -6902,7 +6902,7 @@ export const standardChips = [
   },
   {
     number: 111,
-    image: "../../public/assets/standard/2548.png",
+    image: "../../assets/standard/2548.png",
     name: "ShotMetr",
     type: "",
     damage: "100",
@@ -6914,7 +6914,7 @@ export const standardChips = [
   },
   {
     number: 112,
-    image: "../../public/assets/standard/2613.png",
+    image: "../../assets/standard/2613.png",
     name: "Needler1",
     type: "",
     damage: "30",
@@ -6926,7 +6926,7 @@ export const standardChips = [
   },
   {
     number: 112,
-    image: "../../public/assets/standard/2613.png",
+    image: "../../assets/standard/2613.png",
     name: "Needler1",
     type: "",
     damage: "30",
@@ -6938,7 +6938,7 @@ export const standardChips = [
   },
   {
     number: 112,
-    image: "../../public/assets/standard/2613.png",
+    image: "../../assets/standard/2613.png",
     name: "Needler1",
     type: "",
     damage: "30",
@@ -6950,7 +6950,7 @@ export const standardChips = [
   },
   {
     number: 112,
-    image: "../../public/assets/standard/2613.png",
+    image: "../../assets/standard/2613.png",
     name: "Needler1",
     type: "",
     damage: "30",
@@ -6962,7 +6962,7 @@ export const standardChips = [
   },
   {
     number: 112,
-    image: "../../public/assets/standard/2613.png",
+    image: "../../assets/standard/2613.png",
     name: "Needler1",
     type: "",
     damage: "30",
@@ -6974,7 +6974,7 @@ export const standardChips = [
   },
   {
     number: 113,
-    image: "../../public/assets/standard/2614.png",
+    image: "../../assets/standard/2614.png",
     name: "Needler2",
     type: "",
     damage: "40",
@@ -6986,7 +6986,7 @@ export const standardChips = [
   },
   {
     number: 113,
-    image: "../../public/assets/standard/2614.png",
+    image: "../../assets/standard/2614.png",
     name: "Needler2",
     type: "",
     damage: "40",
@@ -6998,7 +6998,7 @@ export const standardChips = [
   },
   {
     number: 113,
-    image: "../../public/assets/standard/2614.png",
+    image: "../../assets/standard/2614.png",
     name: "Needler2",
     type: "",
     damage: "40",
@@ -7010,7 +7010,7 @@ export const standardChips = [
   },
   {
     number: 113,
-    image: "../../public/assets/standard/2614.png",
+    image: "../../assets/standard/2614.png",
     name: "Needler2",
     type: "",
     damage: "40",
@@ -7022,7 +7022,7 @@ export const standardChips = [
   },
   {
     number: 113,
-    image: "../../public/assets/standard/2614.png",
+    image: "../../assets/standard/2614.png",
     name: "Needler2",
     type: "",
     damage: "40",
@@ -7034,7 +7034,7 @@ export const standardChips = [
   },
   {
     number: 114,
-    image: "../../public/assets/standard/2615.png",
+    image: "../../assets/standard/2615.png",
     name: "Needler3",
     type: "",
     damage: "50",
@@ -7046,7 +7046,7 @@ export const standardChips = [
   },
   {
     number: 114,
-    image: "../../public/assets/standard/2615.png",
+    image: "../../assets/standard/2615.png",
     name: "Needler3",
     type: "",
     damage: "50",
@@ -7058,7 +7058,7 @@ export const standardChips = [
   },
   {
     number: 114,
-    image: "../../public/assets/standard/2615.png",
+    image: "../../assets/standard/2615.png",
     name: "Needler3",
     type: "",
     damage: "50",
@@ -7070,7 +7070,7 @@ export const standardChips = [
   },
   {
     number: 114,
-    image: "../../public/assets/standard/2615.png",
+    image: "../../assets/standard/2615.png",
     name: "Needler3",
     type: "",
     damage: "50",
@@ -7082,7 +7082,7 @@ export const standardChips = [
   },
   {
     number: 114,
-    image: "../../public/assets/standard/2615.png",
+    image: "../../assets/standard/2615.png",
     name: "Needler3",
     type: "",
     damage: "50",
@@ -7094,7 +7094,7 @@ export const standardChips = [
   },
   {
     number: 115,
-    image: "../../public/assets/standard/2514.png",
+    image: "../../assets/standard/2514.png",
     name: "Totem1",
     type: "",
     damage: "100",
@@ -7106,7 +7106,7 @@ export const standardChips = [
   },
   {
     number: 115,
-    image: "../../public/assets/standard/2514.png",
+    image: "../../assets/standard/2514.png",
     name: "Totem1",
     type: "",
     damage: "100",
@@ -7118,7 +7118,7 @@ export const standardChips = [
   },
   {
     number: 115,
-    image: "../../public/assets/standard/2514.png",
+    image: "../../assets/standard/2514.png",
     name: "Totem1",
     type: "",
     damage: "100",
@@ -7130,7 +7130,7 @@ export const standardChips = [
   },
   {
     number: 115,
-    image: "../../public/assets/standard/2514.png",
+    image: "../../assets/standard/2514.png",
     name: "Totem1",
     type: "",
     damage: "100",
@@ -7142,7 +7142,7 @@ export const standardChips = [
   },
   {
     number: 115,
-    image: "../../public/assets/standard/2514.png",
+    image: "../../assets/standard/2514.png",
     name: "Totem1",
     type: "",
     damage: "100",
@@ -7154,7 +7154,7 @@ export const standardChips = [
   },
   {
     number: 116,
-    image: "../../public/assets/standard/2515.png",
+    image: "../../assets/standard/2515.png",
     name: "Totem2",
     type: "",
     damage: "140",
@@ -7166,7 +7166,7 @@ export const standardChips = [
   },
   {
     number: 116,
-    image: "../../public/assets/standard/2515.png",
+    image: "../../assets/standard/2515.png",
     name: "Totem2",
     type: "",
     damage: "140",
@@ -7178,7 +7178,7 @@ export const standardChips = [
   },
   {
     number: 116,
-    image: "../../public/assets/standard/2515.png",
+    image: "../../assets/standard/2515.png",
     name: "Totem2",
     type: "",
     damage: "140",
@@ -7190,7 +7190,7 @@ export const standardChips = [
   },
   {
     number: 116,
-    image: "../../public/assets/standard/2515.png",
+    image: "../../assets/standard/2515.png",
     name: "Totem2",
     type: "",
     damage: "140",
@@ -7202,7 +7202,7 @@ export const standardChips = [
   },
   {
     number: 116,
-    image: "../../public/assets/standard/2515.png",
+    image: "../../assets/standard/2515.png",
     name: "Totem2",
     type: "",
     damage: "140",
@@ -7214,7 +7214,7 @@ export const standardChips = [
   },
   {
     number: 117,
-    image: "../../public/assets/standard/2516.png",
+    image: "../../assets/standard/2516.png",
     name: "Totem3",
     type: "",
     damage: "180",
@@ -7226,7 +7226,7 @@ export const standardChips = [
   },
   {
     number: 117,
-    image: "../../public/assets/standard/2516.png",
+    image: "../../assets/standard/2516.png",
     name: "Totem3",
     type: "",
     damage: "180",
@@ -7238,7 +7238,7 @@ export const standardChips = [
   },
   {
     number: 117,
-    image: "../../public/assets/standard/2516.png",
+    image: "../../assets/standard/2516.png",
     name: "Totem3",
     type: "",
     damage: "180",
@@ -7250,7 +7250,7 @@ export const standardChips = [
   },
   {
     number: 117,
-    image: "../../public/assets/standard/2516.png",
+    image: "../../assets/standard/2516.png",
     name: "Totem3",
     type: "",
     damage: "180",
@@ -7262,7 +7262,7 @@ export const standardChips = [
   },
   {
     number: 117,
-    image: "../../public/assets/standard/2516.png",
+    image: "../../assets/standard/2516.png",
     name: "Totem3",
     type: "",
     damage: "180",
@@ -7274,7 +7274,7 @@ export const standardChips = [
   },
   {
     number: 118,
-    image: "../../public/assets/standard/2560.png",
+    image: "../../assets/standard/2560.png",
     name: "Sensor1",
     type: "",
     damage: "100",
@@ -7286,7 +7286,7 @@ export const standardChips = [
   },
   {
     number: 118,
-    image: "../../public/assets/standard/2560.png",
+    image: "../../assets/standard/2560.png",
     name: "Sensor1",
     type: "",
     damage: "100",
@@ -7298,7 +7298,7 @@ export const standardChips = [
   },
   {
     number: 118,
-    image: "../../public/assets/standard/2560.png",
+    image: "../../assets/standard/2560.png",
     name: "Sensor1",
     type: "",
     damage: "100",
@@ -7310,7 +7310,7 @@ export const standardChips = [
   },
   {
     number: 118,
-    image: "../../public/assets/standard/2560.png",
+    image: "../../assets/standard/2560.png",
     name: "Sensor1",
     type: "",
     damage: "100",
@@ -7322,7 +7322,7 @@ export const standardChips = [
   },
   {
     number: 118,
-    image: "../../public/assets/standard/2560.png",
+    image: "../../assets/standard/2560.png",
     name: "Sensor1",
     type: "",
     damage: "100",
@@ -7334,7 +7334,7 @@ export const standardChips = [
   },
   {
     number: 119,
-    image: "../../public/assets/standard/2561.png",
+    image: "../../assets/standard/2561.png",
     name: "Sensor2",
     type: "",
     damage: "130",
@@ -7346,7 +7346,7 @@ export const standardChips = [
   },
   {
     number: 119,
-    image: "../../public/assets/standard/2561.png",
+    image: "../../assets/standard/2561.png",
     name: "Sensor2",
     type: "",
     damage: "130",
@@ -7358,7 +7358,7 @@ export const standardChips = [
   },
   {
     number: 119,
-    image: "../../public/assets/standard/2561.png",
+    image: "../../assets/standard/2561.png",
     name: "Sensor2",
     type: "",
     damage: "130",
@@ -7370,7 +7370,7 @@ export const standardChips = [
   },
   {
     number: 119,
-    image: "../../public/assets/standard/2561.png",
+    image: "../../assets/standard/2561.png",
     name: "Sensor2",
     type: "",
     damage: "130",
@@ -7382,7 +7382,7 @@ export const standardChips = [
   },
   {
     number: 119,
-    image: "../../public/assets/standard/2561.png",
+    image: "../../assets/standard/2561.png",
     name: "Sensor2",
     type: "",
     damage: "130",
@@ -7394,7 +7394,7 @@ export const standardChips = [
   },
   {
     number: 120,
-    image: "../../public/assets/standard/2562.png",
+    image: "../../assets/standard/2562.png",
     name: "Sensor3",
     type: "",
     damage: "130",
@@ -7406,7 +7406,7 @@ export const standardChips = [
   },
   {
     number: 120,
-    image: "../../public/assets/standard/2562.png",
+    image: "../../assets/standard/2562.png",
     name: "Sensor3",
     type: "",
     damage: "130",
@@ -7418,7 +7418,7 @@ export const standardChips = [
   },
   {
     number: 120,
-    image: "../../public/assets/standard/2562.png",
+    image: "../../assets/standard/2562.png",
     name: "Sensor3",
     type: "",
     damage: "130",
@@ -7430,7 +7430,7 @@ export const standardChips = [
   },
   {
     number: 120,
-    image: "../../public/assets/standard/2562.png",
+    image: "../../assets/standard/2562.png",
     name: "Sensor3",
     type: "",
     damage: "130",
@@ -7442,7 +7442,7 @@ export const standardChips = [
   },
   {
     number: 120,
-    image: "../../public/assets/standard/2562.png",
+    image: "../../assets/standard/2562.png",
     name: "Sensor3",
     type: "",
     damage: "130",
@@ -7454,7 +7454,7 @@ export const standardChips = [
   },
   {
     number: 121,
-    image: "../../public/assets/standard/2592.png",
+    image: "../../assets/standard/2592.png",
     name: "MetaGel1",
     type: "",
     damage: "90",
@@ -7466,7 +7466,7 @@ export const standardChips = [
   },
   {
     number: 121,
-    image: "../../public/assets/standard/2592.png",
+    image: "../../assets/standard/2592.png",
     name: "MetaGel1",
     type: "",
     damage: "90",
@@ -7478,7 +7478,7 @@ export const standardChips = [
   },
   {
     number: 121,
-    image: "../../public/assets/standard/2592.png",
+    image: "../../assets/standard/2592.png",
     name: "MetaGel1",
     type: "",
     damage: "90",
@@ -7490,7 +7490,7 @@ export const standardChips = [
   },
   {
     number: 121,
-    image: "../../public/assets/standard/2592.png",
+    image: "../../assets/standard/2592.png",
     name: "MetaGel1",
     type: "",
     damage: "90",
@@ -7502,7 +7502,7 @@ export const standardChips = [
   },
   {
     number: 121,
-    image: "../../public/assets/standard/2592.png",
+    image: "../../assets/standard/2592.png",
     name: "MetaGel1",
     type: "",
     damage: "90",
@@ -7514,7 +7514,7 @@ export const standardChips = [
   },
   {
     number: 122,
-    image: "../../public/assets/standard/2593.png",
+    image: "../../assets/standard/2593.png",
     name: "MetaGel2",
     type: "",
     damage: "130",
@@ -7526,7 +7526,7 @@ export const standardChips = [
   },
   {
     number: 122,
-    image: "../../public/assets/standard/2593.png",
+    image: "../../assets/standard/2593.png",
     name: "MetaGel2",
     type: "",
     damage: "130",
@@ -7538,7 +7538,7 @@ export const standardChips = [
   },
   {
     number: 122,
-    image: "../../public/assets/standard/2593.png",
+    image: "../../assets/standard/2593.png",
     name: "MetaGel2",
     type: "",
     damage: "130",
@@ -7550,7 +7550,7 @@ export const standardChips = [
   },
   {
     number: 122,
-    image: "../../public/assets/standard/2593.png",
+    image: "../../assets/standard/2593.png",
     name: "MetaGel2",
     type: "",
     damage: "130",
@@ -7562,7 +7562,7 @@ export const standardChips = [
   },
   {
     number: 122,
-    image: "../../public/assets/standard/2593.png",
+    image: "../../assets/standard/2593.png",
     name: "MetaGel2",
     type: "",
     damage: "130",
@@ -7574,7 +7574,7 @@ export const standardChips = [
   },
   {
     number: 123,
-    image: "../../public/assets/standard/2594.png",
+    image: "../../assets/standard/2594.png",
     name: "MetaGel3",
     type: "",
     damage: "170",
@@ -7586,7 +7586,7 @@ export const standardChips = [
   },
   {
     number: 123,
-    image: "../../public/assets/standard/2594.png",
+    image: "../../assets/standard/2594.png",
     name: "MetaGel3",
     type: "",
     damage: "170",
@@ -7598,7 +7598,7 @@ export const standardChips = [
   },
   {
     number: 123,
-    image: "../../public/assets/standard/2594.png",
+    image: "../../assets/standard/2594.png",
     name: "MetaGel3",
     type: "",
     damage: "170",
@@ -7610,7 +7610,7 @@ export const standardChips = [
   },
   {
     number: 123,
-    image: "../../public/assets/standard/2594.png",
+    image: "../../assets/standard/2594.png",
     name: "MetaGel3",
     type: "",
     damage: "170",
@@ -7622,7 +7622,7 @@ export const standardChips = [
   },
   {
     number: 123,
-    image: "../../public/assets/standard/2594.png",
+    image: "../../assets/standard/2594.png",
     name: "MetaGel3",
     type: "",
     damage: "170",
@@ -7634,7 +7634,7 @@ export const standardChips = [
   },
   {
     number: 124,
-    image: "../../public/assets/standard/2610.png",
+    image: "../../assets/standard/2610.png",
     name: "Pawn",
     type: "",
     damage: "90",
@@ -7646,7 +7646,7 @@ export const standardChips = [
   },
   {
     number: 124,
-    image: "../../public/assets/standard/2610.png",
+    image: "../../assets/standard/2610.png",
     name: "Pawn",
     type: "",
     damage: "90",
@@ -7658,7 +7658,7 @@ export const standardChips = [
   },
   {
     number: 124,
-    image: "../../public/assets/standard/2610.png",
+    image: "../../assets/standard/2610.png",
     name: "Pawn",
     type: "",
     damage: "90",
@@ -7670,7 +7670,7 @@ export const standardChips = [
   },
   {
     number: 124,
-    image: "../../public/assets/standard/2610.png",
+    image: "../../assets/standard/2610.png",
     name: "Pawn",
     type: "",
     damage: "90",
@@ -7682,7 +7682,7 @@ export const standardChips = [
   },
   {
     number: 124,
-    image: "../../public/assets/standard/2610.png",
+    image: "../../assets/standard/2610.png",
     name: "Pawn",
     type: "",
     damage: "90",
@@ -7694,7 +7694,7 @@ export const standardChips = [
   },
   {
     number: 125,
-    image: "../../public/assets/standard/2611.png",
+    image: "../../assets/standard/2611.png",
     name: "Knight",
     type: "",
     damage: "150",
@@ -7706,7 +7706,7 @@ export const standardChips = [
   },
   {
     number: 125,
-    image: "../../public/assets/standard/2611.png",
+    image: "../../assets/standard/2611.png",
     name: "Knight",
     type: "",
     damage: "150",
@@ -7718,7 +7718,7 @@ export const standardChips = [
   },
   {
     number: 125,
-    image: "../../public/assets/standard/2611.png",
+    image: "../../assets/standard/2611.png",
     name: "Knight",
     type: "",
     damage: "150",
@@ -7730,7 +7730,7 @@ export const standardChips = [
   },
   {
     number: 125,
-    image: "../../public/assets/standard/2611.png",
+    image: "../../assets/standard/2611.png",
     name: "Knight",
     type: "",
     damage: "150",
@@ -7742,7 +7742,7 @@ export const standardChips = [
   },
   {
     number: 125,
-    image: "../../public/assets/standard/2611.png",
+    image: "../../assets/standard/2611.png",
     name: "Knight",
     type: "",
     damage: "150",
@@ -7754,7 +7754,7 @@ export const standardChips = [
   },
   {
     number: 126,
-    image: "../../public/assets/standard/2612.png",
+    image: "../../assets/standard/2612.png",
     name: "Rook",
     type: "",
     damage: "-",
@@ -7766,7 +7766,7 @@ export const standardChips = [
   },
   {
     number: 126,
-    image: "../../public/assets/standard/2612.png",
+    image: "../../assets/standard/2612.png",
     name: "Rook",
     type: "",
     damage: "-",
@@ -7778,7 +7778,7 @@ export const standardChips = [
   },
   {
     number: 126,
-    image: "../../public/assets/standard/2612.png",
+    image: "../../assets/standard/2612.png",
     name: "Rook",
     type: "",
     damage: "-",
@@ -7790,7 +7790,7 @@ export const standardChips = [
   },
   {
     number: 126,
-    image: "../../public/assets/standard/2612.png",
+    image: "../../assets/standard/2612.png",
     name: "Rook",
     type: "",
     damage: "-",
@@ -7802,7 +7802,7 @@ export const standardChips = [
   },
   {
     number: 126,
-    image: "../../public/assets/standard/2612.png",
+    image: "../../assets/standard/2612.png",
     name: "Rook",
     type: "",
     damage: "-",
@@ -7814,7 +7814,7 @@ export const standardChips = [
   },
   {
     number: 126,
-    image: "../../public/assets/standard/2612.png",
+    image: "../../assets/standard/2612.png",
     name: "Rook",
     type: "",
     damage: "-",
@@ -7826,7 +7826,7 @@ export const standardChips = [
   },
   {
     number: 127,
-    image: "../../public/assets/standard/2591.png",
+    image: "../../assets/standard/2591.png",
     name: "Team1",
     type: "",
     damage: "10",
@@ -7838,7 +7838,7 @@ export const standardChips = [
   },
   {
     number: 127,
-    image: "../../public/assets/standard/2591.png",
+    image: "../../assets/standard/2591.png",
     name: "Team1",
     type: "",
     damage: "10",
@@ -7850,7 +7850,7 @@ export const standardChips = [
   },
   {
     number: 127,
-    image: "../../public/assets/standard/2591.png",
+    image: "../../assets/standard/2591.png",
     name: "Team1",
     type: "",
     damage: "10",
@@ -7862,7 +7862,7 @@ export const standardChips = [
   },
   {
     number: 127,
-    image: "../../public/assets/standard/2591.png",
+    image: "../../assets/standard/2591.png",
     name: "Team1",
     type: "",
     damage: "10",
@@ -7874,7 +7874,7 @@ export const standardChips = [
   },
   {
     number: 127,
-    image: "../../public/assets/standard/2591.png",
+    image: "../../assets/standard/2591.png",
     name: "Team1",
     type: "",
     damage: "10",
@@ -7886,7 +7886,7 @@ export const standardChips = [
   },
   {
     number: 127,
-    image: "../../public/assets/standard/2591.png",
+    image: "../../assets/standard/2591.png",
     name: "Team1",
     type: "",
     damage: "10",
@@ -7898,7 +7898,7 @@ export const standardChips = [
   },
   {
     number: 128,
-    image: "../../public/assets/standard/2628.png",
+    image: "../../assets/standard/2628.png",
     name: "Team2",
     type: "",
     damage: "-",
@@ -7910,7 +7910,7 @@ export const standardChips = [
   },
   {
     number: 128,
-    image: "../../public/assets/standard/2628.png",
+    image: "../../assets/standard/2628.png",
     name: "Team2",
     type: "",
     damage: "-",
@@ -7922,7 +7922,7 @@ export const standardChips = [
   },
   {
     number: 128,
-    image: "../../public/assets/standard/2628.png",
+    image: "../../assets/standard/2628.png",
     name: "Team2",
     type: "",
     damage: "-",
@@ -7934,7 +7934,7 @@ export const standardChips = [
   },
   {
     number: 128,
-    image: "../../public/assets/standard/2628.png",
+    image: "../../assets/standard/2628.png",
     name: "Team2",
     type: "",
     damage: "-",
@@ -7946,7 +7946,7 @@ export const standardChips = [
   },
   {
     number: 128,
-    image: "../../public/assets/standard/2628.png",
+    image: "../../assets/standard/2628.png",
     name: "Team2",
     type: "",
     damage: "-",
@@ -7958,7 +7958,7 @@ export const standardChips = [
   },
   {
     number: 128,
-    image: "../../public/assets/standard/2628.png",
+    image: "../../assets/standard/2628.png",
     name: "Team2",
     type: "",
     damage: "-",
@@ -7970,7 +7970,7 @@ export const standardChips = [
   },
   {
     number: 129,
-    image: "../../public/assets/standard/2558.png",
+    image: "../../assets/standard/2558.png",
     name: "TimeBomb",
     type: "",
     damage: "150",
@@ -7982,7 +7982,7 @@ export const standardChips = [
   },
   {
     number: 129,
-    image: "../../public/assets/standard/2558.png",
+    image: "../../assets/standard/2558.png",
     name: "TimeBomb",
     type: "",
     damage: "150",
@@ -7994,7 +7994,7 @@ export const standardChips = [
   },
   {
     number: 129,
-    image: "../../public/assets/standard/2558.png",
+    image: "../../assets/standard/2558.png",
     name: "TimeBomb",
     type: "",
     damage: "150",
@@ -8006,7 +8006,7 @@ export const standardChips = [
   },
   {
     number: 129,
-    image: "../../public/assets/standard/2558.png",
+    image: "../../assets/standard/2558.png",
     name: "TimeBomb",
     type: "",
     damage: "150",
@@ -8018,7 +8018,7 @@ export const standardChips = [
   },
   {
     number: 129,
-    image: "../../public/assets/standard/2558.png",
+    image: "../../assets/standard/2558.png",
     name: "TimeBomb",
     type: "",
     damage: "150",
@@ -8030,7 +8030,7 @@ export const standardChips = [
   },
   {
     number: 130,
-    image: "../../public/assets/standard/2559.png",
+    image: "../../assets/standard/2559.png",
     name: "Mine",
     type: "",
     damage: "300",
@@ -8042,7 +8042,7 @@ export const standardChips = [
   },
   {
     number: 130,
-    image: "../../public/assets/standard/2559.png",
+    image: "../../assets/standard/2559.png",
     name: "Mine",
     type: "",
     damage: "300",
@@ -8054,7 +8054,7 @@ export const standardChips = [
   },
   {
     number: 130,
-    image: "../../public/assets/standard/2559.png",
+    image: "../../assets/standard/2559.png",
     name: "Mine",
     type: "",
     damage: "300",
@@ -8066,7 +8066,7 @@ export const standardChips = [
   },
   {
     number: 130,
-    image: "../../public/assets/standard/2559.png",
+    image: "../../assets/standard/2559.png",
     name: "Mine",
     type: "",
     damage: "300",
@@ -8078,7 +8078,7 @@ export const standardChips = [
   },
   {
     number: 130,
-    image: "../../public/assets/standard/2559.png",
+    image: "../../assets/standard/2559.png",
     name: "Mine",
     type: "",
     damage: "300",
@@ -8090,7 +8090,7 @@ export const standardChips = [
   },
   {
     number: 130,
-    image: "../../public/assets/standard/2559.png",
+    image: "../../assets/standard/2559.png",
     name: "Mine",
     type: "",
     damage: "300",
@@ -8102,7 +8102,7 @@ export const standardChips = [
   },
   {
     number: 131,
-    image: "../../public/assets/standard/2534.png",
+    image: "../../assets/standard/2534.png",
     name: "Lance",
     type: "",
     damage: "130",
@@ -8114,7 +8114,7 @@ export const standardChips = [
   },
   {
     number: 131,
-    image: "../../public/assets/standard/2534.png",
+    image: "../../assets/standard/2534.png",
     name: "Lance",
     type: "",
     damage: "130",
@@ -8126,7 +8126,7 @@ export const standardChips = [
   },
   {
     number: 131,
-    image: "../../public/assets/standard/2534.png",
+    image: "../../assets/standard/2534.png",
     name: "Lance",
     type: "",
     damage: "130",
@@ -8138,7 +8138,7 @@ export const standardChips = [
   },
   {
     number: 131,
-    image: "../../public/assets/standard/2534.png",
+    image: "../../assets/standard/2534.png",
     name: "Lance",
     type: "",
     damage: "130",
@@ -8150,7 +8150,7 @@ export const standardChips = [
   },
   {
     number: 131,
-    image: "../../public/assets/standard/2534.png",
+    image: "../../assets/standard/2534.png",
     name: "Lance",
     type: "",
     damage: "130",
@@ -8162,7 +8162,7 @@ export const standardChips = [
   },
   {
     number: 132,
-    image: "../../public/assets/standard/2590.png",
+    image: "../../assets/standard/2590.png",
     name: "Snake",
     type: "",
     damage: "40",
@@ -8174,7 +8174,7 @@ export const standardChips = [
   },
   {
     number: 132,
-    image: "../../public/assets/standard/2590.png",
+    image: "../../assets/standard/2590.png",
     name: "Snake",
     type: "",
     damage: "40",
@@ -8186,7 +8186,7 @@ export const standardChips = [
   },
   {
     number: 132,
-    image: "../../public/assets/standard/2590.png",
+    image: "../../assets/standard/2590.png",
     name: "Snake",
     type: "",
     damage: "40",
@@ -8198,7 +8198,7 @@ export const standardChips = [
   },
   {
     number: 132,
-    image: "../../public/assets/standard/2590.png",
+    image: "../../assets/standard/2590.png",
     name: "Snake",
     type: "",
     damage: "40",
@@ -8210,7 +8210,7 @@ export const standardChips = [
   },
   {
     number: 132,
-    image: "../../public/assets/standard/2590.png",
+    image: "../../assets/standard/2590.png",
     name: "Snake",
     type: "",
     damage: "40",
@@ -8222,7 +8222,7 @@ export const standardChips = [
   },
   {
     number: 133,
-    image: "../../public/assets/standard/2577.png",
+    image: "../../assets/standard/2577.png",
     name: "Guard",
     type: "",
     damage: "-",
@@ -8234,7 +8234,7 @@ export const standardChips = [
   },
   {
     number: 134,
-    image: "../../public/assets/standard/2578.png",
+    image: "../../assets/standard/2578.png",
     name: "PanlOut1",
     type: "",
     damage: "-",
@@ -8246,7 +8246,7 @@ export const standardChips = [
   },
   {
     number: 134,
-    image: "../../public/assets/standard/2578.png",
+    image: "../../assets/standard/2578.png",
     name: "PanlOut1",
     type: "",
     damage: "-",
@@ -8258,7 +8258,7 @@ export const standardChips = [
   },
   {
     number: 134,
-    image: "../../public/assets/standard/2578.png",
+    image: "../../assets/standard/2578.png",
     name: "PanlOut1",
     type: "",
     damage: "-",
@@ -8270,7 +8270,7 @@ export const standardChips = [
   },
   {
     number: 134,
-    image: "../../public/assets/standard/2578.png",
+    image: "../../assets/standard/2578.png",
     name: "PanlOut1",
     type: "",
     damage: "-",
@@ -8282,7 +8282,7 @@ export const standardChips = [
   },
   {
     number: 134,
-    image: "../../public/assets/standard/2578.png",
+    image: "../../assets/standard/2578.png",
     name: "PanlOut1",
     type: "",
     damage: "-",
@@ -8294,7 +8294,7 @@ export const standardChips = [
   },
   {
     number: 134,
-    image: "../../public/assets/standard/2578.png",
+    image: "../../assets/standard/2578.png",
     name: "PanlOut1",
     type: "",
     damage: "-",
@@ -8306,7 +8306,7 @@ export const standardChips = [
   },
   {
     number: 135,
-    image: "../../public/assets/standard/2579.png",
+    image: "../../assets/standard/2579.png",
     name: "PanlOut3",
     type: "",
     damage: "-",
@@ -8318,7 +8318,7 @@ export const standardChips = [
   },
   {
     number: 135,
-    image: "../../public/assets/standard/2579.png",
+    image: "../../assets/standard/2579.png",
     name: "PanlOut3",
     type: "",
     damage: "-",
@@ -8330,7 +8330,7 @@ export const standardChips = [
   },
   {
     number: 135,
-    image: "../../public/assets/standard/2579.png",
+    image: "../../assets/standard/2579.png",
     name: "PanlOut3",
     type: "",
     damage: "-",
@@ -8342,7 +8342,7 @@ export const standardChips = [
   },
   {
     number: 135,
-    image: "../../public/assets/standard/2579.png",
+    image: "../../assets/standard/2579.png",
     name: "PanlOut3",
     type: "",
     damage: "-",
@@ -8354,7 +8354,7 @@ export const standardChips = [
   },
   {
     number: 135,
-    image: "../../public/assets/standard/2579.png",
+    image: "../../assets/standard/2579.png",
     name: "PanlOut3",
     type: "",
     damage: "-",
@@ -8366,7 +8366,7 @@ export const standardChips = [
   },
   {
     number: 136,
-    image: "../../public/assets/standard/2588.png",
+    image: "../../assets/standard/2588.png",
     name: "PanlGrab",
     type: "",
     damage: "-",
@@ -8378,7 +8378,7 @@ export const standardChips = [
   },
   {
     number: 136,
-    image: "../../public/assets/standard/2588.png",
+    image: "../../assets/standard/2588.png",
     name: "PanlGrab",
     type: "",
     damage: "-",
@@ -8390,7 +8390,7 @@ export const standardChips = [
   },
   {
     number: 136,
-    image: "../../public/assets/standard/2588.png",
+    image: "../../assets/standard/2588.png",
     name: "PanlGrab",
     type: "",
     damage: "-",
@@ -8402,7 +8402,7 @@ export const standardChips = [
   },
   {
     number: 136,
-    image: "../../public/assets/standard/2588.png",
+    image: "../../assets/standard/2588.png",
     name: "PanlGrab",
     type: "",
     damage: "-",
@@ -8414,7 +8414,7 @@ export const standardChips = [
   },
   {
     number: 136,
-    image: "../../public/assets/standard/2588.png",
+    image: "../../assets/standard/2588.png",
     name: "PanlGrab",
     type: "",
     damage: "-",
@@ -8426,7 +8426,7 @@ export const standardChips = [
   },
   {
     number: 136,
-    image: "../../public/assets/standard/2588.png",
+    image: "../../assets/standard/2588.png",
     name: "PanlGrab",
     type: "",
     damage: "-",
@@ -8438,7 +8438,7 @@ export const standardChips = [
   },
   {
     number: 137,
-    image: "../../public/assets/standard/2589.png",
+    image: "../../assets/standard/2589.png",
     name: "AreaGrab",
     type: "",
     damage: "-",
@@ -8450,7 +8450,7 @@ export const standardChips = [
   },
   {
     number: 137,
-    image: "../../public/assets/standard/2589.png",
+    image: "../../assets/standard/2589.png",
     name: "AreaGrab",
     type: "",
     damage: "-",
@@ -8462,7 +8462,7 @@ export const standardChips = [
   },
   {
     number: 137,
-    image: "../../public/assets/standard/2589.png",
+    image: "../../assets/standard/2589.png",
     name: "AreaGrab",
     type: "",
     damage: "-",
@@ -8474,7 +8474,7 @@ export const standardChips = [
   },
   {
     number: 137,
-    image: "../../public/assets/standard/2589.png",
+    image: "../../assets/standard/2589.png",
     name: "AreaGrab",
     type: "",
     damage: "-",
@@ -8486,7 +8486,7 @@ export const standardChips = [
   },
   {
     number: 137,
-    image: "../../public/assets/standard/2589.png",
+    image: "../../assets/standard/2589.png",
     name: "AreaGrab",
     type: "",
     damage: "-",
@@ -8498,7 +8498,7 @@ export const standardChips = [
   },
   {
     number: 137,
-    image: "../../public/assets/standard/2589.png",
+    image: "../../assets/standard/2589.png",
     name: "AreaGrab",
     type: "",
     damage: "-",
@@ -8510,7 +8510,7 @@ export const standardChips = [
   },
   {
     number: 138,
-    image: "../../public/assets/standard/2595.png",
+    image: "../../assets/standard/2595.png",
     name: "GrabBack",
     type: "",
     damage: "40",
@@ -8522,7 +8522,7 @@ export const standardChips = [
   },
   {
     number: 138,
-    image: "../../public/assets/standard/2595.png",
+    image: "../../assets/standard/2595.png",
     name: "GrabBack",
     type: "",
     damage: "40",
@@ -8534,7 +8534,7 @@ export const standardChips = [
   },
   {
     number: 138,
-    image: "../../public/assets/standard/2595.png",
+    image: "../../assets/standard/2595.png",
     name: "GrabBack",
     type: "",
     damage: "40",
@@ -8546,7 +8546,7 @@ export const standardChips = [
   },
   {
     number: 138,
-    image: "../../public/assets/standard/2595.png",
+    image: "../../assets/standard/2595.png",
     name: "GrabBack",
     type: "",
     damage: "40",
@@ -8558,7 +8558,7 @@ export const standardChips = [
   },
   {
     number: 138,
-    image: "../../public/assets/standard/2595.png",
+    image: "../../assets/standard/2595.png",
     name: "GrabBack",
     type: "",
     damage: "40",
@@ -8570,7 +8570,7 @@ export const standardChips = [
   },
   {
     number: 139,
-    image: "../../public/assets/standard/2596.png",
+    image: "../../assets/standard/2596.png",
     name: "GrabRvng",
     type: "",
     damage: "80",
@@ -8582,7 +8582,7 @@ export const standardChips = [
   },
   {
     number: 139,
-    image: "../../public/assets/standard/2596.png",
+    image: "../../assets/standard/2596.png",
     name: "GrabRvng",
     type: "",
     damage: "80",
@@ -8594,7 +8594,7 @@ export const standardChips = [
   },
   {
     number: 139,
-    image: "../../public/assets/standard/2596.png",
+    image: "../../assets/standard/2596.png",
     name: "GrabRvng",
     type: "",
     damage: "80",
@@ -8606,7 +8606,7 @@ export const standardChips = [
   },
   {
     number: 139,
-    image: "../../public/assets/standard/2596.png",
+    image: "../../assets/standard/2596.png",
     name: "GrabRvng",
     type: "",
     damage: "80",
@@ -8618,7 +8618,7 @@ export const standardChips = [
   },
   {
     number: 139,
-    image: "../../public/assets/standard/2596.png",
+    image: "../../assets/standard/2596.png",
     name: "GrabRvng",
     type: "",
     damage: "80",
@@ -8630,7 +8630,7 @@ export const standardChips = [
   },
   {
     number: 140,
-    image: "../../public/assets/standard/2600.png",
+    image: "../../assets/standard/2600.png",
     name: "RockCube",
     type: "",
     damage: "-",
@@ -8642,7 +8642,7 @@ export const standardChips = [
   },
   {
     number: 140,
-    image: "../../public/assets/standard/2600.png",
+    image: "../../assets/standard/2600.png",
     name: "RockCube",
     type: "",
     damage: "-",
@@ -8654,7 +8654,7 @@ export const standardChips = [
   },
   {
     number: 140,
-    image: "../../public/assets/standard/2600.png",
+    image: "../../assets/standard/2600.png",
     name: "RockCube",
     type: "",
     damage: "-",
@@ -8666,7 +8666,7 @@ export const standardChips = [
   },
   {
     number: 140,
-    image: "../../public/assets/standard/2600.png",
+    image: "../../assets/standard/2600.png",
     name: "RockCube",
     type: "",
     damage: "-",
@@ -8678,7 +8678,7 @@ export const standardChips = [
   },
   {
     number: 140,
-    image: "../../public/assets/standard/2600.png",
+    image: "../../assets/standard/2600.png",
     name: "RockCube",
     type: "",
     damage: "-",
@@ -8690,7 +8690,7 @@ export const standardChips = [
   },
   {
     number: 140,
-    image: "../../public/assets/standard/2600.png",
+    image: "../../assets/standard/2600.png",
     name: "RockCube",
     type: "",
     damage: "-",
@@ -8702,7 +8702,7 @@ export const standardChips = [
   },
   {
     number: 141,
-    image: "../../public/assets/standard/2601.png",
+    image: "../../assets/standard/2601.png",
     name: "Prism",
     type: "",
     damage: "-",
@@ -8714,7 +8714,7 @@ export const standardChips = [
   },
   {
     number: 141,
-    image: "../../public/assets/standard/2601.png",
+    image: "../../assets/standard/2601.png",
     name: "Prism",
     type: "",
     damage: "-",
@@ -8726,7 +8726,7 @@ export const standardChips = [
   },
   {
     number: 141,
-    image: "../../public/assets/standard/2601.png",
+    image: "../../assets/standard/2601.png",
     name: "Prism",
     type: "",
     damage: "-",
@@ -8738,7 +8738,7 @@ export const standardChips = [
   },
   {
     number: 141,
-    image: "../../public/assets/standard/2601.png",
+    image: "../../assets/standard/2601.png",
     name: "Prism",
     type: "",
     damage: "-",
@@ -8750,7 +8750,7 @@ export const standardChips = [
   },
   {
     number: 141,
-    image: "../../public/assets/standard/2601.png",
+    image: "../../assets/standard/2601.png",
     name: "Prism",
     type: "",
     damage: "-",
@@ -8762,7 +8762,7 @@ export const standardChips = [
   },
   {
     number: 142,
-    image: "../../public/assets/standard/2602.png",
+    image: "../../assets/standard/2602.png",
     name: "Wind",
     type: "",
     damage: "-",
@@ -8774,7 +8774,7 @@ export const standardChips = [
   },
   {
     number: 142,
-    image: "../../public/assets/standard/2602.png",
+    image: "../../assets/standard/2602.png",
     name: "Wind",
     type: "",
     damage: "-",
@@ -8786,7 +8786,7 @@ export const standardChips = [
   },
   {
     number: 142,
-    image: "../../public/assets/standard/2602.png",
+    image: "../../assets/standard/2602.png",
     name: "Wind",
     type: "",
     damage: "-",
@@ -8798,7 +8798,7 @@ export const standardChips = [
   },
   {
     number: 142,
-    image: "../../public/assets/standard/2602.png",
+    image: "../../assets/standard/2602.png",
     name: "Wind",
     type: "",
     damage: "-",
@@ -8810,7 +8810,7 @@ export const standardChips = [
   },
   {
     number: 142,
-    image: "../../public/assets/standard/2602.png",
+    image: "../../assets/standard/2602.png",
     name: "Wind",
     type: "",
     damage: "-",
@@ -8822,7 +8822,7 @@ export const standardChips = [
   },
   {
     number: 142,
-    image: "../../public/assets/standard/2602.png",
+    image: "../../assets/standard/2602.png",
     name: "Wind",
     type: "",
     damage: "-",
@@ -8834,7 +8834,7 @@ export const standardChips = [
   },
   {
     number: 143,
-    image: "../../public/assets/standard/2603.png",
+    image: "../../assets/standard/2603.png",
     name: "Fan",
     type: "",
     damage: "-",
@@ -8846,7 +8846,7 @@ export const standardChips = [
   },
   {
     number: 143,
-    image: "../../public/assets/standard/2603.png",
+    image: "../../assets/standard/2603.png",
     name: "Fan",
     type: "",
     damage: "-",
@@ -8858,7 +8858,7 @@ export const standardChips = [
   },
   {
     number: 143,
-    image: "../../public/assets/standard/2603.png",
+    image: "../../assets/standard/2603.png",
     name: "Fan",
     type: "",
     damage: "-",
@@ -8870,7 +8870,7 @@ export const standardChips = [
   },
   {
     number: 143,
-    image: "../../public/assets/standard/2603.png",
+    image: "../../assets/standard/2603.png",
     name: "Fan",
     type: "",
     damage: "-",
@@ -8882,7 +8882,7 @@ export const standardChips = [
   },
   {
     number: 143,
-    image: "../../public/assets/standard/2603.png",
+    image: "../../assets/standard/2603.png",
     name: "Fan",
     type: "",
     damage: "-",
@@ -8894,7 +8894,7 @@ export const standardChips = [
   },
   {
     number: 143,
-    image: "../../public/assets/standard/2603.png",
+    image: "../../assets/standard/2603.png",
     name: "Fan",
     type: "",
     damage: "-",
@@ -8906,7 +8906,7 @@ export const standardChips = [
   },
   {
     number: 144,
-    image: "../../public/assets/standard/2629.png",
+    image: "../../assets/standard/2629.png",
     name: "Fanfare",
     type: "",
     damage: "-",
@@ -8918,7 +8918,7 @@ export const standardChips = [
   },
   {
     number: 144,
-    image: "../../public/assets/standard/2629.png",
+    image: "../../assets/standard/2629.png",
     name: "Fanfare",
     type: "",
     damage: "-",
@@ -8930,7 +8930,7 @@ export const standardChips = [
   },
   {
     number: 144,
-    image: "../../public/assets/standard/2629.png",
+    image: "../../assets/standard/2629.png",
     name: "Fanfare",
     type: "",
     damage: "-",
@@ -8942,7 +8942,7 @@ export const standardChips = [
   },
   {
     number: 144,
-    image: "../../public/assets/standard/2629.png",
+    image: "../../assets/standard/2629.png",
     name: "Fanfare",
     type: "",
     damage: "-",
@@ -8954,7 +8954,7 @@ export const standardChips = [
   },
   {
     number: 144,
-    image: "../../public/assets/standard/2629.png",
+    image: "../../assets/standard/2629.png",
     name: "Fanfare",
     type: "",
     damage: "-",
@@ -8966,7 +8966,7 @@ export const standardChips = [
   },
   {
     number: 144,
-    image: "../../public/assets/standard/2629.png",
+    image: "../../assets/standard/2629.png",
     name: "Fanfare",
     type: "",
     damage: "-",
@@ -8978,7 +8978,7 @@ export const standardChips = [
   },
   {
     number: 145,
-    image: "../../public/assets/standard/2630.png",
+    image: "../../assets/standard/2630.png",
     name: "Discord",
     type: "",
     damage: "-",
@@ -8990,7 +8990,7 @@ export const standardChips = [
   },
   {
     number: 145,
-    image: "../../public/assets/standard/2630.png",
+    image: "../../assets/standard/2630.png",
     name: "Discord",
     type: "",
     damage: "-",
@@ -9002,7 +9002,7 @@ export const standardChips = [
   },
   {
     number: 145,
-    image: "../../public/assets/standard/2630.png",
+    image: "../../assets/standard/2630.png",
     name: "Discord",
     type: "",
     damage: "-",
@@ -9014,7 +9014,7 @@ export const standardChips = [
   },
   {
     number: 145,
-    image: "../../public/assets/standard/2630.png",
+    image: "../../assets/standard/2630.png",
     name: "Discord",
     type: "",
     damage: "-",
@@ -9026,7 +9026,7 @@ export const standardChips = [
   },
   {
     number: 145,
-    image: "../../public/assets/standard/2630.png",
+    image: "../../assets/standard/2630.png",
     name: "Discord",
     type: "",
     damage: "-",
@@ -9038,7 +9038,7 @@ export const standardChips = [
   },
   {
     number: 145,
-    image: "../../public/assets/standard/2630.png",
+    image: "../../assets/standard/2630.png",
     name: "Discord",
     type: "",
     damage: "-",
@@ -9050,7 +9050,7 @@ export const standardChips = [
   },
   {
     number: 146,
-    image: "../../public/assets/standard/2631.png",
+    image: "../../assets/standard/2631.png",
     name: "Timpani",
     type: "",
     damage: "-",
@@ -9062,7 +9062,7 @@ export const standardChips = [
   },
   {
     number: 146,
-    image: "../../public/assets/standard/2631.png",
+    image: "../../assets/standard/2631.png",
     name: "Timpani",
     type: "",
     damage: "-",
@@ -9074,7 +9074,7 @@ export const standardChips = [
   },
   {
     number: 146,
-    image: "../../public/assets/standard/2631.png",
+    image: "../../assets/standard/2631.png",
     name: "Timpani",
     type: "",
     damage: "-",
@@ -9086,7 +9086,7 @@ export const standardChips = [
   },
   {
     number: 146,
-    image: "../../public/assets/standard/2631.png",
+    image: "../../assets/standard/2631.png",
     name: "Timpani",
     type: "",
     damage: "-",
@@ -9098,7 +9098,7 @@ export const standardChips = [
   },
   {
     number: 146,
-    image: "../../public/assets/standard/2631.png",
+    image: "../../assets/standard/2631.png",
     name: "Timpani",
     type: "",
     damage: "-",
@@ -9110,7 +9110,7 @@ export const standardChips = [
   },
   {
     number: 146,
-    image: "../../public/assets/standard/2631.png",
+    image: "../../assets/standard/2631.png",
     name: "Timpani",
     type: "",
     damage: "-",
@@ -9122,7 +9122,7 @@ export const standardChips = [
   },
   {
     number: 147,
-    image: "../../public/assets/standard/2580.png",
+    image: "../../assets/standard/2580.png",
     name: "Recov10",
     type: "",
     damage: "-",
@@ -9134,7 +9134,7 @@ export const standardChips = [
   },
   {
     number: 147,
-    image: "../../public/assets/standard/2580.png",
+    image: "../../assets/standard/2580.png",
     name: "Recov10",
     type: "",
     damage: "-",
@@ -9146,7 +9146,7 @@ export const standardChips = [
   },
   {
     number: 147,
-    image: "../../public/assets/standard/2580.png",
+    image: "../../assets/standard/2580.png",
     name: "Recov10",
     type: "",
     damage: "-",
@@ -9158,7 +9158,7 @@ export const standardChips = [
   },
   {
     number: 147,
-    image: "../../public/assets/standard/2580.png",
+    image: "../../assets/standard/2580.png",
     name: "Recov10",
     type: "",
     damage: "-",
@@ -9170,7 +9170,7 @@ export const standardChips = [
   },
   {
     number: 147,
-    image: "../../public/assets/standard/2580.png",
+    image: "../../assets/standard/2580.png",
     name: "Recov10",
     type: "",
     damage: "-",
@@ -9182,7 +9182,7 @@ export const standardChips = [
   },
   {
     number: 147,
-    image: "../../public/assets/standard/2580.png",
+    image: "../../assets/standard/2580.png",
     name: "Recov10",
     type: "",
     damage: "-",
@@ -9194,7 +9194,7 @@ export const standardChips = [
   },
   {
     number: 148,
-    image: "../../public/assets/standard/2581.png",
+    image: "../../assets/standard/2581.png",
     name: "Recov30",
     type: "",
     damage: "-",
@@ -9206,7 +9206,7 @@ export const standardChips = [
   },
   {
     number: 148,
-    image: "../../public/assets/standard/2581.png",
+    image: "../../assets/standard/2581.png",
     name: "Recov30",
     type: "",
     damage: "-",
@@ -9218,7 +9218,7 @@ export const standardChips = [
   },
   {
     number: 148,
-    image: "../../public/assets/standard/2581.png",
+    image: "../../assets/standard/2581.png",
     name: "Recov30",
     type: "",
     damage: "-",
@@ -9230,7 +9230,7 @@ export const standardChips = [
   },
   {
     number: 148,
-    image: "../../public/assets/standard/2581.png",
+    image: "../../assets/standard/2581.png",
     name: "Recov30",
     type: "",
     damage: "-",
@@ -9242,7 +9242,7 @@ export const standardChips = [
   },
   {
     number: 148,
-    image: "../../public/assets/standard/2581.png",
+    image: "../../assets/standard/2581.png",
     name: "Recov30",
     type: "",
     damage: "-",
@@ -9254,7 +9254,7 @@ export const standardChips = [
   },
   {
     number: 148,
-    image: "../../public/assets/standard/2581.png",
+    image: "../../assets/standard/2581.png",
     name: "Recov30",
     type: "",
     damage: "-",
@@ -9266,7 +9266,7 @@ export const standardChips = [
   },
   {
     number: 149,
-    image: "../../public/assets/standard/2582.png",
+    image: "../../assets/standard/2582.png",
     name: "Recov50",
     type: "",
     damage: "-",
@@ -9278,7 +9278,7 @@ export const standardChips = [
   },
   {
     number: 149,
-    image: "../../public/assets/standard/2582.png",
+    image: "../../assets/standard/2582.png",
     name: "Recov50",
     type: "",
     damage: "-",
@@ -9290,7 +9290,7 @@ export const standardChips = [
   },
   {
     number: 149,
-    image: "../../public/assets/standard/2582.png",
+    image: "../../assets/standard/2582.png",
     name: "Recov50",
     type: "",
     damage: "-",
@@ -9302,7 +9302,7 @@ export const standardChips = [
   },
   {
     number: 149,
-    image: "../../public/assets/standard/2582.png",
+    image: "../../assets/standard/2582.png",
     name: "Recov50",
     type: "",
     damage: "-",
@@ -9314,7 +9314,7 @@ export const standardChips = [
   },
   {
     number: 149,
-    image: "../../public/assets/standard/2582.png",
+    image: "../../assets/standard/2582.png",
     name: "Recov50",
     type: "",
     damage: "-",
@@ -9326,7 +9326,7 @@ export const standardChips = [
   },
   {
     number: 149,
-    image: "../../public/assets/standard/2582.png",
+    image: "../../assets/standard/2582.png",
     name: "Recov50",
     type: "",
     damage: "-",
@@ -9338,7 +9338,7 @@ export const standardChips = [
   },
   {
     number: 150,
-    image: "../../public/assets/standard/2583.png",
+    image: "../../assets/standard/2583.png",
     name: "Recov80",
     type: "",
     damage: "-",
@@ -9350,7 +9350,7 @@ export const standardChips = [
   },
   {
     number: 150,
-    image: "../../public/assets/standard/2583.png",
+    image: "../../assets/standard/2583.png",
     name: "Recov80",
     type: "",
     damage: "-",
@@ -9362,7 +9362,7 @@ export const standardChips = [
   },
   {
     number: 150,
-    image: "../../public/assets/standard/2583.png",
+    image: "../../assets/standard/2583.png",
     name: "Recov80",
     type: "",
     damage: "-",
@@ -9374,7 +9374,7 @@ export const standardChips = [
   },
   {
     number: 150,
-    image: "../../public/assets/standard/2583.png",
+    image: "../../assets/standard/2583.png",
     name: "Recov80",
     type: "",
     damage: "-",
@@ -9386,7 +9386,7 @@ export const standardChips = [
   },
   {
     number: 150,
-    image: "../../public/assets/standard/2583.png",
+    image: "../../assets/standard/2583.png",
     name: "Recov80",
     type: "",
     damage: "-",
@@ -9398,7 +9398,7 @@ export const standardChips = [
   },
   {
     number: 150,
-    image: "../../public/assets/standard/2583.png",
+    image: "../../assets/standard/2583.png",
     name: "Recov80",
     type: "",
     damage: "-",
@@ -9410,7 +9410,7 @@ export const standardChips = [
   },
   {
     number: 151,
-    image: "../../public/assets/standard/2584.png",
+    image: "../../assets/standard/2584.png",
     name: "Recov120",
     type: "",
     damage: "-",
@@ -9422,7 +9422,7 @@ export const standardChips = [
   },
   {
     number: 151,
-    image: "../../public/assets/standard/2584.png",
+    image: "../../assets/standard/2584.png",
     name: "Recov120",
     type: "",
     damage: "-",
@@ -9434,7 +9434,7 @@ export const standardChips = [
   },
   {
     number: 151,
-    image: "../../public/assets/standard/2584.png",
+    image: "../../assets/standard/2584.png",
     name: "Recov120",
     type: "",
     damage: "-",
@@ -9446,7 +9446,7 @@ export const standardChips = [
   },
   {
     number: 151,
-    image: "../../public/assets/standard/2584.png",
+    image: "../../assets/standard/2584.png",
     name: "Recov120",
     type: "",
     damage: "-",
@@ -9458,7 +9458,7 @@ export const standardChips = [
   },
   {
     number: 151,
-    image: "../../public/assets/standard/2584.png",
+    image: "../../assets/standard/2584.png",
     name: "Recov120",
     type: "",
     damage: "-",
@@ -9470,7 +9470,7 @@ export const standardChips = [
   },
   {
     number: 151,
-    image: "../../public/assets/standard/2584.png",
+    image: "../../assets/standard/2584.png",
     name: "Recov120",
     type: "",
     damage: "-",
@@ -9482,7 +9482,7 @@ export const standardChips = [
   },
   {
     number: 152,
-    image: "../../public/assets/standard/2585.png",
+    image: "../../assets/standard/2585.png",
     name: "Recov150",
     type: "",
     damage: "-",
@@ -9494,7 +9494,7 @@ export const standardChips = [
   },
   {
     number: 152,
-    image: "../../public/assets/standard/2585.png",
+    image: "../../assets/standard/2585.png",
     name: "Recov150",
     type: "",
     damage: "-",
@@ -9506,7 +9506,7 @@ export const standardChips = [
   },
   {
     number: 152,
-    image: "../../public/assets/standard/2585.png",
+    image: "../../assets/standard/2585.png",
     name: "Recov150",
     type: "",
     damage: "-",
@@ -9518,7 +9518,7 @@ export const standardChips = [
   },
   {
     number: 152,
-    image: "../../public/assets/standard/2585.png",
+    image: "../../assets/standard/2585.png",
     name: "Recov150",
     type: "",
     damage: "-",
@@ -9530,7 +9530,7 @@ export const standardChips = [
   },
   {
     number: 152,
-    image: "../../public/assets/standard/2585.png",
+    image: "../../assets/standard/2585.png",
     name: "Recov150",
     type: "",
     damage: "-",
@@ -9542,7 +9542,7 @@ export const standardChips = [
   },
   {
     number: 153,
-    image: "../../public/assets/standard/2586.png",
+    image: "../../assets/standard/2586.png",
     name: "Recov200",
     type: "",
     damage: "-",
@@ -9554,7 +9554,7 @@ export const standardChips = [
   },
   {
     number: 153,
-    image: "../../public/assets/standard/2586.png",
+    image: "../../assets/standard/2586.png",
     name: "Recov200",
     type: "",
     damage: "-",
@@ -9566,7 +9566,7 @@ export const standardChips = [
   },
   {
     number: 153,
-    image: "../../public/assets/standard/2586.png",
+    image: "../../assets/standard/2586.png",
     name: "Recov200",
     type: "",
     damage: "-",
@@ -9578,7 +9578,7 @@ export const standardChips = [
   },
   {
     number: 153,
-    image: "../../public/assets/standard/2586.png",
+    image: "../../assets/standard/2586.png",
     name: "Recov200",
     type: "",
     damage: "-",
@@ -9590,7 +9590,7 @@ export const standardChips = [
   },
   {
     number: 153,
-    image: "../../public/assets/standard/2586.png",
+    image: "../../assets/standard/2586.png",
     name: "Recov200",
     type: "",
     damage: "-",
@@ -9602,7 +9602,7 @@ export const standardChips = [
   },
   {
     number: 154,
-    image: "../../public/assets/standard/2587.png",
+    image: "../../assets/standard/2587.png",
     name: "Recov300",
     type: "",
     damage: "-",
@@ -9614,7 +9614,7 @@ export const standardChips = [
   },
   {
     number: 154,
-    image: "../../public/assets/standard/2587.png",
+    image: "../../assets/standard/2587.png",
     name: "Recov300",
     type: "",
     damage: "-",
@@ -9626,7 +9626,7 @@ export const standardChips = [
   },
   {
     number: 154,
-    image: "../../public/assets/standard/2587.png",
+    image: "../../assets/standard/2587.png",
     name: "Recov300",
     type: "",
     damage: "-",
@@ -9638,7 +9638,7 @@ export const standardChips = [
   },
   {
     number: 154,
-    image: "../../public/assets/standard/2587.png",
+    image: "../../assets/standard/2587.png",
     name: "Recov300",
     type: "",
     damage: "-",
@@ -9650,7 +9650,7 @@ export const standardChips = [
   },
   {
     number: 154,
-    image: "../../public/assets/standard/2587.png",
+    image: "../../assets/standard/2587.png",
     name: "Recov300",
     type: "",
     damage: "-",
@@ -9662,7 +9662,7 @@ export const standardChips = [
   },
   {
     number: 155,
-    image: "../../public/assets/standard/2618.png",
+    image: "../../assets/standard/2618.png",
     name: "Repair",
     type: "",
     damage: "-",
@@ -9674,7 +9674,7 @@ export const standardChips = [
   },
   {
     number: 155,
-    image: "../../public/assets/standard/2618.png",
+    image: "../../assets/standard/2618.png",
     name: "Repair",
     type: "",
     damage: "-",
@@ -9686,7 +9686,7 @@ export const standardChips = [
   },
   {
     number: 155,
-    image: "../../public/assets/standard/2618.png",
+    image: "../../assets/standard/2618.png",
     name: "Repair",
     type: "",
     damage: "-",
@@ -9698,7 +9698,7 @@ export const standardChips = [
   },
   {
     number: 155,
-    image: "../../public/assets/standard/2618.png",
+    image: "../../assets/standard/2618.png",
     name: "Repair",
     type: "",
     damage: "-",
@@ -9710,7 +9710,7 @@ export const standardChips = [
   },
   {
     number: 155,
-    image: "../../public/assets/standard/2618.png",
+    image: "../../assets/standard/2618.png",
     name: "Repair",
     type: "",
     damage: "-",
@@ -9722,7 +9722,7 @@ export const standardChips = [
   },
   {
     number: 155,
-    image: "../../public/assets/standard/2618.png",
+    image: "../../assets/standard/2618.png",
     name: "Repair",
     type: "",
     damage: "-",
@@ -9734,7 +9734,7 @@ export const standardChips = [
   },
   {
     number: 156,
-    image: "../../public/assets/standard/2616.png",
+    image: "../../assets/standard/2616.png",
     name: "SloGauge",
     type: "",
     damage: "-",
@@ -9746,7 +9746,7 @@ export const standardChips = [
   },
   {
     number: 156,
-    image: "../../public/assets/standard/2616.png",
+    image: "../../assets/standard/2616.png",
     name: "SloGauge",
     type: "",
     damage: "-",
@@ -9758,7 +9758,7 @@ export const standardChips = [
   },
   {
     number: 156,
-    image: "../../public/assets/standard/2616.png",
+    image: "../../assets/standard/2616.png",
     name: "SloGauge",
     type: "",
     damage: "-",
@@ -9770,7 +9770,7 @@ export const standardChips = [
   },
   {
     number: 156,
-    image: "../../public/assets/standard/2616.png",
+    image: "../../assets/standard/2616.png",
     name: "SloGauge",
     type: "",
     damage: "-",
@@ -9782,7 +9782,7 @@ export const standardChips = [
   },
   {
     number: 156,
-    image: "../../public/assets/standard/2616.png",
+    image: "../../assets/standard/2616.png",
     name: "SloGauge",
     type: "",
     damage: "-",
@@ -9794,7 +9794,7 @@ export const standardChips = [
   },
   {
     number: 156,
-    image: "../../public/assets/standard/2616.png",
+    image: "../../assets/standard/2616.png",
     name: "SloGauge",
     type: "",
     damage: "-",
@@ -9806,7 +9806,7 @@ export const standardChips = [
   },
   {
     number: 157,
-    image: "../../public/assets/standard/2617.png",
+    image: "../../assets/standard/2617.png",
     name: "FstGauge",
     type: "",
     damage: "-",
@@ -9818,7 +9818,7 @@ export const standardChips = [
   },
   {
     number: 157,
-    image: "../../public/assets/standard/2617.png",
+    image: "../../assets/standard/2617.png",
     name: "FstGauge",
     type: "",
     damage: "-",
@@ -9830,7 +9830,7 @@ export const standardChips = [
   },
   {
     number: 157,
-    image: "../../public/assets/standard/2617.png",
+    image: "../../assets/standard/2617.png",
     name: "FstGauge",
     type: "",
     damage: "-",
@@ -9842,7 +9842,7 @@ export const standardChips = [
   },
   {
     number: 157,
-    image: "../../public/assets/standard/2617.png",
+    image: "../../assets/standard/2617.png",
     name: "FstGauge",
     type: "",
     damage: "-",
@@ -9854,7 +9854,7 @@ export const standardChips = [
   },
   {
     number: 157,
-    image: "../../public/assets/standard/2617.png",
+    image: "../../assets/standard/2617.png",
     name: "FstGauge",
     type: "",
     damage: "-",
@@ -9866,7 +9866,7 @@ export const standardChips = [
   },
   {
     number: 158,
-    image: "../../public/assets/standard/2500.png",
+    image: "../../assets/standard/2500.png",
     name: "Panic",
     type: "",
     damage: "-",
@@ -9878,7 +9878,7 @@ export const standardChips = [
   },
   {
     number: 158,
-    image: "../../public/assets/standard/2500.png",
+    image: "../../assets/standard/2500.png",
     name: "Panic",
     type: "",
     damage: "-",
@@ -9890,7 +9890,7 @@ export const standardChips = [
   },
   {
     number: 158,
-    image: "../../public/assets/standard/2500.png",
+    image: "../../assets/standard/2500.png",
     name: "Panic",
     type: "",
     damage: "-",
@@ -9902,7 +9902,7 @@ export const standardChips = [
   },
   {
     number: 158,
-    image: "../../public/assets/standard/2500.png",
+    image: "../../assets/standard/2500.png",
     name: "Panic",
     type: "",
     damage: "-",
@@ -9914,7 +9914,7 @@ export const standardChips = [
   },
   {
     number: 158,
-    image: "../../public/assets/standard/2500.png",
+    image: "../../assets/standard/2500.png",
     name: "Panic",
     type: "",
     damage: "-",
@@ -9926,7 +9926,7 @@ export const standardChips = [
   },
   {
     number: 159,
-    image: "../../public/assets/standard/2597.png",
+    image: "../../assets/standard/2597.png",
     name: "Geddon1",
     type: "",
     damage: "-",
@@ -9938,7 +9938,7 @@ export const standardChips = [
   },
   {
     number: 159,
-    image: "../../public/assets/standard/2597.png",
+    image: "../../assets/standard/2597.png",
     name: "Geddon1",
     type: "",
     damage: "-",
@@ -9950,7 +9950,7 @@ export const standardChips = [
   },
   {
     number: 159,
-    image: "../../public/assets/standard/2597.png",
+    image: "../../assets/standard/2597.png",
     name: "Geddon1",
     type: "",
     damage: "-",
@@ -9962,7 +9962,7 @@ export const standardChips = [
   },
   {
     number: 159,
-    image: "../../public/assets/standard/2597.png",
+    image: "../../assets/standard/2597.png",
     name: "Geddon1",
     type: "",
     damage: "-",
@@ -9974,7 +9974,7 @@ export const standardChips = [
   },
   {
     number: 159,
-    image: "../../public/assets/standard/2597.png",
+    image: "../../assets/standard/2597.png",
     name: "Geddon1",
     type: "",
     damage: "-",
@@ -9986,7 +9986,7 @@ export const standardChips = [
   },
   {
     number: 159,
-    image: "../../public/assets/standard/2597.png",
+    image: "../../assets/standard/2597.png",
     name: "Geddon1",
     type: "",
     damage: "-",
@@ -9998,7 +9998,7 @@ export const standardChips = [
   },
   {
     number: 160,
-    image: "../../public/assets/standard/2598.png",
+    image: "../../assets/standard/2598.png",
     name: "Geddon2",
     type: "",
     damage: "-",
@@ -10010,7 +10010,7 @@ export const standardChips = [
   },
   {
     number: 160,
-    image: "../../public/assets/standard/2598.png",
+    image: "../../assets/standard/2598.png",
     name: "Geddon2",
     type: "",
     damage: "-",
@@ -10022,7 +10022,7 @@ export const standardChips = [
   },
   {
     number: 160,
-    image: "../../public/assets/standard/2598.png",
+    image: "../../assets/standard/2598.png",
     name: "Geddon2",
     type: "",
     damage: "-",
@@ -10034,7 +10034,7 @@ export const standardChips = [
   },
   {
     number: 160,
-    image: "../../public/assets/standard/2598.png",
+    image: "../../assets/standard/2598.png",
     name: "Geddon2",
     type: "",
     damage: "-",
@@ -10046,7 +10046,7 @@ export const standardChips = [
   },
   {
     number: 160,
-    image: "../../public/assets/standard/2598.png",
+    image: "../../assets/standard/2598.png",
     name: "Geddon2",
     type: "",
     damage: "-",
@@ -10058,7 +10058,7 @@ export const standardChips = [
   },
   {
     number: 161,
-    image: "../../public/assets/standard/2599.png",
+    image: "../../assets/standard/2599.png",
     name: "Geddon3",
     type: "",
     damage: "-",
@@ -10070,7 +10070,7 @@ export const standardChips = [
   },
   {
     number: 161,
-    image: "../../public/assets/standard/2599.png",
+    image: "../../assets/standard/2599.png",
     name: "Geddon3",
     type: "",
     damage: "-",
@@ -10082,7 +10082,7 @@ export const standardChips = [
   },
   {
     number: 161,
-    image: "../../public/assets/standard/2599.png",
+    image: "../../assets/standard/2599.png",
     name: "Geddon3",
     type: "",
     damage: "-",
@@ -10094,7 +10094,7 @@ export const standardChips = [
   },
   {
     number: 161,
-    image: "../../public/assets/standard/2599.png",
+    image: "../../assets/standard/2599.png",
     name: "Geddon3",
     type: "",
     damage: "-",
@@ -10106,7 +10106,7 @@ export const standardChips = [
   },
   {
     number: 161,
-    image: "../../public/assets/standard/2599.png",
+    image: "../../assets/standard/2599.png",
     name: "Geddon3",
     type: "",
     damage: "-",
@@ -10118,7 +10118,7 @@ export const standardChips = [
   },
   {
     number: 162,
-    image: "../../public/assets/standard/2653.png",
+    image: "../../assets/standard/2653.png",
     name: "CopyDmg",
     type: "",
     damage: "-",
@@ -10130,7 +10130,7 @@ export const standardChips = [
   },
   {
     number: 162,
-    image: "../../public/assets/standard/2653.png",
+    image: "../../assets/standard/2653.png",
     name: "CopyDmg",
     type: "",
     damage: "-",
@@ -10142,7 +10142,7 @@ export const standardChips = [
   },
   {
     number: 162,
-    image: "../../public/assets/standard/2653.png",
+    image: "../../assets/standard/2653.png",
     name: "CopyDmg",
     type: "",
     damage: "-",
@@ -10154,7 +10154,7 @@ export const standardChips = [
   },
   {
     number: 162,
-    image: "../../public/assets/standard/2653.png",
+    image: "../../assets/standard/2653.png",
     name: "CopyDmg",
     type: "",
     damage: "-",
@@ -10166,7 +10166,7 @@ export const standardChips = [
   },
   {
     number: 162,
-    image: "../../public/assets/standard/2653.png",
+    image: "../../assets/standard/2653.png",
     name: "CopyDmg",
     type: "",
     damage: "-",
@@ -10178,7 +10178,7 @@ export const standardChips = [
   },
   {
     number: 162,
-    image: "../../public/assets/standard/2653.png",
+    image: "../../assets/standard/2653.png",
     name: "CopyDmg",
     type: "",
     damage: "-",
@@ -10190,7 +10190,7 @@ export const standardChips = [
   },
   {
     number: 163,
-    image: "../../public/assets/standard/2619.png",
+    image: "../../assets/standard/2619.png",
     name: "Invis",
     type: "",
     damage: "-",
@@ -10202,7 +10202,7 @@ export const standardChips = [
   },
   {
     number: 163,
-    image: "../../public/assets/standard/2619.png",
+    image: "../../assets/standard/2619.png",
     name: "Invis",
     type: "",
     damage: "-",
@@ -10214,7 +10214,7 @@ export const standardChips = [
   },
   {
     number: 163,
-    image: "../../public/assets/standard/2619.png",
+    image: "../../assets/standard/2619.png",
     name: "Invis",
     type: "",
     damage: "-",
@@ -10226,7 +10226,7 @@ export const standardChips = [
   },
   {
     number: 163,
-    image: "../../public/assets/standard/2619.png",
+    image: "../../assets/standard/2619.png",
     name: "Invis",
     type: "",
     damage: "-",
@@ -10238,7 +10238,7 @@ export const standardChips = [
   },
   {
     number: 163,
-    image: "../../public/assets/standard/2619.png",
+    image: "../../assets/standard/2619.png",
     name: "Invis",
     type: "",
     damage: "-",
@@ -10250,7 +10250,7 @@ export const standardChips = [
   },
   {
     number: 163,
-    image: "../../public/assets/standard/2619.png",
+    image: "../../assets/standard/2619.png",
     name: "Invis",
     type: "",
     damage: "-",
@@ -10262,7 +10262,7 @@ export const standardChips = [
   },
   {
     number: 164,
-    image: "../../public/assets/standard/2624.png",
+    image: "../../assets/standard/2624.png",
     name: "Shadow",
     type: "",
     damage: "-",
@@ -10274,7 +10274,7 @@ export const standardChips = [
   },
   {
     number: 164,
-    image: "../../public/assets/standard/2624.png",
+    image: "../../assets/standard/2624.png",
     name: "Shadow",
     type: "",
     damage: "-",
@@ -10286,7 +10286,7 @@ export const standardChips = [
   },
   {
     number: 164,
-    image: "../../public/assets/standard/2624.png",
+    image: "../../assets/standard/2624.png",
     name: "Shadow",
     type: "",
     damage: "-",
@@ -10298,7 +10298,7 @@ export const standardChips = [
   },
   {
     number: 164,
-    image: "../../public/assets/standard/2624.png",
+    image: "../../assets/standard/2624.png",
     name: "Shadow",
     type: "",
     damage: "-",
@@ -10310,7 +10310,7 @@ export const standardChips = [
   },
   {
     number: 164,
-    image: "../../public/assets/standard/2624.png",
+    image: "../../assets/standard/2624.png",
     name: "Shadow",
     type: "",
     damage: "-",
@@ -10322,7 +10322,7 @@ export const standardChips = [
   },
   {
     number: 164,
-    image: "../../public/assets/standard/2624.png",
+    image: "../../assets/standard/2624.png",
     name: "Shadow",
     type: "",
     damage: "-",
@@ -10334,7 +10334,7 @@ export const standardChips = [
   },
   {
     number: 165,
-    image: "../../public/assets/standard/2621.png",
+    image: "../../assets/standard/2621.png",
     name: "Mole1",
     type: "",
     damage: "-",
@@ -10346,7 +10346,7 @@ export const standardChips = [
   },
   {
     number: 165,
-    image: "../../public/assets/standard/2621.png",
+    image: "../../assets/standard/2621.png",
     name: "Mole1",
     type: "",
     damage: "-",
@@ -10358,7 +10358,7 @@ export const standardChips = [
   },
   {
     number: 165,
-    image: "../../public/assets/standard/2621.png",
+    image: "../../assets/standard/2621.png",
     name: "Mole1",
     type: "",
     damage: "-",
@@ -10370,7 +10370,7 @@ export const standardChips = [
   },
   {
     number: 165,
-    image: "../../public/assets/standard/2621.png",
+    image: "../../assets/standard/2621.png",
     name: "Mole1",
     type: "",
     damage: "-",
@@ -10382,7 +10382,7 @@ export const standardChips = [
   },
   {
     number: 165,
-    image: "../../public/assets/standard/2621.png",
+    image: "../../assets/standard/2621.png",
     name: "Mole1",
     type: "",
     damage: "-",
@@ -10394,7 +10394,7 @@ export const standardChips = [
   },
   {
     number: 165,
-    image: "../../public/assets/standard/2621.png",
+    image: "../../assets/standard/2621.png",
     name: "Mole1",
     type: "",
     damage: "-",
@@ -10406,7 +10406,7 @@ export const standardChips = [
   },
   {
     number: 166,
-    image: "../../public/assets/standard/2622.png",
+    image: "../../assets/standard/2622.png",
     name: "Mole2",
     type: "",
     damage: "-",
@@ -10418,7 +10418,7 @@ export const standardChips = [
   },
   {
     number: 166,
-    image: "../../public/assets/standard/2622.png",
+    image: "../../assets/standard/2622.png",
     name: "Mole2",
     type: "",
     damage: "-",
@@ -10430,7 +10430,7 @@ export const standardChips = [
   },
   {
     number: 166,
-    image: "../../public/assets/standard/2622.png",
+    image: "../../assets/standard/2622.png",
     name: "Mole2",
     type: "",
     damage: "-",
@@ -10442,7 +10442,7 @@ export const standardChips = [
   },
   {
     number: 166,
-    image: "../../public/assets/standard/2622.png",
+    image: "../../assets/standard/2622.png",
     name: "Mole2",
     type: "",
     damage: "-",
@@ -10454,7 +10454,7 @@ export const standardChips = [
   },
   {
     number: 166,
-    image: "../../public/assets/standard/2622.png",
+    image: "../../assets/standard/2622.png",
     name: "Mole2",
     type: "",
     damage: "-",
@@ -10466,7 +10466,7 @@ export const standardChips = [
   },
   {
     number: 166,
-    image: "../../public/assets/standard/2622.png",
+    image: "../../assets/standard/2622.png",
     name: "Mole2",
     type: "",
     damage: "-",
@@ -10478,7 +10478,7 @@ export const standardChips = [
   },
   {
     number: 167,
-    image: "../../public/assets/standard/2623.png",
+    image: "../../assets/standard/2623.png",
     name: "Mole3",
     type: "",
     damage: "-",
@@ -10490,7 +10490,7 @@ export const standardChips = [
   },
   {
     number: 167,
-    image: "../../public/assets/standard/2623.png",
+    image: "../../assets/standard/2623.png",
     name: "Mole3",
     type: "",
     damage: "-",
@@ -10502,7 +10502,7 @@ export const standardChips = [
   },
   {
     number: 167,
-    image: "../../public/assets/standard/2623.png",
+    image: "../../assets/standard/2623.png",
     name: "Mole3",
     type: "",
     damage: "-",
@@ -10514,7 +10514,7 @@ export const standardChips = [
   },
   {
     number: 167,
-    image: "../../public/assets/standard/2623.png",
+    image: "../../assets/standard/2623.png",
     name: "Mole3",
     type: "",
     damage: "-",
@@ -10526,7 +10526,7 @@ export const standardChips = [
   },
   {
     number: 167,
-    image: "../../public/assets/standard/2623.png",
+    image: "../../assets/standard/2623.png",
     name: "Mole3",
     type: "",
     damage: "-",
@@ -10538,7 +10538,7 @@ export const standardChips = [
   },
   {
     number: 168,
-    image: "../../public/assets/standard/2627.png",
+    image: "../../assets/standard/2627.png",
     name: "AirShoes",
     type: "",
     damage: "-",
@@ -10550,7 +10550,7 @@ export const standardChips = [
   },
   {
     number: 168,
-    image: "../../public/assets/standard/2627.png",
+    image: "../../assets/standard/2627.png",
     name: "AirShoes",
     type: "",
     damage: "-",
@@ -10562,7 +10562,7 @@ export const standardChips = [
   },
   {
     number: 168,
-    image: "../../public/assets/standard/2627.png",
+    image: "../../assets/standard/2627.png",
     name: "AirShoes",
     type: "",
     damage: "-",
@@ -10574,7 +10574,7 @@ export const standardChips = [
   },
   {
     number: 168,
-    image: "../../public/assets/standard/2627.png",
+    image: "../../assets/standard/2627.png",
     name: "AirShoes",
     type: "",
     damage: "-",
@@ -10586,7 +10586,7 @@ export const standardChips = [
   },
   {
     number: 168,
-    image: "../../public/assets/standard/2627.png",
+    image: "../../assets/standard/2627.png",
     name: "AirShoes",
     type: "",
     damage: "-",
@@ -10598,7 +10598,7 @@ export const standardChips = [
   },
   {
     number: 168,
-    image: "../../public/assets/standard/2627.png",
+    image: "../../assets/standard/2627.png",
     name: "AirShoes",
     type: "",
     damage: "-",
@@ -10610,7 +10610,7 @@ export const standardChips = [
   },
   {
     number: 169,
-    image: "../../public/assets/standard/2632.png",
+    image: "../../assets/standard/2632.png",
     name: "Barrier",
     type: "",
     damage: "-",
@@ -10622,7 +10622,7 @@ export const standardChips = [
   },
   {
     number: 169,
-    image: "../../public/assets/standard/2632.png",
+    image: "../../assets/standard/2632.png",
     name: "Barrier",
     type: "",
     damage: "-",
@@ -10634,7 +10634,7 @@ export const standardChips = [
   },
   {
     number: 169,
-    image: "../../public/assets/standard/2632.png",
+    image: "../../assets/standard/2632.png",
     name: "Barrier",
     type: "",
     damage: "-",
@@ -10646,7 +10646,7 @@ export const standardChips = [
   },
   {
     number: 169,
-    image: "../../public/assets/standard/2632.png",
+    image: "../../assets/standard/2632.png",
     name: "Barrier",
     type: "",
     damage: "-",
@@ -10658,7 +10658,7 @@ export const standardChips = [
   },
   {
     number: 169,
-    image: "../../public/assets/standard/2632.png",
+    image: "../../assets/standard/2632.png",
     name: "Barrier",
     type: "",
     damage: "-",
@@ -10670,7 +10670,7 @@ export const standardChips = [
   },
   {
     number: 169,
-    image: "../../public/assets/standard/2632.png",
+    image: "../../assets/standard/2632.png",
     name: "Barrier",
     type: "",
     damage: "-",
@@ -10682,7 +10682,7 @@ export const standardChips = [
   },
   {
     number: 170,
-    image: "../../public/assets/standard/2633.png",
+    image: "../../assets/standard/2633.png",
     name: "Barr100",
     type: "",
     damage: "-",
@@ -10694,7 +10694,7 @@ export const standardChips = [
   },
   {
     number: 170,
-    image: "../../public/assets/standard/2633.png",
+    image: "../../assets/standard/2633.png",
     name: "Barr100",
     type: "",
     damage: "-",
@@ -10706,7 +10706,7 @@ export const standardChips = [
   },
   {
     number: 170,
-    image: "../../public/assets/standard/2633.png",
+    image: "../../assets/standard/2633.png",
     name: "Barr100",
     type: "",
     damage: "-",
@@ -10718,7 +10718,7 @@ export const standardChips = [
   },
   {
     number: 170,
-    image: "../../public/assets/standard/2633.png",
+    image: "../../assets/standard/2633.png",
     name: "Barr100",
     type: "",
     damage: "-",
@@ -10730,7 +10730,7 @@ export const standardChips = [
   },
   {
     number: 170,
-    image: "../../public/assets/standard/2633.png",
+    image: "../../assets/standard/2633.png",
     name: "Barr100",
     type: "",
     damage: "-",
@@ -10742,7 +10742,7 @@ export const standardChips = [
   },
   {
     number: 170,
-    image: "../../public/assets/standard/2633.png",
+    image: "../../assets/standard/2633.png",
     name: "Barr100",
     type: "",
     damage: "-",
@@ -10754,7 +10754,7 @@ export const standardChips = [
   },
   {
     number: 171,
-    image: "../../public/assets/standard/2634.png",
+    image: "../../assets/standard/2634.png",
     name: "Barr200",
     type: "",
     damage: "-",
@@ -10766,7 +10766,7 @@ export const standardChips = [
   },
   {
     number: 171,
-    image: "../../public/assets/standard/2634.png",
+    image: "../../assets/standard/2634.png",
     name: "Barr200",
     type: "",
     damage: "-",
@@ -10778,7 +10778,7 @@ export const standardChips = [
   },
   {
     number: 171,
-    image: "../../public/assets/standard/2634.png",
+    image: "../../assets/standard/2634.png",
     name: "Barr200",
     type: "",
     damage: "-",
@@ -10790,7 +10790,7 @@ export const standardChips = [
   },
   {
     number: 171,
-    image: "../../public/assets/standard/2634.png",
+    image: "../../assets/standard/2634.png",
     name: "Barr200",
     type: "",
     damage: "-",
@@ -10802,7 +10802,7 @@ export const standardChips = [
   },
   {
     number: 171,
-    image: "../../public/assets/standard/2634.png",
+    image: "../../assets/standard/2634.png",
     name: "Barr200",
     type: "",
     damage: "-",
@@ -10814,7 +10814,7 @@ export const standardChips = [
   },
   {
     number: 172,
-    image: "../../public/assets/standard/2635.png",
+    image: "../../assets/standard/2635.png",
     name: "Aura",
     type: "",
     damage: "-",
@@ -10826,7 +10826,7 @@ export const standardChips = [
   },
   {
     number: 172,
-    image: "../../public/assets/standard/2635.png",
+    image: "../../assets/standard/2635.png",
     name: "Aura",
     type: "",
     damage: "-",
@@ -10838,7 +10838,7 @@ export const standardChips = [
   },
   {
     number: 172,
-    image: "../../public/assets/standard/2635.png",
+    image: "../../assets/standard/2635.png",
     name: "Aura",
     type: "",
     damage: "-",
@@ -10850,7 +10850,7 @@ export const standardChips = [
   },
   {
     number: 172,
-    image: "../../public/assets/standard/2635.png",
+    image: "../../assets/standard/2635.png",
     name: "Aura",
     type: "",
     damage: "-",
@@ -10862,7 +10862,7 @@ export const standardChips = [
   },
   {
     number: 172,
-    image: "../../public/assets/standard/2635.png",
+    image: "../../assets/standard/2635.png",
     name: "Aura",
     type: "",
     damage: "-",
@@ -10874,7 +10874,7 @@ export const standardChips = [
   },
   {
     number: 173,
-    image: "../../public/assets/standard/2636.png",
+    image: "../../assets/standard/2636.png",
     name: "NrthWind",
     type: "",
     damage: "-",
@@ -10886,7 +10886,7 @@ export const standardChips = [
   },
   {
     number: 173,
-    image: "../../public/assets/standard/2636.png",
+    image: "../../assets/standard/2636.png",
     name: "NrthWind",
     type: "",
     damage: "-",
@@ -10898,7 +10898,7 @@ export const standardChips = [
   },
   {
     number: 173,
-    image: "../../public/assets/standard/2636.png",
+    image: "../../assets/standard/2636.png",
     name: "NrthWind",
     type: "",
     damage: "-",
@@ -10910,7 +10910,7 @@ export const standardChips = [
   },
   {
     number: 173,
-    image: "../../public/assets/standard/2636.png",
+    image: "../../assets/standard/2636.png",
     name: "NrthWind",
     type: "",
     damage: "-",
@@ -10922,7 +10922,7 @@ export const standardChips = [
   },
   {
     number: 173,
-    image: "../../public/assets/standard/2636.png",
+    image: "../../assets/standard/2636.png",
     name: "NrthWind",
     type: "",
     damage: "-",
@@ -10934,7 +10934,7 @@ export const standardChips = [
   },
   {
     number: 174,
-    image: "../../public/assets/standard/2625.png",
+    image: "../../assets/standard/2625.png",
     name: "Mettaur",
     type: "",
     damage: "????",
@@ -10946,7 +10946,7 @@ export const standardChips = [
   },
   {
     number: 174,
-    image: "../../public/assets/standard/2625.png",
+    image: "../../assets/standard/2625.png",
     name: "Mettaur",
     type: "",
     damage: "????",
@@ -10958,7 +10958,7 @@ export const standardChips = [
   },
   {
     number: 174,
-    image: "../../public/assets/standard/2625.png",
+    image: "../../assets/standard/2625.png",
     name: "Mettaur",
     type: "",
     damage: "????",
@@ -10970,7 +10970,7 @@ export const standardChips = [
   },
   {
     number: 174,
-    image: "../../public/assets/standard/2625.png",
+    image: "../../assets/standard/2625.png",
     name: "Mettaur",
     type: "",
     damage: "????",
@@ -10982,7 +10982,7 @@ export const standardChips = [
   },
   {
     number: 174,
-    image: "../../public/assets/standard/2625.png",
+    image: "../../assets/standard/2625.png",
     name: "Mettaur",
     type: "",
     damage: "????",
@@ -10994,7 +10994,7 @@ export const standardChips = [
   },
   {
     number: 175,
-    image: "../../public/assets/standard/2626.png",
+    image: "../../assets/standard/2626.png",
     name: "Bunny",
     type: "",
     damage: "????",
@@ -11006,7 +11006,7 @@ export const standardChips = [
   },
   {
     number: 175,
-    image: "../../public/assets/standard/2626.png",
+    image: "../../assets/standard/2626.png",
     name: "Bunny",
     type: "",
     damage: "????",
@@ -11018,7 +11018,7 @@ export const standardChips = [
   },
   {
     number: 175,
-    image: "../../public/assets/standard/2626.png",
+    image: "../../assets/standard/2626.png",
     name: "Bunny",
     type: "",
     damage: "????",
@@ -11030,7 +11030,7 @@ export const standardChips = [
   },
   {
     number: 175,
-    image: "../../public/assets/standard/2626.png",
+    image: "../../assets/standard/2626.png",
     name: "Bunny",
     type: "",
     damage: "????",
@@ -11042,7 +11042,7 @@ export const standardChips = [
   },
   {
     number: 175,
-    image: "../../public/assets/standard/2626.png",
+    image: "../../assets/standard/2626.png",
     name: "Bunny",
     type: "",
     damage: "????",
@@ -11054,7 +11054,7 @@ export const standardChips = [
   },
   {
     number: 176,
-    image: "../../public/assets/standard/2645.png",
+    image: "../../assets/standard/2645.png",
     name: "Spikey",
     type: "",
     damage: "????",
@@ -11066,7 +11066,7 @@ export const standardChips = [
   },
   {
     number: 176,
-    image: "../../public/assets/standard/2645.png",
+    image: "../../assets/standard/2645.png",
     name: "Spikey",
     type: "",
     damage: "????",
@@ -11078,7 +11078,7 @@ export const standardChips = [
   },
   {
     number: 176,
-    image: "../../public/assets/standard/2645.png",
+    image: "../../assets/standard/2645.png",
     name: "Spikey",
     type: "",
     damage: "????",
@@ -11090,7 +11090,7 @@ export const standardChips = [
   },
   {
     number: 176,
-    image: "../../public/assets/standard/2645.png",
+    image: "../../assets/standard/2645.png",
     name: "Spikey",
     type: "",
     damage: "????",
@@ -11102,7 +11102,7 @@ export const standardChips = [
   },
   {
     number: 176,
-    image: "../../public/assets/standard/2645.png",
+    image: "../../assets/standard/2645.png",
     name: "Spikey",
     type: "",
     damage: "????",
@@ -11114,7 +11114,7 @@ export const standardChips = [
   },
   {
     number: 177,
-    image: "../../public/assets/standard/2644.png",
+    image: "../../assets/standard/2644.png",
     name: "Swordy",
     type: "",
     damage: "????",
@@ -11126,7 +11126,7 @@ export const standardChips = [
   },
   {
     number: 177,
-    image: "../../public/assets/standard/2644.png",
+    image: "../../assets/standard/2644.png",
     name: "Swordy",
     type: "",
     damage: "????",
@@ -11138,7 +11138,7 @@ export const standardChips = [
   },
   {
     number: 177,
-    image: "../../public/assets/standard/2644.png",
+    image: "../../assets/standard/2644.png",
     name: "Swordy",
     type: "",
     damage: "????",
@@ -11150,7 +11150,7 @@ export const standardChips = [
   },
   {
     number: 177,
-    image: "../../public/assets/standard/2644.png",
+    image: "../../assets/standard/2644.png",
     name: "Swordy",
     type: "",
     damage: "????",
@@ -11162,7 +11162,7 @@ export const standardChips = [
   },
   {
     number: 177,
-    image: "../../public/assets/standard/2644.png",
+    image: "../../assets/standard/2644.png",
     name: "Swordy",
     type: "",
     damage: "????",
@@ -11174,7 +11174,7 @@ export const standardChips = [
   },
   {
     number: 178,
-    image: "../../public/assets/standard/2647.png",
+    image: "../../assets/standard/2647.png",
     name: "Jelly",
     type: "",
     damage: "????",
@@ -11186,7 +11186,7 @@ export const standardChips = [
   },
   {
     number: 178,
-    image: "../../public/assets/standard/2647.png",
+    image: "../../assets/standard/2647.png",
     name: "Jelly",
     type: "",
     damage: "????",
@@ -11198,7 +11198,7 @@ export const standardChips = [
   },
   {
     number: 178,
-    image: "../../public/assets/standard/2647.png",
+    image: "../../assets/standard/2647.png",
     name: "Jelly",
     type: "",
     damage: "????",
@@ -11210,7 +11210,7 @@ export const standardChips = [
   },
   {
     number: 178,
-    image: "../../public/assets/standard/2647.png",
+    image: "../../assets/standard/2647.png",
     name: "Jelly",
     type: "",
     damage: "????",
@@ -11222,7 +11222,7 @@ export const standardChips = [
   },
   {
     number: 178,
-    image: "../../public/assets/standard/2647.png",
+    image: "../../assets/standard/2647.png",
     name: "Jelly",
     type: "",
     damage: "????",
@@ -11234,7 +11234,7 @@ export const standardChips = [
   },
   {
     number: 179,
-    image: "../../public/assets/standard/2646.png",
+    image: "../../assets/standard/2646.png",
     name: "Mushy",
     type: "",
     damage: "????",
@@ -11246,7 +11246,7 @@ export const standardChips = [
   },
   {
     number: 179,
-    image: "../../public/assets/standard/2646.png",
+    image: "../../assets/standard/2646.png",
     name: "Mushy",
     type: "",
     damage: "????",
@@ -11258,7 +11258,7 @@ export const standardChips = [
   },
   {
     number: 179,
-    image: "../../public/assets/standard/2646.png",
+    image: "../../assets/standard/2646.png",
     name: "Mushy",
     type: "",
     damage: "????",
@@ -11270,7 +11270,7 @@ export const standardChips = [
   },
   {
     number: 179,
-    image: "../../public/assets/standard/2646.png",
+    image: "../../assets/standard/2646.png",
     name: "Mushy",
     type: "",
     damage: "????",
@@ -11282,7 +11282,7 @@ export const standardChips = [
   },
   {
     number: 179,
-    image: "../../public/assets/standard/2646.png",
+    image: "../../assets/standard/2646.png",
     name: "Mushy",
     type: "",
     damage: "????",
@@ -11294,7 +11294,7 @@ export const standardChips = [
   },
   {
     number: 180,
-    image: "../../public/assets/standard/2536.png",
+    image: "../../assets/standard/2536.png",
     name: "Momogra",
     type: "",
     damage: "????",
@@ -11306,7 +11306,7 @@ export const standardChips = [
   },
   {
     number: 180,
-    image: "../../public/assets/standard/2536.png",
+    image: "../../assets/standard/2536.png",
     name: "Momogra",
     type: "",
     damage: "????",
@@ -11318,7 +11318,7 @@ export const standardChips = [
   },
   {
     number: 180,
-    image: "../../public/assets/standard/2536.png",
+    image: "../../assets/standard/2536.png",
     name: "Momogra",
     type: "",
     damage: "????",
@@ -11330,7 +11330,7 @@ export const standardChips = [
   },
   {
     number: 180,
-    image: "../../public/assets/standard/2536.png",
+    image: "../../assets/standard/2536.png",
     name: "Momogra",
     type: "",
     damage: "????",
@@ -11342,7 +11342,7 @@ export const standardChips = [
   },
   {
     number: 180,
-    image: "../../public/assets/standard/2536.png",
+    image: "../../assets/standard/2536.png",
     name: "Momogra",
     type: "",
     damage: "????",
@@ -11354,7 +11354,7 @@ export const standardChips = [
   },
   {
     number: 181,
-    image: "../../public/assets/standard/2648.png",
+    image: "../../assets/standard/2648.png",
     name: "KillrEye",
     type: "",
     damage: "????",
@@ -11366,7 +11366,7 @@ export const standardChips = [
   },
   {
     number: 181,
-    image: "../../public/assets/standard/2648.png",
+    image: "../../assets/standard/2648.png",
     name: "KillrEye",
     type: "",
     damage: "????",
@@ -11378,7 +11378,7 @@ export const standardChips = [
   },
   {
     number: 181,
-    image: "../../public/assets/standard/2648.png",
+    image: "../../assets/standard/2648.png",
     name: "KillrEye",
     type: "",
     damage: "????",
@@ -11390,7 +11390,7 @@ export const standardChips = [
   },
   {
     number: 181,
-    image: "../../public/assets/standard/2648.png",
+    image: "../../assets/standard/2648.png",
     name: "KillrEye",
     type: "",
     damage: "????",
@@ -11402,7 +11402,7 @@ export const standardChips = [
   },
   {
     number: 181,
-    image: "../../public/assets/standard/2648.png",
+    image: "../../assets/standard/2648.png",
     name: "KillrEye",
     type: "",
     damage: "????",
@@ -11414,7 +11414,7 @@ export const standardChips = [
   },
   {
     number: 182,
-    image: "../../public/assets/standard/2535.png",
+    image: "../../assets/standard/2535.png",
     name: "Scuttlst",
     type: "",
     damage: "????",
@@ -11426,7 +11426,7 @@ export const standardChips = [
   },
   {
     number: 182,
-    image: "../../public/assets/standard/2535.png",
+    image: "../../assets/standard/2535.png",
     name: "Scuttlst",
     type: "",
     damage: "????",
@@ -11438,7 +11438,7 @@ export const standardChips = [
   },
   {
     number: 182,
-    image: "../../public/assets/standard/2535.png",
+    image: "../../assets/standard/2535.png",
     name: "Scuttlst",
     type: "",
     damage: "????",
@@ -11450,7 +11450,7 @@ export const standardChips = [
   },
   {
     number: 182,
-    image: "../../public/assets/standard/2535.png",
+    image: "../../assets/standard/2535.png",
     name: "Scuttlst",
     type: "",
     damage: "????",
@@ -11462,7 +11462,7 @@ export const standardChips = [
   },
   {
     number: 182,
-    image: "../../public/assets/standard/2535.png",
+    image: "../../assets/standard/2535.png",
     name: "Scuttlst",
     type: "",
     damage: "????",
@@ -11474,7 +11474,7 @@ export const standardChips = [
   },
   {
     number: 183,
-    image: "../../public/assets/standard/2620.png",
+    image: "../../assets/standard/2620.png",
     name: "Hole",
     type: "",
     damage: "-",
@@ -11486,7 +11486,7 @@ export const standardChips = [
   },
   {
     number: 183,
-    image: "../../public/assets/standard/2620.png",
+    image: "../../assets/standard/2620.png",
     name: "Hole",
     type: "",
     damage: "-",
@@ -11498,7 +11498,7 @@ export const standardChips = [
   },
   {
     number: 183,
-    image: "../../public/assets/standard/2620.png",
+    image: "../../assets/standard/2620.png",
     name: "Hole",
     type: "",
     damage: "-",
@@ -11510,7 +11510,7 @@ export const standardChips = [
   },
   {
     number: 183,
-    image: "../../public/assets/standard/2620.png",
+    image: "../../assets/standard/2620.png",
     name: "Hole",
     type: "",
     damage: "-",
@@ -11522,7 +11522,7 @@ export const standardChips = [
   },
   {
     number: 183,
-    image: "../../public/assets/standard/2620.png",
+    image: "../../assets/standard/2620.png",
     name: "Hole",
     type: "",
     damage: "-",
@@ -11534,7 +11534,7 @@ export const standardChips = [
   },
   {
     number: 183,
-    image: "../../public/assets/standard/2620.png",
+    image: "../../assets/standard/2620.png",
     name: "Hole",
     type: "",
     damage: "-",
@@ -11546,7 +11546,7 @@ export const standardChips = [
   },
   {
     number: 184,
-    image: "../../public/assets/standard/2637.png",
+    image: "../../assets/standard/2637.png",
     name: "HolyPanl",
     type: "",
     damage: "-",
@@ -11558,7 +11558,7 @@ export const standardChips = [
   },
   {
     number: 184,
-    image: "../../public/assets/standard/2637.png",
+    image: "../../assets/standard/2637.png",
     name: "HolyPanl",
     type: "",
     damage: "-",
@@ -11570,7 +11570,7 @@ export const standardChips = [
   },
   {
     number: 184,
-    image: "../../public/assets/standard/2637.png",
+    image: "../../assets/standard/2637.png",
     name: "HolyPanl",
     type: "",
     damage: "-",
@@ -11582,7 +11582,7 @@ export const standardChips = [
   },
   {
     number: 184,
-    image: "../../public/assets/standard/2637.png",
+    image: "../../assets/standard/2637.png",
     name: "HolyPanl",
     type: "",
     damage: "-",
@@ -11594,7 +11594,7 @@ export const standardChips = [
   },
   {
     number: 184,
-    image: "../../public/assets/standard/2637.png",
+    image: "../../assets/standard/2637.png",
     name: "HolyPanl",
     type: "",
     damage: "-",
@@ -11606,7 +11606,7 @@ export const standardChips = [
   },
   {
     number: 184,
-    image: "../../public/assets/standard/2637.png",
+    image: "../../assets/standard/2637.png",
     name: "HolyPanl",
     type: "",
     damage: "-",
@@ -11618,7 +11618,7 @@ export const standardChips = [
   },
   {
     number: 185,
-    image: "../../public/assets/standard/2638.png",
+    image: "../../assets/standard/2638.png",
     name: "LavaStge",
     type: "",
     damage: "-",
@@ -11630,7 +11630,7 @@ export const standardChips = [
   },
   {
     number: 185,
-    image: "../../public/assets/standard/2638.png",
+    image: "../../assets/standard/2638.png",
     name: "LavaStge",
     type: "",
     damage: "-",
@@ -11642,7 +11642,7 @@ export const standardChips = [
   },
   {
     number: 185,
-    image: "../../public/assets/standard/2638.png",
+    image: "../../assets/standard/2638.png",
     name: "LavaStge",
     type: "",
     damage: "-",
@@ -11654,7 +11654,7 @@ export const standardChips = [
   },
   {
     number: 185,
-    image: "../../public/assets/standard/2638.png",
+    image: "../../assets/standard/2638.png",
     name: "LavaStge",
     type: "",
     damage: "-",
@@ -11666,7 +11666,7 @@ export const standardChips = [
   },
   {
     number: 185,
-    image: "../../public/assets/standard/2638.png",
+    image: "../../assets/standard/2638.png",
     name: "LavaStge",
     type: "",
     damage: "-",
@@ -11678,7 +11678,7 @@ export const standardChips = [
   },
   {
     number: 185,
-    image: "../../public/assets/standard/2638.png",
+    image: "../../assets/standard/2638.png",
     name: "LavaStge",
     type: "",
     damage: "-",
@@ -11690,7 +11690,7 @@ export const standardChips = [
   },
   {
     number: 186,
-    image: "../../public/assets/standard/2639.png",
+    image: "../../assets/standard/2639.png",
     name: "IceStage",
     type: "",
     damage: "-",
@@ -11702,7 +11702,7 @@ export const standardChips = [
   },
   {
     number: 186,
-    image: "../../public/assets/standard/2639.png",
+    image: "../../assets/standard/2639.png",
     name: "IceStage",
     type: "",
     damage: "-",
@@ -11714,7 +11714,7 @@ export const standardChips = [
   },
   {
     number: 186,
-    image: "../../public/assets/standard/2639.png",
+    image: "../../assets/standard/2639.png",
     name: "IceStage",
     type: "",
     damage: "-",
@@ -11726,7 +11726,7 @@ export const standardChips = [
   },
   {
     number: 186,
-    image: "../../public/assets/standard/2639.png",
+    image: "../../assets/standard/2639.png",
     name: "IceStage",
     type: "",
     damage: "-",
@@ -11738,7 +11738,7 @@ export const standardChips = [
   },
   {
     number: 186,
-    image: "../../public/assets/standard/2639.png",
+    image: "../../assets/standard/2639.png",
     name: "IceStage",
     type: "",
     damage: "-",
@@ -11750,7 +11750,7 @@ export const standardChips = [
   },
   {
     number: 186,
-    image: "../../public/assets/standard/2639.png",
+    image: "../../assets/standard/2639.png",
     name: "IceStage",
     type: "",
     damage: "-",
@@ -11762,7 +11762,7 @@ export const standardChips = [
   },
   {
     number: 187,
-    image: "../../public/assets/standard/2640.png",
+    image: "../../assets/standard/2640.png",
     name: "GrassStg",
     type: "",
     damage: "-",
@@ -11774,7 +11774,7 @@ export const standardChips = [
   },
   {
     number: 187,
-    image: "../../public/assets/standard/2640.png",
+    image: "../../assets/standard/2640.png",
     name: "GrassStg",
     type: "",
     damage: "-",
@@ -11786,7 +11786,7 @@ export const standardChips = [
   },
   {
     number: 187,
-    image: "../../public/assets/standard/2640.png",
+    image: "../../assets/standard/2640.png",
     name: "GrassStg",
     type: "",
     damage: "-",
@@ -11798,7 +11798,7 @@ export const standardChips = [
   },
   {
     number: 187,
-    image: "../../public/assets/standard/2640.png",
+    image: "../../assets/standard/2640.png",
     name: "GrassStg",
     type: "",
     damage: "-",
@@ -11810,7 +11810,7 @@ export const standardChips = [
   },
   {
     number: 187,
-    image: "../../public/assets/standard/2640.png",
+    image: "../../assets/standard/2640.png",
     name: "GrassStg",
     type: "",
     damage: "-",
@@ -11822,7 +11822,7 @@ export const standardChips = [
   },
   {
     number: 187,
-    image: "../../public/assets/standard/2640.png",
+    image: "../../assets/standard/2640.png",
     name: "GrassStg",
     type: "",
     damage: "-",
@@ -11834,7 +11834,7 @@ export const standardChips = [
   },
   {
     number: 188,
-    image: "../../public/assets/standard/2641.png",
+    image: "../../assets/standard/2641.png",
     name: "SandStge",
     type: "",
     damage: "-",
@@ -11846,7 +11846,7 @@ export const standardChips = [
   },
   {
     number: 188,
-    image: "../../public/assets/standard/2641.png",
+    image: "../../assets/standard/2641.png",
     name: "SandStge",
     type: "",
     damage: "-",
@@ -11858,7 +11858,7 @@ export const standardChips = [
   },
   {
     number: 188,
-    image: "../../public/assets/standard/2641.png",
+    image: "../../assets/standard/2641.png",
     name: "SandStge",
     type: "",
     damage: "-",
@@ -11870,7 +11870,7 @@ export const standardChips = [
   },
   {
     number: 188,
-    image: "../../public/assets/standard/2641.png",
+    image: "../../assets/standard/2641.png",
     name: "SandStge",
     type: "",
     damage: "-",
@@ -11882,7 +11882,7 @@ export const standardChips = [
   },
   {
     number: 188,
-    image: "../../public/assets/standard/2641.png",
+    image: "../../assets/standard/2641.png",
     name: "SandStge",
     type: "",
     damage: "-",
@@ -11894,7 +11894,7 @@ export const standardChips = [
   },
   {
     number: 189,
-    image: "../../public/assets/standard/2642.png",
+    image: "../../assets/standard/2642.png",
     name: "MetlStge",
     type: "",
     damage: "-",
@@ -11906,7 +11906,7 @@ export const standardChips = [
   },
   {
     number: 189,
-    image: "../../public/assets/standard/2642.png",
+    image: "../../assets/standard/2642.png",
     name: "MetlStge",
     type: "",
     damage: "-",
@@ -11918,7 +11918,7 @@ export const standardChips = [
   },
   {
     number: 189,
-    image: "../../public/assets/standard/2642.png",
+    image: "../../assets/standard/2642.png",
     name: "MetlStge",
     type: "",
     damage: "-",
@@ -11930,7 +11930,7 @@ export const standardChips = [
   },
   {
     number: 189,
-    image: "../../public/assets/standard/2642.png",
+    image: "../../assets/standard/2642.png",
     name: "MetlStge",
     type: "",
     damage: "-",
@@ -11942,7 +11942,7 @@ export const standardChips = [
   },
   {
     number: 189,
-    image: "../../public/assets/standard/2642.png",
+    image: "../../assets/standard/2642.png",
     name: "MetlStge",
     type: "",
     damage: "-",
@@ -11954,7 +11954,7 @@ export const standardChips = [
   },
   {
     number: 190,
-    image: "../../public/assets/standard/2643.png",
+    image: "../../assets/standard/2643.png",
     name: "Snctuary",
     type: "",
     damage: "-",
@@ -11966,7 +11966,7 @@ export const standardChips = [
   },
   {
     number: 190,
-    image: "../../public/assets/standard/2643.png",
+    image: "../../assets/standard/2643.png",
     name: "Snctuary",
     type: "",
     damage: "-",
@@ -11978,7 +11978,7 @@ export const standardChips = [
   },
   {
     number: 190,
-    image: "../../public/assets/standard/2643.png",
+    image: "../../assets/standard/2643.png",
     name: "Snctuary",
     type: "",
     damage: "-",
@@ -11990,7 +11990,7 @@ export const standardChips = [
   },
   {
     number: 190,
-    image: "../../public/assets/standard/2643.png",
+    image: "../../assets/standard/2643.png",
     name: "Snctuary",
     type: "",
     damage: "-",
@@ -12002,7 +12002,7 @@ export const standardChips = [
   },
   {
     number: 190,
-    image: "../../public/assets/standard/2643.png",
+    image: "../../assets/standard/2643.png",
     name: "Snctuary",
     type: "",
     damage: "-",
@@ -12014,7 +12014,7 @@ export const standardChips = [
   },
   {
     number: 191,
-    image: "../../public/assets/standard/2650.png",
+    image: "../../assets/standard/2650.png",
     name: "AntiDmg",
     type: "",
     damage: "100",
@@ -12026,7 +12026,7 @@ export const standardChips = [
   },
   {
     number: 191,
-    image: "../../public/assets/standard/2650.png",
+    image: "../../assets/standard/2650.png",
     name: "AntiDmg",
     type: "",
     damage: "100",
@@ -12038,7 +12038,7 @@ export const standardChips = [
   },
   {
     number: 191,
-    image: "../../public/assets/standard/2650.png",
+    image: "../../assets/standard/2650.png",
     name: "AntiDmg",
     type: "",
     damage: "100",
@@ -12050,7 +12050,7 @@ export const standardChips = [
   },
   {
     number: 191,
-    image: "../../public/assets/standard/2650.png",
+    image: "../../assets/standard/2650.png",
     name: "AntiDmg",
     type: "",
     damage: "100",
@@ -12062,7 +12062,7 @@ export const standardChips = [
   },
   {
     number: 191,
-    image: "../../public/assets/standard/2650.png",
+    image: "../../assets/standard/2650.png",
     name: "AntiDmg",
     type: "",
     damage: "100",
@@ -12074,7 +12074,7 @@ export const standardChips = [
   },
   {
     number: 192,
-    image: "../../public/assets/standard/2651.png",
+    image: "../../assets/standard/2651.png",
     name: "AntiSwrd",
     type: "",
     damage: "100",
@@ -12086,7 +12086,7 @@ export const standardChips = [
   },
   {
     number: 192,
-    image: "../../public/assets/standard/2651.png",
+    image: "../../assets/standard/2651.png",
     name: "AntiSwrd",
     type: "",
     damage: "100",
@@ -12098,7 +12098,7 @@ export const standardChips = [
   },
   {
     number: 192,
-    image: "../../public/assets/standard/2651.png",
+    image: "../../assets/standard/2651.png",
     name: "AntiSwrd",
     type: "",
     damage: "100",
@@ -12110,7 +12110,7 @@ export const standardChips = [
   },
   {
     number: 192,
-    image: "../../public/assets/standard/2651.png",
+    image: "../../assets/standard/2651.png",
     name: "AntiSwrd",
     type: "",
     damage: "100",
@@ -12122,7 +12122,7 @@ export const standardChips = [
   },
   {
     number: 192,
-    image: "../../public/assets/standard/2651.png",
+    image: "../../assets/standard/2651.png",
     name: "AntiSwrd",
     type: "",
     damage: "100",
@@ -12134,7 +12134,7 @@ export const standardChips = [
   },
   {
     number: 193,
-    image: "../../public/assets/standard/2649.png",
+    image: "../../assets/standard/2649.png",
     name: "AntiNavi",
     type: "",
     damage: "-",
@@ -12146,7 +12146,7 @@ export const standardChips = [
   },
   {
     number: 193,
-    image: "../../public/assets/standard/2649.png",
+    image: "../../assets/standard/2649.png",
     name: "AntiNavi",
     type: "",
     damage: "-",
@@ -12158,7 +12158,7 @@ export const standardChips = [
   },
   {
     number: 193,
-    image: "../../public/assets/standard/2649.png",
+    image: "../../assets/standard/2649.png",
     name: "AntiNavi",
     type: "",
     damage: "-",
@@ -12170,7 +12170,7 @@ export const standardChips = [
   },
   {
     number: 193,
-    image: "../../public/assets/standard/2649.png",
+    image: "../../assets/standard/2649.png",
     name: "AntiNavi",
     type: "",
     damage: "-",
@@ -12182,7 +12182,7 @@ export const standardChips = [
   },
   {
     number: 193,
-    image: "../../public/assets/standard/2649.png",
+    image: "../../assets/standard/2649.png",
     name: "AntiNavi",
     type: "",
     damage: "-",
@@ -12194,7 +12194,7 @@ export const standardChips = [
   },
   {
     number: 194,
-    image: "../../public/assets/standard/2652.png",
+    image: "../../assets/standard/2652.png",
     name: "AntiRecv",
     type: "",
     damage: "-",
@@ -12206,7 +12206,7 @@ export const standardChips = [
   },
   {
     number: 194,
-    image: "../../public/assets/standard/2652.png",
+    image: "../../assets/standard/2652.png",
     name: "AntiRecv",
     type: "",
     damage: "-",
@@ -12218,7 +12218,7 @@ export const standardChips = [
   },
   {
     number: 194,
-    image: "../../public/assets/standard/2652.png",
+    image: "../../assets/standard/2652.png",
     name: "AntiRecv",
     type: "",
     damage: "-",
@@ -12230,7 +12230,7 @@ export const standardChips = [
   },
   {
     number: 194,
-    image: "../../public/assets/standard/2652.png",
+    image: "../../assets/standard/2652.png",
     name: "AntiRecv",
     type: "",
     damage: "-",
@@ -12242,7 +12242,7 @@ export const standardChips = [
   },
   {
     number: 194,
-    image: "../../public/assets/standard/2652.png",
+    image: "../../assets/standard/2652.png",
     name: "AntiRecv",
     type: "",
     damage: "-",
@@ -12254,7 +12254,7 @@ export const standardChips = [
   },
   {
     number: 195,
-    image: "../../public/assets/standard/2654.png",
+    image: "../../assets/standard/2654.png",
     name: "Atk+10",
     type: "",
     damage: "-",
@@ -12266,7 +12266,7 @@ export const standardChips = [
   },
   {
     number: 196,
-    image: "../../public/assets/standard/2655.png",
+    image: "../../assets/standard/2655.png",
     name: "Fire+30",
     type: "",
     damage: "-",
@@ -12278,7 +12278,7 @@ export const standardChips = [
   },
   {
     number: 197,
-    image: "../../public/assets/standard/2656.png",
+    image: "../../assets/standard/2656.png",
     name: "Aqua+30",
     type: "",
     damage: "-",
@@ -12290,7 +12290,7 @@ export const standardChips = [
   },
   {
     number: 198,
-    image: "../../public/assets/standard/2657.png",
+    image: "../../assets/standard/2657.png",
     name: "Elec+30",
     type: "",
     damage: "-",
@@ -12302,7 +12302,7 @@ export const standardChips = [
   },
   {
     number: 199,
-    image: "../../public/assets/standard/2658.png",
+    image: "../../assets/standard/2658.png",
     name: "Wood+30",
     type: "",
     damage: "-",
@@ -12314,7 +12314,7 @@ export const standardChips = [
   },
   {
     number: 200,
-    image: "../../public/assets/standard/2659.png",
+    image: "../../assets/standard/2659.png",
     name: "Navi+20",
     type: "",
     damage: "-",
