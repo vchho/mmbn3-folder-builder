@@ -1,8 +1,9 @@
 import { Chip } from "./utils/chips";
-import { useState, ChangeEvent, memo, useCallback } from "react";
-import { Tab } from "@headlessui/react";
+import { useState, ChangeEvent, memo, useCallback, Fragment } from "react";
+import { Menu, Tab, Transition } from "@headlessui/react";
 import useBattleChips from "./hooks/useBattleChips";
 import { FolderNav } from "./components/FolderNav";
+import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
 // const megaChip = 5;
 // const gigaChip = 1;
@@ -140,7 +141,7 @@ const SearchBox = memo(function SearchBox({
     <input
       type="text"
       id="chip-search-input"
-      className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
+      className="rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
       placeholder="Search for chips here..."
       onChange={handleChipSearch}
       value={searchTerm}
@@ -148,12 +149,23 @@ const SearchBox = memo(function SearchBox({
   );
 });
 
+const sortOptions = [
+  { name: "Most Popular", href: "#", current: true },
+  { name: "Id", href: "#", current: false },
+  { name: "ABCDE", href: "#", current: false },
+  { name: "Code", href: "#", current: false },
+  { name: "Damage", href: "#", current: false },
+  { name: "Element", href: "#", current: false },
+  { name: "MB", href: "#", current: false },
+];
+
 function App() {
   const [folder, setFolder] = useState<any[]>([]);
   const [folderTrack, setFolder2] = useState<FolderTrack[]>([]);
   const [currentTabIndex, setCurrentTabIndex] = useState(0);
   const { chipLibrary, originalChipLibrary, setSearchTerm, searchTerm } =
     useBattleChips(currentTabIndex);
+  const [sortOptions2] = useState(sortOptions);
 
   const totalCount = folderTrack.reduce((accumulator, currentValue) => {
     return accumulator + currentValue.count;
@@ -360,6 +372,53 @@ function App() {
                         handleChipSearch={handleChipSearch}
                         searchTerm={searchTerm}
                       />
+                      <Menu
+                        as="div"
+                        className="relative inline-block text-left"
+                      >
+                        <div>
+                          <Menu.Button className="group inline-flex justify-center text-sm font-medium  text-white hover:text-gray-900 dark:hover:text-red-500">
+                            Sort
+                            <ChevronDownIcon
+                              className="-mr-1 ml-1 h-5 w-5 flex-shrink-0 text-gray-400 dark:hover:text-red-500"
+                              aria-hidden="true"
+                            />
+                          </Menu.Button>
+                        </div>
+
+                        <Transition
+                          as={Fragment}
+                          enter="transition ease-out duration-100"
+                          enterFrom="transform opacity-0 scale-95"
+                          enterTo="transform opacity-100 scale-100"
+                          leave="transition ease-in duration-75"
+                          leaveFrom="transform opacity-100 scale-100"
+                          leaveTo="transform opacity-0 scale-95"
+                        >
+                          <Menu.Items className="absolute right-0 z-10 mt-2 w-40 origin-top-right rounded-md bg-white shadow-2xl ring-1 ring-black ring-opacity-5 focus:outline-none">
+                            <div className="py-1">
+                              {sortOptions2.map((option) => (
+                                <Menu.Item key={option.name}>
+                                  {({ active }) => (
+                                    <a
+                                      href={option.href}
+                                      className={classNames(
+                                        option.current
+                                          ? "font-medium text-gray-900"
+                                          : "text-gray-500",
+                                        active ? "bg-gray-100" : "",
+                                        "block px-4 py-2 text-sm"
+                                      )}
+                                    >
+                                      {option.name}
+                                    </a>
+                                  )}
+                                </Menu.Item>
+                              ))}
+                            </div>
+                          </Menu.Items>
+                        </Transition>
+                      </Menu>
                     </div>
                   </nav>
                 </div>

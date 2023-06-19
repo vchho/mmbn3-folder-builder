@@ -1,0 +1,6 @@
+- Id - sort by chip id
+- ABCDE - sort by chip name
+- Code - sort by chip code
+- Damage - sort by chip damage
+- Element - sort by element - fire, water, elec, grass, null
+- MB - sort by megabyte size
