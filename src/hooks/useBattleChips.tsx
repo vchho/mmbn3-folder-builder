@@ -21,25 +21,25 @@ export default function useBattleChips(currentTabIndex: number) {
     memory: "off",
   });
 
-  const sortOptions = [
-    { name: "Most Popular", href: "#", current: true },
-    { name: "Id", href: "#", current: true },
-    { name: "ABCDE", href: "#", current: false },
-    { name: "Code", href: "#", current: false },
-    { name: "Damage", href: "#", current: false },
-    { name: "Element", href: "#", current: false },
-    { name: "MB", href: "#", current: false },
-  ];
+  // const sortOptions = [
+  //   { name: "Most Popular", href: "#", current: true },
+  //   { name: "Id", href: "#", current: true },
+  //   { name: "ABCDE", href: "#", current: false },
+  //   { name: "Code", href: "#", current: false },
+  //   { name: "Damage", href: "#", current: false },
+  //   { name: "Element", href: "#", current: false },
+  //   { name: "MB", href: "#", current: false },
+  // ];
 
-  const [setCurrentStateFilters2, setFilters2] = useState([
-    { name: "Most Popular", href: "#", current: true },
-    { name: "Id", href: "#", current: true },
-    { name: "ABCDE", href: "#", current: false },
-    { name: "Code", href: "#", current: false },
-    { name: "Damage", href: "#", current: false },
-    { name: "Element", href: "#", current: false },
-    { name: "MB", href: "#", current: false },
-  ]);
+  // const [setCurrentStateFilters2, setFilters2] = useState([
+  //   { name: "Most Popular", href: "#", current: true },
+  //   { name: "Id", href: "#", current: true },
+  //   { name: "ABCDE", href: "#", current: false },
+  //   { name: "Code", href: "#", current: false },
+  //   { name: "Damage", href: "#", current: false },
+  //   { name: "Element", href: "#", current: false },
+  //   { name: "MB", href: "#", current: false },
+  // ]);
 
   const sortByMemory = (a: Chip, b: Chip) => {
     if (currentStateFilters.memory === "asc") {

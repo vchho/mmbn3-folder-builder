@@ -1,10 +1,10 @@
 import { Chip } from "./utils/chips";
-import { useState, ChangeEvent, memo, useCallback, Fragment } from "react";
+import { useState, ChangeEvent, memo, Fragment } from "react";
 import { Menu, Tab, Transition } from "@headlessui/react";
 import useBattleChips from "./hooks/useBattleChips";
 import { FolderNav } from "./components/FolderNav";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
-import Toggle from "./components/Toggle";
+// import Toggle from "./components/Toggle";
 
 // const megaChip = 5;
 // const gigaChip = 1;
@@ -169,7 +169,7 @@ function App() {
     originalChipLibrary,
     setSearchTerm,
     searchTerm,
-    setFilters,
+    // setFilters,
   } = useBattleChips(currentTabIndex);
   const [sortOptions2] = useState(sortOptions);
 
