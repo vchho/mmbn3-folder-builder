@@ -4,6 +4,7 @@ import { Menu, Tab, Transition } from "@headlessui/react";
 import useBattleChips from "./hooks/useBattleChips";
 import { FolderNav } from "./components/FolderNav";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
+import Toggle from "./components/Toggle";
 
 // const megaChip = 5;
 // const gigaChip = 1;
@@ -34,7 +35,7 @@ const ChipItem = memo(function ChipItem({
     type: string;
     damage: string;
     lettercode: string;
-    memory: string;
+    memory: string | number;
     description: string;
     key: string;
     chipType: string;
@@ -142,7 +143,7 @@ const SearchBox = memo(function SearchBox({
       type="text"
       id="chip-search-input"
       className="rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
-      placeholder="Search for chips here..."
+      placeholder="Search for chips here"
       onChange={handleChipSearch}
       value={searchTerm}
     />
@@ -151,7 +152,7 @@ const SearchBox = memo(function SearchBox({
 
 const sortOptions = [
   { name: "Most Popular", href: "#", current: true },
-  { name: "Id", href: "#", current: false },
+  { name: "Id", href: "#", current: true },
   { name: "ABCDE", href: "#", current: false },
   { name: "Code", href: "#", current: false },
   { name: "Damage", href: "#", current: false },
@@ -163,19 +164,18 @@ function App() {
   const [folder, setFolder] = useState<any[]>([]);
   const [folderTrack, setFolder2] = useState<FolderTrack[]>([]);
   const [currentTabIndex, setCurrentTabIndex] = useState(0);
-  const { chipLibrary, originalChipLibrary, setSearchTerm, searchTerm } =
-    useBattleChips(currentTabIndex);
+  const {
+    chipLibrary,
+    originalChipLibrary,
+    setSearchTerm,
+    searchTerm,
+    setFilters,
+  } = useBattleChips(currentTabIndex);
   const [sortOptions2] = useState(sortOptions);
 
   const totalCount = folderTrack.reduce((accumulator, currentValue) => {
     return accumulator + currentValue.count;
   }, 0);
-
-  // const totalCount = useMemo(() => {
-  //   return folderTrack.reduce((accumulator, currentValue) => {
-  //     return accumulator + currentValue.count;
-  //   }, 0);
-  // }, []);
 
   const totalStandardChips = folderTrack.reduce((accumulator, currentValue) => {
     return currentValue.chipType === "standard"
@@ -199,77 +199,68 @@ function App() {
 
   // console.log(ChipType);
 
-  const addChipToFolder = useCallback(
-    (chip: Chip) => {
-      if (totalCount === 30) {
-        alert("30 is the maximum amount of chips you can have in your folder");
+  const addChipToFolder = (chip: Chip) => {
+    if (totalCount === 30) {
+      alert("30 is the maximum amount of chips you can have in your folder");
+      return;
+    }
+
+    if (chip.chipType === "mega" && totalMegaChips === 5) {
+      alert("Can only have 5 mega chips");
+      return;
+    }
+
+    if (chip.chipType === "giga" && totalGigaChips === 1) {
+      alert("Can only have 1 giga chip");
+      return;
+    }
+
+    const chipIndex = folderTrack.findIndex(
+      (c: any) => c.name.toLowerCase() === chip.name.toLowerCase()
+    );
+
+    if (chipIndex > -1) {
+      const currentChip = folderTrack.find((c) => c.name === chip.name);
+
+      if (currentChip?.count === 1 && currentChip?.chipType === "mega") {
+        alert("Can only have 1 of each mega chip");
         return;
       }
 
-      if (chip.chipType === "mega" && totalMegaChips === 5) {
-        alert("Can only have 5 mega chips");
-        return;
-      }
-
-      if (chip.chipType === "giga" && totalGigaChips === 1) {
-        alert("Can only have 1 giga chip");
-        return;
-      }
-
-      const chipIndex = folderTrack.findIndex(
-        (c: any) => c.name.toLowerCase() === chip.name.toLowerCase()
-      );
-
-      if (chipIndex > -1) {
-        const currentChip = folderTrack.find((c) => c.name === chip.name);
-
-        if (currentChip?.count === 1 && currentChip?.chipType === "mega") {
-          alert("Can only have 1 of each mega chip");
-          return;
-        }
-
-        if (currentChip?.count === 4) {
-          alert("Can only have 4 of each chip");
-        } else {
-          const chipIndexForFolder = folder.findIndex(
-            (c: any) => c.name === chip.name && c.lettercode === chip.lettercode
-          );
-
-          if (chipIndexForFolder > -1) {
-            const chipDataForFolder = folder[chipIndexForFolder];
-            const updatedChipForFolder = {
-              ...chipDataForFolder,
-              count: chipDataForFolder.count + 1,
-            };
-            const clonedFolder = [...folder];
-            clonedFolder[chipIndexForFolder] = updatedChipForFolder;
-            setFolder(clonedFolder);
-          } else {
-            setFolder([...folder, { ...chip, count: 1 }]);
-          }
-
-          const chipData = folderTrack[chipIndex];
-          const updatedChip = { ...chipData, count: chipData.count + 1 };
-          const clonedFolderTrack = [...folderTrack];
-          clonedFolderTrack[chipIndex] = updatedChip;
-          setFolder2(clonedFolderTrack);
-        }
+      if (currentChip?.count === 4) {
+        alert("Can only have 4 of each chip");
       } else {
-        setFolder2([
-          ...folderTrack,
-          { count: 1, name: chip.name, chipType: chip.chipType },
-        ]);
-        setFolder([...folder, { ...chip, count: 1 }]);
+        const chipIndexForFolder = folder.findIndex(
+          (c: any) => c.name === chip.name && c.lettercode === chip.lettercode
+        );
+
+        if (chipIndexForFolder > -1) {
+          const chipDataForFolder = folder[chipIndexForFolder];
+          const updatedChipForFolder = {
+            ...chipDataForFolder,
+            count: chipDataForFolder.count + 1,
+          };
+          const clonedFolder = [...folder];
+          clonedFolder[chipIndexForFolder] = updatedChipForFolder;
+          setFolder(clonedFolder);
+        } else {
+          setFolder([...folder, { ...chip, count: 1 }]);
+        }
+
+        const chipData = folderTrack[chipIndex];
+        const updatedChip = { ...chipData, count: chipData.count + 1 };
+        const clonedFolderTrack = [...folderTrack];
+        clonedFolderTrack[chipIndex] = updatedChip;
+        setFolder2(clonedFolderTrack);
       }
-    },
-    [
-      totalCount,
-      totalGigaChips,
-      totalMegaChips,
-      totalStandardChips,
-      folderTrack,
-    ]
-  );
+    } else {
+      setFolder2([
+        ...folderTrack,
+        { count: 1, name: chip.name, chipType: chip.chipType },
+      ]);
+      setFolder([...folder, { ...chip, count: 1 }]);
+    }
+  };
 
   const removeChipFromFolder = (chip: Chip, index: number) => {
     const chipIndex = folderTrack.findIndex(
@@ -411,6 +402,7 @@ function App() {
                                       )}
                                     >
                                       {option.name}
+                                      {/* <Toggle currentValue={option.current} /> */}
                                     </a>
                                   )}
                                 </Menu.Item>
@@ -456,6 +448,7 @@ function App() {
                           chip={chip}
                           addChipToFolder={addChipToFolder}
                           chipIndex={chip.name + index}
+                          key={chip.name + index}
                         />
                       );
                     })}
