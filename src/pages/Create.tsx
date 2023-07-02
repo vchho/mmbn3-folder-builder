@@ -109,7 +109,12 @@ function ChipItemLeftSide({
               <p>Description: {chip.description}</p>
               <p>Damage: {chip.damage}</p>
               <p>Memory: {chip.memory}</p>
-              <p>Total: {chip.count}</p>
+              <p>
+                Total:
+                <span className="mr-2 rounded bg-blue-100 px-2.5 py-0.5 text-xs font-medium text-blue-800 ">
+                  {chip.count}
+                </span>
+              </p>
             </div>
           </div>
           <div className="flex self-center">
