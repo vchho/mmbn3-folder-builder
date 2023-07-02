@@ -24,11 +24,13 @@ export const FolderNav = memo(function FolderNav({
   totalStandardChips,
   totalMegaChips,
   totalGigaChips,
+  saveFolder,
 }: {
   totalCount: number;
   totalStandardChips: number;
   totalMegaChips: number;
   totalGigaChips: number;
+  saveFolder: () => void;
 }) {
   return (
     <nav className="h-16 border-gray-200 bg-white dark:bg-gray-900">

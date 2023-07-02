@@ -331,6 +331,11 @@ function Create() {
     setSearchTerm(text);
   };
 
+  const saveFolder = () => {
+    console.log("clicked");
+    console.log({ folder, folderTrack });
+  };
+
   return (
     <>
       <div className="grid h-screen grid-cols-12 bg-blue-500">
@@ -341,6 +346,7 @@ function Create() {
               totalStandardChips={totalStandardChips}
               totalMegaChips={totalMegaChips}
               totalGigaChips={totalGigaChips}
+              saveFolder={saveFolder}
             />
           </header>
 
