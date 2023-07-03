@@ -197,7 +197,7 @@ function Create() {
   const [sortOptions2] = useState(sortOptions);
   const navigate = useNavigate();
 
-  const [_, setValue] = useLocalStorage<setFolder[]>(
+  const [value, setValue] = useLocalStorage<setFolder[]>(
     "mmbn3-folder-builder",
     []
   );
@@ -352,9 +352,8 @@ function Create() {
   };
 
   const saveFolder = () => {
-    console.log("clicked");
-    // console.log();
-    setValue([{ folder, folderTrack, id: nanoid() }]);
+    const updatedFolder = [...value, { folder, folderTrack, id: nanoid() }];
+    setValue(updatedFolder);
     navigate("/");
   };
 

@@ -28,11 +28,14 @@ export const Home = () => {
           </header>
 
           <div className="relative mx-auto grid w-full grid-flow-row-dense grid-cols-2 gap-x-8 gap-y-6 px-6 pt-20 text-center sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-10 xl:gap-x-10 xl:px-0">
-            {Array(10)
+            {/* {Array(10)
               .fill(5)
               .map(() => {
                 return <FolderCard />;
-              })}
+              })} */}
+            {storedValue.map((folder) => {
+              return <FolderCard id={folder.id} />;
+            })}
           </div>
         </div>
       </div>
