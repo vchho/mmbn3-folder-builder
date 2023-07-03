@@ -1,4 +1,6 @@
-export const FolderCard = () => {
+import { Link } from "react-router-dom";
+
+export const FolderCard = ({ id }: { id: string }) => {
   return (
     <div className="relative col-span-1 sm:col-span-2">
       <div className="relative overflow-hidden rounded-md shadow-lg">
@@ -10,9 +12,12 @@ export const FolderCard = () => {
         </div>
       </div>
       <div className="mt-3 block truncate pb-1 text-left">
-        <a className="font-semibold transition hover:text-red-800 dark:text-white dark:hover:text-gray-200">
+        <Link
+          to={`/folder/:${id}`}
+          className="font-semibold transition hover:text-red-800 dark:text-white dark:hover:text-gray-200"
+        >
           Hello World
-        </a>
+        </Link>
       </div>
     </div>
   );

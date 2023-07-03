@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Home } from "./pages/Home.tsx";
 import { NotFound } from "./pages/NotFound.tsx";
 import Create from "./pages/Create.tsx";
+import { Folder } from "./pages/Folder.tsx";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
   {
     path: "/create",
     element: <Create />,
+  },
+  {
+    path: "/folder/:id",
+    element: <Folder />,
   },
   {
     path: "*",
