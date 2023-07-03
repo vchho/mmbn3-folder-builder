@@ -4,20 +4,38 @@ import { Menu, Tab, Transition } from "@headlessui/react";
 import useBattleChips from "../hooks/useBattleChips";
 import { FolderNav } from "../components/FolderNav";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
+import useLocalStorage from "../hooks/useLocalStorage";
+import { nanoid } from "nanoid";
+import { useNavigate } from "react-router-dom";
 // import Toggle from "./components/Toggle";
-
-// const megaChip = 5;
-// const gigaChip = 1;
 
 function classNames(...classes: any[]) {
   return classes.filter(Boolean).join(" ");
 }
 
-type FolderTrack = {
+export type FolderTrack = {
   count: number;
   chipType: string;
   name: string;
 };
+
+export interface setFolder {
+  folder: {
+    number: number;
+    image: string;
+    name: string;
+    type: string;
+    damage: string;
+    lettercode: string;
+    memory: string | number;
+    description: string;
+    key: string;
+    chipType: string;
+    count?: number;
+  }[];
+  folderTrack: FolderTrack[];
+  id: string;
+}
 
 interface Folder extends Chip {
   count: number;
@@ -177,6 +195,12 @@ function Create() {
     // setFilters,
   } = useBattleChips(currentTabIndex);
   const [sortOptions2] = useState(sortOptions);
+  const navigate = useNavigate();
+
+  const [_, setValue] = useLocalStorage<setFolder[]>(
+    "mmbn3-folder-builder",
+    []
+  );
 
   const totalCount = folderTrack.reduce((accumulator, currentValue) => {
     return accumulator + currentValue.count;
@@ -199,10 +223,6 @@ function Create() {
       ? accumulator + currentValue.count
       : accumulator;
   }, 0);
-
-  // const ChipType = Object.keys(originalChipLibrary)[currentTabIndex];
-
-  // console.log(ChipType);
 
   const addChipToFolder = (chip: Chip) => {
     if (totalCount === 30) {
@@ -333,7 +353,9 @@ function Create() {
 
   const saveFolder = () => {
     console.log("clicked");
-    console.log({ folder, folderTrack });
+    // console.log();
+    setValue([{ folder, folderTrack, id: nanoid() }]);
+    navigate("/");
   };
 
   return (

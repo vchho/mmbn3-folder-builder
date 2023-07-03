@@ -1,7 +1,16 @@
 import { Link } from "react-router-dom";
 import { FolderCard } from "../components/FolderCard";
+import useLocalStorage from "../hooks/useLocalStorage";
+import { setFolder } from "./Create";
 
 export const Home = () => {
+  const [storedValue] = useLocalStorage<setFolder[]>(
+    "mmbn3-folder-builder",
+    []
+  );
+
+  console.log("storedValue", storedValue);
+
   return (
     <>
       <div className="relative min-h-screen w-screen items-stretch bg-slate-300 p-6">
