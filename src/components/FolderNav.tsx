@@ -24,11 +24,13 @@ export const FolderNav = memo(function FolderNav({
   totalStandardChips,
   totalMegaChips,
   totalGigaChips,
+  saveFolder,
 }: {
   totalCount: number;
   totalStandardChips: number;
   totalMegaChips: number;
   totalGigaChips: number;
+  saveFolder: () => void;
 }) {
   return (
     <nav className="h-16 border-gray-200 bg-white dark:bg-gray-900">
@@ -43,6 +45,18 @@ export const FolderNav = memo(function FolderNav({
             />
             <NavItem text="Mega: " count={totalMegaChips} maxCount={5} />
             <NavItem text="Giga: " count={totalGigaChips} maxCount={1} />
+            <button
+              type="button"
+              onClick={() => saveFolder()}
+              className={
+                totalCount !== 30
+                  ? "mb-2 mr-2 cursor-not-allowed rounded-lg bg-green-700 px-5 py-2.5 text-sm font-medium text-white focus:outline-none focus:ring-4 focus:ring-green-300 "
+                  : "mb-2 mr-2 cursor-pointer rounded-lg bg-green-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-300 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
+              }
+              disabled={totalCount !== 30}
+            >
+              Save
+            </button>
           </ul>
         </div>
       </div>
