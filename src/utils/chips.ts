@@ -9,6 +9,7 @@ export type Chip = {
   description: string;
   key: string;
   chipType: string;
+  count?: number
 };
 
 export const standardChips = [
