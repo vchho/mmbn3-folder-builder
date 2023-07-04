@@ -10,6 +10,7 @@ export const gigaChips = [
     description: "Bass' secret weapon",
     key: "BassGSX",
     chipType: "giga",
+    count: 0,
   },
   {
     number: 6,
@@ -22,6 +23,7 @@ export const gigaChips = [
     description: "Sneaks up to smash panels!",
     key: "GutsManV5G",
     chipType: "giga",
+    count: 0,
   },
   {
     number: 7,
@@ -34,6 +36,7 @@ export const gigaChips = [
     description: "Moves in to slice the enemy",
     key: "ProtoMnV5B",
     chipType: "giga",
+    count: 0,
   },
   {
     number: 8,
@@ -46,6 +49,7 @@ export const gigaChips = [
     description: "Flash atk paralyzes enemy",
     key: "FlashMnV5F",
     chipType: "giga",
+    count: 0,
   },
   {
     number: 9,
@@ -58,6 +62,7 @@ export const gigaChips = [
     description: "Claw atk 3 squares ahead!",
     key: "BeastMnV5B",
     chipType: "giga",
+    count: 0,
   },
   {
     number: 10,
@@ -70,6 +75,7 @@ export const gigaChips = [
     description: "Fires several AquaShots",
     key: "BubblMnV5B",
     chipType: "giga",
+    count: 0,
   },
   {
     number: 11,
@@ -82,6 +88,7 @@ export const gigaChips = [
     description: "Launches fists at enemies!",
     key: "DesrtMnV5D",
     chipType: "giga",
+    count: 0,
   },
   {
     number: 12,
@@ -94,6 +101,7 @@ export const gigaChips = [
     description: "Vines harm all enemies!",
     key: "PlantMnV5P",
     chipType: "giga",
+    count: 0,
   },
   {
     number: 13,
@@ -106,6 +114,7 @@ export const gigaChips = [
     description: "Flames burn all enemies!",
     key: "FlamManV5F",
     chipType: "giga",
+    count: 0,
   },
   {
     number: 14,
@@ -118,6 +127,7 @@ export const gigaChips = [
     description: "3 drills fly at enemies!",
     key: "DrillMnV5D",
     chipType: "giga",
+    count: 0,
   },
   {
     number: 15,
@@ -130,6 +140,7 @@ export const gigaChips = [
     description: "Iron fist smashes 1 square!",
     key: "MetalMnV5M",
     chipType: "giga",
+    count: 0,
   },
   {
     number: 16,
@@ -142,6 +153,7 @@ export const gigaChips = [
     description: "Move up 3 square & 4-way hit",
     key: "KingManV5K",
     chipType: "giga",
+    count: 0,
   },
   {
     number: 17,
@@ -154,6 +166,7 @@ export const gigaChips = [
     description: "Appears from mist & attacks",
     key: "MistManV5M",
     chipType: "giga",
+    count: 0,
   },
   {
     number: 18,
@@ -166,6 +179,7 @@ export const gigaChips = [
     description: "Lines up pins for a strike!",
     key: "BowlManV5B",
     chipType: "giga",
+    count: 0,
   },
   {
     number: 19,
@@ -178,6 +192,7 @@ export const gigaChips = [
     description: "Creates 3 caves in enmy area",
     key: "DarkManV5D",
     chipType: "giga",
+    count: 0,
   },
   {
     number: 20,
@@ -190,6 +205,7 @@ export const gigaChips = [
     description: "Multiple attacks w/ spear",
     key: "JapanMnV5Y",
     chipType: "giga",
+    count: 0,
   },
   {
     number: 1,
@@ -202,6 +218,7 @@ export const gigaChips = [
     description: "Recalls last Navi used",
     key: "NavRcycl*",
     chipType: "giga",
+    count: 0,
   },
   {
     number: 2,
@@ -214,6 +231,7 @@ export const gigaChips = [
     description: "Dark chip Explodes for 3 sq",
     key: "BassX",
     chipType: "giga",
+    count: 0,
   },
   {
     number: 3,
@@ -226,6 +244,7 @@ export const gigaChips = [
     description: "Dark chip Holy pwr to front",
     key: "SerenadeS",
     chipType: "giga",
+    count: 0,
   },
   {
     number: 4,
@@ -238,6 +257,7 @@ export const gigaChips = [
     description: "Both HP reduced by half!",
     key: "BalanceY",
     chipType: "giga",
+    count: 0,
   },
   {
     number: 5,
@@ -250,6 +270,7 @@ export const gigaChips = [
     description: "3-stage electric attack!",
     key: "AlphArmΣV",
     chipType: "giga",
+    count: 0,
   },
   {
     number: 1,
@@ -262,6 +283,7 @@ export const gigaChips = [
     description: "Restores all chips & folders",
     key: "FoldrBak*",
     chipType: "giga",
+    count: 0,
   },
   {
     number: 2,
@@ -274,6 +296,7 @@ export const gigaChips = [
     description: "Dark chip Smashes panels!",
     key: "Bass+X",
     chipType: "giga",
+    count: 0,
   },
   {
     number: 3,
@@ -286,6 +309,7 @@ export const gigaChips = [
     description: "Dark chip repels <300 atks",
     key: "DarkAuraA",
     chipType: "giga",
+    count: 0,
   },
   {
     number: 4,
@@ -298,6 +322,7 @@ export const gigaChips = [
     description: "Use A btn for up to 3 attacks",
     key: "DeltaRayZ",
     chipType: "giga",
+    count: 0,
   },
   {
     number: 5,
@@ -310,5 +335,6 @@ export const gigaChips = [
     description: "Launches a giant rocket!",
     key: "AlphArmΩV",
     chipType: "giga",
+    count: 0,
   },
 ];

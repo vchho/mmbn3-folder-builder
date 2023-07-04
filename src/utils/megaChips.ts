@@ -10,6 +10,7 @@ export const megaChips = [
     description: "Power=amount of HP lost!",
     key: "MuramasaM",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 2,
@@ -22,6 +23,7 @@ export const megaChips = [
     description: "Legendary swrd cuts 3 sq!",
     key: "HeroSwrdP",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 3,
@@ -34,6 +36,7 @@ export const megaChips = [
     description: "Damages anyone on a panel",
     key: "ZeusHamrZ",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 4,
@@ -46,6 +49,7 @@ export const megaChips = [
     description: "Send Fire into hole",
     key: "StandOutP",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 5,
@@ -58,6 +62,7 @@ export const megaChips = [
     description: "Send Fire into hole",
     key: "SalamndrS",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 5,
@@ -70,6 +75,7 @@ export const megaChips = [
     description: "Send Fire into hole",
     key: "Salamndr*",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 6,
@@ -82,6 +88,7 @@ export const megaChips = [
     description: "Draw wter from hole",
     key: "WatrLineC",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 6,
@@ -94,6 +101,7 @@ export const megaChips = [
     description: "Draw wter from hole",
     key: "WatrLine*",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 7,
@@ -106,6 +114,7 @@ export const megaChips = [
     description: "Draw wter from hole",
     key: "FountainD",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 7,
@@ -118,6 +127,7 @@ export const megaChips = [
     description: "Draw wter from hole",
     key: "Fountain*",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 8,
@@ -130,6 +140,7 @@ export const megaChips = [
     description: "Dmgs object & area",
     key: "LightningL",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 8,
@@ -142,6 +153,7 @@ export const megaChips = [
     description: "Dmgs object & area",
     key: "Lightning*",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 9,
@@ -154,6 +166,7 @@ export const megaChips = [
     description: "Dmgs object & area",
     key: "BoltT",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 9,
@@ -166,6 +179,7 @@ export const megaChips = [
     description: "Dmgs object & area",
     key: "Bolt*",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 10,
@@ -178,6 +192,7 @@ export const megaChips = [
     description: "Take power frm next chip",
     key: "GaiaSwrdG",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 10,
@@ -190,6 +205,7 @@ export const megaChips = [
     description: "Take power frm next chip",
     key: "GaiaSwrd*",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 11,
@@ -202,6 +218,7 @@ export const megaChips = [
     description: "Take power fr. next chip",
     key: "GaiaBladG",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 11,
@@ -214,6 +231,7 @@ export const megaChips = [
     description: "Take power fr. next chip",
     key: "GaiaBlad*",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 12,
@@ -226,6 +244,7 @@ export const megaChips = [
     description: "Drop many meteors on enemy",
     key: "MeteorsR",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 13,
@@ -238,6 +257,7 @@ export const megaChips = [
     description: "Statue punishes when hit",
     key: "GuardianO",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 14,
@@ -250,6 +270,7 @@ export const megaChips = [
     description: "Anubis poisons enemies",
     key: "AnubisA",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 15,
@@ -262,6 +283,7 @@ export const megaChips = [
     description: "Summons a GodStone from hole",
     key: "GodStoneS",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 16,
@@ -274,6 +296,7 @@ export const megaChips = [
     description: "Summons OldWood from hole",
     key: "OldWoodW",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 17,
@@ -286,6 +309,7 @@ export const megaChips = [
     description: "More dmg if enemy has chips",
     key: "JealousyJ",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 18,
@@ -298,6 +322,7 @@ export const megaChips = [
     description: "Objects thrown at enemies!",
     key: "PoltrgstG",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 19,
@@ -310,6 +335,7 @@ export const megaChips = [
     description: "Repel all attacks under 200",
     key: "LifeAuraD",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 20,
@@ -322,6 +348,7 @@ export const megaChips = [
     description: "CustGauge instantly refills!",
     key: "FullCust*",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 21,
@@ -334,6 +361,7 @@ export const megaChips = [
     description: "+30 for selected atk chip",
     key: "Atk+30*",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 22,
@@ -346,6 +374,7 @@ export const megaChips = [
     description: "+40 for selected Navi chip",
     key: "Navi+40*",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 23,
@@ -358,6 +387,7 @@ export const megaChips = [
     description: "Attack an enemy, heal you",
     key: "RollR",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 24,
@@ -370,6 +400,7 @@ export const megaChips = [
     description: "Attack an enemy, heal you",
     key: "Roll V2R",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 25,
@@ -382,6 +413,7 @@ export const megaChips = [
     description: "Attack an enemy, heal you",
     key: "Roll V3R",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 26,
@@ -394,6 +426,7 @@ export const megaChips = [
     description: "Sneaks up to smash panels!",
     key: "GutsManG",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 27,
@@ -406,6 +439,7 @@ export const megaChips = [
     description: "Sneaks up to smash panels!",
     key: "GutsMan V2G",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 28,
@@ -418,6 +452,7 @@ export const megaChips = [
     description: "Sneaks up to smash panels!",
     key: "GutsMan V3G",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 29,
@@ -430,6 +465,7 @@ export const megaChips = [
     description: "Sneaks up to smash panels!",
     key: "GutsMan V4G",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 30,
@@ -442,6 +478,7 @@ export const megaChips = [
     description: "Moves in to slice the enemy",
     key: "ProtoManB",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 31,
@@ -454,6 +491,7 @@ export const megaChips = [
     description: "Moves in to slice the enemy",
     key: "ProtoMn V2B",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 32,
@@ -466,6 +504,7 @@ export const megaChips = [
     description: "Moves in to slice the enemy",
     key: "ProtoMn V3B",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 33,
@@ -478,6 +517,7 @@ export const megaChips = [
     description: "Moves in to slice the enemy",
     key: "ProtoMn V4B",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 34,
@@ -490,6 +530,7 @@ export const megaChips = [
     description: "Flash atk paralyzes enemy",
     key: "FlashManF",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 35,
@@ -502,6 +543,7 @@ export const megaChips = [
     description: "Flash atk paralyzes enemy",
     key: "FlashMn V2F",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 36,
@@ -514,6 +556,7 @@ export const megaChips = [
     description: "Flash atk paralyzes enemy",
     key: "FlashMn V3F",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 37,
@@ -526,6 +569,7 @@ export const megaChips = [
     description: "Flash atk paralyzes enemy",
     key: "FlashMn V4F",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 38,
@@ -538,6 +582,7 @@ export const megaChips = [
     description: "Claw atk 3 squares ahead!",
     key: "BeastManB",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 39,
@@ -550,6 +595,7 @@ export const megaChips = [
     description: "Claw atk 3 squares ahead!",
     key: "BeastMn V2B",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 40,
@@ -562,6 +608,7 @@ export const megaChips = [
     description: "Claw atk 3 squares ahead!",
     key: "BeastMn V3B",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 41,
@@ -574,6 +621,7 @@ export const megaChips = [
     description: "Claw atk 3 squares ahead!",
     key: "BeastMn V4B",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 42,
@@ -586,6 +634,7 @@ export const megaChips = [
     description: "Fires several AquaShots",
     key: "BubblManB",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 43,
@@ -598,6 +647,7 @@ export const megaChips = [
     description: "Fires several AquaShots",
     key: "BubblMn V2B",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 44,
@@ -610,6 +660,7 @@ export const megaChips = [
     description: "Fires several AquaShots",
     key: "BubblMn V3B",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 45,
@@ -622,6 +673,7 @@ export const megaChips = [
     description: "Fires several AquaShots",
     key: "BubblMn V4B",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 46,
@@ -634,6 +686,7 @@ export const megaChips = [
     description: "Launches fists at enemies!",
     key: "DesrtManD",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 47,
@@ -646,6 +699,7 @@ export const megaChips = [
     description: "Launches fists at enemies!",
     key: "DesrtMn V2D",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 48,
@@ -658,6 +712,7 @@ export const megaChips = [
     description: "Launches fists at enemies!",
     key: "DesrtMn V3D",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 49,
@@ -670,6 +725,7 @@ export const megaChips = [
     description: "Launches fists at enemies!",
     key: "DesrtMn V4D",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 50,
@@ -682,6 +738,7 @@ export const megaChips = [
     description: "Vines harm all enemies!",
     key: "PlantManP",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 51,
@@ -694,6 +751,7 @@ export const megaChips = [
     description: "Vines harm all enemies!",
     key: "PlantMn V2P",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 52,
@@ -706,6 +764,7 @@ export const megaChips = [
     description: "Vines harm all enemies!",
     key: "PlantMn V3P",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 53,
@@ -718,6 +777,7 @@ export const megaChips = [
     description: "Vines harm all enemies!",
     key: "PlantMn V4P",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 54,
@@ -730,6 +790,7 @@ export const megaChips = [
     description: "Flames burn all enemies!",
     key: "FlamManF",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 55,
@@ -742,6 +803,7 @@ export const megaChips = [
     description: "Flames burn all enemies!",
     key: "FlamMan V2F",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 56,
@@ -754,6 +816,7 @@ export const megaChips = [
     description: "Flames burn all enemies!",
     key: "FlamMan V3F",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 57,
@@ -766,6 +829,7 @@ export const megaChips = [
     description: "Flames burn all enemies!",
     key: "FlamMan V4F",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 58,
@@ -778,6 +842,7 @@ export const megaChips = [
     description: "3 drills fly at enemies!",
     key: "DrillManD",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 59,
@@ -790,6 +855,7 @@ export const megaChips = [
     description: "3 drills fly at enemies!",
     key: "DrillMn V2D",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 60,
@@ -802,6 +868,7 @@ export const megaChips = [
     description: "3 drills fly at enemies!",
     key: "DrillMn V3D",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 61,
@@ -814,6 +881,7 @@ export const megaChips = [
     description: "3 drills fly at enemies!",
     key: "DrillMn V4D",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 62,
@@ -826,6 +894,7 @@ export const megaChips = [
     description: "Iron fist smashes 1 square!",
     key: "MetalManM",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 63,
@@ -838,6 +907,7 @@ export const megaChips = [
     description: "Iron fist smashes 1 square!",
     key: "MetalMn V2M",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 64,
@@ -850,6 +920,7 @@ export const megaChips = [
     description: "Iron fist smashes 1 square!",
     key: "MetalMn V3M",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 65,
@@ -862,6 +933,7 @@ export const megaChips = [
     description: "Iron fist smashes 1 square!",
     key: "MetalMn V4M",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 66,
@@ -874,6 +946,7 @@ export const megaChips = [
     description: "Move up 3 square & 4-way hit",
     key: "KingManK",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 67,
@@ -886,6 +959,7 @@ export const megaChips = [
     description: "Move up 3 square & 4-way hit",
     key: "KingMan V2K",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 68,
@@ -898,6 +972,7 @@ export const megaChips = [
     description: "Move up 3 square & 4-way hit",
     key: "KingMan V3K",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 69,
@@ -910,6 +985,7 @@ export const megaChips = [
     description: "Move up 3 square & 4-way hit",
     key: "KingMan V4K",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 70,
@@ -922,6 +998,7 @@ export const megaChips = [
     description: "Appears from mist & attacks",
     key: "MistManM",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 71,
@@ -934,6 +1011,7 @@ export const megaChips = [
     description: "Appears from mist & attacks",
     key: "MistMan V2M",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 72,
@@ -946,6 +1024,7 @@ export const megaChips = [
     description: "Appears from mist & attacks",
     key: "MistMan V3M",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 73,
@@ -958,6 +1037,7 @@ export const megaChips = [
     description: "Appears from mist & attacks",
     key: "MistMan V4M",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 74,
@@ -970,6 +1050,7 @@ export const megaChips = [
     description: "Lines up pins for a strike!",
     key: "BowlManB",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 75,
@@ -982,6 +1063,7 @@ export const megaChips = [
     description: "Lines up pins for a strike!",
     key: "BowlMan V2B",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 76,
@@ -994,6 +1076,7 @@ export const megaChips = [
     description: "Lines up pins for a strike!",
     key: "BowlMan V3B",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 77,
@@ -1006,6 +1089,7 @@ export const megaChips = [
     description: "Lines up pins for a strike!",
     key: "BowlMan V4B",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 78,
@@ -1018,6 +1102,7 @@ export const megaChips = [
     description: "Creates 3 caves in enmy area",
     key: "DarkManD",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 79,
@@ -1030,6 +1115,7 @@ export const megaChips = [
     description: "Creates 3 caves in enmy area",
     key: "DarkMan V2D",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 80,
@@ -1042,6 +1128,7 @@ export const megaChips = [
     description: "Creates 3 caves in enmy area",
     key: "DarkMan V3D",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 81,
@@ -1054,6 +1141,7 @@ export const megaChips = [
     description: "Creates 3 caves in enmy area",
     key: "DarkMan V4D",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 82,
@@ -1066,6 +1154,7 @@ export const megaChips = [
     description: "Multiple attacks w/ spear",
     key: "JapanManY",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 83,
@@ -1078,6 +1167,7 @@ export const megaChips = [
     description: "Multiple attacks w/ spear",
     key: "JapanMn V2Y",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 84,
@@ -1090,6 +1180,7 @@ export const megaChips = [
     description: "Multiple attacks w/ spear",
     key: "JapanMn V3Y",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 85,
@@ -1102,6 +1193,7 @@ export const megaChips = [
     description: "Multiple attacks w/ spear",
     key: "JapanMn V4Y",
     chipType: "mega",
+    count: 0,
   },
   {
     number: 86,
@@ -1114,5 +1206,6 @@ export const megaChips = [
     description: "Spins and smashes enemies!",
     key: "PunkP",
     chipType: "mega",
+    count: 0,
   },
 ];
