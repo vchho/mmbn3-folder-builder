@@ -1,7 +1,8 @@
 import { useMemo, useState } from "react";
-import { Chip, standardChips } from "../utils/chips";
+import { standardChips } from "../utils/chips";
 import { megaChips } from "../utils/megaChips";
 import { gigaChips } from "../utils/gigaChips";
+import { Chip } from "../types/chip";
 
 export default function useBattleChips(currentTabIndex: number) {
   const [chipLibrary] = useState<{
