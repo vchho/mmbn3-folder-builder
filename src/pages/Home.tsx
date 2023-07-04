@@ -9,11 +9,9 @@ export const Home = () => {
     []
   );
 
-  console.log("storedValue", storedValue);
-
   return (
     <>
-      <div className="relative min-h-screen w-screen items-stretch bg-slate-300 p-6">
+      <div className="relative min-h-screen w-screen items-stretch bg-blue-300 p-6">
         {/* <div className="bg-gray-100 font-sans text-gray-900  dark:bg-gray-800 dark:text-gray-400"> */}
         {/* <div className="relative mx-auto block h-screen max-w-screen-xl flex-col"> */}
         <div className="relative mx-auto block max-w-screen-xl flex-col">
@@ -34,7 +32,7 @@ export const Home = () => {
                 return <FolderCard />;
               })} */}
             {storedValue.map((folder) => {
-              return <FolderCard id={folder.id} />;
+              return <FolderCard id={folder.id} key={folder.id} />;
             })}
           </div>
         </div>
