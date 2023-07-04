@@ -257,7 +257,6 @@ function Create() {
     originalChipLibrary,
     setSearchTerm,
     searchTerm,
-    // setFilters,
   } = useBattleChips(currentTabIndex);
   const [sortOptions2] = useState(sortOptions);
   const navigate = useNavigate();
