@@ -13,7 +13,7 @@ export const FolderCard = ({ id }: { id: string }) => {
       </div>
       <div className="mt-3 block truncate pb-1 text-left">
         <Link
-          to={`/folder/:${id}`}
+          to={`/create/${id}`}
           className="font-semibold transition hover:text-red-800 dark:text-white dark:hover:text-gray-200"
         >
           Hello World

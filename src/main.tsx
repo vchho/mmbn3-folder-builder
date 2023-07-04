@@ -5,7 +5,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Home } from "./pages/Home.tsx";
 import { NotFound } from "./pages/NotFound.tsx";
 import Create from "./pages/Create.tsx";
-import { Folder } from "./pages/Folder.tsx";
 
 const router = createBrowserRouter([
   {
@@ -17,8 +16,8 @@ const router = createBrowserRouter([
     element: <Create />,
   },
   {
-    path: "/folder/:id",
-    element: <Folder />,
+    path: "/create/:id",
+    element: <Create />,
   },
   {
     path: "*",
