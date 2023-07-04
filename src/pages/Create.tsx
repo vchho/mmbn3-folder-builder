@@ -10,11 +10,12 @@ import {
 import useLocalStorage from "../hooks/useLocalStorage";
 import { nanoid } from "nanoid";
 import { useNavigate, useParams } from "react-router-dom";
-import { Chip, ChipWithCount } from "../types/chip";
-
-type FolderParams = {
-  id: string;
-};
+import {
+  Chip,
+  FolderObject,
+  FolderRouteParams,
+  FolderTrack,
+} from "../types/chip";
 
 const people = [
   { id: 1, name: "Durward Reynolds", unavailable: false },
@@ -87,41 +88,13 @@ function classNames(...classes: any[]) {
   return classes.filter(Boolean).join(" ");
 }
 
-export type FolderTrack = {
-  count: number;
-  chipType: string;
-  name: string;
-};
-
-export interface setFolder {
-  folder: {
-    number: number;
-    image: string;
-    name: string;
-    type: string;
-    damage: string;
-    lettercode: string;
-    memory: string | number;
-    description: string;
-    key: string;
-    chipType: string;
-    count?: number;
-  }[];
-  folderTrack: FolderTrack[];
-  id: string;
-}
-
-interface Folder extends Chip {
-  count: number;
-}
-
 const ChipItem = memo(function ChipItem({
   chip,
   addChipToFolder,
   chipIndex,
 }: {
   chip: Chip;
-  addChipToFolder: (chip: Chip | Folder) => void;
+  addChipToFolder: (chip: Chip) => void;
   chipIndex: string;
 }) {
   return (
@@ -168,9 +141,9 @@ function ChipItemLeftSide({
   index,
   removeChipFromFolder,
 }: {
-  chip: ChipWithCount;
+  chip: Chip;
   index: number;
-  removeChipFromFolder: (chip: ChipWithCount, index: number) => void;
+  removeChipFromFolder: (chip: Chip, index: number) => void;
 }) {
   return (
     <div
@@ -248,35 +221,29 @@ const sortOptions = [
 
 function Create() {
   // Get folder id from URL
-  const { id } = useParams<FolderParams>();
-  const [folder, setFolder] = useState<any[]>([]);
-  const [folderTrack, setFolder2] = useState<FolderTrack[]>([]);
+  const { id } = useParams<FolderRouteParams>();
+  const [folder, setFolder] = useState<Chip[]>([]);
+  const [folderTrack, setFolderTrack] = useState<FolderTrack[]>([]);
   const [currentTabIndex, setCurrentTabIndex] = useState(0);
-  const {
-    chipLibrary,
-    originalChipLibrary,
-    setSearchTerm,
-    searchTerm,
-  } = useBattleChips(currentTabIndex);
+  const { chipLibrary, originalChipLibrary, setSearchTerm, searchTerm } =
+    useBattleChips(currentTabIndex);
   const [sortOptions2] = useState(sortOptions);
   const navigate = useNavigate();
 
-  const [storedValue, setValue] = useLocalStorage<setFolder[]>(
+  const [storedValue, setValue] = useLocalStorage<FolderObject[]>(
     "mmbn3-folder-builder",
     []
   );
-
-  console.log("stored Value", storedValue);
 
   useEffect(() => {
     if (id) {
       const foundFolder = storedValue!.find((folder) => folder.id === id);
       if (foundFolder) {
         setFolder(foundFolder?.folder);
-        setFolder2(foundFolder?.folderTrack);
+        setFolderTrack(foundFolder?.folderTrack);
       }
     }
-    // When I get that value to come back, this useEffect will update
+    // When I get that value to come back from useLocalStorage on the second render, this useEffect will update
   }, [storedValue]);
 
   const totalCount = folderTrack.reduce((accumulator, currentValue) => {
@@ -318,7 +285,7 @@ function Create() {
     }
 
     const chipIndex = folderTrack.findIndex(
-      (c: any) => c.name.toLowerCase() === chip.name.toLowerCase()
+      (c) => c.name.toLowerCase() === chip.name.toLowerCase()
     );
 
     if (chipIndex > -1) {
@@ -333,7 +300,7 @@ function Create() {
         alert("Can only have 4 of each chip");
       } else {
         const chipIndexForFolder = folder.findIndex(
-          (c: any) => c.name === chip.name && c.lettercode === chip.lettercode
+          (c) => c.name === chip.name && c.lettercode === chip.lettercode
         );
 
         if (chipIndexForFolder > -1) {
@@ -353,10 +320,10 @@ function Create() {
         const updatedChip = { ...chipData, count: chipData.count + 1 };
         const clonedFolderTrack = [...folderTrack];
         clonedFolderTrack[chipIndex] = updatedChip;
-        setFolder2(clonedFolderTrack);
+        setFolderTrack(clonedFolderTrack);
       }
     } else {
-      setFolder2([
+      setFolderTrack([
         ...folderTrack,
         { count: 1, name: chip.name, chipType: chip.chipType },
       ]);
@@ -364,13 +331,13 @@ function Create() {
     }
   };
 
-  const removeChipFromFolder = (chip: ChipWithCount, index: number) => {
+  const removeChipFromFolder = (chip: Chip, index: number) => {
     const chipIndex = folderTrack.findIndex(
-      (c: any) => c.name.toLowerCase() === chip.name.toLowerCase()
+      (c) => c.name.toLowerCase() === chip.name.toLowerCase()
     );
 
     const chipIndexForFolder = folder.findIndex(
-      (c: any) => c.name === chip.name && c.lettercode === chip.lettercode
+      (c) => c.name === chip.name && c.lettercode === chip.lettercode
     );
 
     // https://stackoverflow.com/a/69458984
@@ -381,7 +348,7 @@ function Create() {
       const chipData = folderTrack[chipIndex];
       const updatedChip = { ...chipData, count: chipData.count - 1 };
       if (updatedChip.count === 0) {
-        setFolder2([
+        setFolderTrack([
           ...folderTrack.slice(0, chipIndex),
           ...folderTrack.slice(chipIndex + 1),
         ]);
@@ -410,12 +377,12 @@ function Create() {
         const clonedFolderTrack = [...folderTrack];
         clonedFolderTrack[chipIndex] = updatedChip;
 
-        setFolder2(clonedFolderTrack);
+        setFolderTrack(clonedFolderTrack);
         // https://stackoverflow.com/a/69458984
         // setFolder([...folder.slice(0, index), ...folder.slice(index + 1)]);
       }
     } else {
-      setFolder2([
+      setFolderTrack([
         ...folderTrack,
         { count: 1, name: chip.name, chipType: chip.chipType },
       ]);

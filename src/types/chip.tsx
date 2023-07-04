@@ -8,9 +8,22 @@ export interface Chip {
   memory: string | number;
   description: string;
   key: string;
-  chipType: string;
+  chipType: "standard" | "giga" | "mega";
+  count: number;
 }
 
-export interface ChipWithCount extends Chip {
+export type FolderTrack = {
   count: number;
+  chipType: "standard" | "giga" | "mega";
+  name: string;
+};
+
+export type FolderRouteParams = {
+  id: string;
+};
+
+export interface FolderObject {
+  folder: Chip[];
+  folderTrack: FolderTrack[];
+  id: string;
 }

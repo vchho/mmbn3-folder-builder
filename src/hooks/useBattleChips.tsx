@@ -10,9 +10,9 @@ export default function useBattleChips(currentTabIndex: number) {
     Mega: Chip[];
     Giga: Chip[];
   }>({
-    Standard: standardChips,
-    Mega: megaChips,
-    Giga: gigaChips,
+    Standard: standardChips as Chip[],
+    Mega: megaChips as Chip[],
+    Giga: gigaChips as Chip[],
   });
 
   const [searchTerm, setSearchTerm] = useState("");
