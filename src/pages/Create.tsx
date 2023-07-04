@@ -1,4 +1,3 @@
-import { Chip } from "../utils/chips";
 import { useState, ChangeEvent, memo, Fragment, useEffect } from "react";
 import { Menu, Tab, Transition, Listbox } from "@headlessui/react";
 import useBattleChips from "../hooks/useBattleChips";
@@ -11,6 +10,7 @@ import {
 import useLocalStorage from "../hooks/useLocalStorage";
 import { nanoid } from "nanoid";
 import { useNavigate, useParams } from "react-router-dom";
+import { Chip, ChipWithCount } from "../types/chip";
 // import Toggle from "./components/Toggle";
 
 type FolderParams = {
@@ -121,18 +121,7 @@ const ChipItem = memo(function ChipItem({
   addChipToFolder,
   chipIndex,
 }: {
-  chip: {
-    number: number;
-    image: string;
-    name: string;
-    type: string;
-    damage: string;
-    lettercode: string;
-    memory: string | number;
-    description: string;
-    key: string;
-    chipType: string;
-  };
+  chip: Chip;
   addChipToFolder: (chip: Chip | Folder) => void;
   chipIndex: string;
 }) {
@@ -180,9 +169,9 @@ function ChipItemLeftSide({
   index,
   removeChipFromFolder,
 }: {
-  chip: any;
+  chip: ChipWithCount;
   index: number;
-  removeChipFromFolder: (chip: Chip, index: number) => void;
+  removeChipFromFolder: (chip: ChipWithCount, index: number) => void;
 }) {
   return (
     <div
@@ -377,7 +366,7 @@ function Create() {
     }
   };
 
-  const removeChipFromFolder = (chip: Chip, index: number) => {
+  const removeChipFromFolder = (chip: ChipWithCount, index: number) => {
     const chipIndex = folderTrack.findIndex(
       (c: any) => c.name.toLowerCase() === chip.name.toLowerCase()
     );
