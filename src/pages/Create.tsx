@@ -11,7 +11,6 @@ import useLocalStorage from "../hooks/useLocalStorage";
 import { nanoid } from "nanoid";
 import { useNavigate, useParams } from "react-router-dom";
 import { Chip, ChipWithCount } from "../types/chip";
-// import Toggle from "./components/Toggle";
 
 type FolderParams = {
   id: string;
