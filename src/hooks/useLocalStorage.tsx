@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 
+// https://gist.github.com/Mon4ik/2636100f5b74ee14e35cf283700616fe
 export default function useLocalStorage<T>(
   key: string,
   defaultValue: T
@@ -38,7 +39,7 @@ export default function useLocalStorage<T>(
         window.dispatchEvent(new StorageEvent("storage", { key }));
       }
     } catch (e) {
-      console.error('useLocalStorage error: ', e);
+      console.error("useLocalStorage error: ", e);
     }
   };
 
