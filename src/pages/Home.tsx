@@ -13,7 +13,9 @@ export const Home = () => {
     <div className="relative min-h-screen w-screen items-stretch bg-blue-300 p-6">
       <div className="relative mx-auto block max-w-screen-xl flex-col">
         <header className="flex w-full items-center justify-between">
-          <h1 className="text-4xl font-bold">MMBN3 Folder Builder</h1>
+          <h1 className="text-4xl font-bold text-white">
+            MMBN3 Folder Builder
+          </h1>
           <Link
             to={"/create"}
             className="rounded bg-orange-600 p-4 text-gray-800 shadow hover:shadow-md"

@@ -16,6 +16,7 @@ import {
   FolderRouteParams,
   FolderTrack,
 } from "../types/chip";
+import classNames from "classnames";
 
 const people = [
   { id: 1, name: "Durward Reynolds", unavailable: false },
@@ -84,7 +85,7 @@ function MyListbox() {
   );
 }
 
-function classNames(...classes: any[]) {
+function classNames2(...classes: any[]) {
   return classes.filter(Boolean).join(" ");
 }
 
@@ -97,11 +98,18 @@ const ChipItem = memo(function ChipItem({
   addChipToFolder: (chip: Chip) => void;
   chipIndex: string;
 }) {
+  const chipTypeColor = classNames({
+    "bg-gray-100": chip.chipType === "standard",
+    "bg-sky-300": chip.chipType === "mega",
+    "bg-rose-300": chip.chipType === "giga",
+  });
+
   return (
     <div
-      className={classNames(
-        "rounded-xl bg-zinc-100 p-1",
-        "mb-3 ml-3 mr-3 ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2"
+      className={classNames2(
+        "rounded-xl p-1",
+        "mb-3 ml-3 mr-3 ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2",
+        chipTypeColor
       )}
       key={chipIndex}
     >
@@ -147,7 +155,7 @@ function ChipItemLeftSide({
 }) {
   return (
     <div
-      className={classNames(
+      className={classNames2(
         "rounded-xl bg-white p-1",
         "mb-3 ml-3 mr-3 ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2"
       )}
@@ -475,7 +483,7 @@ function Create() {
                                   {({ active }) => (
                                     <a
                                       href={option.href}
-                                      className={classNames(
+                                      className={classNames2(
                                         option.current
                                           ? "font-medium text-gray-900"
                                           : "text-gray-500",
@@ -510,7 +518,7 @@ function Create() {
                       <Tab
                         key={title}
                         className={({ selected }) =>
-                          classNames(
+                          classNames2(
                             "w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-blue-700",
                             "ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2",
                             selected
