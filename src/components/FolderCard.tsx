@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { TrashIcon } from "@heroicons/react/20/solid";
 
 export const FolderCard = ({ id }: { id: string }) => {
   return (
@@ -11,13 +12,14 @@ export const FolderCard = ({ id }: { id: string }) => {
           />
         </div>
       </div>
-      <div className="mt-3 block truncate pb-1 text-left">
+      <div className="mt-3 flex content-center justify-between truncate pb-1 text-left">
         <Link
           to={`/create/${id}`}
           className="font-semibold transition hover:text-red-800 dark:text-white dark:hover:text-gray-200"
         >
           Hello World
         </Link>
+        <TrashIcon className="h-5 cursor-pointer text-sm hover:text-red-500" />
       </div>
     </div>
   );
