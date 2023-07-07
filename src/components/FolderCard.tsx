@@ -1,7 +1,15 @@
 import { Link } from "react-router-dom";
 import { TrashIcon } from "@heroicons/react/20/solid";
 
-export const FolderCard = ({ id }: { id: string }) => {
+export const FolderCard = ({
+  id,
+  deleteFolder,
+  index,
+}: {
+  id: string;
+  deleteFolder: (index: number) => void;
+  index: number;
+}) => {
   return (
     <div className="relative col-span-1 sm:col-span-2">
       <div className="relative overflow-hidden rounded-md shadow-lg">
@@ -19,7 +27,10 @@ export const FolderCard = ({ id }: { id: string }) => {
         >
           Hello World
         </Link>
-        <TrashIcon className="h-5 cursor-pointer text-sm transition hover:text-red-500" />
+        <TrashIcon
+          className="h-5 cursor-pointer text-sm transition hover:text-red-500"
+          onClick={() => deleteFolder(index)}
+        />
       </div>
     </div>
   );

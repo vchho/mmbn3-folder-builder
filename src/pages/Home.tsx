@@ -4,10 +4,16 @@ import useLocalStorage from "../hooks/useLocalStorage";
 import { FolderObject } from "../types/chip";
 
 export const Home = () => {
-  const [storedValue] = useLocalStorage<FolderObject[]>(
+  const [storedValue, setValueWrap] = useLocalStorage<FolderObject[]>(
     "mmbn3-folder-builder",
     []
   );
+
+  const deleteFolder = (index: number) => {
+    const modifiedArray = storedValue.filter((_, i) => i !== index);
+
+    setValueWrap(modifiedArray);
+  };
 
   return (
     <div className="relative min-h-screen w-screen items-stretch bg-blue-300 p-6">
@@ -30,8 +36,15 @@ export const Home = () => {
               .map(() => {
                 return <FolderCard />;
               })} */}
-          {storedValue.map((folder) => {
-            return <FolderCard id={folder.id} key={folder.id} />;
+          {storedValue.map((folder, index) => {
+            return (
+              <FolderCard
+                id={folder.id}
+                key={folder.id}
+                deleteFolder={deleteFolder}
+                index={index}
+              />
+            );
           })}
         </div>
       </div>
