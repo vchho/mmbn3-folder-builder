@@ -282,13 +282,13 @@ function Create() {
       return;
     }
 
-    if (chip.chipType === "mega" && totalMegaChips === 5) {
-      alert("Can only have 5 mega chips");
+    if (chip.chipType === "mega" && totalMegaChips === 7) {
+      alert("Can only have 7 mega chips");
       return;
     }
 
-    if (chip.chipType === "giga" && totalGigaChips === 1) {
-      alert("Can only have 1 giga chip");
+    if (chip.chipType === "giga" && totalGigaChips === 2) {
+      alert("Can only have 2 giga chip");
       return;
     }
 

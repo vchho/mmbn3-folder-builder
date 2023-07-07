@@ -43,8 +43,8 @@ export const FolderNav = memo(function FolderNav({
               count={totalStandardChips}
               maxCount={30}
             />
-            <NavItem text="Mega: " count={totalMegaChips} maxCount={5} />
-            <NavItem text="Giga: " count={totalGigaChips} maxCount={1} />
+            <NavItem text="Mega: " count={totalMegaChips} maxCount={7} />
+            <NavItem text="Giga: " count={totalGigaChips} maxCount={2} />
             <button
               type="button"
               onClick={() => saveFolder()}
