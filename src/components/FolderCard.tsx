@@ -19,7 +19,7 @@ export const FolderCard = ({ id }: { id: string }) => {
         >
           Hello World
         </Link>
-        <TrashIcon className="h-5 cursor-pointer text-sm hover:text-red-500" />
+        <TrashIcon className="h-5 cursor-pointer text-sm transition hover:text-red-500" />
       </div>
     </div>
   );

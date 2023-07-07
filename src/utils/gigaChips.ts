@@ -1,7 +1,7 @@
 export const gigaChips = [
   {
     number: 2,
-    image: "",
+    image: "../../assets/giga/MMBN3GChip02.jpg",
     name: "BassGS",
     type: "",
     damage: "700",
