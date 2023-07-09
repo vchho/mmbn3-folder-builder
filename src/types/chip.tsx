@@ -5,7 +5,7 @@ export interface Chip {
   type: string;
   damage: string;
   lettercode: string;
-  memory: string | number;
+  memory: number;
   description: string;
   key: string;
   chipType: "standard" | "giga" | "mega";
