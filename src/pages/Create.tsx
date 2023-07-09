@@ -91,12 +91,18 @@ function classNames2(...classes: any[]) {
 
 const ChipItem = memo(function ChipItem({
   chip,
-  addChipToFolder,
+  index,
   chipIndex,
+  total,
+  addChipToFolder,
+  removeChipFromFolder,
 }: {
   chip: Chip;
-  addChipToFolder: (chip: Chip) => void;
+  index: number;
   chipIndex: string;
+  total?: boolean;
+  addChipToFolder: (chip: Chip) => void;
+  removeChipFromFolder: (chip: Chip, index: number) => void;
 }) {
   const chipTypeColor = classNames({
     "bg-gray-100": chip.chipType === "standard",
@@ -123,6 +129,14 @@ const ChipItem = memo(function ChipItem({
               <p>Description: {chip.description}</p>
               <p>Damage: {chip.damage}</p>
               <p>Memory: {chip.memory}</p>
+              {total && (
+                <p>
+                  Total:
+                  <span className="mr-2 rounded bg-blue-100 px-2.5 py-0.5 text-xs font-medium text-blue-800 ">
+                    {chip.count}
+                  </span>
+                </p>
+              )}
             </div>
           </div>
           <div className="flex self-center">
@@ -131,12 +145,21 @@ const ChipItem = memo(function ChipItem({
               className="mr-1 flex h-24 w-24 self-center"
               alt={`${chip.name} image`}
             />
-            <button
-              onClick={() => addChipToFolder(chip)}
-              className="h-11 self-center rounded-md border border-green-700 bg-green-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:border-green-800 hover:bg-green-700"
-            >
-              +
-            </button>
+            {total ? (
+              <button
+                onClick={() => removeChipFromFolder(chip, index)}
+                className="h-11 self-center rounded-md border border-pink-700 bg-pink-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:border-pink-800 hover:bg-pink-700"
+              >
+                -
+              </button>
+            ) : (
+              <button
+                onClick={() => addChipToFolder(chip)}
+                className="h-11 self-center rounded-md border border-green-700 bg-green-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:border-green-800 hover:bg-green-700"
+              >
+                +
+              </button>
+            )}
           </div>
         </div>
       </div>
@@ -146,55 +169,26 @@ const ChipItem = memo(function ChipItem({
 
 function ChipItemLeftSide({
   chip,
+  chipIndex,
   index,
   removeChipFromFolder,
+  addChipToFolder,
 }: {
   chip: Chip;
+  chipIndex: string;
   index: number;
   removeChipFromFolder: (chip: Chip, index: number) => void;
+  addChipToFolder: (chip: Chip) => void;
 }) {
   return (
-    <div
-      className={classNames2(
-        "rounded-xl bg-white p-1",
-        "mb-3 ml-3 mr-3 ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2"
-      )}
-      key={index}
-    >
-      <div className="relative rounded-sm p-2">
-        <div className="flex justify-between">
-          <div className="flex-row">
-            <div className="text-sm font-medium leading-6 text-gray-900">
-              <label htmlFor="comments" className="font-medium text-gray-900">
-                {chip.name} {chip.lettercode}
-              </label>
-              <p>Description: {chip.description}</p>
-              <p>Damage: {chip.damage}</p>
-              <p>Memory: {chip.memory}</p>
-              <p>
-                Total:
-                <span className="mr-2 rounded bg-blue-100 px-2.5 py-0.5 text-xs font-medium text-blue-800 ">
-                  {chip.count}
-                </span>
-              </p>
-            </div>
-          </div>
-          <div className="flex self-center">
-            <img
-              src={chip.image}
-              className="mr-1 flex h-24 w-24 self-center"
-              alt={`${chip.name} image`}
-            />
-            <button
-              onClick={() => removeChipFromFolder(chip, index)}
-              className="h-11 self-center rounded-md border border-pink-700 bg-pink-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:border-pink-800 hover:bg-pink-700"
-            >
-              -
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
+    <ChipItem
+      chip={chip}
+      index={index}
+      chipIndex={chipIndex}
+      addChipToFolder={addChipToFolder}
+      removeChipFromFolder={removeChipFromFolder}
+      total={true}
+    />
   );
 }
 
@@ -432,6 +426,8 @@ function Create() {
                 <ChipItemLeftSide
                   chip={chip}
                   index={index}
+                  chipIndex={chip.name + index}
+                  addChipToFolder={addChipToFolder}
                   removeChipFromFolder={removeChipFromFolder}
                 />
               );
@@ -536,9 +532,11 @@ function Create() {
                       return (
                         <ChipItem
                           chip={chip}
-                          addChipToFolder={addChipToFolder}
+                          index={index}
                           chipIndex={chip.name + index}
                           key={chip.name + index}
+                          addChipToFolder={addChipToFolder}
+                          removeChipFromFolder={removeChipFromFolder}
                         />
                       );
                     })}
