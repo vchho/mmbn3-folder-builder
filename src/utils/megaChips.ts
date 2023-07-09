@@ -1,4 +1,4 @@
-[
+export const megaChips = [
   {
     number: 1,
     image: "../../assets/mega/2661.png",
