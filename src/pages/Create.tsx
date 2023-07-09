@@ -398,11 +398,29 @@ function Create() {
   };
 
   const saveFolder = () => {
-    const updatedFolder = [
+    const createdFolder = [
       ...storedValue,
       { folder, folderTrack, id: nanoid() },
     ];
-    setValue(updatedFolder);
+
+    if (id) {
+      const folderIndex = storedValue!.findIndex((folder) => folder.id === id);
+
+      const selectedFolder = storedValue[folderIndex];
+
+      const updatedFolders = [...storedValue];
+
+      updatedFolders[folderIndex] = {
+        folder,
+        folderTrack,
+        id: selectedFolder.id,
+      };
+
+      setValue(updatedFolders);
+    } else {
+      setValue(createdFolder);
+    }
+
     navigate("/");
   };
 
