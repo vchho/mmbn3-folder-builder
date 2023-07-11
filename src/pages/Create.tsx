@@ -15,6 +15,7 @@ import {
   FolderObject,
   FolderRouteParams,
   FolderTrack,
+  SortOrder,
 } from "../types/chip";
 import classNames from "classnames";
 
@@ -227,8 +228,13 @@ function Create() {
   const [folder, setFolder] = useState<Chip[]>([]);
   const [folderTrack, setFolderTrack] = useState<FolderTrack[]>([]);
   const [currentTabIndex, setCurrentTabIndex] = useState(0);
-  const { chipLibrary, originalChipLibrary, setSearchTerm, searchTerm } =
-    useBattleChips(currentTabIndex);
+  const {
+    chipLibrary,
+    originalChipLibrary,
+    setSearchTerm,
+    searchTerm,
+    setFilters,
+  } = useBattleChips(currentTabIndex);
   const [sortOptions2] = useState(sortOptions);
   const navigate = useNavigate();
 
@@ -497,6 +503,9 @@ function Create() {
                                   {({ active }) => (
                                     <a
                                       href={option.href}
+                                      onClick={() =>
+                                        setFilters(option.name as SortOrder)
+                                      }
                                       className={classNames2(
                                         option.current
                                           ? "font-medium text-gray-900"

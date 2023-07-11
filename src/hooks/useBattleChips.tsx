@@ -2,7 +2,7 @@ import { useMemo, useState } from "react";
 import { standardChips } from "../utils/chips";
 import { megaChips } from "../utils/megaChips";
 import { gigaChips } from "../utils/gigaChips";
-import { Chip } from "../types/chip";
+import { Chip, SortOrder } from "../types/chip";
 
 export default function useBattleChips(currentTabIndex: number) {
   const [chipLibrary] = useState<{
@@ -16,11 +16,8 @@ export default function useBattleChips(currentTabIndex: number) {
   });
 
   const [searchTerm, setSearchTerm] = useState("");
-  const [currentStateFilters, setFilters] = useState({
-    id: "off",
-    abcde: "off",
-    memory: "off",
-  });
+  const [currentStateFilters, setFilters] = useState<SortOrder>("default");
+  // const [sortDirection, setSortDirection] = useState<SortOrder>('default');
 
   // const sortOptions = [
   //   { name: "Most Popular", href: "#", current: true },
@@ -43,13 +40,9 @@ export default function useBattleChips(currentTabIndex: number) {
   // ]);
 
   const sortByMemory = (a: Chip, b: Chip) => {
-    if (currentStateFilters.memory === "asc") {
-      // @ts-ignore
+    if (currentStateFilters === "MB") {
       return a.memory - b.memory;
-    } else if (currentStateFilters.memory === "desc") {
-      // @ts-ignore
-      return b.memory - a.memory;
-    } else {
+    } else if (currentStateFilters === "default") {
       return 0;
     }
   };
@@ -60,8 +53,9 @@ export default function useBattleChips(currentTabIndex: number) {
         [currentTabIndex].filter((cl) =>
           cl.name.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase())
         )
+        // @ts-ignore
         .sort(sortByMemory),
-    [chipLibrary, currentTabIndex, searchTerm]
+    [chipLibrary, currentTabIndex, searchTerm, currentStateFilters]
   );
 
   return {
