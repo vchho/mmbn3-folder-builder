@@ -27,3 +27,14 @@ export interface FolderObject {
   folderTrack: FolderTrack[];
   id: string;
 }
+
+export type SortOrder =
+  | "default"
+  | "Id"
+  | "ABCDE"
+  | "Code"
+  | "Damage"
+  | "Element"
+  | "MB";
+
+export type SortOrderDirection = "descending" | "ascending";
