@@ -2,7 +2,7 @@ import { useMemo, useState } from "react";
 import { standardChips } from "../utils/chips";
 import { megaChips } from "../utils/megaChips";
 import { gigaChips } from "../utils/gigaChips";
-import { Chip, SortOrder } from "../types/chip";
+import { Chip, SortOrder, SortOrderDirection } from "../types/chip";
 
 export default function useBattleChips(currentTabIndex: number) {
   const [chipLibrary] = useState<{
@@ -17,21 +17,28 @@ export default function useBattleChips(currentTabIndex: number) {
 
   const [searchTerm, setSearchTerm] = useState("");
   const [currentStateFilters, setFilters] = useState<SortOrder>("default");
-  // const [sortDirection, setSortDirection] =
-  //   useState<SortOrderDirection>("ascending");
+  const [sortDirection, setSortDirection] =
+    useState<SortOrderDirection>("ascending");
 
   const sortByMemory = (a: Chip, b: Chip) => {
     if (currentStateFilters === "MB") {
-      return a.memory - b.memory;
+      return sortDirection === "ascending"
+        ? a.memory - b.memory
+        : b.memory - a.memory;
+      // return a.memory - b.memory || sortDirection;
     } else if (currentStateFilters === "Alphabetical") {
-      return a.name.localeCompare(b.name);
+      return sortDirection === "ascending"
+        ? a.name.localeCompare(b.name)
+        : b.name.localeCompare(a.name);
     } else if (currentStateFilters === "Code") {
-      return a.lettercode.localeCompare(b.lettercode);
+      return sortDirection === "ascending"
+        ? a.lettercode.localeCompare(b.lettercode)
+        : b.lettercode.localeCompare(a.lettercode);
     } else if (currentStateFilters === "Damage") {
       // Edge case where some chips may have '-' as a damage value
       return a.damage.localeCompare(b.damage);
     } else {
-      return 0;
+      return sortDirection === "ascending" ? -1 : 1;
     }
   };
 
@@ -42,7 +49,13 @@ export default function useBattleChips(currentTabIndex: number) {
           cl.name.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase())
         )
         .sort(sortByMemory),
-    [chipLibrary, currentTabIndex, searchTerm, currentStateFilters]
+    [
+      chipLibrary,
+      currentTabIndex,
+      searchTerm,
+      currentStateFilters,
+      sortDirection,
+    ]
   );
 
   return {
@@ -51,5 +64,7 @@ export default function useBattleChips(currentTabIndex: number) {
     setSearchTerm: setSearchTerm,
     searchTerm: searchTerm,
     setFilters: setFilters,
+    sortDirection: sortDirection,
+    setSortDirection: setSortDirection,
   };
 }

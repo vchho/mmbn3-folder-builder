@@ -132,6 +132,8 @@ function Create() {
     setSearchTerm,
     searchTerm,
     setFilters,
+    setSortDirection,
+    sortDirection,
   } = useBattleChips(currentTabIndex);
   const navigate = useNavigate();
 
@@ -338,12 +340,12 @@ function Create() {
         searchTerm={searchTerm}
         handleChipSearch={handleChipSearch}
         setFilters={setFilters}
+        sortDirection={sortDirection}
+        setSortDirection={setSortDirection}
       />
 
       <div className="grid h-screen grid-cols-12 bg-blue-300">
         <div className="col-span-6 flex-1 overflow-y-scroll">
-          <header className="sticky top-0 z-50"></header>
-
           <div className="container">
             {folder.map((chip, index) => {
               return (
@@ -362,10 +364,6 @@ function Create() {
         <div className="col-span-6 flex flex-1 overflow-hidden">
           <div className="flex-1 overflow-y-scroll">
             <div className="bg-blue-300">
-              <header className="sticky top-0 z-50">
-                <div className="mb-6"></div>
-              </header>
-
               <div className="w-full px-2 sm:px-0">
                 <Tab.Group
                   onChange={(index) => {

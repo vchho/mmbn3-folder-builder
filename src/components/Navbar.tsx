@@ -1,13 +1,28 @@
 import { ChangeEvent } from "react";
-import { SortOrder, sorts } from "../types/chip";
+import { SortOrder, SortOrderDirection, sorts } from "../types/chip";
 
-const Toggle = () => {
+const Toggle = ({
+  sortDirection,
+  setSortDirection,
+}: {
+  sortDirection: string;
+  setSortDirection: React.Dispatch<React.SetStateAction<SortOrderDirection>>;
+}) => {
   return (
     <label className="relative mr-2 cursor-pointer items-center">
-      <input type="checkbox" value="" className="peer sr-only" />
+      <input
+        type="checkbox"
+        value=""
+        className="peer sr-only"
+        onClick={() =>
+          setSortDirection((previousOrder) =>
+            previousOrder === "ascending" ? "descending" : "ascending"
+          )
+        }
+      />
       <div className="peer h-6 w-11 rounded-full bg-gray-200 after:absolute after:left-[2px] after:top-[2px] after:h-5 after:w-5 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:border-gray-600 dark:bg-gray-700 dark:peer-focus:ring-blue-800"></div>
       <span className="ml-3 text-sm font-medium text-gray-900 dark:text-gray-300">
-        ASC
+        {sortDirection}
       </span>
     </label>
   );
@@ -60,6 +75,8 @@ export const Navbar = ({
   handleChipSearch,
   searchTerm,
   setFilters,
+  sortDirection,
+  setSortDirection,
 }: {
   totalCount: number;
   totalStandardChips: number;
@@ -69,6 +86,8 @@ export const Navbar = ({
   handleChipSearch: (event: ChangeEvent<HTMLInputElement>) => void;
   searchTerm: string;
   setFilters: React.Dispatch<React.SetStateAction<SortOrder>>;
+  sortDirection: string;
+  setSortDirection: React.Dispatch<React.SetStateAction<SortOrderDirection>>;
 }) => {
   return (
     <nav className="border-gray-200 bg-white dark:bg-gray-900">
@@ -91,7 +110,10 @@ export const Navbar = ({
             handleChipSearch={handleChipSearch}
             searchTerm={searchTerm}
           />
-          <Toggle />
+          <Toggle
+            sortDirection={sortDirection}
+            setSortDirection={setSortDirection}
+          />
 
           <select
             id="sortLabels"
