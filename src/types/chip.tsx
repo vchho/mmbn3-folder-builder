@@ -31,10 +31,48 @@ export interface FolderObject {
 export type SortOrder =
   | "default"
   | "Id"
-  | "ABCDE"
+  | "Alphabetical"
   | "Code"
   | "Damage"
   | "Element"
   | "MB";
 
 export type SortOrderDirection = "descending" | "ascending";
+
+export const sorts = [
+  {
+    param: "default",
+    label: "default",
+    enabled: true,
+  },
+  {
+    param: "id",
+    label: "Id",
+    enabled: false,
+  },
+  {
+    param: "alphabetical",
+    label: "Alphabetical",
+    enabled: false,
+  },
+  {
+    param: "code",
+    label: "Code",
+    enabled: false,
+  },
+  {
+    param: "damage",
+    label: "Damage",
+    enabled: false,
+  },
+  {
+    param: "element",
+    label: "Element",
+    enabled: false,
+  },
+  {
+    param: "mb",
+    label: "MB",
+    enabled: false,
+  },
+];
