@@ -17,32 +17,20 @@ export default function useBattleChips(currentTabIndex: number) {
 
   const [searchTerm, setSearchTerm] = useState("");
   const [currentStateFilters, setFilters] = useState<SortOrder>("default");
-  // const [sortDirection, setSortDirection] = useState<SortOrder>('default');
-
-  // const sortOptions = [
-  //   { name: "Most Popular", href: "#", current: true },
-  //   { name: "Id", href: "#", current: true },
-  //   { name: "ABCDE", href: "#", current: false },
-  //   { name: "Code", href: "#", current: false },
-  //   { name: "Damage", href: "#", current: false },
-  //   { name: "Element", href: "#", current: false },
-  //   { name: "MB", href: "#", current: false },
-  // ];
-
-  // const [setCurrentStateFilters2, setFilters2] = useState([
-  //   { name: "Most Popular", href: "#", current: true },
-  //   { name: "Id", href: "#", current: true },
-  //   { name: "ABCDE", href: "#", current: false },
-  //   { name: "Code", href: "#", current: false },
-  //   { name: "Damage", href: "#", current: false },
-  //   { name: "Element", href: "#", current: false },
-  //   { name: "MB", href: "#", current: false },
-  // ]);
+  // const [sortDirection, setSortDirection] =
+  //   useState<SortOrderDirection>("ascending");
 
   const sortByMemory = (a: Chip, b: Chip) => {
     if (currentStateFilters === "MB") {
       return a.memory - b.memory;
-    } else if (currentStateFilters === "default") {
+    } else if (currentStateFilters === "Alphabetical") {
+      return a.name.localeCompare(b.name);
+    } else if (currentStateFilters === "Code") {
+      return a.lettercode.localeCompare(b.lettercode);
+    } else if (currentStateFilters === "Damage") {
+      // Edge case where some chips may have '-' as a damage value
+      return a.damage.localeCompare(b.damage);
+    } else {
       return 0;
     }
   };
@@ -53,7 +41,6 @@ export default function useBattleChips(currentTabIndex: number) {
         [currentTabIndex].filter((cl) =>
           cl.name.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase())
         )
-        // @ts-ignore
         .sort(sortByMemory),
     [chipLibrary, currentTabIndex, searchTerm, currentStateFilters]
   );
