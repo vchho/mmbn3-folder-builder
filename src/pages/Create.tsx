@@ -1,12 +1,6 @@
-import { useState, ChangeEvent, memo, Fragment, useEffect } from "react";
-import { Menu, Tab, Transition, Listbox } from "@headlessui/react";
+import { useState, ChangeEvent, memo, useEffect } from "react";
+import { Tab } from "@headlessui/react";
 import useBattleChips from "../hooks/useBattleChips";
-import { FolderNav } from "../components/FolderNav";
-import {
-  ChevronDownIcon,
-  CheckIcon,
-  ChevronUpDownIcon,
-} from "@heroicons/react/20/solid";
 import useLocalStorage from "../hooks/useLocalStorage";
 import { nanoid } from "nanoid";
 import { useNavigate, useParams } from "react-router-dom";
@@ -15,76 +9,9 @@ import {
   FolderObject,
   FolderRouteParams,
   FolderTrack,
-  SortOrder,
 } from "../types/chip";
 import classNames from "classnames";
-
-const people = [
-  { id: 1, name: "Durward Reynolds", unavailable: false },
-  { id: 2, name: "Kenton Towne", unavailable: false },
-  { id: 3, name: "Therese Wunsch", unavailable: false },
-  { id: 4, name: "Benedict Kessler", unavailable: true },
-  { id: 5, name: "Katelyn Rohan", unavailable: false },
-];
-
-function MyListbox() {
-  const [selected, setSelected] = useState(people[0]);
-
-  return (
-    <div className="w-96">
-      <Listbox value={selected} onChange={setSelected}>
-        <div className="relative mt-1">
-          <Listbox.Button className="relative w-full cursor-default rounded-lg bg-white py-2 pl-3 pr-10 text-left shadow-md focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300 sm:text-sm">
-            <span className="block truncate">{selected.name}</span>
-            <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
-              <ChevronUpDownIcon
-                className="h-5 w-5 text-gray-400"
-                aria-hidden="true"
-              />
-            </span>
-          </Listbox.Button>
-          <Transition
-            as={Fragment}
-            leave="transition ease-in duration-100"
-            leaveFrom="opacity-100"
-            leaveTo="opacity-0"
-          >
-            <Listbox.Options className="absolute mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
-              {people.map((person, personIdx) => (
-                <Listbox.Option
-                  key={personIdx}
-                  className={({ active }) =>
-                    `relative cursor-default select-none py-2 pl-10 pr-4 ${
-                      active ? "bg-amber-100 text-amber-900" : "text-gray-900"
-                    }`
-                  }
-                  value={person}
-                >
-                  {({ selected }) => (
-                    <>
-                      <span
-                        className={`block truncate ${
-                          selected ? "font-medium" : "font-normal"
-                        }`}
-                      >
-                        {person.name}
-                      </span>
-                      {selected ? (
-                        <span className="absolute inset-y-0 left-0 flex items-center pl-3 text-amber-600">
-                          <CheckIcon className="h-5 w-5" aria-hidden="true" />
-                        </span>
-                      ) : null}
-                    </>
-                  )}
-                </Listbox.Option>
-              ))}
-            </Listbox.Options>
-          </Transition>
-        </div>
-      </Listbox>
-    </div>
-  );
-}
+import { Navbar } from "../components/Navbar";
 
 function classNames2(...classes: any[]) {
   return classes.filter(Boolean).join(" ");
@@ -193,35 +120,6 @@ function ChipItemLeftSide({
   );
 }
 
-const SearchBox = memo(function SearchBox({
-  handleChipSearch,
-  searchTerm,
-}: {
-  handleChipSearch: (event: ChangeEvent<HTMLInputElement>) => void;
-  searchTerm: string;
-}) {
-  return (
-    <input
-      type="text"
-      id="chip-search-input"
-      className="rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
-      placeholder="Search for chips here"
-      onChange={handleChipSearch}
-      value={searchTerm}
-    />
-  );
-});
-
-const sortOptions = [
-  { name: "Most Popular", href: "#", current: true },
-  { name: "Id", href: "#", current: true },
-  { name: "ABCDE", href: "#", current: false },
-  { name: "Code", href: "#", current: false },
-  { name: "Damage", href: "#", current: false },
-  { name: "Element", href: "#", current: false },
-  { name: "MB", href: "#", current: false },
-];
-
 function Create() {
   // Get folder id from URL
   const { id } = useParams<FolderRouteParams>();
@@ -235,7 +133,6 @@ function Create() {
     searchTerm,
     setFilters,
   } = useBattleChips(currentTabIndex);
-  const [sortOptions2] = useState(sortOptions);
   const navigate = useNavigate();
 
   const [storedValue, setValue] = useLocalStorage<FolderObject[]>(
@@ -432,17 +329,20 @@ function Create() {
 
   return (
     <>
+      <Navbar
+        totalCount={totalCount}
+        totalStandardChips={totalStandardChips}
+        totalMegaChips={totalMegaChips}
+        totalGigaChips={totalGigaChips}
+        saveFolder={saveFolder}
+        searchTerm={searchTerm}
+        handleChipSearch={handleChipSearch}
+        setFilters={setFilters}
+      />
+
       <div className="grid h-screen grid-cols-12 bg-blue-300">
         <div className="col-span-6 flex-1 overflow-y-scroll">
-          <header className="sticky top-0 z-50">
-            <FolderNav
-              totalCount={totalCount}
-              totalStandardChips={totalStandardChips}
-              totalMegaChips={totalMegaChips}
-              totalGigaChips={totalGigaChips}
-              saveFolder={saveFolder}
-            />
-          </header>
+          <header className="sticky top-0 z-50"></header>
 
           <div className="container">
             {folder.map((chip, index) => {
@@ -463,70 +363,7 @@ function Create() {
           <div className="flex-1 overflow-y-scroll">
             <div className="bg-blue-300">
               <header className="sticky top-0 z-50">
-                <div className="mb-6">
-                  <nav className="h-16 border-gray-200 bg-white dark:bg-gray-900">
-                    <div className="mx-auto flex flex-wrap items-center justify-between p-4">
-                      <SearchBox
-                        handleChipSearch={handleChipSearch}
-                        searchTerm={searchTerm}
-                      />
-
-                      <MyListbox />
-
-                      <Menu
-                        as="div"
-                        className="relative inline-block text-left"
-                      >
-                        <div className="dark:hover:text-red-500">
-                          <Menu.Button className="group inline-flex justify-center text-sm font-medium  text-white">
-                            Sort
-                            <ChevronDownIcon
-                              className="-mr-1 ml-1 h-5 w-5 flex-shrink-0 text-gray-400 "
-                              aria-hidden="true"
-                            />
-                          </Menu.Button>
-                        </div>
-
-                        <Transition
-                          as={Fragment}
-                          enter="transition ease-out duration-100"
-                          enterFrom="transform opacity-0 scale-95"
-                          enterTo="transform opacity-100 scale-100"
-                          leave="transition ease-in duration-75"
-                          leaveFrom="transform opacity-100 scale-100"
-                          leaveTo="transform opacity-0 scale-95"
-                        >
-                          <Menu.Items className="absolute right-0 z-10 mt-2 w-40 origin-top-right rounded-md bg-white shadow-2xl ring-1 ring-black ring-opacity-5 focus:outline-none">
-                            <div className="py-1">
-                              {sortOptions2.map((option) => (
-                                <Menu.Item key={option.name}>
-                                  {({ active }) => (
-                                    <a
-                                      href={option.href}
-                                      onClick={() =>
-                                        setFilters(option.name as SortOrder)
-                                      }
-                                      className={classNames2(
-                                        option.current
-                                          ? "font-medium text-gray-900"
-                                          : "text-gray-500",
-                                        active ? "bg-gray-100" : "",
-                                        "block px-4 py-2 text-sm"
-                                      )}
-                                    >
-                                      {option.name}
-                                      {/* <Toggle currentValue={option.current} /> */}
-                                    </a>
-                                  )}
-                                </Menu.Item>
-                              ))}
-                            </div>
-                          </Menu.Items>
-                        </Transition>
-                      </Menu>
-                    </div>
-                  </nav>
-                </div>
+                <div className="mb-6"></div>
               </header>
 
               <div className="w-full px-2 sm:px-0">
