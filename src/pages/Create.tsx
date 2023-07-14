@@ -157,23 +157,14 @@ function Create() {
     return accumulator + currentValue.count;
   }, 0);
 
-  const totalStandardChips = folderTrack.reduce((accumulator, currentValue) => {
-    return currentValue.chipType === "standard"
-      ? accumulator + currentValue.count
-      : accumulator;
-  }, 0);
-
-  const totalMegaChips = folderTrack.reduce((accumulator, currentValue) => {
-    return currentValue.chipType === "mega"
-      ? accumulator + currentValue.count
-      : accumulator;
-  }, 0);
-
-  const totalGigaChips = folderTrack.reduce((accumulator, currentValue) => {
-    return currentValue.chipType === "giga"
-      ? accumulator + currentValue.count
-      : accumulator;
-  }, 0);
+  const getChipCount = (chipType: string) => {
+    const chipCount = folderTrack.reduce((accumulator, currentValue) => {
+      return currentValue.chipType === chipType
+        ? accumulator + currentValue.count
+        : accumulator;
+    }, 0);
+    return chipCount;
+  };
 
   const addChipToFolder = (chip: Chip) => {
     if (totalCount === 30) {
@@ -181,12 +172,12 @@ function Create() {
       return;
     }
 
-    if (chip.chipType === "mega" && totalMegaChips === 7) {
+    if (chip.chipType === "mega" && getChipCount("mega") === 7) {
       alert("Can only have 7 mega chips");
       return;
     }
 
-    if (chip.chipType === "giga" && totalGigaChips === 2) {
+    if (chip.chipType === "giga" && getChipCount("giga") === 2) {
       alert("Can only have 2 giga chip");
       return;
     }
@@ -333,9 +324,9 @@ function Create() {
     <>
       <Navbar
         totalCount={totalCount}
-        totalStandardChips={totalStandardChips}
-        totalMegaChips={totalMegaChips}
-        totalGigaChips={totalGigaChips}
+        totalStandardChips={getChipCount("standard")}
+        totalMegaChips={getChipCount("mega")}
+        totalGigaChips={getChipCount("giga")}
         saveFolder={saveFolder}
         searchTerm={searchTerm}
         handleChipSearch={handleChipSearch}

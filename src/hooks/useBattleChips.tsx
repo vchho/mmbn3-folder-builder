@@ -25,7 +25,6 @@ export default function useBattleChips(currentTabIndex: number) {
       return sortDirection === "ascending"
         ? a.memory - b.memory
         : b.memory - a.memory;
-      // return a.memory - b.memory || sortDirection;
     } else if (currentStateFilters === "Alphabetical") {
       return sortDirection === "ascending"
         ? a.name.localeCompare(b.name)
