@@ -1,3 +1,5 @@
+export type ChipType = "standard" | "giga" | "mega";
+
 export interface Chip {
   number: number;
   image: string;
@@ -8,13 +10,13 @@ export interface Chip {
   memory: number;
   description: string;
   key: string;
-  chipType: "standard" | "giga" | "mega";
+  chipType: ChipType;
   count: number;
 }
 
 export type FolderTrack = {
   count: number;
-  chipType: "standard" | "giga" | "mega";
+  chipType: ChipType;
   name: string;
 };
 

@@ -6,6 +6,7 @@ import { nanoid } from "nanoid";
 import { useNavigate, useParams } from "react-router-dom";
 import {
   Chip,
+  ChipType,
   FolderObject,
   FolderRouteParams,
   FolderTrack,
@@ -132,6 +133,8 @@ function Create() {
     setSearchTerm,
     searchTerm,
     setFilters,
+    setSortDirection,
+    sortDirection,
   } = useBattleChips(currentTabIndex);
   const navigate = useNavigate();
 
@@ -155,23 +158,14 @@ function Create() {
     return accumulator + currentValue.count;
   }, 0);
 
-  const totalStandardChips = folderTrack.reduce((accumulator, currentValue) => {
-    return currentValue.chipType === "standard"
-      ? accumulator + currentValue.count
-      : accumulator;
-  }, 0);
-
-  const totalMegaChips = folderTrack.reduce((accumulator, currentValue) => {
-    return currentValue.chipType === "mega"
-      ? accumulator + currentValue.count
-      : accumulator;
-  }, 0);
-
-  const totalGigaChips = folderTrack.reduce((accumulator, currentValue) => {
-    return currentValue.chipType === "giga"
-      ? accumulator + currentValue.count
-      : accumulator;
-  }, 0);
+  const getChipCount = (chipType: ChipType) => {
+    const chipCount = folderTrack.reduce((accumulator, currentValue) => {
+      return currentValue.chipType === chipType
+        ? accumulator + currentValue.count
+        : accumulator;
+    }, 0);
+    return chipCount;
+  };
 
   const addChipToFolder = (chip: Chip) => {
     if (totalCount === 30) {
@@ -179,12 +173,12 @@ function Create() {
       return;
     }
 
-    if (chip.chipType === "mega" && totalMegaChips === 7) {
+    if (chip.chipType === "mega" && getChipCount("mega") === 7) {
       alert("Can only have 7 mega chips");
       return;
     }
 
-    if (chip.chipType === "giga" && totalGigaChips === 2) {
+    if (chip.chipType === "giga" && getChipCount("giga") === 2) {
       alert("Can only have 2 giga chip");
       return;
     }
@@ -331,19 +325,19 @@ function Create() {
     <>
       <Navbar
         totalCount={totalCount}
-        totalStandardChips={totalStandardChips}
-        totalMegaChips={totalMegaChips}
-        totalGigaChips={totalGigaChips}
+        totalStandardChips={getChipCount("standard")}
+        totalMegaChips={getChipCount("mega")}
+        totalGigaChips={getChipCount("giga")}
         saveFolder={saveFolder}
         searchTerm={searchTerm}
         handleChipSearch={handleChipSearch}
         setFilters={setFilters}
+        sortDirection={sortDirection}
+        setSortDirection={setSortDirection}
       />
 
       <div className="grid h-screen grid-cols-12 bg-blue-300">
         <div className="col-span-6 flex-1 overflow-y-scroll">
-          <header className="sticky top-0 z-50"></header>
-
           <div className="container">
             {folder.map((chip, index) => {
               return (
@@ -362,10 +356,6 @@ function Create() {
         <div className="col-span-6 flex flex-1 overflow-hidden">
           <div className="flex-1 overflow-y-scroll">
             <div className="bg-blue-300">
-              <header className="sticky top-0 z-50">
-                <div className="mb-6"></div>
-              </header>
-
               <div className="w-full px-2 sm:px-0">
                 <Tab.Group
                   onChange={(index) => {
