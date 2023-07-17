@@ -6,6 +6,7 @@ import { nanoid } from "nanoid";
 import { useNavigate, useParams } from "react-router-dom";
 import {
   Chip,
+  ChipType,
   FolderObject,
   FolderRouteParams,
   FolderTrack,
@@ -157,7 +158,7 @@ function Create() {
     return accumulator + currentValue.count;
   }, 0);
 
-  const getChipCount = (chipType: string) => {
+  const getChipCount = (chipType: ChipType) => {
     const chipCount = folderTrack.reduce((accumulator, currentValue) => {
       return currentValue.chipType === chipType
         ? accumulator + currentValue.count
