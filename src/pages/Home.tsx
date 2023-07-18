@@ -6,7 +6,7 @@ import { FolderObject } from "../types/chip";
 export const Home = () => {
   const [storedValue, setValueWrap] = useLocalStorage<FolderObject[]>(
     "mmbn3-folder-builder",
-    []
+    [],
   );
 
   const deleteFolder = (index: number) => {
@@ -38,6 +38,8 @@ export const Home = () => {
                 key={folder.id}
                 deleteFolder={deleteFolder}
                 index={index}
+                folderName={folder.folderName}
+                folderImage={folder.folderImage!}
               />
             );
           })}

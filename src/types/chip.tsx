@@ -28,6 +28,8 @@ export interface FolderObject {
   folder: Chip[];
   folderTrack: FolderTrack[];
   id: string;
+  folderName: string;
+  folderImage: string | null;
 }
 
 export type SortOrder =

@@ -44,7 +44,7 @@ const ChipItem = memo(function ChipItem({
       className={classNames2(
         "rounded-xl p-1",
         "mb-3 ml-3 mr-3 ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2",
-        chipTypeColor
+        chipTypeColor,
       )}
       key={chipIndex}
     >
@@ -127,6 +127,8 @@ function Create() {
   const [folder, setFolder] = useState<Chip[]>([]);
   const [folderTrack, setFolderTrack] = useState<FolderTrack[]>([]);
   const [currentTabIndex, setCurrentTabIndex] = useState(0);
+  const [folderName, setFolderName] = useState("");
+  const [folderImage, setFolderImage] = useState("");
   const {
     chipLibrary,
     originalChipLibrary,
@@ -140,7 +142,7 @@ function Create() {
 
   const [storedValue, setValue] = useLocalStorage<FolderObject[]>(
     "mmbn3-folder-builder",
-    []
+    [],
   );
 
   useEffect(() => {
@@ -149,6 +151,10 @@ function Create() {
       if (foundFolder) {
         setFolder(foundFolder?.folder);
         setFolderTrack(foundFolder?.folderTrack);
+        setFolderName(foundFolder.folderName);
+        if (foundFolder.folderImage) {
+          setFolderImage(foundFolder.folderImage);
+        }
       }
     }
     // When I get that value to come back from useLocalStorage on the second render, this useEffect will update
@@ -184,7 +190,7 @@ function Create() {
     }
 
     const chipIndex = folderTrack.findIndex(
-      (c) => c.name.toLowerCase() === chip.name.toLowerCase()
+      (c) => c.name.toLowerCase() === chip.name.toLowerCase(),
     );
 
     if (chipIndex > -1) {
@@ -199,7 +205,7 @@ function Create() {
         alert("Can only have 4 of each chip");
       } else {
         const chipIndexForFolder = folder.findIndex(
-          (c) => c.name === chip.name && c.lettercode === chip.lettercode
+          (c) => c.name === chip.name && c.lettercode === chip.lettercode,
         );
 
         if (chipIndexForFolder > -1) {
@@ -232,11 +238,11 @@ function Create() {
 
   const removeChipFromFolder = (chip: Chip, index: number) => {
     const chipIndex = folderTrack.findIndex(
-      (c) => c.name.toLowerCase() === chip.name.toLowerCase()
+      (c) => c.name.toLowerCase() === chip.name.toLowerCase(),
     );
 
     const chipIndexForFolder = folder.findIndex(
-      (c) => c.name === chip.name && c.lettercode === chip.lettercode
+      (c) => c.name === chip.name && c.lettercode === chip.lettercode,
     );
 
     // https://stackoverflow.com/a/69458984
@@ -297,8 +303,16 @@ function Create() {
   const saveFolder = () => {
     const createdFolder = [
       ...storedValue,
-      { folder, folderTrack, id: nanoid() },
+      {
+        folder,
+        folderTrack,
+        id: nanoid(),
+        folderName: folderName ? folderName : "Created Folder",
+        folderImage: folderImage ? folderImage : null,
+      },
     ];
+
+    console.log("createdFolder", createdFolder);
 
     if (id) {
       const folderIndex = storedValue!.findIndex((folder) => folder.id === id);
@@ -311,6 +325,8 @@ function Create() {
         folder,
         folderTrack,
         id: selectedFolder.id,
+        folderName: folderName,
+        folderImage: folderImage,
       };
 
       setValue(updatedFolders);
@@ -334,6 +350,10 @@ function Create() {
         setFilters={setFilters}
         sortDirection={sortDirection}
         setSortDirection={setSortDirection}
+        folderName={folderName}
+        setFolderName={setFolderName}
+        folderImage={folderImage}
+        setFolderImage={setFolderImage}
       />
 
       <div className="grid h-screen grid-cols-12 bg-blue-300">
@@ -373,7 +393,7 @@ function Create() {
                             "ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2",
                             selected
                               ? "bg-white shadow"
-                              : "text-blue-100 hover:bg-white/[0.12] hover:text-white"
+                              : "text-blue-100 hover:bg-white/[0.12] hover:text-white",
                           )
                         }
                       >

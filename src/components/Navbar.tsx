@@ -16,7 +16,7 @@ const Toggle = ({
         className="peer sr-only"
         onClick={() =>
           setSortDirection((previousOrder) =>
-            previousOrder === "ascending" ? "descending" : "ascending"
+            previousOrder === "ascending" ? "descending" : "ascending",
           )
         }
       />
@@ -77,6 +77,10 @@ export const Navbar = ({
   setFilters,
   sortDirection,
   setSortDirection,
+  folderName,
+  setFolderName,
+  folderImage,
+  setFolderImage,
 }: {
   totalCount: number;
   totalStandardChips: number;
@@ -88,6 +92,10 @@ export const Navbar = ({
   setFilters: React.Dispatch<React.SetStateAction<SortOrder>>;
   sortDirection: string;
   setSortDirection: React.Dispatch<React.SetStateAction<SortOrderDirection>>;
+  folderName: string;
+  setFolderName: React.Dispatch<React.SetStateAction<string>>;
+  folderImage: string;
+  setFolderImage: React.Dispatch<React.SetStateAction<string>>;
 }) => {
   return (
     <nav className="border-gray-200 bg-white dark:bg-gray-900">
@@ -131,6 +139,24 @@ export const Navbar = ({
               );
             })}
           </select>
+
+          <input
+            type="text"
+            id="chip-search-input"
+            className="mr-2 h-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
+            placeholder="Name your folder"
+            onChange={(e) => setFolderName(e.target.value)}
+            value={folderName}
+          />
+
+          <input
+            type="text"
+            id="chip-search-input"
+            className="mr-2 h-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500"
+            placeholder="Add a image here!"
+            onChange={(e) => setFolderImage(e.target.value)}
+            value={folderImage}
+          />
 
           <button
             type="button"
