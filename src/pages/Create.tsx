@@ -52,9 +52,9 @@ const ChipItem = memo(function ChipItem({
         <div className="flex justify-between">
           <div className="flex-row sm:flex-col">
             <div className="flex flex-col text-sm font-medium leading-6 text-gray-900">
-              <label htmlFor="comments" className="font-medium text-gray-900">
+              <p className="font-medium text-gray-900">
                 {chip.name} {chip.lettercode}
-              </label>
+              </p>
               <p>Description: {chip.description}</p>
               <p>Damage: {chip.damage}</p>
               <p>Memory: {chip.memory}</p>
@@ -362,6 +362,7 @@ function Create() {
             {folder.map((chip, index) => {
               return (
                 <ChipItemLeftSide
+                  key={chip.key}
                   chip={chip}
                   index={index}
                   chipIndex={chip.name + index}
@@ -408,7 +409,7 @@ function Create() {
                           chip={chip}
                           index={index}
                           chipIndex={chip.name + index}
-                          key={chip.name + index}
+                          key={chip.key}
                           addChipToFolder={addChipToFolder}
                           removeChipFromFolder={removeChipFromFolder}
                         />
