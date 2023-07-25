@@ -37,7 +37,9 @@ export default function useBattleChips(currentTabIndex: number) {
       // Edge case where some chips may have '-' as a damage value
       return a.damage.localeCompare(b.damage);
     } else {
-      return sortDirection === "ascending" ? -1 : 1;
+      return sortDirection === "ascending"
+        ? a.number - b.number
+        : b.number - a.number;
     }
   };
 
@@ -45,7 +47,7 @@ export default function useBattleChips(currentTabIndex: number) {
     () =>
       Object.values(chipLibrary)
         [currentTabIndex].filter((cl) =>
-          cl.name.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase())
+          cl.name.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase()),
         )
         .sort(sortByMemory),
     [
@@ -54,7 +56,7 @@ export default function useBattleChips(currentTabIndex: number) {
       searchTerm,
       currentStateFilters,
       sortDirection,
-    ]
+    ],
   );
 
   return {

@@ -97,6 +97,11 @@ export const Navbar = ({
   folderImage: string;
   setFolderImage: React.Dispatch<React.SetStateAction<string>>;
 }) => {
+  const handleSortChange = (e: ChangeEvent<HTMLSelectElement>) => {
+    const sortName = e.target.value;
+    setFilters(sortName as SortOrder);
+  };
+
   return (
     <nav className="border-gray-200 bg-white dark:bg-gray-900">
       <div className=" w-full" id="navbar-default flex-row flex">
@@ -126,14 +131,11 @@ export const Navbar = ({
           <select
             id="sortLabels"
             className="block h-10 rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+            onChange={(e) => handleSortChange(e)}
           >
             {sorts.map((sort) => {
               return (
-                <option
-                  value={sort.label}
-                  key={sort.label}
-                  onClick={() => setFilters(sort.label as SortOrder)}
-                >
+                <option value={sort.label} key={sort.label}>
                   {sort.label}
                 </option>
               );
