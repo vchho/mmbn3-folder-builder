@@ -66,7 +66,7 @@ export const gigaChips = [
   },
   {
     number: 10,
-    image: "",
+    image: "../../assets/giga/MMBN3GChip10.jpg",
     name: "BubblMnV5",
     type: "",
     damage: "20",
@@ -79,7 +79,7 @@ export const gigaChips = [
   },
   {
     number: 11,
-    image: "",
+    image: "../../assets/giga/MMBN3GChip11.jpg",
     name: "DesrtMnV5",
     type: "",
     damage: "210",
@@ -92,7 +92,7 @@ export const gigaChips = [
   },
   {
     number: 12,
-    image: "",
+    image: "../../assets/giga/MMBN3GChip12.jpg",
     name: "PlantMnV5",
     type: "",
     damage: "60",
@@ -105,7 +105,7 @@ export const gigaChips = [
   },
   {
     number: 13,
-    image: "",
+    image: "../../assets/giga/MMBN3GChip13.jpg",
     name: "FlamManV5",
     type: "",
     damage: "240",
@@ -118,7 +118,7 @@ export const gigaChips = [
   },
   {
     number: 14,
-    image: "",
+    image: "../../assets/giga/MMBN3GChip14.jpg",
     name: "DrillMnV5",
     type: "",
     damage: "150",
@@ -131,7 +131,7 @@ export const gigaChips = [
   },
   {
     number: 15,
-    image: "",
+    image: "../../assets/giga/MMBN3GChip15.jpg",
     name: "MetalMnV5",
     type: "",
     damage: "250",
@@ -144,7 +144,7 @@ export const gigaChips = [
   },
   {
     number: 16,
-    image: "",
+    image: "../../assets/giga/MMBN3GChip16.jpg",
     name: "KingManV5",
     type: "",
     damage: "280",
@@ -157,7 +157,7 @@ export const gigaChips = [
   },
   {
     number: 17,
-    image: "",
+    image: "../../assets/giga/MMBN3GChip17.jpg",
     name: "MistManV5",
     type: "",
     damage: "170",
@@ -170,7 +170,7 @@ export const gigaChips = [
   },
   {
     number: 18,
-    image: "",
+    image: "../../assets/giga/MMBN3GChip18.jpg",
     name: "BowlManV5",
     type: "",
     damage: "180",
@@ -183,7 +183,7 @@ export const gigaChips = [
   },
   {
     number: 19,
-    image: "",
+    image: "../../assets/giga/MMBN3GChip19.jpg",
     name: "DarkManV5",
     type: "",
     damage: "30",
@@ -196,7 +196,7 @@ export const gigaChips = [
   },
   {
     number: 20,
-    image: "",
+    image: "../../assets/giga/MMBN3GChip20.jpg",
     name: "JapanMnV5",
     type: "",
     damage: "60",
@@ -209,7 +209,7 @@ export const gigaChips = [
   },
   {
     number: 1,
-    image: "",
+    image: "../../assets/giga/MMBN3GChip01W.jpg",
     name: "NavRcycl",
     type: "",
     damage: "-",
@@ -222,7 +222,7 @@ export const gigaChips = [
   },
   {
     number: 2,
-    image: "",
+    image: "../../assets/giga/MMBN3GChip02W.jpg",
     name: "Bass",
     type: "",
     damage: "90",
@@ -235,7 +235,7 @@ export const gigaChips = [
   },
   {
     number: 3,
-    image: "",
+    image: "../../assets/giga/MMBN3GChip03W.jpg",
     name: "Serenade",
     type: "",
     damage: "100",
@@ -248,7 +248,7 @@ export const gigaChips = [
   },
   {
     number: 4,
-    image: "",
+    image: "../../assets/giga/MMBN3GChip04W.jpg",
     name: "Balance",
     type: "",
     damage: "-",
@@ -261,7 +261,7 @@ export const gigaChips = [
   },
   {
     number: 5,
-    image: "",
+    image: "../../assets/giga/MMBN3GChip05W.jpg",
     name: "AlphArmΣ",
     type: "",
     damage: "50",
@@ -274,7 +274,7 @@ export const gigaChips = [
   },
   {
     number: 1,
-    image: "",
+    image: "../../assets/giga/MMBN3GChip01B.jpg",
     name: "FoldrBak",
     type: "",
     damage: "-",
@@ -287,7 +287,7 @@ export const gigaChips = [
   },
   {
     number: 2,
-    image: "",
+    image: "../../assets/giga/MMBN3GChip02B.jpg",
     name: "Bass+",
     type: "",
     damage: "550",
@@ -300,7 +300,7 @@ export const gigaChips = [
   },
   {
     number: 3,
-    image: "",
+    image: "../../assets/giga/MMBN3GChip03B.jpg",
     name: "DarkAura",
     type: "",
     damage: "-",
@@ -313,7 +313,7 @@ export const gigaChips = [
   },
   {
     number: 4,
-    image: "",
+    image: "../../assets/giga/MMBN3GChip04B.jpg",
     name: "DeltaRay",
     type: "",
     damage: "220",
@@ -326,7 +326,7 @@ export const gigaChips = [
   },
   {
     number: 5,
-    image: "",
+    image: "../../assets/giga/MMBN3GChip05B.jpg",
     name: "AlphArmΩ",
     type: "",
     damage: "500",
