@@ -124,7 +124,11 @@ function ChipItemLeftSide({
 function Create() {
   // Get folder id from URL
   const { id } = useParams<FolderRouteParams>();
+
+  // Keeps track of selected chips and renders items on the left pane
   const [folder, setFolder] = useState<Chip[]>([]);
+
+  // Keeps track of selected chips and their totals
   const [folderTrack, setFolderTrack] = useState<FolderTrack[]>([]);
   const [currentTabIndex, setCurrentTabIndex] = useState(0);
   const [folderName, setFolderName] = useState("");
@@ -249,7 +253,6 @@ function Create() {
     // setFolder([...folder.slice(0, index), ...folder.slice(index + 1)]);
 
     if (chipIndex > -1) {
-      // const currentChip = folderTrack.find((c) => c.name === chip.name);
       const chipData = folderTrack[chipIndex];
       const updatedChip = { ...chipData, count: chipData.count - 1 };
       if (updatedChip.count === 0) {
@@ -283,8 +286,6 @@ function Create() {
         clonedFolderTrack[chipIndex] = updatedChip;
 
         setFolderTrack(clonedFolderTrack);
-        // https://stackoverflow.com/a/69458984
-        // setFolder([...folder.slice(0, index), ...folder.slice(index + 1)]);
       }
     } else {
       setFolderTrack([
