@@ -32,11 +32,11 @@ describe("Test.tsx", () => {
       render(<Create />, { wrapper });
     }
   });
-  it("Check if NotFound.tsx renders", () => {
+  it("Check if NotFound.tsx renders", async () => {
     {
       render(<NotFound />, { wrapper });
-      const h1 = screen.getByRole("heading", { level: 1 });
-      expect(h1).toBeInTheDocument();
+      expect(await screen.getByRole("img"));
+      expect(await screen.findByText(/Let's go back/)).toBeInTheDocument();
     }
   });
 });
