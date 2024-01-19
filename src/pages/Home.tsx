@@ -19,7 +19,7 @@ export const Home = () => {
     <div
       className="background relative min-h-screen w-screen items-stretch bg-repeat p-6 antialiased"
       style={{
-        backgroundImage: "url(../../public/assets/etc/acdc-mmbn.gif)",
+        backgroundImage: "url(../../assets/etc/acdc-mmbn.gif)",
         backgroundSize: "600px 600px",
       }}
     >
@@ -37,7 +37,9 @@ export const Home = () => {
         </header>
 
         {storedValue.length === 0 && (
-          <p className="mx-auto mt-6 text-lg text-white">No folders have been created!</p>
+          <p className="mx-auto mt-6 text-lg text-white">
+            No folders have been created!
+          </p>
         )}
 
         <div className="relative mx-auto grid w-full grid-flow-row-dense grid-cols-2 gap-x-8 gap-y-6 px-6 pt-20 text-center sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-10 xl:gap-x-10 xl:px-0">
