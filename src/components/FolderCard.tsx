@@ -36,7 +36,7 @@ export const FolderCard = ({
           {folderName}
         </Link>
         <TrashIcon
-          className="h-5 cursor-pointer text-sm transition hover:text-red-500"
+          className="h-5 cursor-pointer text-sm transition text-white hover:text-red-500"
           onClick={() => deleteFolder(index)}
         />
       </div>

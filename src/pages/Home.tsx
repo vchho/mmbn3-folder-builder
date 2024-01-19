@@ -16,7 +16,13 @@ export const Home = () => {
   };
 
   return (
-    <div className="relative min-h-screen w-screen items-stretch bg-blue-300 p-6 antialiased">
+    <div
+      className="background relative min-h-screen w-screen items-stretch bg-repeat p-6 antialiased"
+      style={{
+        backgroundImage: "url(../../public/assets/etc/acdc-mmbn.gif)",
+        backgroundSize: "600px 600px",
+      }}
+    >
       <div className="relative mx-auto block max-w-screen-xl flex-col">
         <header className="flex w-full items-center justify-between">
           <h1 className="text-4xl font-bold text-white">
@@ -31,7 +37,7 @@ export const Home = () => {
         </header>
 
         {storedValue.length === 0 && (
-          <p className="mx-auto mt-6 text-lg">No folders have been created!</p>
+          <p className="mx-auto mt-6 text-lg text-white">No folders have been created!</p>
         )}
 
         <div className="relative mx-auto grid w-full grid-flow-row-dense grid-cols-2 gap-x-8 gap-y-6 px-6 pt-20 text-center sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-10 xl:gap-x-10 xl:px-0">
