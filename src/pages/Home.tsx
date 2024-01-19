@@ -19,7 +19,7 @@ export const Home = () => {
     <div
       className="background relative min-h-screen w-screen items-stretch bg-repeat p-6 antialiased"
       style={{
-        backgroundImage: "url(../../public/assets/etc/acdc-mmbn.gif)",
+        backgroundImage: "url(../../assets/etc/acdc-mmbn.gif)",
         backgroundSize: "600px 600px",
       }}
     >
