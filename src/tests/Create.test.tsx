@@ -10,42 +10,42 @@ function wrapper({ children }: PropsWithChildren<unknown>) {
   return <MemoryRouter initialEntries={["/"]}>{children}</MemoryRouter>;
 }
 
-describe("Test.tsx", () => {
+describe("Create test suite", () => {
   it("Check if Create.tsx renders", () => {
     {
       render(<Create />, { wrapper });
     }
   });
-  it("check if Cannon A chip is on the screen", async () => {
+  it("check if Cannon A chip is on the screen", () => {
     {
       render(<Create />, { wrapper });
 
-      expect(await screen.getByText("Cannon A")).toBeInTheDocument();
+      expect(screen.getByText("Cannon A")).toBeInTheDocument();
     }
   });
-  it("check if total cards are 0 / 30", async () => {
+  it("check if total cards are 0 / 30", () => {
     {
       render(<Create />, { wrapper });
 
-      expect(await screen.getByText("Total: 0 / 30")).toBeInTheDocument();
+      expect(screen.getByText("Total: 0 / 30")).toBeInTheDocument();
     }
   });
-  it("check if standard cards are 0 / 30", async () => {
+  it("check if standard cards are 0 / 30", () => {
     {
       render(<Create />, { wrapper });
       //   console.log("element", element);
 
       //   element.debug();
-      expect(await screen.getByText("Standard: 0 / 30")).toBeInTheDocument();
+      expect(screen.getByText("Standard: 0 / 30")).toBeInTheDocument();
 
       //   expect(screen.getByText("Standard: 0 / 30")).toBeInTheDocument();
     }
   });
-  it("check if mega cards are 0 / 7", async () => {
+  it("check if mega cards are 0 / 7", () => {
     {
       render(<Create />, { wrapper });
 
-      expect(await screen.getByText("Mega: 0 / 7")).toBeInTheDocument();
+      expect(screen.getByText("Mega: 0 / 7")).toBeInTheDocument();
     }
   });
 
@@ -59,7 +59,7 @@ describe("Test.tsx", () => {
     // Assert
     expect(await screen.findByText(/descending/i)).toBeInTheDocument();
   });
-  it("should be able to click on dropdown, click on a option, and have a chip be displayed", async () => {
+  it("should be able to click on dropdown, click on a option, and have a chip be displayed", () => {
     // Arrange
     const { getByTestId } = render(<Create />, { wrapper });
 
@@ -67,6 +67,6 @@ describe("Test.tsx", () => {
     userEvent.selectOptions(getByTestId("select"), "Code");
 
     // Assert
-    expect(await screen.getByText("Cannon *")).toBeInTheDocument();
+    expect(screen.getByText("Cannon *")).toBeInTheDocument();
   });
 });
