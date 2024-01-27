@@ -6,6 +6,8 @@ Built with:
 - [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
+- [Vitest](https://vitest.dev/)
+- [React Testing Library](https://testing-library.com/)
 
 ## Getting Started
 
@@ -22,6 +24,20 @@ npm run dev
 ```
 
 The app should run on port 5173
+
+## Testing
+
+This app has _some_ testing via React Testing Library and Vitest.
+
+```bash
+npm run test
+```
+
+For coverage
+
+```bash
+npm run coverage
+```
 
 ## Features
 
