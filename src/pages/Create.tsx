@@ -150,6 +150,7 @@ function Create() {
   const navigate = useNavigate();
 
   const itemSize = useRemtoPx();
+  const [visibleStartIndex, setVisibleStartIndex] = useState(0);
 
   const [storedValue, setValue] = useLocalStorage<FolderObject[]>(
     "mmbn3-folder-builder",
@@ -354,6 +355,13 @@ function Create() {
       "bg-rose-300": chip.chipType === "giga",
     });
 
+    // https://github.com/bvaughn/react-window/issues/565
+    const _style = {
+      ...style,
+      // @ts-ignore
+      top: style.top + (index - visibleStartIndex) * 10,
+    };
+
     // TODO: Actually refactor renderRow
     return (
       <div
@@ -362,7 +370,7 @@ function Create() {
           "mb-3 ml-3 mr-3 ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2",
           chipTypeColor,
         )}
-        style={style}
+        style={_style}
         // key={chipIndex}
       >
         <div className="relative rounded-sm p-2">
@@ -467,7 +475,10 @@ function Create() {
                       itemCount={chipLibrary.length}
                       itemSize={itemSize}
                       width="100%"
-                      height={1000}
+                      height={900}
+                      onItemsRendered={({ visibleStartIndex }) =>
+                        setVisibleStartIndex(visibleStartIndex)
+                      }
                     >
                       {renderRow}
                     </FixedSizeList>
