@@ -1,4 +1,4 @@
-import { useState, ChangeEvent, memo, useEffect } from "react";
+import { useState, ChangeEvent, useEffect } from "react";
 import { Tab } from "@headlessui/react";
 import useBattleChips from "../hooks/useBattleChips";
 import useLocalStorage from "../hooks/useLocalStorage";
@@ -13,15 +13,20 @@ import {
 } from "../types/chip";
 import classNames from "classnames";
 import { Navbar } from "../components/Navbar";
+import {
+  FixedSizeList,
+  ListChildComponentProps as RowProps,
+} from "react-window";
+import useRemtoPx from "../hooks/useRemToPx";
 
 function classNames2(...classes: any[]) {
   return classes.filter(Boolean).join(" ");
 }
 
-const ChipItem = memo(function ChipItem({
+function ChipItem({
   chip,
   index,
-  chipIndex,
+  // chipIndex,
   total,
   addChipToFolder,
   removeChipFromFolder,
@@ -46,7 +51,7 @@ const ChipItem = memo(function ChipItem({
         "mb-3 ml-3 mr-3 ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2",
         chipTypeColor,
       )}
-      key={chipIndex}
+      // key={chipIndex}
     >
       <div className="relative rounded-sm p-2">
         <div className="flex justify-between">
@@ -94,7 +99,7 @@ const ChipItem = memo(function ChipItem({
       </div>
     </div>
   );
-});
+}
 
 function ChipItemLeftSide({
   chip,
@@ -143,6 +148,8 @@ function Create() {
     sortDirection,
   } = useBattleChips(currentTabIndex);
   const navigate = useNavigate();
+
+  const itemSize = useRemtoPx();
 
   const [storedValue, setValue] = useLocalStorage<FolderObject[]>(
     "mmbn3-folder-builder",
@@ -338,6 +345,58 @@ function Create() {
     navigate("/");
   };
 
+  const renderRow: React.FC<RowProps> = ({ index, style }) => {
+    const chip = chipLibrary[index];
+
+    const chipTypeColor = classNames({
+      "bg-gray-100": chip.chipType === "standard",
+      "bg-sky-300": chip.chipType === "mega",
+      "bg-rose-300": chip.chipType === "giga",
+    });
+
+    // TODO: Actually refactor renderRow
+    return (
+      <div
+        className={classNames2(
+          "rounded-xl p-1",
+          "mb-3 ml-3 mr-3 ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2",
+          chipTypeColor,
+        )}
+        style={style}
+        // key={chipIndex}
+      >
+        <div className="relative rounded-sm p-2">
+          <div className="flex justify-between">
+            <div className="flex-row sm:flex-col">
+              <div className="flex flex-col text-sm font-medium leading-6 text-gray-900">
+                <p className="font-medium text-gray-900">
+                  {chip.name} {chip.lettercode}
+                </p>
+                <p>Description: {chip.description}</p>
+                <p>Damage: {chip.damage}</p>
+                <p>Memory: {chip.memory}</p>
+              </div>
+            </div>
+            <div className="flex self-center">
+              <img
+                src={chip.image}
+                className="mr-1 flex h-24 w-24 self-center"
+                alt={`${chip.name} image`}
+              />
+
+              <button
+                onClick={() => addChipToFolder(chip)}
+                className="h-11 self-center rounded-md border border-green-700 bg-green-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:border-green-800 hover:bg-green-700"
+              >
+                +
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  };
+
   return (
     <>
       <Navbar
@@ -404,18 +463,14 @@ function Create() {
                     ))}
                   </Tab.List>
                   <Tab.Panels className="mt-2">
-                    {chipLibrary.map((chip, index) => {
-                      return (
-                        <ChipItem
-                          chip={chip}
-                          index={index}
-                          chipIndex={chip.name + index}
-                          key={chip.key}
-                          addChipToFolder={addChipToFolder}
-                          removeChipFromFolder={removeChipFromFolder}
-                        />
-                      );
-                    })}
+                    <FixedSizeList
+                      itemCount={chipLibrary.length}
+                      itemSize={itemSize}
+                      width="100%"
+                      height={1000}
+                    >
+                      {renderRow}
+                    </FixedSizeList>
                   </Tab.Panels>
                 </Tab.Group>
               </div>
