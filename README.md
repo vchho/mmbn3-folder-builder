@@ -47,7 +47,6 @@ npm run coverage
 ## TODOS:
 
 - Update UI? It's not the greatest but it's something 😶
-- Switching different chips can be slow
 - Implement chip sorting by:
   - Id - sort by chip id
   - ABCDE - sort by chip name
