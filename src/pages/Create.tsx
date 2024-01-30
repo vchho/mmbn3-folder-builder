@@ -1,4 +1,4 @@
-import { useState, ChangeEvent, useEffect } from "react";
+import { useState, ChangeEvent, useEffect, memo } from "react";
 import { Tab } from "@headlessui/react";
 import useBattleChips from "../hooks/useBattleChips";
 import useLocalStorage from "../hooks/useLocalStorage";
@@ -51,7 +51,7 @@ function ChipItem({
         "mb-3 ml-3 mr-3 ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2",
         chipTypeColor,
       )}
-      // key={chipIndex}
+    // key={chipIndex}
     >
       <div className="relative rounded-sm p-2">
         <div className="flex justify-between">
@@ -100,6 +100,18 @@ function ChipItem({
     </div>
   );
 }
+
+const BattleChipImage = memo(
+  function BattleChipImage({ chipName, chipImage }: { chipName: string, chipImage: string }) {
+    return (
+      <img
+        src={chipImage}
+        className="mr-1 flex h-24 w-24 self-center"
+        alt={`${chipName} image`}
+      />
+    )
+  }
+)
 
 function ChipItemLeftSide({
   chip,
@@ -371,7 +383,7 @@ function Create() {
           chipTypeColor,
         )}
         style={_style}
-        // key={chipIndex}
+      // key={chipIndex}
       >
         <div className="relative rounded-sm p-2">
           <div className="flex justify-between">
@@ -386,11 +398,7 @@ function Create() {
               </div>
             </div>
             <div className="flex self-center">
-              <img
-                src={chip.image}
-                className="mr-1 flex h-24 w-24 self-center"
-                alt={`${chip.name} image`}
-              />
+              <BattleChipImage chipName={chip.name} chipImage={chip.image} />
 
               <button
                 onClick={() => addChipToFolder(chip)}
