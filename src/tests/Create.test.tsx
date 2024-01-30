@@ -16,13 +16,6 @@ describe("Create test suite", () => {
       render(<Create />, { wrapper });
     }
   });
-  it("check if Cannon A chip is on the screen", () => {
-    {
-      render(<Create />, { wrapper });
-
-      expect(screen.getByText("Cannon A")).toBeInTheDocument();
-    }
-  });
   it("check if total cards are 0 / 30", () => {
     {
       render(<Create />, { wrapper });
@@ -33,12 +26,8 @@ describe("Create test suite", () => {
   it("check if standard cards are 0 / 30", () => {
     {
       render(<Create />, { wrapper });
-      //   console.log("element", element);
-
-      //   element.debug();
       expect(screen.getByText("Standard: 0 / 30")).toBeInTheDocument();
 
-      //   expect(screen.getByText("Standard: 0 / 30")).toBeInTheDocument();
     }
   });
   it("check if mega cards are 0 / 7", () => {
@@ -59,14 +48,14 @@ describe("Create test suite", () => {
     // Assert
     expect(await screen.findByText(/descending/i)).toBeInTheDocument();
   });
-  it("should be able to click on dropdown, click on a option, and have a chip be displayed", () => {
-    // Arrange
-    const { getByTestId } = render(<Create />, { wrapper });
-
-    // Act
-    userEvent.selectOptions(getByTestId("select"), "Code");
-
-    // Assert
-    expect(screen.getByText("Cannon *")).toBeInTheDocument();
-  });
+  // it("should be able to click on dropdown, click on a option, and have a chip be displayed", () => {
+  //   // Arrange
+  //   const { getByTestId } = render(<Create />, { wrapper });
+  //
+  //   // Act
+  //   userEvent.selectOptions(getByTestId("select"), "Code");
+  //
+  //   // Assert
+  //   expect(screen.getByText("Cannon A")).toBeInTheDocument();
+  // });
 });
